@@ -86,6 +86,20 @@
 								</template_reference>
 							</list>
 							<list name="action_table">
+								<template_reference name="action" value="action\use_accessory_weapon">
+									<instance_reference name="accessory_weapon_item" value="slot_item\soviet\grenades\conscript_molotov_vet_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+									<instance_reference name="decrement_accessory_item" value="" />
+									<bool name="entity_target_only" value="False" />
+									<bool name="force_squad_to_target" value="False" />
+									<bool name="no_decrement" value="True" />
+									<float name="number_of_shots" value="1" />
+									<group name="target_info">
+										<template_reference name="target_info" value="type_ability_target_type\all">
+										</template_reference>
+									</group>
+									<uniqueid name="id" value="1073741860" />
+									<bool name="target_override_direction_times_max_range" value="False" />
+								</template_reference>
 							</list>
 							<uniqueid name="id" value="1073741835" />
 							<bool name="fire_and_forget_non_global" value="True" />
