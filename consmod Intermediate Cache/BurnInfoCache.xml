@@ -11,7 +11,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\conscript_squad\conscript_squad_mp.xml</FileName>
-			<FileHash>56970708a1d05b4b83f30862d5c76e9d</FileHash>
+			<FileHash>43d06cc26aeb323f427159e622e94cd3</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\slot_item\soviet\anti_tank_weapon\ptrs_41_anti_tank_rifle_conscript_mp.xml</FileName>
+			<FileHash>0935a62c86920fa2f662b1475795791e</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\slot_item\soviet\grenades\conscript_molotov_vet_mp.xml</FileName>
@@ -22,8 +26,12 @@
 			<FileHash>e81dffe8a14a5d5b5cec44c2d366ccbc</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\small_arms\machine_gun\sub_machine_gun\conscript_ppsh-41_sub_machine_gun_mp.xml</FileName>
+			<FileHash>5dda1eaef68590010a27d74e34319913</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\small_arms\single_fire\rifle\mosin_nagant_rifle_conscript_mp.xml</FileName>
-			<FileHash>c40f24a40d40a8d6ed0f6036f5687fe6</FileHash>
+			<FileHash>07703c27eeec52448e4e118d53c5aa2a</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\locale\english\english.ucs</FileName>
