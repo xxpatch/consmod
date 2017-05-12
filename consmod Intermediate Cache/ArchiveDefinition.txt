@@ -47,6 +47,7 @@ TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\weapon\soviet\ballistic_weapon\tank_gun\su76_76mm_zis-3sh_gun_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\weapon\soviet\explosive_weapons\grenade\rg_42_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\weapon\soviet\explosive_weapons\light_artillery\su76_zis-3sh_gun_barrage_mp.rgd
+	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\weapon\soviet\explosive_weapons\light_artillery\zis3_at_gun_he_shots_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\weapon\soviet\flame_throwers\grenade\molotov_cocktail_weapon_vet_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\weapon\soviet\small_arms\machine_gun\heavy_machine_gun\maxim_m1910_hmg_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\weapon\soviet\small_arms\machine_gun\sub_machine_gun\conscript_ppsh-41_sub_machine_gun_mp.rgd

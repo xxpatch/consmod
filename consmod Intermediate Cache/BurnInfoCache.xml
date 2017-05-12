@@ -171,7 +171,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\ballistic_weapon\tank_gun\su76_76mm_zis-3sh_gun_mp.xml</FileName>
-			<FileHash>f542dd09c6120ae5be33c51b9ebd33be</FileHash>
+			<FileHash>9bc9ea03b461c9a60cdca30d230380d6</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\grenade\rg_42_mp.xml</FileName>
@@ -179,7 +179,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\light_artillery\su76_zis-3sh_gun_barrage_mp.xml</FileName>
-			<FileHash>d03ce2243e4f47f902566dd00eb58db7</FileHash>
+			<FileHash>c14ad69abe7d41a6e7329741e63bb953</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\light_artillery\zis3_at_gun_he_shots_mp.xml</FileName>
+			<FileHash>d93eb125f0fb15cf7153fcdbc4368be5</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\flame_throwers\grenade\molotov_cocktail_weapon_vet_mp.xml</FileName>
