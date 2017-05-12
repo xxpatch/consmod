@@ -6,6 +6,10 @@
 			<FileHash>571f06d9e22569b69390320a9b8b427f</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\mortar_fire_flares_ability_mp.xml</FileName>
+			<FileHash>aca55c03755a680be3e110a38fee66b5</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\artillery\artillery_barrage_ability\at_76mm_he_barrage_ability_mp.xml</FileName>
 			<FileHash>207ee5ea580f11b8e8939d79a5ff79a2</FileHash>
 		</BurnInfo>
@@ -48,6 +52,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\conscript_squad\conscript_squad_mp.xml</FileName>
 			<FileHash>fccac7c36e9e457e29f9df4f9a3e7fad</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\mortar_squad\pm-82_41_mortar_squad_mp.xml</FileName>
+			<FileHash>2cca0e8bf566fa7031d7113fb67ee7c3</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\slot_item\soviet\anti_tank_weapon\ptrs_41_anti_tank_rifle_conscript_mp.xml</FileName>
