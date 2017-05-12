@@ -10,6 +10,18 @@
 			<FileHash>bd4ae02dfaf13ba4687348a81c6c4547</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\buildings\base_building\schweres_kriegswerk_mp.xml</FileName>
+			<FileHash>2ef03effb74a2ecf93520294246418ed</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\buildings\base_building\hq\german_hq_mp.xml</FileName>
+			<FileHash>88547e71a27584cb1b25694ce9cdb57b</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\stug_iii_sdkfz_141_1\stug_iii_g_sdkfz_141_1_mp.xml</FileName>
+			<FileHash>e7a0db3447360d10a90b35113bf4df34</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\conscript_squad\conscript_squad_mp.xml</FileName>
 			<FileHash>29833b8efa303e926f7d4cfc7ffa1285</FileHash>
 		</BurnInfo>
@@ -20,6 +32,14 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\slot_item\soviet\grenades\conscript_molotov_vet_mp.xml</FileName>
 			<FileHash>e2f802d18fe18eea2eba877f5ad6bacb</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\items\stug_top_gunner_mp.xml</FileName>
+			<FileHash>092df684d13ff6505ceb24348584110c</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\stug_critical_shot_mp.xml</FileName>
+			<FileHash>4992ab6644d91f206ece8d4891882677</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\flame_throwers\grenade\molotov_cocktail_weapon_vet_mp.xml</FileName>
