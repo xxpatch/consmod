@@ -59,7 +59,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\stug_iii_sdkfz_141_1\stug_iii_g_sdkfz_141_1_mp.xml</FileName>
-			<FileHash>e7a0db3447360d10a90b35113bf4df34</FileHash>
+			<FileHash>1fccf043e63bf514dda96e8f8d9aeec6</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\soldiers\commander_troops\shock_troops_mp.xml</FileName>
@@ -150,6 +150,10 @@
 			<FileHash>881ba358d1217d8f07fd7e3b32be0592</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\stug_75mm_mp.xml</FileName>
+			<FileHash>d2ad3f50a383c0d1c22b7f4fd780ca87</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\stug_critical_shot_mp.xml</FileName>
 			<FileHash>4992ab6644d91f206ece8d4891882677</FileHash>
 		</BurnInfo>
@@ -166,8 +170,16 @@
 			<FileHash>e4eed3525d82722a668cfcc18c5a1d09</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\ballistic_weapon\tank_gun\su76_76mm_zis-3sh_gun_mp.xml</FileName>
+			<FileHash>f542dd09c6120ae5be33c51b9ebd33be</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\grenade\rg_42_mp.xml</FileName>
 			<FileHash>461f019a89b39f2757e3900b463e9582</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\light_artillery\su76_zis-3sh_gun_barrage_mp.xml</FileName>
+			<FileHash>d03ce2243e4f47f902566dd00eb58db7</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\flame_throwers\grenade\molotov_cocktail_weapon_vet_mp.xml</FileName>
