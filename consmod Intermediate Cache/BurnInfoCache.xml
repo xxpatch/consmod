@@ -7,7 +7,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\grenades\conscript_molotov_cocktail_mp.xml</FileName>
-			<FileHash>bd4ae02dfaf13ba4687348a81c6c4547</FileHash>
+			<FileHash>21d07415a425827b3f31975790cd0482</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\conscript_oorah_mp.xml</FileName>
+			<FileHash>4061211e3f52b467e9943503e6588c40</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\projectile\flak_37mm_shell_mp.xml</FileName>
@@ -39,7 +43,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\conscript_squad\conscript_squad_mp.xml</FileName>
-			<FileHash>29833b8efa303e926f7d4cfc7ffa1285</FileHash>
+			<FileHash>fccac7c36e9e457e29f9df4f9a3e7fad</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\slot_item\soviet\anti_tank_weapon\ptrs_41_anti_tank_rifle_conscript_mp.xml</FileName>
