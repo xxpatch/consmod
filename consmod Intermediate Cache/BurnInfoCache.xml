@@ -10,6 +10,10 @@
 			<FileHash>bd4ae02dfaf13ba4687348a81c6c4547</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\projectile\flak_37mm_shell_mp.xml</FileName>
+			<FileHash>7d655c019e692375e712602ed7eb318c</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\buildings\base_building\schweres_kriegswerk_mp.xml</FileName>
 			<FileHash>2ef03effb74a2ecf93520294246418ed</FileHash>
 		</BurnInfo>
@@ -36,6 +40,14 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\items\stug_top_gunner_mp.xml</FileName>
 			<FileHash>092df684d13ff6505ceb24348584110c</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\ostwind_flak_43_37mm_mp.xml</FileName>
+			<FileHash>a59dd78151d7c42a067db85a0879aa9f</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\ostwind_flak_43_37mm_vet2_mp.xml</FileName>
+			<FileHash>8c9e6aefd91eeace6d11c2aadc051d96</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\stug_critical_shot_mp.xml</FileName>
