@@ -62,6 +62,14 @@
 			<FileHash>255803cbfdf8f63dd2a5c17efe11f7db</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\soldiers\panzer_grenadiers\panzer_grenadiers_mp.xml</FileName>
+			<FileHash>29a0644a43f7c001d72bd214c45e58c0</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\soldiers\stormtroopers\stormtroopers_mp.xml</FileName>
+			<FileHash>6838de310d725ade108ed410381f2d25</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\team_weapons\at_gun\pak40_75mm_at_gun_mp.xml</FileName>
 			<FileHash>255ac459a3ced8c5baf265325032daf3</FileHash>
 		</BurnInfo>
@@ -140,6 +148,14 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\soldiers\mortar_team\mortar_team_81mm_mp.xml</FileName>
 			<FileHash>24a145bd68e8a3ef9c2999a0b55226ea</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\soldiers\panzer_grenadier_squad\panzer_grenadier_squad_mp.xml</FileName>
+			<FileHash>363a3b3e313555cb0b08de7bd5542eab</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\soldiers\stormtrooper_squad\stormtrooper_squad_mp.xml</FileName>
+			<FileHash>8338a7b4e068a2e9b805ddd020527054</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\at_gun_squad\pak40_75mm_at_gun_squad_mp.xml</FileName>
