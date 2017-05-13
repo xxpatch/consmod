@@ -54,6 +54,34 @@
 			<FileHash>99ba246629174dffd20c34dbbade8341</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\aef\soldiers\assault_engineer\assault_engineer_mp.xml</FileName>
+			<FileHash>d8bf35919ab46724b2a4ee5d994160a5</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\aef\soldiers\captain\captain_mp.xml</FileName>
+			<FileHash>689ef12731ce4285ad2cdde88b621fc4</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\aef\soldiers\lieutenant\lieutenant_mp.xml</FileName>
+			<FileHash>3f592540d3226df12cc26b59f0c6b01d</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\aef\soldiers\major\major_mp.xml</FileName>
+			<FileHash>486e6b92c49ff6d32f27cfbbab69d184</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\aef\soldiers\pathfinder\pathfinder_ir_mp.xml</FileName>
+			<FileHash>b0cc3097a5012452fa0aa963d402dfd5</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\aef\soldiers\pathfinder\pathfinder_recon_mp.xml</FileName>
+			<FileHash>ffabf1431eaaf9f38eccbef3196ddc6c</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\aef\soldiers\ranger\ranger_commander_mp.xml</FileName>
+			<FileHash>abbadfda8702e71e7e30a364fa053f20</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\buildings\base_building\schweres_kriegswerk_mp.xml</FileName>
 			<FileHash>2ef03effb74a2ecf93520294246418ed</FileHash>
 		</BurnInfo>
@@ -120,6 +148,22 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\west_german\soldiers\obersoldaten\obersoldaten_mp.xml</FileName>
 			<FileHash>eb2dd8b13504ffcce06fddd55ff8eb6d</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\aef\soldiers\assault_engineer_squad\assault_engineer_squad_mp.xml</FileName>
+			<FileHash>db9d7f3c61723761ce7b4728827799c7</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\aef\soldiers\pathfinder_squad\pathfinder_squad_mp.xml</FileName>
+			<FileHash>1e61e14887984974ed3542d503292ebe</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\aef\soldiers\pathfinder_squad\pathfinder_squad_recon_mp.xml</FileName>
+			<FileHash>811be7e94ffd77fc85d5c1ebeb438c00</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\aef\soldiers\ranger_squad\ranger_squad_commander_mp.xml</FileName>
+			<FileHash>ddc825deb34522b4021814e0e967f229</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\aef\team_weapons\m1_57mm_at_gun_squad\m1_57mm_at_gun_squad_mp.xml</FileName>
