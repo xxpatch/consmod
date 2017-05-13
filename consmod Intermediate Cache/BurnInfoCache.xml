@@ -22,10 +22,6 @@
 			<FileHash>32a0c0377da9bdf76d753886f4b0f97f</FileHash>
 		</BurnInfo>
 		<BurnInfo>
-			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\grenades\rgd_1_smoke_grenade_mp.xml</FileName>
-			<FileHash>752988af4aa372674c51cb167f0a7a34</FileHash>
-		</BurnInfo>
-		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\conscript_oorah_mp.xml</FileName>
 			<FileHash>4061211e3f52b467e9943503e6588c40</FileHash>
 		</BurnInfo>
@@ -282,6 +278,10 @@
 			<FileHash>6e029ba691bc554f295f3f2c86df24d1</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\troops\shock_troops_mp.xml</FileName>
+			<FileHash>ccad3c1147c726f8120d27436b32afe7</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\vehicles\soviet_at_gun_squads\m1937_53-k_45mm_at_gun_squad_mp.xml</FileName>
 			<FileHash>10fe8b732195538d0c57ff0e7c40eb52</FileHash>
 		</BurnInfo>
@@ -443,7 +443,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\locale\english\english.ucs</FileName>
-			<FileHash>61cde81c436943289eb071d6649af2fa</FileHash>
+			<FileHash>2b13401c7b51a2f7584ea1cbf416bfe5</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\info\f2791205c6e743b6a340ef0daf60b957.info</FileName>
