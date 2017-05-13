@@ -86,6 +86,30 @@
 			<FileHash>52dd36dadab4e7b874b526e1aabf639e</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\west_german\soldiers\assault_pioneer\assault_pioneer_mp.xml</FileName>
+			<FileHash>35f327c16eace637c6779c5079a48c47</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\west_german\soldiers\fallschirmjager\fallschirmjager_mp.xml</FileName>
+			<FileHash>553c75beb96166eaf314fcb4d332b229</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\west_german\soldiers\field_officer\terror_officer_guard_mp.xml</FileName>
+			<FileHash>464be040922a233269c8ab8aa9522fab</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\west_german\soldiers\field_officer\terror_officer_mp.xml</FileName>
+			<FileHash>138b82e9c3af79975ea1f059dffe8af9</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\west_german\soldiers\jaeger_light_infantry\jaeger_light_infantry_recon.xml</FileName>
+			<FileHash>10398c1087353a92c0be2208e1e02103</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\west_german\soldiers\obersoldaten\obersoldaten_mp.xml</FileName>
+			<FileHash>eb2dd8b13504ffcce06fddd55ff8eb6d</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\aef\team_weapons\m1_57mm_at_gun_squad\m1_57mm_at_gun_squad_mp.xml</FileName>
 			<FileHash>3ca4656b1ae144d68d84492701abd820</FileHash>
 		</BurnInfo>
@@ -160,6 +184,26 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\vehicles\soviet_at_gun_squads\m1942_zis-3_76mm_at_gun_squad_mp.xml</FileName>
 			<FileHash>36030aab9ff74a8e4112329727f7eb1b</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp.xml</FileName>
+			<FileHash>5cfcaffb236f6e736c6664dbe9dd2fcb</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\west_german\soldiers\fallschirmjager_squad\fallschirmjager_squad_mp.xml</FileName>
+			<FileHash>1c6c6dd3db2c162013848e4bdc272784</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\west_german\soldiers\field_officer_squad\terror_officer_squad_mp.xml</FileName>
+			<FileHash>bc15fd00658abaafb3ff504125ab5680</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\west_german\soldiers\jaeger_light_infantry_squad\jaeger_light_infantry_recon_squad_mp.xml</FileName>
+			<FileHash>ba291b016feb9d5aa2ef5122ced644ac</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\west_german\soldiers\obersoldaten\obersoldaten_squad_mp.xml</FileName>
+			<FileHash>c0da10dd37f77aa4c435d2888935a08a</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\west_german\team_weapons\at_gun_squad\raketenwerfer43_88mm_puppchen_antitank_gun_squad_mp.xml</FileName>
