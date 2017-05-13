@@ -82,6 +82,18 @@
 			<FileHash>abbadfda8702e71e7e30a364fa053f20</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\british\soldiers\brit_officer\air_support_officer_mp.xml</FileName>
+			<FileHash>73bc89235f0a87dbbdb436a0ee441379</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\british\soldiers\commando\commando_air_landing_mp.xml</FileName>
+			<FileHash>a48882642c43d9061305a034e9b0541a</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\british\soldiers\commando\commando_mp.xml</FileName>
+			<FileHash>cea9e38ddf0ab95bb31df86be9be6fcf</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\buildings\base_building\schweres_kriegswerk_mp.xml</FileName>
 			<FileHash>2ef03effb74a2ecf93520294246418ed</FileHash>
 		</BurnInfo>
@@ -180,6 +192,18 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\aef\team_weapons\m2hb_50cal_hmg_squad\m2hb_50cal_hmg_squad_mp.xml</FileName>
 			<FileHash>e16370fa8dfc24665dca7effb800c1b5</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\british\soldiers\brit_officer_squad\air_support_officer_squad_mp.xml</FileName>
+			<FileHash>28c9e2557141af6a288b84c6a1eba448</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\british\soldiers\commando_squad\commando_squad_mp.xml</FileName>
+			<FileHash>482f1f0bcaa991ba1f46226ca9bda981</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\british\soldiers\commando_squad\infiltration_commando_squad_mp.xml</FileName>
+			<FileHash>3353e69a9d73a8727fc7c32f43a8edd3</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\british\team_weapons\at_gun_6_pounder\brit_6_pounder_at_gun_squad_mp.xml</FileName>
