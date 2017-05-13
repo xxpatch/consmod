@@ -7,16 +7,16 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11007374" />
+						<locstring name="extra_text" value="11007375" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11007431" />
+						<locstring name="help_text" value="11007430" />
 						<string name="hotkey_name" value="R" />
 						<icon name="icon_name" value="Icons_units_unit_soviet_mortar" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="Icons_minimap_unit_mortar" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11006677" />
+						<locstring name="screen_name" value="11006676" />
 						<string name="selection_group" value="mortar" />
 						<group name="speaker_generic">
 							<string name="code_1" value="gs" />
@@ -39,7 +39,7 @@
 							<string name="code_3" value="" />
 						</group>
 						<bool name="tacmap_team_only" value="False" />
-						<int name="ui_priority" value="36" />
+						<int name="ui_priority" value="37" />
 						<bool name="use_random_entity_speaker" value="False" />
 						<icon name="portrait_name_winter" value="Icons_portraits_unit_soviet_mortar_crew_w_portrait" />
 						<group name="speaker_specific_alt">
@@ -49,12 +49,12 @@
 						</group>
 						<icon name="portrait_name_summer" value="Icons_portraits_unit_soviet_mortar_crew_s_portrait" />
 						<float name="minimap_texture_scale" value="0.75" />
-						<locstring name="brief_text" value="11038712" />
-						<locstring name="screen_name_short" value="11045782" />
+						<locstring name="brief_text" value="11038710" />
+						<locstring name="screen_name_short" value="11045780" />
 						<enum name="map_rotation_type_override" value="no_override" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="True" />
-						<icon name="symbol_icon_name" value="Icons_symbols_unit_soviet_mortar_symbol" />
+						<icon name="symbol_icon_name" value="Icons_symbols_unit_german_m1938_120mm_mortar_symbol" />
 						<bool name="speaker_highest_priority" value="False" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
@@ -64,16 +64,16 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11007374" />
+						<locstring name="extra_text" value="11007375" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11007431" />
+						<locstring name="help_text" value="11007430" />
 						<string name="hotkey_name" value="R" />
 						<icon name="icon_name" value="Icons_units_unit_german_granatwerfer_34_mortar" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="Icons_minimap_unit_mortar" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11006677" />
+						<locstring name="screen_name" value="11006676" />
 						<string name="selection_group" value="mortar" />
 						<group name="speaker_generic">
 							<string name="code_1" value="xs" />
@@ -106,12 +106,12 @@
 						</group>
 						<icon name="portrait_name_summer" value="Icons_portraits_unit_german_mortar_crew_s_portrait" />
 						<float name="minimap_texture_scale" value="0.75" />
-						<locstring name="brief_text" value="11038712" />
-						<locstring name="screen_name_short" value="11045782" />
+						<locstring name="brief_text" value="11038710" />
+						<locstring name="screen_name_short" value="11045780" />
 						<enum name="map_rotation_type_override" value="no_override" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="True" />
-						<icon name="symbol_icon_name" value="Icons_symbols_unit_german_granatwerfer_34_mortar_symbol" />
+						<icon name="symbol_icon_name" value="Icons_symbols_unit_german_m1938_120mm_mortar_symbol" />
 						<bool name="speaker_highest_priority" value="False" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
@@ -121,16 +121,16 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11007374" />
+						<locstring name="extra_text" value="11007375" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11007431" />
+						<locstring name="help_text" value="11007430" />
 						<string name="hotkey_name" value="R" />
 						<icon name="icon_name" value="Icons_units_unit_soviet_mortar" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="Icons_minimap_unit_mortar" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11006677" />
+						<locstring name="screen_name" value="11006676" />
 						<string name="selection_group" value="mortar" />
 						<group name="speaker_generic">
 							<string name="code_1" value="wi" />
@@ -153,7 +153,7 @@
 							<string name="code_3" value="" />
 						</group>
 						<bool name="tacmap_team_only" value="False" />
-						<int name="ui_priority" value="36" />
+						<int name="ui_priority" value="37" />
 						<bool name="use_random_entity_speaker" value="False" />
 						<icon name="portrait_name_winter" value="Icons_portraits_unit_aef_mortar_crew_w_portrait" />
 						<group name="speaker_specific_alt">
@@ -163,13 +163,13 @@
 						</group>
 						<icon name="portrait_name_summer" value="Icons_portraits_unit_aef_mortar_crew_s_portrait" />
 						<float name="minimap_texture_scale" value="0.75" />
-						<locstring name="brief_text" value="11038712" />
-						<locstring name="screen_name_short" value="11045782" />
+						<locstring name="brief_text" value="11038710" />
+						<locstring name="screen_name_short" value="11045780" />
 						<enum name="map_rotation_type_override" value="no_override" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="True" />
 						<bool name="speaker_highest_priority" value="False" />
-						<icon name="symbol_icon_name" value="Icons_symbols_unit_soviet_mortar_symbol" />
+						<icon name="symbol_icon_name" value="Icons_symbols_unit_german_m1938_120mm_mortar_symbol" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
 					</group>
@@ -178,16 +178,16 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11007374" />
+						<locstring name="extra_text" value="11007375" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11007431" />
+						<locstring name="help_text" value="11007430" />
 						<string name="hotkey_name" value="R" />
 						<icon name="icon_name" value="Icons_units_unit_german_granatwerfer_34_mortar" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="Icons_minimap_unit_mortar" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11006677" />
+						<locstring name="screen_name" value="11006676" />
 						<string name="selection_group" value="mortar" />
 						<group name="speaker_generic">
 							<string name="code_1" value="wp" />
@@ -220,13 +220,13 @@
 						</group>
 						<icon name="portrait_name_summer" value="Icons_portraits_unit_german_mortar_crew_s_portrait" />
 						<float name="minimap_texture_scale" value="0.75" />
-						<locstring name="brief_text" value="11038712" />
-						<locstring name="screen_name_short" value="11045782" />
+						<locstring name="brief_text" value="11038710" />
+						<locstring name="screen_name_short" value="11045780" />
 						<enum name="map_rotation_type_override" value="no_override" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="True" />
 						<bool name="speaker_highest_priority" value="False" />
-						<icon name="symbol_icon_name" value="Icons_symbols_unit_german_granatwerfer_34_mortar_symbol" />
+						<icon name="symbol_icon_name" value="Icons_symbols_unit_german_m1938_120mm_mortar_symbol" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
 					</group>
@@ -235,16 +235,16 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11007374" />
+						<locstring name="extra_text" value="11007375" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11007431" />
+						<locstring name="help_text" value="11007430" />
 						<string name="hotkey_name" value="R" />
 						<icon name="icon_name" value="Icons_units_unit_soviet_mortar" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="Icons_minimap_unit_mortar" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11006677" />
+						<locstring name="screen_name" value="11006676" />
 						<string name="selection_group" value="mortar" />
 						<group name="speaker_generic">
 							<string name="code_1" value="wi" />
@@ -267,7 +267,7 @@
 							<string name="code_3" value="" />
 						</group>
 						<bool name="tacmap_team_only" value="False" />
-						<int name="ui_priority" value="36" />
+						<int name="ui_priority" value="37" />
 						<bool name="use_random_entity_speaker" value="False" />
 						<icon name="portrait_name_winter" value="Icons_portraits_unit_british_tommy_w_portrait" />
 						<group name="speaker_specific_alt">
@@ -277,13 +277,13 @@
 						</group>
 						<icon name="portrait_name_summer" value="Icons_portraits_unit_british_tommy_s_portrait" />
 						<float name="minimap_texture_scale" value="0.75" />
-						<locstring name="brief_text" value="11038712" />
-						<locstring name="screen_name_short" value="11045782" />
+						<locstring name="brief_text" value="11038710" />
+						<locstring name="screen_name_short" value="11045780" />
 						<enum name="map_rotation_type_override" value="no_override" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="True" />
 						<bool name="speaker_highest_priority" value="False" />
-						<icon name="symbol_icon_name" value="Icons_symbols_unit_soviet_mortar_symbol" />
+						<icon name="symbol_icon_name" value="Icons_symbols_unit_german_m1938_120mm_mortar_symbol" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
 					</group>
@@ -292,16 +292,16 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11007374" />
+						<locstring name="extra_text" value="11007375" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11007431" />
+						<locstring name="help_text" value="11007430" />
 						<string name="hotkey_name" value="R" />
 						<icon name="icon_name" value="Icons_units_unit_soviet_mortar" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="Icons_minimap_unit_mortar" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="11006677" />
+						<locstring name="screen_name" value="11006676" />
 						<string name="selection_group" value="mortar" />
 						<group name="speaker_generic">
 							<string name="code_1" value="gs" />
@@ -324,7 +324,7 @@
 							<string name="code_3" value="" />
 						</group>
 						<bool name="tacmap_team_only" value="False" />
-						<int name="ui_priority" value="36" />
+						<int name="ui_priority" value="37" />
 						<bool name="use_random_entity_speaker" value="False" />
 						<icon name="portrait_name_winter" value="Icons_portraits_unit_soviet_mortar_crew_w_portrait" />
 						<group name="speaker_specific_alt">
@@ -334,12 +334,12 @@
 						</group>
 						<icon name="portrait_name_summer" value="Icons_portraits_unit_soviet_mortar_crew_s_portrait" />
 						<float name="minimap_texture_scale" value="0.75" />
-						<locstring name="brief_text" value="11038712" />
-						<locstring name="screen_name_short" value="11045782" />
+						<locstring name="brief_text" value="11038710" />
+						<locstring name="screen_name_short" value="11045780" />
 						<enum name="map_rotation_type_override" value="no_override" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="True" />
-						<icon name="symbol_icon_name" value="Icons_symbols_unit_soviet_mortar_symbol" />
+						<icon name="symbol_icon_name" value="Icons_symbols_unit_german_m1938_120mm_mortar_symbol" />
 						<bool name="speaker_highest_priority" value="False" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
@@ -352,6 +352,93 @@
 			<string name="default_stance_name" value="stance_attack" />
 			<float name="ranged_attackrange" value="0" />
 		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_formation_ext">
+			<float name="combat_follower_cover_search_radius" value="2" />
+			<group name="cover_formation_table">
+				<instance_reference name="tp_defcover" value="squad_formations\soviet_team_weapon_triangle" />
+				<instance_reference name="tp_defcover_narrow" value="squad_formations\staggered_column" />
+				<instance_reference name="tp_garrison_cover" value="squad_formations\soviet_team_weapon_triangle" />
+				<instance_reference name="tp_garrison_halftrack" value="squad_formations\default" />
+				<instance_reference name="tp_heavy" value="squad_formations\soviet_team_weapon_triangle" />
+				<instance_reference name="tp_light" value="squad_formations\soviet_team_weapon_triangle" />
+				<instance_reference name="tp_negative" value="squad_formations\soviet_team_weapon_triangle" />
+				<instance_reference name="tp_open" value="squad_formations\soviet_team_weapon_triangle" />
+				<instance_reference name="tp_smoke" value="squad_formations\soviet_team_weapon_triangle" />
+				<instance_reference name="tp_trench" value="squad_formations\default" />
+				<instance_reference name="tp_water" value="squad_formations\soviet_team_weapon_triangle" />
+				<instance_reference name="tp_z_bunker" value="squad_formations\soviet_team_weapon_triangle" />
+				<instance_reference name="tp_z_emplacement" value="squad_formations\default" />
+				<instance_reference name="tp_z_ice" value="squad_formations\road_column" />
+				<instance_reference name="tp_z_snow" value="squad_formations\soviet_team_weapon_triangle" />
+				<instance_reference name="tp_zz_deep_snow" value="squad_formations\soviet_team_weapon_triangle" />
+				<instance_reference name="tp_zz_mud" value="squad_formations\soviet_team_weapon_triangle" />
+				<instance_reference name="tp_zz_team_weapon_heavy" value="squad_formations\default" />
+			</group>
+			<float name="move_dest_cover_search_radius" value="5" />
+			<group name="squad_distribution_table">
+				<group name="01_soldiers">
+					<float name="units_in_core" value="1" />
+					<float name="units_in_left_flank" value="0" />
+					<float name="units_in_right_flank" value="0" />
+					<float name="units_in_scout" value="0" />
+				</group>
+				<group name="02_soldiers">
+					<float name="units_in_core" value="2" />
+					<float name="units_in_left_flank" value="0" />
+					<float name="units_in_right_flank" value="0" />
+					<float name="units_in_scout" value="0" />
+				</group>
+				<group name="03_soldiers">
+					<float name="units_in_core" value="2" />
+					<float name="units_in_left_flank" value="1" />
+					<float name="units_in_right_flank" value="0" />
+					<float name="units_in_scout" value="0" />
+				</group>
+				<group name="04_soldiers">
+					<float name="units_in_core" value="2" />
+					<float name="units_in_left_flank" value="1" />
+					<float name="units_in_right_flank" value="1" />
+					<float name="units_in_scout" value="0" />
+				</group>
+				<group name="05_soldiers">
+					<float name="units_in_core" value="3" />
+					<float name="units_in_left_flank" value="1" />
+					<float name="units_in_right_flank" value="1" />
+					<float name="units_in_scout" value="0" />
+				</group>
+				<group name="06_soldiers">
+					<float name="units_in_core" value="4" />
+					<float name="units_in_left_flank" value="1" />
+					<float name="units_in_right_flank" value="1" />
+					<float name="units_in_scout" value="0" />
+				</group>
+				<group name="07_soldiers">
+					<float name="units_in_core" value="3" />
+					<float name="units_in_left_flank" value="2" />
+					<float name="units_in_right_flank" value="2" />
+					<float name="units_in_scout" value="0" />
+				</group>
+				<group name="08_soldiers">
+					<float name="units_in_core" value="2" />
+					<float name="units_in_left_flank" value="2" />
+					<float name="units_in_right_flank" value="2" />
+					<float name="units_in_scout" value="2" />
+				</group>
+				<group name="09_soldiers">
+					<float name="units_in_core" value="3" />
+					<float name="units_in_left_flank" value="2" />
+					<float name="units_in_right_flank" value="2" />
+					<float name="units_in_scout" value="2" />
+				</group>
+				<group name="10_soldiers">
+					<float name="units_in_core" value="4" />
+					<float name="units_in_left_flank" value="2" />
+					<float name="units_in_right_flank" value="2" />
+					<float name="units_in_scout" value="2" />
+				</group>
+			</group>
+			<bool name="support_weapons_to_flanks" value="False" />
+		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_item_slot_ext">
 			<bool name="can_pick_up" value="True" />
 			<float name="num_slots" value="0" />
@@ -360,11 +447,11 @@
 			<list name="unit_list">
 				<group name="loadout_data">
 					<float name="num" value="1" />
-					<instance_reference name="type" value="ebps\races\soviet\team_weapons\pm41_82mm_mortar_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+					<instance_reference name="type" value="ebps\races\soviet\team_weapons\hm-120_38_mortar_mp" />
 				</group>
 				<group name="loadout_data">
 					<float name="num" value="6" />
-					<instance_reference name="type" value="ebps\races\soviet\soldiers\weapon_crew\mortar_weapon_crew_mp" />
+					<instance_reference name="type" value="ebps\races\soviet\soldiers\weapon_crew\mortar_120mm_weapon_crew_mp" />
 				</group>
 			</list>
 			<float name="squad_female_chance" value="0" />
@@ -373,6 +460,28 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext">
 			<list name="requirement_table">
+				<template_reference name="required" value="requirements\required_resource">
+					<enum name="reason" value="usage" />
+					<locstring name="ui_name" value="11036640" />
+					<template_reference name="resource" value="tables\resource_table">
+						<float name="action" value="0" />
+						<float name="command" value="2" />
+						<float name="fuel" value="0" />
+						<float name="manpower" value="0" />
+						<float name="munition" value="0" />
+						<float name="soviet_progression" value="0" />
+						<float name="soviet_227" value="0" />
+						<float name="popcap" value="0" />
+					</template_reference>
+				</template_reference>
+				<template_reference name="required" value="requirements\required_player_upgrade">
+					<enum name="reason" value="usage_and_display" />
+					<locstring name="ui_name" value="0" />
+					<bool name="is_present" value="True" />
+					<float name="max_completed" value="100" />
+					<float name="min_completed" value="1" />
+					<instance_reference name="upgrade_name" value="upgrade\soviet\commander\passive\hm120_mortar_unlock" />
+				</template_reference>
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_upgrade_apply_ext">
@@ -386,7 +495,7 @@
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_combat_behaviour_ext">
-			<float name="heavy_weapon_setup_delay" value="999" />
+			<float name="heavy_weapon_setup_delay" value="0" />
 			<float name="reaction_delay_seconds" value="25" />
 			<float name="reveal_self_attacker_time" value="6" />
 			<bool name="reveal_self_attacker_time_use" value="True" />
@@ -485,11 +594,11 @@
 										<instance_reference name="tooltip" value="modifier_tooltip\facing_only_enable" />
 									</template_reference>
 								</list>
-								<uniqueid name="id" value="1073741965" />
+								<uniqueid name="id" value="1073742156" />
 							</template_reference>
 						</list>
 						<enum name="change_target_type" value="entities" />
-						<uniqueid name="id" value="1073741966" />
+						<uniqueid name="id" value="1073742157" />
 					</template_reference>
 					<template_reference name="action" value="action\delay">
 						<float name="delay" value="10" />
@@ -511,10 +620,10 @@
 										<instance_reference name="tooltip" value="modifier_tooltip\received_accuracy_modifier" />
 									</template_reference>
 								</list>
-								<uniqueid name="id" value="1073741967" />
+								<uniqueid name="id" value="1073742158" />
 							</template_reference>
 						</list>
-						<uniqueid name="id" value="1073741968" />
+						<uniqueid name="id" value="1073742159" />
 						<bool name="can_prevent_refund" value="True" />
 					</template_reference>
 					<template_reference name="action" value="action\animator_set_state">
@@ -523,7 +632,7 @@
 						<bool name="retrigger" value="False" />
 						<string name="state_machine_name" value="suppression" />
 						<string name="undo_action_state_name" value="normal" />
-						<uniqueid name="id" value="1073741969" />
+						<uniqueid name="id" value="1073742160" />
 					</template_reference>
 				</list>
 				<list name="suppressed_activate_actions">
@@ -570,11 +679,11 @@
 										<instance_reference name="tooltip" value="modifier_tooltip\accuracy_weapon_modifier" />
 									</template_reference>
 								</list>
-								<uniqueid name="id" value="1073741970" />
+								<uniqueid name="id" value="1073742161" />
 							</template_reference>
 						</list>
 						<enum name="change_target_type" value="entities" />
-						<uniqueid name="id" value="1073741971" />
+						<uniqueid name="id" value="1073742162" />
 					</template_reference>
 				</list>
 			</group>
@@ -636,7 +745,7 @@
 								<template_reference name="target_info" value="type_ability_target_type\all">
 								</template_reference>
 							</group>
-							<uniqueid name="id" value="1073742151" />
+							<uniqueid name="id" value="1073742173" />
 							<template_reference name="spawn_attached_option" value="options\none">
 							</template_reference>
 							<list name="spawned_entity_actions">
@@ -648,7 +757,7 @@
 							</group>
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073742150" />
+					<uniqueid name="id" value="1073742174" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -671,7 +780,7 @@
 						<float name="max_persistent_squads" value="3" />
 						<list name="veterancy_rank_info">
 							<group name="veterancy_rank">
-								<float name="experience_value" value="320" />
+								<float name="experience_value" value="960" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
 								<locstring name="screen_name" value="11047107" />
 								<bool name="single_player_only" value="False" />
@@ -694,16 +803,16 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073741972" />
+										<uniqueid name="id" value="1073742163" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
 								</list>
 							</group>
 							<group name="veterancy_rank">
-								<float name="experience_value" value="640" />
+								<float name="experience_value" value="1920" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11047081" />
+								<locstring name="screen_name" value="11047079" />
 								<bool name="single_player_only" value="False" />
 								<list name="leader_actions">
 								</list>
@@ -712,46 +821,59 @@
 								<list name="squad_actions">
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
-										<bool name="permanent" value="False" />
+										<bool name="permanent" value="True" />
 										<list name="modifiers">
-											<template_reference name="modifier" value="modifiers\ability_recharge_time_modifier">
-												<enum name="application_type" value="apply_to_ability" />
+											<template_reference name="modifier" value="modifiers\entity_veterency_experience_modifier">
+												<enum name="application_type" value="apply_to_squad" />
 												<bool name="exclusive" value="False" />
 												<string name="modifier_id" value="" />
-												<enum name="usage_type" value="multiplication" />
-												<float name="value" value="0.6" />
-												<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
-												<instance_reference name="target_type_name" value="abilities\german\modal_ability\artillery\mortar_barrage_ability\mortar_team_smoke_barrage_mp" />
-											</template_reference>
-											<template_reference name="modifier" value="modifiers\ability_recharge_time_modifier">
-												<enum name="application_type" value="apply_to_ability" />
-												<bool name="exclusive" value="False" />
-												<string name="modifier_id" value="" />
-												<enum name="usage_type" value="multiplication" />
-												<float name="value" value="0.6" />
-												<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
-												<instance_reference name="target_type_name" value="abilities\german\modal_ability\artillery\mortar_barrage_ability\mortar_team_mortar_barrage_mp" />
-											</template_reference>
-											<template_reference name="modifier" value="modifiers\ability_recharge_time_modifier">
-												<enum name="application_type" value="apply_to_ability" />
-												<bool name="exclusive" value="False" />
-												<string name="modifier_id" value="" />
-												<enum name="usage_type" value="multiplication" />
-												<float name="value" value="0.6" />
-												<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
-												<instance_reference name="target_type_name" value="abilities\german\modal_ability\artillery\mortar_barrage_ability\mortar_team_mortar_victortarget_barrage_mp" />
-											</template_reference>
-											<template_reference name="modifier" value="modifiers\ability_recharge_time_modifier">
-												<enum name="application_type" value="apply_to_ability" />
-												<bool name="exclusive" value="False" />
-												<string name="modifier_id" value="" />
-												<enum name="usage_type" value="multiplication" />
-												<float name="value" value="0.6" />
-												<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
-												<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\mortar_fire_flares_ability_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+												<string name="target_type_name" value="" />
+												<enum name="usage_type" value="multiply_add" />
+												<float name="value" value="0.2" />
+												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073741973" />
+										<uniqueid name="id" value="1073742164" />
+									</template_reference>
+									<template_reference name="action" value="action\change_target_action">
+										<list name="actions">
+											<template_reference name="action" value="action\apply_modifiers_action">
+												<float name="duration" value="0" />
+												<bool name="permanent" value="False" />
+												<list name="modifiers">
+													<template_reference name="modifier" value="modifiers\ability_recharge_time_modifier">
+														<enum name="application_type" value="apply_to_ability" />
+														<bool name="exclusive" value="False" />
+														<string name="modifier_id" value="" />
+														<enum name="usage_type" value="multiplication" />
+														<float name="value" value="0.6" />
+														<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
+														<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\artillery\mortar_barrage_ability\sync_mortar_barrage_120mm_mp" />
+													</template_reference>
+													<template_reference name="modifier" value="modifiers\ability_recharge_time_modifier">
+														<enum name="application_type" value="apply_to_ability" />
+														<bool name="exclusive" value="False" />
+														<string name="modifier_id" value="" />
+														<enum name="usage_type" value="multiplication" />
+														<float name="value" value="0.6" />
+														<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
+														<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\artillery\mortar_barrage_ability\smoke_120mm_mortar_barrage_mp" />
+													</template_reference>
+													<template_reference name="modifier" value="modifiers\ability_recharge_time_modifier">
+														<enum name="application_type" value="apply_to_ability" />
+														<bool name="exclusive" value="False" />
+														<string name="modifier_id" value="" />
+														<enum name="usage_type" value="multiplication" />
+														<float name="value" value="0.6" />
+														<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
+														<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\artillery\mortar_barrage_ability\mortar_precision_barrage_120mm_vet_mp" />
+													</template_reference>
+												</list>
+												<uniqueid name="id" value="1073742165" />
+											</template_reference>
+										</list>
+										<enum name="change_target_type" value="entities" />
+										<uniqueid name="id" value="1073742166" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
@@ -769,14 +891,14 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\weapon_scatter" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073741974" />
+										<uniqueid name="id" value="1073742167" />
 									</template_reference>
 								</list>
 							</group>
 							<group name="veterancy_rank">
-								<float name="experience_value" value="1280" />
+								<float name="experience_value" value="3840" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11047084" />
+								<locstring name="screen_name" value="11047082" />
 								<bool name="single_player_only" value="False" />
 								<list name="leader_actions">
 								</list>
@@ -787,7 +909,7 @@
 										<bool name="apply_to_entities_in_squad" value="False" />
 										<bool name="trigger_publish_event" value="False" />
 										<instance_reference name="upgrade" value="upgrade\max_vet" />
-										<uniqueid name="id" value="1073741975" />
+										<uniqueid name="id" value="1073742168" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -803,41 +925,47 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073741976" />
+										<uniqueid name="id" value="1073742169" />
 									</template_reference>
-									<template_reference name="action" value="action\apply_modifiers_action">
-										<float name="duration" value="0" />
-										<bool name="permanent" value="False" />
-										<list name="modifiers">
-											<template_reference name="modifier" value="modifiers\ability_max_range_modifier">
-												<enum name="application_type" value="apply_to_ability" />
-												<bool name="exclusive" value="False" />
-												<string name="modifier_id" value="" />
-												<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\artillery\mortar_barrage_ability\sync_mortar_barrage_mp" />
-												<enum name="usage_type" value="multiplication" />
-												<float name="value" value="1.33" />
-												<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
-											</template_reference>
-											<template_reference name="modifier" value="modifiers\ability_max_range_modifier">
-												<enum name="application_type" value="apply_to_ability" />
-												<bool name="exclusive" value="False" />
-												<string name="modifier_id" value="" />
-												<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\artillery\mortar_barrage_ability\smoke_sync_mortar_barrage_mp" />
-												<enum name="usage_type" value="multiplication" />
-												<float name="value" value="1.33" />
-												<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
-											</template_reference>
-											<template_reference name="modifier" value="modifiers\ability_max_range_modifier">
-												<enum name="application_type" value="apply_to_ability" />
-												<bool name="exclusive" value="False" />
-												<string name="modifier_id" value="" />
-												<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\artillery\mortar_barrage_ability\mortar_precision_barrage_82mm_mp" />
-												<enum name="usage_type" value="multiplication" />
-												<float name="value" value="1.33" />
-												<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
+									<template_reference name="action" value="action\change_target_action">
+										<list name="actions">
+											<template_reference name="action" value="action\apply_modifiers_action">
+												<float name="duration" value="0" />
+												<bool name="permanent" value="False" />
+												<list name="modifiers">
+													<template_reference name="modifier" value="modifiers\ability_max_range_modifier">
+														<enum name="application_type" value="apply_to_ability" />
+														<bool name="exclusive" value="False" />
+														<string name="modifier_id" value="" />
+														<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\artillery\mortar_barrage_ability\sync_mortar_barrage_120mm_mp" />
+														<enum name="usage_type" value="multiplication" />
+														<float name="value" value="1.33" />
+														<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
+													</template_reference>
+													<template_reference name="modifier" value="modifiers\ability_max_range_modifier">
+														<enum name="application_type" value="apply_to_ability" />
+														<bool name="exclusive" value="False" />
+														<string name="modifier_id" value="" />
+														<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\artillery\mortar_barrage_ability\smoke_120mm_mortar_barrage_mp" />
+														<enum name="usage_type" value="multiplication" />
+														<float name="value" value="1.33" />
+														<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
+													</template_reference>
+													<template_reference name="modifier" value="modifiers\ability_max_range_modifier">
+														<enum name="application_type" value="apply_to_ability" />
+														<bool name="exclusive" value="False" />
+														<string name="modifier_id" value="" />
+														<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\artillery\mortar_barrage_ability\mortar_precision_barrage_120mm_vet_mp" />
+														<enum name="usage_type" value="multiplication" />
+														<float name="value" value="1.33" />
+														<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
+													</template_reference>
+												</list>
+												<uniqueid name="id" value="1073742170" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073741977" />
+										<enum name="change_target_type" value="entities" />
+										<uniqueid name="id" value="1073742171" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
@@ -885,7 +1013,7 @@
 			<list name="actions">
 				<template_reference name="action" value="action\suppression">
 					<float name="suppression" value="0" />
-					<uniqueid name="id" value="1073741978" />
+					<uniqueid name="id" value="1073742172" />
 					<float name="supressionrecovertime" value="0" />
 				</template_reference>
 			</list>
@@ -935,6 +1063,15 @@
 					<float name="value" value="-1" />
 					<instance_reference name="tooltip" value="modifier_tooltip\capture_enable_squad_modifier" />
 				</template_reference>
+				<template_reference name="modifier" value="modifiers\speed_maximum_modifier">
+					<enum name="application_type" value="apply_to_squad" />
+					<bool name="exclusive" value="False" />
+					<string name="modifier_id" value="" />
+					<string name="target_type_name" value="" />
+					<enum name="usage_type" value="addition" />
+					<float name="value" value="3.15" />
+					<instance_reference name="tooltip" value="modifier_tooltip\speed_maximum_modifier" />
+				</template_reference>
 				<template_reference name="modifier" value="modifiers\posture_prone_modifier">
 					<enum name="application_type" value="apply_to_squad" />
 					<bool name="exclusive" value="True" />
@@ -957,7 +1094,7 @@
 			<bool name="withdraw_only" value="False" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_team_weapon_ext">
-			<bool name="can_auto_face_target" value="False" />
+			<bool name="can_auto_face_target" value="True" />
 			<list name="in_setup_action">
 			</list>
 			<list name="can_setup_requirement">
@@ -981,96 +1118,9 @@
 			<float name="capture_rate_multiplier" value="1" />
 			<float name="revert_rate_multiplier" value="1" />
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_formation_ext">
-			<float name="combat_follower_cover_search_radius" value="2" />
-			<group name="cover_formation_table">
-				<instance_reference name="tp_defcover" value="squad_formations\soviet_team_weapon_triangle" />
-				<instance_reference name="tp_defcover_narrow" value="squad_formations\staggered_column" />
-				<instance_reference name="tp_garrison_cover" value="squad_formations\soviet_team_weapon_triangle" />
-				<instance_reference name="tp_garrison_halftrack" value="squad_formations\default" />
-				<instance_reference name="tp_heavy" value="squad_formations\soviet_team_weapon_triangle" />
-				<instance_reference name="tp_light" value="squad_formations\soviet_team_weapon_triangle" />
-				<instance_reference name="tp_negative" value="squad_formations\soviet_conscript" />
-				<instance_reference name="tp_open" value="squad_formations\soviet_team_weapon_triangle" />
-				<instance_reference name="tp_smoke" value="squad_formations\soviet_team_weapon_triangle" />
-				<instance_reference name="tp_trench" value="squad_formations\default" />
-				<instance_reference name="tp_water" value="squad_formations\soviet_team_weapon_triangle" />
-				<instance_reference name="tp_z_bunker" value="squad_formations\soviet_team_weapon_triangle" />
-				<instance_reference name="tp_z_emplacement" value="squad_formations\default" />
-				<instance_reference name="tp_z_ice" value="squad_formations\road_column" />
-				<instance_reference name="tp_z_snow" value="squad_formations\soviet_team_weapon_triangle" />
-				<instance_reference name="tp_zz_deep_snow" value="squad_formations\soviet_team_weapon_triangle" />
-				<instance_reference name="tp_zz_mud" value="squad_formations\soviet_team_weapon_triangle" />
-				<instance_reference name="tp_zz_team_weapon_heavy" value="squad_formations\default" />
-			</group>
-			<float name="move_dest_cover_search_radius" value="5" />
-			<group name="squad_distribution_table">
-				<group name="01_soldiers">
-					<float name="units_in_core" value="1" />
-					<float name="units_in_left_flank" value="0" />
-					<float name="units_in_right_flank" value="0" />
-					<float name="units_in_scout" value="0" />
-				</group>
-				<group name="02_soldiers">
-					<float name="units_in_core" value="2" />
-					<float name="units_in_left_flank" value="0" />
-					<float name="units_in_right_flank" value="0" />
-					<float name="units_in_scout" value="0" />
-				</group>
-				<group name="03_soldiers">
-					<float name="units_in_core" value="2" />
-					<float name="units_in_left_flank" value="1" />
-					<float name="units_in_right_flank" value="0" />
-					<float name="units_in_scout" value="0" />
-				</group>
-				<group name="04_soldiers">
-					<float name="units_in_core" value="2" />
-					<float name="units_in_left_flank" value="1" />
-					<float name="units_in_right_flank" value="1" />
-					<float name="units_in_scout" value="0" />
-				</group>
-				<group name="05_soldiers">
-					<float name="units_in_core" value="3" />
-					<float name="units_in_left_flank" value="1" />
-					<float name="units_in_right_flank" value="1" />
-					<float name="units_in_scout" value="0" />
-				</group>
-				<group name="06_soldiers">
-					<float name="units_in_core" value="4" />
-					<float name="units_in_left_flank" value="1" />
-					<float name="units_in_right_flank" value="1" />
-					<float name="units_in_scout" value="0" />
-				</group>
-				<group name="07_soldiers">
-					<float name="units_in_core" value="3" />
-					<float name="units_in_left_flank" value="2" />
-					<float name="units_in_right_flank" value="2" />
-					<float name="units_in_scout" value="0" />
-				</group>
-				<group name="08_soldiers">
-					<float name="units_in_core" value="2" />
-					<float name="units_in_left_flank" value="2" />
-					<float name="units_in_right_flank" value="2" />
-					<float name="units_in_scout" value="2" />
-				</group>
-				<group name="09_soldiers">
-					<float name="units_in_core" value="3" />
-					<float name="units_in_left_flank" value="2" />
-					<float name="units_in_right_flank" value="2" />
-					<float name="units_in_scout" value="2" />
-				</group>
-				<group name="10_soldiers">
-					<float name="units_in_core" value="4" />
-					<float name="units_in_left_flank" value="2" />
-					<float name="units_in_right_flank" value="2" />
-					<float name="units_in_scout" value="2" />
-				</group>
-			</group>
-			<bool name="support_weapons_to_flanks" value="False" />
-		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_type_ext">
 			<list name="squad_type_list">
-				<enum name="squad_type" value="82mm_soviet_mortar" />
+				<enum name="squad_type" value="120mm_soviet_mortar" />
 				<enum name="squad_type" value="mortar" />
 				<enum name="squad_type" value="soviet_team_weapons" />
 				<enum name="squad_type" value="rapid_conscription" />
@@ -1085,5 +1135,5 @@
 			<enum name="shared_veterancy_type" value="tp_commonwealth_infantry" />
 		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="116" />
+	<uniqueid name="pbgid" value="114" />
 </instance>
