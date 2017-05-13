@@ -14,6 +14,10 @@
 			<FileHash>207ee5ea580f11b8e8939d79a5ff79a2</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\commander_ability\mark_vehicle.xml</FileName>
+			<FileHash>bf283107dc713573577822161c791f47</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\grenades\conscript_molotov_cocktail_mp.xml</FileName>
 			<FileHash>21d07415a425827b3f31975790cd0482</FileHash>
 		</BurnInfo>
@@ -32,6 +36,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\toggle_ability\guards_hit_the_dirt_mp.xml</FileName>
 			<FileHash>f056ba7cef009a1b14d7ec62cb8a7352</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\critical\vehicle_crew_shocked.xml</FileName>
+			<FileHash>24b6844a01b1a8af66e5d2c8bd25691b</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\projectile\flak_37mm_shell_mp.xml</FileName>
@@ -111,7 +119,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\team_weapons\at_gun\pak40_75mm_at_gun_mp.xml</FileName>
-			<FileHash>255ac459a3ced8c5baf265325032daf3</FileHash>
+			<FileHash>578c87faa718fa702a76a83f4b979bac</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\panther_sdkfz_171\panther_sdkfz_171_mp.xml</FileName>
@@ -122,12 +130,20 @@
 			<FileHash>1fccf043e63bf514dda96e8f8d9aeec6</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\tiger_sdkfz_181\tiger_sdkfz_181_mp.xml</FileName>
+			<FileHash>a1c8733f45f6f61058679a054f2f4afe</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\soldiers\commander_troops\shock_troops_mp.xml</FileName>
 			<FileHash>d68a0741299e2db55439857541726df0</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\soldiers\partisan_commander_troops\partisan_troops_antitank.xml</FileName>
 			<FileHash>670b89c199e9cfb2ecdf83df697ba6c0</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\team_weapons\hm-120_38_mortar_mp.xml</FileName>
+			<FileHash>29dc858f5ca645eb665220c8cfce4ec1</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\team_weapons\pm41_82mm_mortar_mp.xml</FileName>
@@ -142,8 +158,24 @@
 			<FileHash>5807b445f79245893b84cb3a7573c5c3</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\vehicles\is-2_heavy_tank\is-2_heavy_tank_mp.xml</FileName>
+			<FileHash>99f15fb40a47d21079c0e762499e9005</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\vehicles\m5_halftrack\m5_halftrack_mp.xml</FileName>
+			<FileHash>36db389b0b3d4b9b96fa86b90f95d244</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\vehicles\su_85\su_85_mp.xml</FileName>
 			<FileHash>56d2618d99af1070e415fdc1853808ba</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\vehicles\t_34\t_34_76_mp.xml</FileName>
+			<FileHash>2cc45fba429372b4a9f09ed8aef99e8e</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\vehicles\t_34\t_34_85_mp.xml</FileName>
+			<FileHash>9009c0f227a830ffd653d16af54bc9d2</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\west_german\soldiers\assault_pioneer\assault_pioneer_mp.xml</FileName>
@@ -243,7 +275,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\panther_squad\panther_squad_mp.xml</FileName>
-			<FileHash>c0e1694f9a796eea5c6f20e650769d93</FileHash>
+			<FileHash>81bda95fc5361b5aa92a69cb0a7f99a2</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\conscript_squad\conscript_squad_mp.xml</FileName>
@@ -259,7 +291,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\mortar_squad\hm-120_38_mortar_squad_mp.xml</FileName>
-			<FileHash>95b7f8977d59e80e2feeda11003fa1a6</FileHash>
+			<FileHash>275f3e0dbdfa45645a3b5c36889531c6</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\mortar_squad\pm-82_41_mortar_squad_mp.xml</FileName>
@@ -366,6 +398,10 @@
 			<FileHash>a2e51dc83f7b5a4adb1245175a0de87f</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\anti_tank_gun\75mm_pak_40_ap_mp.xml</FileName>
+			<FileHash>68d4ce8b4ff6c3a9877700e42fbbee2b</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\brummbar_150mm_bunker_buster_mp.xml</FileName>
 			<FileHash>6a4e013223549b0fdd28126191ddbca8</FileHash>
 		</BurnInfo>
@@ -386,12 +422,20 @@
 			<FileHash>881ba358d1217d8f07fd7e3b32be0592</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\panzer_4_75mm_mp.xml</FileName>
+			<FileHash>a93acc849e7392fd69751f6c1aacc466</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\stug_75mm_mp.xml</FileName>
 			<FileHash>d2ad3f50a383c0d1c22b7f4fd780ca87</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\stug_critical_shot_mp.xml</FileName>
 			<FileHash>4992ab6644d91f206ece8d4891882677</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\tiger_kwk36_88mm_mp.xml</FileName>
+			<FileHash>8440250af46274409190a07c73780059</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\explosive_weapons\light_artillery\panzerwerfer_rockets_mp.xml</FileName>
@@ -404,6 +448,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\ballistic_weapon\infantry_anti_tank_weapon\penal_ptrs_41_mp.xml</FileName>
 			<FileHash>e4eed3525d82722a668cfcc18c5a1d09</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\ballistic_weapon\tank_gun\is2_d25t_122mm_mp.xml</FileName>
+			<FileHash>9c28991ef38044cce288c9bc2974696c</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\ballistic_weapon\tank_gun\su76_76mm_zis-3sh_gun_mp.xml</FileName>
