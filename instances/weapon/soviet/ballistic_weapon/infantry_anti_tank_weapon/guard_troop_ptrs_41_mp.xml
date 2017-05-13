@@ -298,7 +298,7 @@
 							<float name="damage" value="26" />
 							<bool name="percentage" value="False" />
 							<bool name="set" value="False" />
-							<bool name="cause_criticals" value="False" />
+							<bool name="cause_criticals" value="True" />
 							<enum name="crit_weapon_type" value="ballistic" />
 							<uniqueid name="id" value="1073741999" />
 						</template_reference>
@@ -354,7 +354,7 @@
 							<float name="damage" value="13" />
 							<bool name="percentage" value="False" />
 							<bool name="set" value="False" />
-							<bool name="cause_criticals" value="False" />
+							<bool name="cause_criticals" value="True" />
 							<enum name="crit_weapon_type" value="ballistic" />
 							<uniqueid name="id" value="1073742001" />
 						</template_reference>
@@ -375,7 +375,7 @@
 			</template_reference>
 		</group>
 		<group name="deflection">
-			<float name="deflection_damage_multiplier" value="0.5" />
+			<float name="deflection_damage_multiplier" value="0.357142" />
 			<bool name="has_deflection_damage" value="True" />
 			<list name="on_deflected_actions">
 				<template_reference name="action" value="action\requirement_action">
@@ -404,10 +404,10 @@
 					</list>
 					<list name="action_table">
 						<template_reference name="action" value="action\damage">
-							<float name="damage" value="13" />
+							<float name="damage" value="10" />
 							<bool name="percentage" value="False" />
 							<bool name="set" value="False" />
-							<bool name="cause_criticals" value="False" />
+							<bool name="cause_criticals" value="True" />
 							<enum name="crit_weapon_type" value="ballistic" />
 							<uniqueid name="id" value="1073742003" />
 						</template_reference>
