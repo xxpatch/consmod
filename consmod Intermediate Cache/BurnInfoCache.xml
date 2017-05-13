@@ -86,6 +86,10 @@
 			<FileHash>d68a0741299e2db55439857541726df0</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\soldiers\partisan_commander_troops\partisan_troops_antitank.xml</FileName>
+			<FileHash>670b89c199e9cfb2ecdf83df697ba6c0</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\team_weapons\pm41_82mm_mortar_mp.xml</FileName>
 			<FileHash>339c54eac6e90914e1efacc3c0051afc</FileHash>
 		</BurnInfo>
@@ -184,6 +188,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\mortar_squad\pm-82_41_mortar_squad_mp.xml</FileName>
 			<FileHash>261a87024112d7456acb55203cf8ea86</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\partisan_commander_squads\partisans_panzerschreck_mp.xml</FileName>
+			<FileHash>244cdd0553eb2122a7e0a792a248c8cf</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\troops\guards_troops_mp.xml</FileName>
