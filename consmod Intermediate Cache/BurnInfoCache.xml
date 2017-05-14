@@ -6,6 +6,10 @@
 			<FileHash>571f06d9e22569b69390320a9b8b427f</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\panzer_defensive_smoke.xml</FileName>
+			<FileHash>0dcac648e148e0a403f6e5e46ffac5a9</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\mortar_fire_flares_ability_mp.xml</FileName>
 			<FileHash>aca55c03755a680be3e110a38fee66b5</FileHash>
 		</BurnInfo>
@@ -123,15 +127,15 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\panther_sdkfz_171\panther_sdkfz_171_mp.xml</FileName>
-			<FileHash>b4a91abe01f3b4a7390d3b59afd506f8</FileHash>
+			<FileHash>c61c0e9b7d7f64884473f33367912ec4</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\stug_iii_sdkfz_141_1\stug_iii_g_sdkfz_141_1_mp.xml</FileName>
-			<FileHash>1fccf043e63bf514dda96e8f8d9aeec6</FileHash>
+			<FileHash>dbf4641316e466945857e50f9766be55</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\tiger_sdkfz_181\tiger_sdkfz_181_mp.xml</FileName>
-			<FileHash>a1c8733f45f6f61058679a054f2f4afe</FileHash>
+			<FileHash>d9cec95de208ce9922815bf8423a18ec</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\soldiers\commander_troops\shock_troops_mp.xml</FileName>
