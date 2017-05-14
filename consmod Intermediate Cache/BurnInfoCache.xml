@@ -362,8 +362,16 @@
 			<FileHash>1ecce888e60abb5d5a6986fee5073c7f</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\slot_item\soviet\anti_tank_weapon\ptrs_41_anti_tank_rifle_guard_troop_mp.xml</FileName>
+			<FileHash>78a27661fc290701c31418658dce4a98</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\slot_item\soviet\grenades\conscript_molotov_vet_mp.xml</FileName>
 			<FileHash>e2f802d18fe18eea2eba877f5ad6bacb</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\slot_item\soviet\small_arms\dp-28_light_machine_gun_package_mp.xml</FileName>
+			<FileHash>134606124d04df9c53569e7a61d734be</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\squad_formations\3man_wedge.xml</FileName>
@@ -371,7 +379,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\items\stug_top_gunner_mp.xml</FileName>
-			<FileHash>092df684d13ff6505ceb24348584110c</FileHash>
+			<FileHash>ff608f11302ab8aa0823ba38fad18e29</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\research\battle_phase_3_mp.xml</FileName>
@@ -383,19 +391,19 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\soviet\items\guard_dp-28_lmg_package_1_mp.xml</FileName>
-			<FileHash>858b71c58a1e024d72a743e7983738b2</FileHash>
+			<FileHash>fe0e895904fa2a30f454543f75ec75a8</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\soviet\items\guard_dp-28_lmg_package_2_mp.xml</FileName>
-			<FileHash>e0b8cdfbe2fcd775ec87f97f44f72a78</FileHash>
+			<FileHash>707cb853e041d1aabafe18cff05fc4a1</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\soviet\items\guard_ptrs_package_1_mp.xml</FileName>
-			<FileHash>f16b03abb30220b6b6ed13fa2fca6b94</FileHash>
+			<FileHash>9c7c718e73e5b96111dc49088df55f87</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\soviet\items\guard_ptrs_package_2_mp.xml</FileName>
-			<FileHash>74f0d5aae5a4bed21777a677391c1153</FileHash>
+			<FileHash>61be3f8b66521fe903c811329ec78f4c</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\soviet\items\penal_ptrs_package_1_mp.xml</FileName>
@@ -456,6 +464,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\explosive_weapons\light_artillery\panzerwerfer_rockets_mp.xml</FileName>
 			<FileHash>9df97af35058547d93ad23fa4fc05fb4</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\small_arms\machine_gun\light_machine_gun\mg42_turret_mounted_stugiv_mp.xml</FileName>
+			<FileHash>2a6cb1cfc6e9c7aac0a6528fa6ac0922</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\british\ballistic_weapon\infantry_anti_tank_weapon\piat_launcher_mp.xml</FileName>
