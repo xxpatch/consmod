@@ -52,65 +52,89 @@
 					</list>
 					<bool name="enable_landing" value="False" />
 				</template_reference>
-				<template_reference name="action" value="action\delay">
-					<float name="delay" value="3" />
-					<float name="delay_min" value="0" />
-					<bool name="progress_bar" value="False" />
-					<bool name="randomize" value="False" />
-					<list name="delayed_actions">
-						<template_reference name="action" value="action\timed_action">
-							<float name="duration" value="60" />
-							<bool name="fire_and_forget" value="True" />
-							<list name="subactions">
-								<template_reference name="action" value="action\apply_modifiers_action">
-									<float name="duration" value="0" />
-									<bool name="permanent" value="False" />
-									<list name="modifiers">
-										<template_reference name="modifier" value="modifiers\received_damage_modifier">
-											<enum name="application_type" value="apply_to_entity" />
-											<bool name="exclusive" value="True" />
-											<string name="modifier_id" value="marked_target" />
-											<string name="target_type_name" value="" />
-											<enum name="usage_type" value="multiplication" />
-											<float name="value" value="1.29" />
-											<instance_reference name="tooltip" value="modifier_tooltip\received_damage_modifier" />
-										</template_reference>
-										<template_reference name="modifier" value="modifiers\target_priority_squad_modifier">
-											<enum name="application_type" value="apply_to_squad" />
-											<bool name="exclusive" value="True" />
-											<string name="modifier_id" value="marked_target" />
-											<string name="target_type_name" value="" />
-											<enum name="usage_type" value="addition" />
-											<float name="value" value="100" />
-											<instance_reference name="tooltip" value="modifier_tooltip\target_priority_squad_modifier" />
-										</template_reference>
-									</list>
-									<uniqueid name="id" value="1073743340" />
-								</template_reference>
-								<template_reference name="action" value="action\animator_set_state">
-									<bool name="apply_to_leader_only" value="False" />
-									<string name="do_action_state_name" value="on" />
-									<bool name="retrigger" value="True" />
-									<string name="state_machine_name" value="ability_attack_debuff_state" />
-									<string name="undo_action_state_name" value="off" />
-									<uniqueid name="id" value="1073743341" />
-								</template_reference>
-								<template_reference name="action" value="action\ui_unit_modifier_action">
-									<bool name="die_with_creator" value="True" />
-									<template_reference name="ui_info" value="tables\ui_info">
-										<locstring name="screen_name" value="11046576" />
-										<locstring name="help_text" value="11046580" />
-										<icon name="icon_name" value="Icons_commander_cmdr_soviet_mark_vehicle" />
-										<string name="hotkey_name" value="" />
-									</template_reference>
-									<uniqueid name="id" value="1073743342" />
-								</template_reference>
-							</list>
-							<uniqueid name="id" value="1073743343" />
+				<template_reference name="action" value="action\requirement_action">
+					<bool name="check_self" value="True" />
+					<bool name="global_fire_and_forget_on_success" value="False" />
+					<bool name="instant_requirement_check" value="False" />
+					<bool name="kill_action_on_failed_requirements" value="False" />
+					<bool name="no_retrigger" value="False" />
+					<bool name="validate_all_sub_actions" value="True" />
+					<list name="requirement_table">
+						<template_reference name="required" value="requirements\required_entity">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<instance_reference name="entity_blueprint_name" value="ebps\races\soviet\vehicles\il-2_sturmovik_aircraft\il-2_sturmovik_mark_vehicle_mp" />
+							<enum name="entity_type" value="" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073743344" />
-					<bool name="can_prevent_refund" value="True" />
+					<list name="action_table">
+						<template_reference name="action" value="action\animator_set_state">
+							<bool name="apply_to_leader_only" value="False" />
+							<string name="do_action_state_name" value="on" />
+							<bool name="retrigger" value="True" />
+							<string name="state_machine_name" value="ability_attack_debuff_state" />
+							<string name="undo_action_state_name" value="off" />
+							<uniqueid name="id" value="1073743432" />
+						</template_reference>
+						<template_reference name="action" value="action\ui_unit_modifier_action">
+							<bool name="die_with_creator" value="True" />
+							<template_reference name="ui_info" value="tables\ui_info">
+								<locstring name="screen_name" value="11046576" />
+								<locstring name="help_text" value="11046580" />
+								<icon name="icon_name" value="Icons_commander_cmdr_soviet_mark_vehicle" />
+								<string name="hotkey_name" value="" />
+							</template_reference>
+							<uniqueid name="id" value="1073743433" />
+						</template_reference>
+						<template_reference name="action" value="action\delay">
+							<float name="delay" value="5" />
+							<float name="delay_min" value="0" />
+							<bool name="progress_bar" value="False" />
+							<bool name="randomize" value="False" />
+							<list name="delayed_actions">
+								<template_reference name="action" value="action\timed_action">
+									<float name="duration" value="60" />
+									<bool name="fire_and_forget" value="True" />
+									<list name="subactions">
+										<template_reference name="action" value="action\apply_modifiers_action">
+											<float name="duration" value="0" />
+											<bool name="permanent" value="False" />
+											<list name="modifiers">
+												<template_reference name="modifier" value="modifiers\received_damage_modifier">
+													<enum name="application_type" value="apply_to_entity" />
+													<bool name="exclusive" value="True" />
+													<string name="modifier_id" value="marked_target" />
+													<string name="target_type_name" value="" />
+													<enum name="usage_type" value="multiplication" />
+													<float name="value" value="1.35" />
+													<instance_reference name="tooltip" value="modifier_tooltip\received_damage_modifier" />
+												</template_reference>
+												<template_reference name="modifier" value="modifiers\target_priority_squad_modifier">
+													<enum name="application_type" value="apply_to_squad" />
+													<bool name="exclusive" value="True" />
+													<string name="modifier_id" value="marked_target" />
+													<string name="target_type_name" value="" />
+													<enum name="usage_type" value="addition" />
+													<float name="value" value="100" />
+													<instance_reference name="tooltip" value="modifier_tooltip\target_priority_squad_modifier" />
+												</template_reference>
+											</list>
+											<uniqueid name="id" value="1073743434" />
+										</template_reference>
+									</list>
+									<uniqueid name="id" value="1073743435" />
+								</template_reference>
+							</list>
+							<uniqueid name="id" value="1073743436" />
+							<bool name="can_prevent_refund" value="True" />
+						</template_reference>
+					</list>
+					<uniqueid name="id" value="1073743431" />
+					<bool name="fire_and_forget_non_global" value="False" />
+					<template_reference name="ui_help_text" value="tables\help_text_phrase">
+						<int name="phrase_order" value="0" />
+						<locstring name="phrase" value="0" />
+					</template_reference>
 				</template_reference>
 			</list>
 		</group>
