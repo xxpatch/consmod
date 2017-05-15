@@ -54,6 +54,10 @@
 			<FileHash>4d99c0954058cec0a9ac38a8c89fcebe</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\projectile\soviet_45mm_t70_tank_mp.xml</FileName>
+			<FileHash>5b98106aad43c432fa2d3f010d15136d</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\aef\buildings\defensive_structures\sov_popcap_add_mp.xml</FileName>
 			<FileHash>9516703aad4b431452fe0129202fdb14</FileHash>
 		</BurnInfo>
@@ -492,6 +496,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\ballistic_weapon\tank_gun\su76_76mm_zis-3sh_gun_mp.xml</FileName>
 			<FileHash>95e77fcaae01edd51628956fa00a3824</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\ballistic_weapon\tank_gun\t70_m1938_45mm_mp.xml</FileName>
+			<FileHash>e61dc0dcfa791ad40b0c2e706eaffb66</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\grenade\rg_42_mp.xml</FileName>
