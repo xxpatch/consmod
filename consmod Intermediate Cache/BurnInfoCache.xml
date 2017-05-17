@@ -18,6 +18,10 @@
 			<FileHash>930d6f40c676240a48816d2317cfe571</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\commander_ability\relief_infantry.xml</FileName>
+			<FileHash>2b24622a5aebe2eef9f07947169f4a5e</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\mortar_fire_flares_ability_mp.xml</FileName>
 			<FileHash>aca55c03755a680be3e110a38fee66b5</FileHash>
 		</BurnInfo>
@@ -51,7 +55,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\commander_ability\rapid_conscription.xml</FileName>
-			<FileHash>a01f389c1a8444ba6b903239b2cc5bb3</FileHash>
+			<FileHash>6993f127cc9f55a68b61d33e566d602a</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\throw_away_hack_ui\cmd_guard_troops.xml</FileName>
@@ -599,7 +603,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\locale\english\english.ucs</FileName>
-			<FileHash>fdf3c20a3e632e073d8c997c527db138</FileHash>
+			<FileHash>2dbc423e28dfef25de8d966b9bc593a9</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\info\f2791205c6e743b6a340ef0daf60b957.info</FileName>

@@ -19,7 +19,7 @@
 								<template_reference name="target_info" value="type_ability_target_type\own">
 								</template_reference>
 							</group>
-							<enum name="deprecated_unit_class_type" value="" />
+							<enum name="deprecated_unit_class_type" value="infantry" />
 							<list name="action_table">
 								<template_reference name="action" value="action\change_target_action">
 									<list name="actions">
@@ -59,10 +59,10 @@
 													<bool name="retrigger" value="True" />
 													<string name="state_machine_name" value="ability_replacement_state" />
 													<string name="undo_action_state_name" value="off" />
-													<uniqueid name="id" value="1073743558" />
+													<uniqueid name="id" value="1073743564" />
 												</template_reference>
 											</list>
-											<uniqueid name="id" value="1073743559" />
+											<uniqueid name="id" value="1073743565" />
 											<bool name="fire_and_forget_non_global" value="False" />
 											<template_reference name="ui_help_text" value="tables\help_text_phrase">
 												<int name="phrase_order" value="0" />
@@ -71,7 +71,7 @@
 										</template_reference>
 									</list>
 									<enum name="change_target_type" value="squad" />
-									<uniqueid name="id" value="1073743560" />
+									<uniqueid name="id" value="1073743566" />
 								</template_reference>
 								<template_reference name="action" value="action\ui_unit_modifier_action">
 									<bool name="die_with_creator" value="True" />
@@ -81,197 +81,97 @@
 										<icon name="icon_name" value="Icons_commander_cmdr_soviet_rapid_conscription" />
 										<string name="hotkey_name" value="" />
 									</template_reference>
-									<uniqueid name="id" value="1073743561" />
+									<uniqueid name="id" value="1073743567" />
 								</template_reference>
 							</list>
-							<enum name="deprecated_squad_class_type" value="rapid_conscription" />
+							<enum name="deprecated_squad_class_type" value="" />
 							<list name="target_requirements">
 							</list>
 							<bool name="target_squad" value="False" />
-							<uniqueid name="id" value="1073743562" />
+							<uniqueid name="id" value="1073743568" />
 						</template_reference>
 					</list>
 					<list name="affected_squad_list">
 						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\combat_engineer_squad\combat_engineer_squad" />
+							<instance_reference name="squad_type_to_monitor" value="sbps\races\german\soldiers\grenadier_squad\grenadier_squad" />
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\conscript_squad\conscript_squad" />
+							<instance_reference name="squad_type_to_monitor" value="sbps\races\german\soldiers\mg42_heavy_machine_gun_squad\mg42_heavy_machine_gun_squad" />
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\m1910_maxim_hmg_squad\m1910_maxim_heavy_machine_gun_squad" />
+							<instance_reference name="squad_type_to_monitor" value="sbps\races\german\soldiers\mortar_team\mortar_team_81mm" />
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\mortar_squad\hm-120_38_mortar_squad" />
+							<instance_reference name="squad_type_to_monitor" value="sbps\races\german\soldiers\ostruppen_squad\ostruppen_squad" />
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\mortar_squad\pm-82_41_mortar_squad" />
+							<instance_reference name="squad_type_to_monitor" value="sbps\races\german\soldiers\panzer_grenadier_squad\panzer_grenadier_squad" />
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\partisan_squads\partisan_squad_granatewerfer_34_81mm_mortar" />
+							<instance_reference name="squad_type_to_monitor" value="sbps\races\german\soldiers\pioneer_squad\pioneer_squad" />
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\partisan_squads\partisan_squad_kar98k_rifle" />
+							<instance_reference name="squad_type_to_monitor" value="sbps\races\german\soldiers\sniper_squad\sniper_squad" />
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\partisan_squads\partisan_squad_maxim_hmg" />
+							<instance_reference name="squad_type_to_monitor" value="sbps\races\german\soldiers\grenadier_squad\grenadier_squad_mp" />
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\partisan_squads\partisan_squad_mg42_hmg" />
+							<instance_reference name="squad_type_to_monitor" value="sbps\races\german\soldiers\mg42_heavy_machine_gun_squad\mg42_heavy_machine_gun_squad_mp" />
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\partisan_squads\partisan_squad_nagant_rifle" />
+							<instance_reference name="squad_type_to_monitor" value="sbps\races\german\soldiers\mortar_team\mortar_team_81mm_mp" />
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\partisan_squads\partisan_squad_pm-82_41_mortar" />
+							<instance_reference name="squad_type_to_monitor" value="sbps\races\german\soldiers\ostruppen_squad\ostruppen_squad_mp" />
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\sniper_team\sniper_team" />
+							<instance_reference name="squad_type_to_monitor" value="sbps\races\german\soldiers\panzer_grenadier_squad\panzer_grenadier_squad_mp" />
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\soviet_officer_squad\soviet_officer_squad" />
+							<instance_reference name="squad_type_to_monitor" value="sbps\races\german\soldiers\pioneer_squad\pioneer_squad_mp" />
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\troops\penal_battalion" />
+							<instance_reference name="squad_type_to_monitor" value="sbps\races\german\soldiers\sniper_squad\sniper_squad_mp" />
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\combat_engineer_squad\combat_engineer_squad_mp" />
+							<instance_reference name="squad_type_to_monitor" value="sbps\races\german\soldiers\grenadier_squad\assault_grenadier_squad_mp" />
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\conscript_squad\conscript_squad_mp" />
+							<instance_reference name="squad_type_to_monitor" value="sbps\races\german\soldiers\stormtrooper_squad\stormtrooper_squad_mp" />
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\m1910_maxim_hmg_squad\m1910_maxim_heavy_machine_gun_squad_mp" />
-							<bool name="trigger_on_squad_death" value="False" />
-						</group>
-						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\mortar_squad\hm-120_38_mortar_squad_mp" />
-							<bool name="trigger_on_squad_death" value="False" />
-						</group>
-						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\mortar_squad\pm-82_41_mortar_squad_mp" />
-							<bool name="trigger_on_squad_death" value="False" />
-						</group>
-						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\partisan_squads\partisan_squad_granatewerfer_34_81mm_mortar_mp" />
-							<bool name="trigger_on_squad_death" value="False" />
-						</group>
-						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\partisan_squads\partisan_squad_kar98k_rifle" />
-							<bool name="trigger_on_squad_death" value="False" />
-						</group>
-						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\partisan_squads\partisan_squad_kar98k_rifle_mp" />
-							<bool name="trigger_on_squad_death" value="False" />
-						</group>
-						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\partisan_squads\partisan_squad_maxim_hmg" />
-							<bool name="trigger_on_squad_death" value="False" />
-						</group>
-						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\partisan_squads\partisan_squad_maxim_hmg_mp" />
-							<bool name="trigger_on_squad_death" value="False" />
-						</group>
-						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\partisan_squads\partisan_squad_mg42_hmg" />
-							<bool name="trigger_on_squad_death" value="False" />
-						</group>
-						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\partisan_squads\partisan_squad_mg42_hmg_mp" />
-							<bool name="trigger_on_squad_death" value="False" />
-						</group>
-						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\partisan_squads\partisan_squad_nagant_rifle" />
-							<bool name="trigger_on_squad_death" value="False" />
-						</group>
-						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\partisan_squads\partisan_squad_nagant_rifle_mp" />
-							<bool name="trigger_on_squad_death" value="False" />
-						</group>
-						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\partisan_squads\partisan_squad_pm-82_41_mortar_mp" />
-							<bool name="trigger_on_squad_death" value="False" />
-						</group>
-						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\sniper_team\sniper_team_mp" />
-							<bool name="trigger_on_squad_death" value="False" />
-						</group>
-						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\soviet_officer_squad\soviet_officer_squad_mp" />
-							<bool name="trigger_on_squad_death" value="False" />
-						</group>
-						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\troops\penal_battalion_mp" />
-							<bool name="trigger_on_squad_death" value="False" />
-						</group>
-						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\troops\guards_troops_mp" />
-							<bool name="trigger_on_squad_death" value="True" />
-						</group>
-						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\troops\shock_troops_mp" />
-							<bool name="trigger_on_squad_death" value="True" />
-						</group>
-						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\dshk_38_hmg_squad\dshk_38_hmg_squad_mp" />
-							<bool name="trigger_on_squad_death" value="True" />
-						</group>
-						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\partisan_commander_squads\partisans_lmg_mp" />
-							<bool name="trigger_on_squad_death" value="False" />
-						</group>
-						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\partisan_commander_squads\partisans_panzerschreck_mp" />
-							<bool name="trigger_on_squad_death" value="False" />
-						</group>
-						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\partisan_commander_squads\partisans_ptrs_mp" />
-							<bool name="trigger_on_squad_death" value="False" />
-						</group>
-						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\partisan_commander_squads\partisans_rifle_mp" />
-							<bool name="trigger_on_squad_death" value="False" />
-						</group>
-						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\partisan_commander_squads\partisans_smg_mp" />
-							<bool name="trigger_on_squad_death" value="False" />
-						</group>
-						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\soviet_officer_squad\commissar_squad_mp" />
-							<bool name="trigger_on_squad_death" value="False" />
-						</group>
-						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\partisan_squads\tow_partisan_squad_lmg_squad" />
+							<instance_reference name="squad_type_to_monitor" value="sbps\races\german\soldiers\officer_squad\assault_officer_squad_mp" />
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 					</list>
-					<instance_reference name="replacement_squad_type" value="sbps\races\soviet\soldiers\conscript_squad\conscript_squad_mp" />
+					<instance_reference name="replacement_squad_type" value="sbps\races\german\soldiers\ostruppen_squad\ostruppen_squad_mp" />
 					<int name="spawn_count" value="1" />
-					<int name="trigger_replace_at_entity_death_count" value="6" />
-					<uniqueid name="id" value="1073743563" />
+					<int name="trigger_replace_at_entity_death_count" value="5" />
+					<uniqueid name="id" value="1073743569" />
 				</template_reference>
 			</list>
 			<list name="start_target_actions">
 			</list>
 		</group>
 		<enum name="activation" value="timed" />
-		<bool name="can_interrupt" value="True" />
+		<bool name="can_interrupt" value="False" />
 		<bool name="can_target_in_fow" value="False" />
 		<float name="caster_close_in_distance" value="2" />
 		<bool name="casters_can_evacuate" value="False" />
@@ -280,12 +180,12 @@
 			<float name="command" value="0" />
 			<float name="fuel" value="0" />
 			<float name="manpower" value="0" />
-			<float name="munition" value="120" />
+			<float name="munition" value="90" />
 			<float name="popcap" value="0" />
 		</group>
 		<string name="cursor_ghost_blueprint" value="" />
 		<float name="cursor_ghost_blueprint_angle" value="0" />
-		<bool name="disable_combat" value="False" />
+		<bool name="disable_combat" value="True" />
 		<bool name="disable_when_active" value="True" />
 		<float name="duration_time" value="70" />
 		<bool name="enable_in_building" value="False" />
@@ -293,7 +193,7 @@
 		<bool name="engage_combat" value="False" />
 		<float name="entity_busy_time" value="0" />
 		<float name="facing_angle" value="5" />
-		<bool name="facing_ignore" value="False" />
+		<bool name="facing_ignore" value="True" />
 		<float name="final_close_in_distance" value="0" />
 		<bool name="fire_and_forget" value="False" />
 		<bool name="garrison_target" value="False" />
@@ -303,10 +203,10 @@
 		<bool name="is_default_action" value="False" />
 		<bool name="move_back" value="False" />
 		<float name="move_back_distance" value="10" />
-		<float name="range" value="0" />
+		<float name="range" value="85" />
 		<bool name="range_ignore" value="False" />
 		<float name="recharge_time" value="180" />
-		<bool name="refundable" value="False" />
+		<bool name="refundable" value="True" />
 		<bool name="require_no_shot_block" value="False" />
 		<enum name="shared_timer" value="" />
 		<bool name="shared_timer_player_wide" value="False" />
@@ -316,7 +216,7 @@
 			<string name="code_3" value="" />
 		</group>
 		<group name="speech_code_3">
-			<string name="code_1" value="rcp" />
+			<string name="code_1" value="rot" />
 			<string name="code_2" value="" />
 			<string name="code_3" value="" />
 		</group>
@@ -334,13 +234,13 @@
 			<string name="cursor_nonmodal_good" value="" />
 		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="9" mod="f2791205c6e743b6a340ef0daf60b957" />
-			<locstring name="help_text" value="11010502" />
+			<locstring name="extra_text" value="8" mod="f2791205c6e743b6a340ef0daf60b957" />
+			<locstring name="help_text" value="11025914" />
 			<string name="hotkey_name" value="" />
-			<icon name="icon_name" value="Icons_commander_cmdr_soviet_rapid_conscription" />
+			<icon name="icon_name" value="Icons_commander_cmdr_german_relief_infantry" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="11010501" />
+			<locstring name="screen_name" value="11025913" />
 			<icon name="icon_alternate_name" value="" />
 			<locstring name="brief_text" value="0" />
 			<locstring name="help_text_alternate" value="0" />
@@ -354,16 +254,16 @@
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_resource">
 				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="11036636" />
+				<locstring name="ui_name" value="11026001" />
 				<template_reference name="resource" value="tables\resource_table">
 					<float name="action" value="0" />
 					<float name="command" value="6" />
 					<float name="fuel" value="0" />
 					<float name="manpower" value="0" />
 					<float name="munition" value="0" />
+					<float name="popcap" value="0" />
 					<float name="soviet_progression" value="0" />
 					<float name="soviet_227" value="0" />
-					<float name="popcap" value="0" />
 				</template_reference>
 			</template_reference>
 			<template_reference name="required" value="requirements\required_player_upgrade">
@@ -372,7 +272,15 @@
 				<bool name="is_present" value="True" />
 				<float name="max_completed" value="100" />
 				<float name="min_completed" value="1" />
-				<instance_reference name="upgrade_name" value="upgrade\soviet\commander\passive\rapid_conscription" />
+				<instance_reference name="upgrade_name" value="upgrade\german\commander\ability\relief_infantry" />
+			</template_reference>
+			<template_reference name="required" value="requirements\required_player_upgrade">
+				<enum name="reason" value="usage" />
+				<locstring name="ui_name" value="11051234" />
+				<bool name="is_present" value="False" />
+				<float name="max_completed" value="100" />
+				<float name="min_completed" value="1" />
+				<instance_reference name="upgrade_name" value="upgrade\theatre_of_war\1942_voronezh_infantry_lock" />
 			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />
@@ -406,7 +314,7 @@
 		<list name="requirements_self_recharge">
 		</list>
 		<bool name="can_cast_outside_active_battle_field" value="False" />
-		<bool name="ability_super_event_cue" value="True" />
+		<bool name="ability_super_event_cue" value="False" />
 	</group>
-	<uniqueid name="pbgid" value="324" />
+	<uniqueid name="pbgid" value="102" />
 </instance>
