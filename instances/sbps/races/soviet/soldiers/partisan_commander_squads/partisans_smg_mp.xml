@@ -7,17 +7,17 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11052789" />
+						<locstring name="extra_text" value="11098251" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11052787" />
+						<locstring name="help_text" value="11052772" />
 						<string name="hotkey_name" value="S" />
-						<icon name="icon_name" value="Icons_units_unit_soviet_partisan_anti_vehicle" />
+						<icon name="icon_name" value="Icons_units_unit_soviet_partisan_anti_infantry" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="False" />
-						<locstring name="screen_name" value="11052781" />
-						<string name="selection_group" value="Partisan AT" />
+						<locstring name="screen_name" value="11052757" />
+						<string name="selection_group" value="Partisan" />
 						<group name="speaker_generic">
 							<string name="code_1" value="" />
 							<string name="code_2" value="" />
@@ -54,7 +54,7 @@
 						<enum name="map_rotation_type_override" value="no_override" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="True" />
-						<icon name="symbol_icon_name" value="Icons_symbols_unit_soviet_partisan_anti_vehicle_symbol" />
+						<icon name="symbol_icon_name" value="Icons_symbols_unit_soviet_partisan_anti_infantry_symbol" />
 						<bool name="speaker_highest_priority" value="False" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
@@ -156,13 +156,13 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_item_slot_ext">
 			<bool name="can_pick_up" value="True" />
-			<float name="num_slots" value="2" />
+			<float name="num_slots" value="1" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext">
 			<list name="unit_list">
 				<group name="loadout_data">
 					<float name="num" value="4" />
-					<instance_reference name="type" value="ebps\races\soviet\soldiers\partisan_commander_troops\partisan_troops_antitank" mod="f2791205c6e743b6a340ef0daf60b957" />
+					<instance_reference name="type" value="ebps\races\soviet\soldiers\partisan_commander_troops\partisan_troops_smg" mod="f2791205c6e743b6a340ef0daf60b957" />
 				</group>
 			</list>
 			<float name="squad_female_chance" value="0" />
@@ -174,24 +174,10 @@
 				<template_reference name="required" value="requirements\required_player_upgrade">
 					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="0" />
-					<bool name="is_present" value="False" />
+					<bool name="is_present" value="True" />
 					<float name="max_completed" value="100" />
 					<float name="min_completed" value="1" />
-					<instance_reference name="upgrade_name" value="upgrade\theatre_of_war\theatre_of_war_1942" />
-				</template_reference>
-				<template_reference name="required" value="requirements\required_resource">
-					<enum name="reason" value="usage" />
-					<locstring name="ui_name" value="11065420" />
-					<template_reference name="resource" value="tables\resource_table">
-						<float name="action" value="0" />
-						<float name="command" value="2" />
-						<float name="fuel" value="0" />
-						<float name="manpower" value="0" />
-						<float name="munition" value="0" />
-						<float name="soviet_progression" value="0" />
-						<float name="soviet_227" value="0" />
-						<float name="popcap" value="0" />
-					</template_reference>
+					<instance_reference name="upgrade_name" value="upgrade\soviet\commander\passive\partisan_commander_troops" />
 				</template_reference>
 			</list>
 		</template_reference>
@@ -202,7 +188,7 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_upgrade_ext">
 			<float name="number_of_slots" value="-1" />
 			<list name="upgrades">
-				<instance_reference name="upgrade" value="upgrade\soviet\items\partisan_panzerschreck_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<instance_reference name="upgrade" value="upgrade\soviet\items\partisan_ppsh-41_sub_machine_gun_upgrade_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_combat_behaviour_ext">
@@ -312,7 +298,7 @@
 								<instance_reference name="tooltip" value="modifier_tooltip\move_enable_modifier" />
 							</template_reference>
 						</list>
-						<uniqueid name="id" value="1073742816" />
+						<uniqueid name="id" value="1073743496" />
 					</template_reference>
 					<template_reference name="action" value="action\delay">
 						<float name="delay" value="10" />
@@ -334,10 +320,10 @@
 										<instance_reference name="tooltip" value="modifier_tooltip\received_accuracy_modifier" />
 									</template_reference>
 								</list>
-								<uniqueid name="id" value="1073742817" />
+								<uniqueid name="id" value="1073743497" />
 							</template_reference>
 						</list>
-						<uniqueid name="id" value="1073742818" />
+						<uniqueid name="id" value="1073743498" />
 						<bool name="can_prevent_refund" value="True" />
 					</template_reference>
 				</list>
@@ -395,13 +381,13 @@
 								<enum name="application_type" value="apply_to_ability" />
 								<bool name="exclusive" value="False" />
 								<string name="modifier_id" value="" />
-								<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\grenades\anti_tank_grenade_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+								<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\grenades\partisan_molotov_cocktail_mp" />
 								<enum name="usage_type" value="multiplication" />
-								<float name="value" value="0.77" />
+								<float name="value" value="0.67" />
 								<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
 							</template_reference>
 						</list>
-						<uniqueid name="id" value="1073742819" />
+						<uniqueid name="id" value="1073743499" />
 					</template_reference>
 				</list>
 			</group>
@@ -479,10 +465,10 @@
 									<instance_reference name="tooltip" value="modifier_tooltip\camouflage_enable" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073742821" />
+							<uniqueid name="id" value="1073743500" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073742822" />
+					<uniqueid name="id" value="1073743501" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -537,7 +523,7 @@
 			<list name="actions">
 				<template_reference name="action" value="action\suppression">
 					<float name="suppression" value="0" />
-					<uniqueid name="id" value="1073742823" />
+					<uniqueid name="id" value="1073743502" />
 					<float name="supressionrecovertime" value="0" />
 				</template_reference>
 			</list>
@@ -664,7 +650,7 @@
 							<instance_reference name="tooltip" value="modifier_tooltip\received_damage_modifier" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073742824" />
+					<uniqueid name="id" value="1073743503" />
 				</template_reference>
 			</list>
 			<list name="construction_groups">
@@ -688,9 +674,6 @@
 				</group>
 			</list>
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_population_ext">
-			<float name="personnel_pop" value="3" />
-		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_veterancy_ext">
 			<list name="race_list">
 				<group name="race_data">
@@ -700,7 +683,7 @@
 						<float name="max_persistent_squads" value="0" />
 						<list name="veterancy_rank_info">
 							<group name="veterancy_rank">
-								<float name="experience_value" value="540" />
+								<float name="experience_value" value="420" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
 								<locstring name="screen_name" value="11050384" />
 								<bool name="single_player_only" value="False" />
@@ -723,16 +706,16 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073742825" />
+										<uniqueid name="id" value="1073743504" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
 								</list>
 							</group>
 							<group name="veterancy_rank">
-								<float name="experience_value" value="1080" />
+								<float name="experience_value" value="840" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11054854" />
+								<locstring name="screen_name" value="11054858" />
 								<bool name="single_player_only" value="False" />
 								<list name="leader_actions">
 								</list>
@@ -743,17 +726,26 @@
 										<float name="duration" value="0" />
 										<bool name="permanent" value="True" />
 										<list name="modifiers">
+											<template_reference name="modifier" value="modifiers\ability_recharge_time_modifier">
+												<enum name="application_type" value="apply_to_ability" />
+												<bool name="exclusive" value="False" />
+												<string name="modifier_id" value="" />
+												<enum name="usage_type" value="multiplication" />
+												<float name="value" value="0.6" />
+												<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
+												<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\grenades\partisan_molotov_cocktail_mp" />
+											</template_reference>
 											<template_reference name="modifier" value="modifiers\received_accuracy_modifier">
 												<enum name="application_type" value="apply_to_squad" />
 												<bool name="exclusive" value="False" />
 												<string name="modifier_id" value="" />
 												<string name="target_type_name" value="" />
 												<enum name="usage_type" value="multiplication" />
-												<float name="value" value="0.8333" />
+												<float name="value" value="0.83" />
 												<instance_reference name="tooltip" value="modifier_tooltip\received_accuracy_modifier" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073742826" />
+										<uniqueid name="id" value="1073743505" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -769,7 +761,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073742827" />
+										<uniqueid name="id" value="1073743506" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
@@ -777,33 +769,24 @@
 										<float name="duration" value="0" />
 										<bool name="permanent" value="True" />
 										<list name="modifiers">
-											<template_reference name="modifier" value="modifiers\weapon_penetration_modifier">
+											<template_reference name="modifier" value="modifiers\cooldown_weapon_modifier">
 												<enum name="application_type" value="apply_to_weapon" />
 												<bool name="exclusive" value="False" />
 												<string name="modifier_id" value="" />
 												<string name="target_type_name" value="hardpoint_01" />
 												<enum name="usage_type" value="multiplication" />
-												<float name="value" value="1.1" />
-												<instance_reference name="tooltip" value="modifier_tooltip\weapon_penetration_modifier" />
-											</template_reference>
-											<template_reference name="modifier" value="modifiers\accuracy_weapon_modifier">
-												<enum name="application_type" value="apply_to_weapon" />
-												<bool name="exclusive" value="False" />
-												<string name="modifier_id" value="" />
-												<string name="target_type_name" value="hardpoint_01" />
-												<enum name="usage_type" value="multiplication" />
-												<float name="value" value="1.3" />
-												<instance_reference name="tooltip" value="modifier_tooltip\accuracy_weapon_modifier" />
+												<float name="value" value="0.75" />
+												<instance_reference name="tooltip" value="modifier_tooltip\cooldown_weapon_modifier" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073742828" />
+										<uniqueid name="id" value="1073743507" />
 									</template_reference>
 								</list>
 							</group>
 							<group name="veterancy_rank">
-								<float name="experience_value" value="2160" />
+								<float name="experience_value" value="1680" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11054855" />
+								<locstring name="screen_name" value="11054859" />
 								<bool name="single_player_only" value="False" />
 								<list name="leader_actions">
 								</list>
@@ -814,23 +797,23 @@
 										<float name="duration" value="0" />
 										<bool name="permanent" value="True" />
 										<list name="modifiers">
-											<template_reference name="modifier" value="modifiers\received_accuracy_modifier">
-												<enum name="application_type" value="apply_to_squad" />
+											<template_reference name="modifier" value="modifiers\ability_max_range_modifier">
+												<enum name="application_type" value="apply_to_ability" />
 												<bool name="exclusive" value="False" />
 												<string name="modifier_id" value="" />
-												<string name="target_type_name" value="" />
+												<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\grenades\partisan_molotov_cocktail_mp" />
 												<enum name="usage_type" value="multiplication" />
-												<float name="value" value="0.77" />
-												<instance_reference name="tooltip" value="modifier_tooltip\received_accuracy_modifier" />
+												<float name="value" value="1.25" />
+												<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073742829" />
+										<uniqueid name="id" value="1073743508" />
 									</template_reference>
 									<template_reference name="action" value="action\upgrade_add">
 										<bool name="apply_to_entities_in_squad" value="False" />
 										<bool name="trigger_publish_event" value="False" />
 										<instance_reference name="upgrade" value="upgrade\max_vet" />
-										<uniqueid name="id" value="1073742830" />
+										<uniqueid name="id" value="1073743509" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -846,7 +829,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073742831" />
+										<uniqueid name="id" value="1073743510" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
@@ -860,20 +843,11 @@
 												<string name="modifier_id" value="" />
 												<string name="target_type_name" value="hardpoint_01" />
 												<enum name="usage_type" value="multiplication" />
-												<float name="value" value="1.1" />
+												<float name="value" value="1.4" />
 												<instance_reference name="tooltip" value="modifier_tooltip\accuracy_weapon_modifier" />
 											</template_reference>
-											<template_reference name="modifier" value="modifiers\reload_weapon_modifier">
-												<enum name="application_type" value="apply_to_weapon" />
-												<bool name="exclusive" value="False" />
-												<string name="modifier_id" value="" />
-												<string name="target_type_name" value="hardpoint_01" />
-												<enum name="usage_type" value="multiplication" />
-												<float name="value" value="0.8" />
-												<instance_reference name="tooltip" value="modifier_tooltip\reload_weapon_modifier" />
-											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073742832" />
+										<uniqueid name="id" value="1073743511" />
 									</template_reference>
 								</list>
 							</group>
@@ -885,13 +859,16 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_type_ext">
 			<list name="squad_type_list">
-				<enum name="squad_type" value="" />
+				<enum name="squad_type" value="partisan_smg" />
 				<enum name="squad_type" value="infantry" />
 				<enum name="squad_type" value="tank_detection" />
 				<enum name="squad_type" value="rapid_conscription" />
 				<enum name="squad_type" value="mobile_infantry" />
-				<enum name="squad_type" value="partisan_AT" />
+				<enum name="squad_type" value="" />
 			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_population_ext">
+			<float name="personnel_pop" value="2" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_shared_veterancy_ext">
 			<float name="multiplier_pct_self" value="1" />
@@ -900,5 +877,5 @@
 			<enum name="shared_veterancy_type" value="tp_commonwealth_infantry" />
 		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="2228" />
+	<uniqueid name="pbgid" value="2231" />
 </instance>

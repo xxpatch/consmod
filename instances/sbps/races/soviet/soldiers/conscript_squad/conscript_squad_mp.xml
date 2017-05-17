@@ -629,7 +629,7 @@
 												<enum name="usage_type" value="multiplication" />
 												<float name="value" value="0.75" />
 												<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
-												<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\grenades\anti_tank_grenade_mp" />
+												<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\grenades\anti_tank_grenade_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 											</template_reference>
 											<template_reference name="modifier" value="modifiers\received_accuracy_modifier">
 												<enum name="application_type" value="apply_to_squad" />
@@ -687,7 +687,7 @@
 												<enum name="usage_type" value="multiplication" />
 												<float name="value" value="0.75" />
 												<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
-												<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\grenades\anti_tank_grenade_mp" />
+												<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\grenades\anti_tank_grenade_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 											</template_reference>
 											<template_reference name="modifier" value="modifiers\accuracy_weapon_modifier">
 												<enum name="application_type" value="apply_to_weapon" />
@@ -717,7 +717,7 @@
 				<instance_reference name="ability" value="abilities\soviet\modal_ability\repair_ability\soviet_conscript_repair_ability_mp" />
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
 				<instance_reference name="ability" value="abilities\soviet\modal_ability\fieldcraft_trip_flare_mp" />
-				<instance_reference name="ability" value="abilities\soviet\modal_ability\grenades\anti_tank_grenade_mp" />
+				<instance_reference name="ability" value="abilities\soviet\modal_ability\grenades\anti_tank_grenade_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>
