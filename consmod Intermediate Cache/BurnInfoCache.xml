@@ -58,6 +58,10 @@
 			<FileHash>10544bf4f23a42e7dbe5a00d26db1912</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\commander_ability\passive_ability\tank_traps.xml</FileName>
+			<FileHash>11862502eaa2405726241e1cbd428dd2</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\grenades\anti_tank_grenade_mp.xml</FileName>
 			<FileHash>6d8acb1976c9782368a6d6a694bc6a51</FileHash>
 		</BurnInfo>
@@ -174,6 +178,10 @@
 			<FileHash>255803cbfdf8f63dd2a5c17efe11f7db</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\buildings\defensive_structure\slit_trench_german_mp.xml</FileName>
+			<FileHash>d2d80e03b4743c534f4e8c076bebd0fb</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\soldiers\ostruppen_soldier\ostruppen_soldier_mp.xml</FileName>
 			<FileHash>9bb796e81567c3d9042cbbec2ed0bd2f</FileHash>
 		</BurnInfo>
@@ -200,6 +208,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\tiger_sdkfz_181\tiger_sdkfz_181_mp.xml</FileName>
 			<FileHash>5aabf3f90cae9f5a6d4474c73aab8ff0</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\buildings\defensive_structures\tanktrap.xml</FileName>
+			<FileHash>00301dd838ad989cf595a291c1b860f8</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\soldiers\commander_troops\shock_troops_mp.xml</FileName>
@@ -339,15 +351,15 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\soldiers\ostruppen_squad\ostruppen_squad_reserves_mp.xml</FileName>
-			<FileHash>6172541b6ab8329e635a41028bdbf8a0</FileHash>
+			<FileHash>96e4b1c5b9b44e77d9ba2996466e2363</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\soldiers\panzer_grenadier_squad\panzer_grenadier_squad_mp.xml</FileName>
-			<FileHash>512ac9cb634a96b6e861aea52b7bc4e1</FileHash>
+			<FileHash>670b06ce973e3d985f46bbaa42161a7e</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\soldiers\stormtrooper_squad\stormtrooper_squad_mp.xml</FileName>
-			<FileHash>0f18ee46ba103054abab64381685dac5</FileHash>
+			<FileHash>becdf3c6ba905c3759c44f1bcc3f17f7</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\at_gun_squad\pak40_75mm_at_gun_squad_mp.xml</FileName>
@@ -407,7 +419,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp.xml</FileName>
-			<FileHash>5cfcaffb236f6e736c6664dbe9dd2fcb</FileHash>
+			<FileHash>52100858971224be072dcb7ac8c85da5</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\west_german\soldiers\fallschirmjager_squad\fallschirmjager_squad_mp.xml</FileName>
@@ -419,7 +431,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\west_german\soldiers\jaeger_light_infantry_squad\jaeger_light_infantry_recon_squad_mp.xml</FileName>
-			<FileHash>ba291b016feb9d5aa2ef5122ced644ac</FileHash>
+			<FileHash>22a30bfcf7b7e853ddfc92558e38e91b</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\west_german\soldiers\obersoldaten\obersoldaten_squad_mp.xml</FileName>
