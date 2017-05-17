@@ -10,6 +10,14 @@
 			<FileHash>341ba84c65bc83b46742704261b44db3</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\accessory_weapons\grenadier_rifle_grenade_ability_mp.xml</FileName>
+			<FileHash>9481138e318ef2347838fd7b163ff39c</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\blinding_grenade.xml</FileName>
+			<FileHash>54fc9da0fbba4ed11c1c8109542c4f94</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\panzer_defensive_smoke.xml</FileName>
 			<FileHash>0dcac648e148e0a403f6e5e46ffac5a9</FileHash>
 		</BurnInfo>
@@ -24,6 +32,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\dispatch\ostruppen_reserves.xml</FileName>
 			<FileHash>930d6f40c676240a48816d2317cfe571</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\grenades\panzer_grenadier_bundled_grenade_mp.xml</FileName>
+			<FileHash>212bf5f4874a3f2d4e2ec94b0bbac2ed</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\commander_ability\relief_infantry.xml</FileName>
@@ -159,11 +171,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\soldiers\panzer_grenadiers\panzer_grenadiers_mp.xml</FileName>
-			<FileHash>29a0644a43f7c001d72bd214c45e58c0</FileHash>
+			<FileHash>a3d12d2072fa9949507a332052f07acb</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\soldiers\stormtroopers\stormtroopers_mp.xml</FileName>
-			<FileHash>6838de310d725ade108ed410381f2d25</FileHash>
+			<FileHash>7ba9fd7951105f0d79f52251d6d86dfa</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\team_weapons\at_gun\pak40_75mm_at_gun_mp.xml</FileName>
@@ -323,11 +335,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\soldiers\panzer_grenadier_squad\panzer_grenadier_squad_mp.xml</FileName>
-			<FileHash>363a3b3e313555cb0b08de7bd5542eab</FileHash>
+			<FileHash>e5607221d2f8c7b702e0ba6615f6197e</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\soldiers\stormtrooper_squad\stormtrooper_squad_mp.xml</FileName>
-			<FileHash>8338a7b4e068a2e9b805ddd020527054</FileHash>
+			<FileHash>22f030b648ce48c3600e58e8dd1ef64b</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\at_gun_squad\pak40_75mm_at_gun_squad_mp.xml</FileName>
@@ -536,6 +548,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\tiger_kwk36_88mm_mp.xml</FileName>
 			<FileHash>8440250af46274409190a07c73780059</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\explosive_weapons\grenade\bk_2h_frangible_blinding_grenade.xml</FileName>
+			<FileHash>0c8e54ea2cf6afc135bbcfad097d1bfc</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\explosive_weapons\light_artillery\panzerwerfer_rockets_mp.xml</FileName>
