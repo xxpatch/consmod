@@ -66,6 +66,10 @@
 			<FileHash>7d655c019e692375e712602ed7eb318c</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\projectile\flak_37mm_stuka_shell_mp.xml</FileName>
+			<FileHash>c5e58131b4c105001a1503b2d7628dad</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\projectile\panzerwerfer_rocket_mp.xml</FileName>
 			<FileHash>4d99c0954058cec0a9ac38a8c89fcebe</FileHash>
 		</BurnInfo>
@@ -520,6 +524,14 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\explosive_weapons\light_artillery\panzerwerfer_rockets_mp.xml</FileName>
 			<FileHash>9df97af35058547d93ad23fa4fc05fb4</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\explosive_weapons\light_artillery\stuka_37mm_cannon_left_mp.xml</FileName>
+			<FileHash>a6a93ac368589d876528b71e92f19189</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\explosive_weapons\light_artillery\stuka_37mm_cannon_right_mp.xml</FileName>
+			<FileHash>5eeb721307bbc407946350aa4734c489</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\small_arms\machine_gun\light_machine_gun\mg42_turret_mounted_stugiv_mp.xml</FileName>
