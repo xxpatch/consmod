@@ -56,15 +56,6 @@
 								<float name="value" value="-1" />
 								<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
 							</template_reference>
-							<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
-								<enum name="application_type" value="apply_to_weapon" />
-								<bool name="exclusive" value="False" />
-								<string name="modifier_id" value="" />
-								<string name="target_type_name" value="hardpoint_04" />
-								<enum name="usage_type" value="enable" />
-								<float name="value" value="-1" />
-								<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
-							</template_reference>
 							<template_reference name="modifier" value="modifiers\speed_maximum_modifier">
 								<enum name="application_type" value="apply_to_entity" />
 								<bool name="exclusive" value="False" />
@@ -74,8 +65,17 @@
 								<float name="value" value="0.5" />
 								<instance_reference name="tooltip" value="modifier_tooltip\speed_maximum_modifier" />
 							</template_reference>
+							<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
+								<enum name="application_type" value="apply_to_weapon" />
+								<bool name="exclusive" value="False" />
+								<string name="modifier_id" value="" />
+								<string name="target_type_name" value="hardpoint_04" />
+								<enum name="usage_type" value="enable" />
+								<float name="value" value="-1" />
+								<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
+							</template_reference>
 						</list>
-						<uniqueid name="id" value="1073743352" />
+						<uniqueid name="id" value="1073743632" />
 					</template_reference>
 					<template_reference name="action" value="action\timed_action">
 						<float name="duration" value="5" />
@@ -87,13 +87,13 @@
 								<bool name="retrigger" value="False" />
 								<string name="state_machine_name" value="ability_stuncritical_state" />
 								<string name="undo_action_state_name" value="off" />
-								<uniqueid name="id" value="1073743353" />
+								<uniqueid name="id" value="1073743633" />
 							</template_reference>
 						</list>
-						<uniqueid name="id" value="1073743354" />
+						<uniqueid name="id" value="1073743634" />
 					</template_reference>
 				</list>
-				<uniqueid name="id" value="1073743355" />
+				<uniqueid name="id" value="1073743635" />
 				<bool name="can_prevent_refund" value="True" />
 			</template_reference>
 		</list>
@@ -154,5 +154,5 @@
 		</template_reference>
 		<bool name="repairable" value="False" />
 	</group>
-	<uniqueid name="pbgid" value="57" />
+	<uniqueid name="pbgid" value="1073741823" />
 </instance>
