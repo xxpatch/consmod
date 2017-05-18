@@ -323,11 +323,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\brummbar_sturmpanzer_iv_sdkfz_166\brummbar_sturmpanzer_iv_sdkfz_166_mp.xml</FileName>
-			<FileHash>3b9cb50e2e873ddadc6ad39c585d43de</FileHash>
+			<FileHash>0fe2e8f3032911c914550d4105b09e45</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\elefant_sdkfz_184\elefant_sdkfz_184_mp.xml</FileName>
-			<FileHash>ff530afa7356ef4a9269701f9587e339</FileHash>
+			<FileHash>adf7af7f3934575f16a233f5a73ecdca</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\halftrack_sdkfz_251\halftrack_sdkfz_251_mp.xml</FileName>
@@ -372,6 +372,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\puma\puma_east_german.xml</FileName>
 			<FileHash>9d411f0e86b9796a58038c908699c3a4</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\stug_iii_sdkfz_141_1\stug_iii_e_sdkfz_141_1_commander_mp.xml</FileName>
+			<FileHash>1dbb539bb851f674fea189ea62f1eff1</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\stug_iii_sdkfz_141_1\stug_iii_g_sdkfz_141_1_mp.xml</FileName>
@@ -647,7 +651,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\stug_iii_squad\stug_iii_e_commander_squad_mp.xml</FileName>
-			<FileHash>0a80e017b48ec157adbd8f945f7496a6</FileHash>
+			<FileHash>aceb1289efb2cd0db102030da310ebe1</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\stug_iii_squad\stug_iii_e_squad_mp.xml</FileName>
@@ -947,7 +951,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\stug_75mm_mp.xml</FileName>
-			<FileHash>bceb1c76cb55378ab9e8480c49a1d341</FileHash>
+			<FileHash>4e6fdd0873cb86715bb7c0df8e9f7298</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\stug_critical_shot_mp.xml</FileName>
