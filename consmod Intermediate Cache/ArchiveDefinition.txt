@@ -77,6 +77,7 @@ TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\ebps\races\soviet\team_weapons\soviet_at_guns\m1942_76mm_divisional_gun_zis-3_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\ebps\races\soviet\team_weapons\soviet_field_artillery\m1931_203mm_b-4_howitzer_artillery_commander_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\ebps\races\soviet\vehicles\is-2_heavy_tank\is-2_heavy_tank_mp.rgd
+	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\ebps\races\soviet\vehicles\m3a1_scout_car\m3a1_scout_car_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\ebps\races\soviet\vehicles\m5_halftrack\m5_halftrack_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\ebps\races\soviet\vehicles\su_85\su_85_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\ebps\races\soviet\vehicles\t_34\t_34_76_mp.rgd
@@ -120,6 +121,7 @@ TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\sbps\races\soviet\soldiers\troops\guards_troops_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\sbps\races\soviet\soldiers\troops\penal_battalion_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\sbps\races\soviet\soldiers\troops\shock_troops_mp.rgd
+	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\sbps\races\soviet\vehicles\m3a1_scout_car_squad\m3a1_scout_car_squad_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\sbps\races\soviet\vehicles\soviet_at_gun_squads\m1937_53-k_45mm_at_gun_squad_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\sbps\races\soviet\vehicles\soviet_at_gun_squads\m1942_zis-3_76mm_at_gun_squad_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp.rgd

@@ -302,6 +302,10 @@
 			<FileHash>9247c3bc4a68035dad0bcf306b2776ee</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\vehicles\m3a1_scout_car\m3a1_scout_car_mp.xml</FileName>
+			<FileHash>2acb39a04593c8e390e8875dd8ef32c7</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\vehicles\m5_halftrack\m5_halftrack_mp.xml</FileName>
 			<FileHash>f133d7c014d81d66fa9cd3d382d38b29</FileHash>
 		</BurnInfo>
@@ -472,6 +476,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\troops\shock_troops_mp.xml</FileName>
 			<FileHash>ccad3c1147c726f8120d27436b32afe7</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\vehicles\m3a1_scout_car_squad\m3a1_scout_car_squad_mp.xml</FileName>
+			<FileHash>be212a0c85fdc5ac9b960cd86ab7d2d2</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\vehicles\soviet_at_gun_squads\m1937_53-k_45mm_at_gun_squad_mp.xml</FileName>
