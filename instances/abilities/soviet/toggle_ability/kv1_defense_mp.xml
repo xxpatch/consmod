@@ -12,7 +12,7 @@
 							<bool name="die_with_creator" value="True" />
 							<template_reference name="ui_info" value="tables\ui_info">
 								<locstring name="screen_name" value="11046829" />
-								<locstring name="help_text" value="66" mod="a0826357b7334b76b790ad100f047c6c" />
+								<locstring name="help_text" value="13" mod="f2791205c6e743b6a340ef0daf60b957" />
 								<icon name="icon_name" value="Icons_abilities_ability_raid" />
 								<string name="hotkey_name" value="" />
 							</template_reference>
