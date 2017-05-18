@@ -222,6 +222,10 @@
 			<FileHash>00301dd838ad989cf595a291c1b860f8</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\soldiers\commander_troops\guard_troops_assault_mp.xml</FileName>
+			<FileHash>2d4e2191e30f91f6221f6ae1afdab093</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\soldiers\commander_troops\shock_troops_mp.xml</FileName>
 			<FileHash>d68a0741299e2db55439857541726df0</FileHash>
 		</BurnInfo>
@@ -406,6 +410,10 @@
 			<FileHash>32d2a00da4c63d5fbe41e241221297e2</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\troops\guards_troops_assault_mp.xml</FileName>
+			<FileHash>748dcf218cb3ebd770338243d51eca94</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\troops\guards_troops_mp.xml</FileName>
 			<FileHash>834e139491003f5d07eb0375c696554a</FileHash>
 		</BurnInfo>
@@ -516,6 +524,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\research\battle_phase_4_mp.xml</FileName>
 			<FileHash>79c280442328c48e9478580c0d147ca7</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\soviet\items\guards_thompson_sub_machine_gun_upgrade_mp.xml</FileName>
+			<FileHash>3a4d69d7ed60aee25ad0d1e173a47371</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\soviet\items\guard_dp-28_lmg_package_1_mp.xml</FileName>
