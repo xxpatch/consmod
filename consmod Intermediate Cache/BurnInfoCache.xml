@@ -14,6 +14,10 @@
 			<FileHash>9481138e318ef2347838fd7b163ff39c</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\air_dropped_munitions.xml</FileName>
+			<FileHash>5a4cda854e393d93ef235cac07adcf2c</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\blinding_grenade.xml</FileName>
 			<FileHash>54fc9da0fbba4ed11c1c8109542c4f94</FileHash>
 		</BurnInfo>
@@ -52,6 +56,14 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\artillery\artillery_barrage_ability\at_76mm_he_barrage_ability_mp.xml</FileName>
 			<FileHash>207ee5ea580f11b8e8939d79a5ff79a2</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\artillery\artillery_barrage_ability\b4_203mm_barrage_commander_mp.xml</FileName>
+			<FileHash>5875f453ce55b06cdcd1f554463936ec</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\artillery\artillery_barrage_ability\b4_203mm_barrage_commander_vet3_mp.xml</FileName>
+			<FileHash>7dcf11b44af9eab16d3fe23d64c7e983</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\commander_ability\forward_hq.xml</FileName>
@@ -218,6 +230,14 @@
 			<FileHash>dbf4641316e466945857e50f9766be55</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\stuka_aircraft\cargo_plane_fuel.xml</FileName>
+			<FileHash>68d3232f3895da919abd68beb7b7327c</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\stuka_aircraft\cargo_plane_munitions.xml</FileName>
+			<FileHash>34c8a8c1324d682c17b3df4f62b37bbe</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\tiger_sdkfz_181\tiger_sdkfz_181_mp.xml</FileName>
 			<FileHash>5aabf3f90cae9f5a6d4474c73aab8ff0</FileHash>
 		</BurnInfo>
@@ -256,6 +276,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\team_weapons\soviet_at_guns\m1942_76mm_divisional_gun_zis-3_mp.xml</FileName>
 			<FileHash>5807b445f79245893b84cb3a7573c5c3</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\team_weapons\soviet_field_artillery\m1931_203mm_b-4_howitzer_artillery_commander_mp.xml</FileName>
+			<FileHash>15bc0fe7b08655dcaf5e76d183c2520a</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\vehicles\is-2_heavy_tank\is-2_heavy_tank_mp.xml</FileName>
@@ -680,6 +704,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\grenade\rg_42_mp.xml</FileName>
 			<FileHash>461f019a89b39f2757e3900b463e9582</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\heavy_artillery\203mm_b-4_commander_mp.xml</FileName>
+			<FileHash>83925db3e3f20ff35a5f420d781b819f</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\light_artillery\su76_zis-3sh_gun_barrage_mp.xml</FileName>
