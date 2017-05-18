@@ -298,7 +298,7 @@
 						<bool name="is_present" value="True" />
 						<float name="max_completed" value="100" />
 						<float name="min_completed" value="1" />
-						<instance_reference name="upgrade_name" value="upgrade\soviet\commander\passive\anti_tank_gun_ambush_tactics" />
+						<instance_reference name="upgrade_name" value="upgrade\soviet\commander\passive\anti_tank_gun_ambush_tactics" mod="f2791205c6e743b6a340ef0daf60b957" />
 					</template_reference>
 					<template_reference name="requirement" value="requirements\required_unit_type">
 						<enum name="reason" value="usage_and_display" />

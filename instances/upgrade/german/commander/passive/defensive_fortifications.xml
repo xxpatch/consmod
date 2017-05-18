@@ -29,13 +29,13 @@
 		<bool name="ui_event_cue" value="True" />
 		<enum name="ui_group" value="command_panel" />
 		<group name="ui_info">
-			<locstring name="extra_text" value="11039032" />
-			<locstring name="help_text" value="11050201" />
+			<locstring name="extra_text" value="0" />
+			<locstring name="help_text" value="11052539" />
 			<string name="hotkey_name" value="" />
-			<icon name="icon_name" value="Icons_commander_cmdr_german_field_officer_group" />
+			<icon name="icon_name" value="Icons_buildings_building_german_tank_traps" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="11032107" />
-			<locstring name="brief_text" value="11050201" />
+			<locstring name="screen_name" value="11052538" />
+			<locstring name="brief_text" value="0" />
 			<locstring name="screen_name_short" value="0" />
 			<enum name="ui_style" value="default" />
 		</group>
@@ -56,5 +56,5 @@
 		<list name="on_begin_actions">
 		</list>
 	</group>
-	<uniqueid name="pbgid" value="72" />
+	<uniqueid name="pbgid" value="1946" />
 </instance>
