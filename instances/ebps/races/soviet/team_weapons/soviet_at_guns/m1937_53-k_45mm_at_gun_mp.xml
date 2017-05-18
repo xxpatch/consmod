@@ -125,7 +125,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\population_ext">
 			<float name="medic_pop" value="0" />
-			<float name="personnel_pop" value="0" />
+			<float name="personnel_pop" value="-1" />
 			<float name="vehicle_pop" value="0" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\sight_ext">
@@ -283,7 +283,7 @@
 								<float name="z" value="-0.65" />
 							</group>
 							<enum name="type" value="squad" />
-							<instance_reference name="weapon" value="weapon\soviet\ballistic_weapon\anti_tank_gun\53k_45mm_m1937_at_gun_mp" />
+							<instance_reference name="weapon" value="weapon\soviet\ballistic_weapon\anti_tank_gun\53k_45mm_m1937_at_gun_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
