@@ -83,7 +83,7 @@
 					</template_reference>
 				</template_reference>
 				<template_reference name="action" value="action\garrison_squad_action">
-					<instance_reference name="squad_blueprint" value="sbps\races\german\soldiers\grenadier_squad\grenadier_squad_mg42lmg_mp" />
+					<instance_reference name="squad_blueprint" value="sbps\races\german\soldiers\grenadier_squad\grenadier_squad_mg42lmg_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 					<uniqueid name="id" value="1073743884" />
 				</template_reference>
 			</list>

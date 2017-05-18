@@ -23,7 +23,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\blinding_grenade.xml</FileName>
-			<FileHash>54fc9da0fbba4ed11c1c8109542c4f94</FileHash>
+			<FileHash>afcce49c5de2e4f9086de6fb933e6007</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\officer_smoke_artillery.xml</FileName>
@@ -51,7 +51,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\grenades\panzer_grenadier_bundled_grenade_mp.xml</FileName>
-			<FileHash>212bf5f4874a3f2d4e2ec94b0bbac2ed</FileHash>
+			<FileHash>64bc9b168b24aea815ad89206d27b940</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\commander_ability\relief_infantry.xml</FileName>
@@ -95,7 +95,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\grenades\anti_tank_grenade_mp.xml</FileName>
-			<FileHash>6d8acb1976c9782368a6d6a694bc6a51</FileHash>
+			<FileHash>8ca25607093a70fec9720caabb175a4d</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\grenades\conscript_molotov_cocktail_mp.xml</FileName>
@@ -106,8 +106,12 @@
 			<FileHash>32a0c0377da9bdf76d753886f4b0f97f</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\grenades\partisan_molotov_cocktail_mp.xml</FileName>
+			<FileHash>e1efbb7705ab79f22796e43993851f84</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\grenades\rgd_33_partisan_grenade_mp.xml</FileName>
-			<FileHash>1c925bd0eee5d59fc6453f27b61c4b72</FileHash>
+			<FileHash>2f6f679c7bd86d5ad1608321a3b92733</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\grenades\satchel_charge_throw_ability_homing_mp.xml</FileName>
@@ -251,7 +255,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\light_halftrack_250\mechanized_250_halftrack_grenadier_mp.xml</FileName>
-			<FileHash>50921624117e35b36b3f4cbf2202f27b</FileHash>
+			<FileHash>689c6f10d49ebf3e7eac6cb00a4c330c</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\light_halftrack_250\mechanized_250_halftrack_mp.xml</FileName>
@@ -295,7 +299,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\soldiers\partisan_commander_troops\partisan_troops_smg.xml</FileName>
-			<FileHash>eef1279917c90adb20b53eb081706103</FileHash>
+			<FileHash>f90180d7d3515513028b171b0a019ba4</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\team_weapons\hm-120_38_mortar_mp.xml</FileName>
@@ -422,6 +426,10 @@
 			<FileHash>e5f3a07ab1b179647f124ef8eaf24435</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\soldiers\grenadier_squad\grenadier_squad_mg42lmg_mp.xml</FileName>
+			<FileHash>665075a68a92b5f16e310726f3a1c38e</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\soldiers\mg42_heavy_machine_gun_squad\mg42_heavy_machine_gun_squad_mp.xml</FileName>
 			<FileHash>544120ae7a6538603bd38d5946df4ce7</FileHash>
 		</BurnInfo>
@@ -443,7 +451,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\soldiers\stormtrooper_squad\stormtrooper_squad_mp.xml</FileName>
-			<FileHash>becdf3c6ba905c3759c44f1bcc3f17f7</FileHash>
+			<FileHash>5dafdd40978cd564e62426cba246f949</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\at_gun_squad\pak40_75mm_at_gun_squad_mp.xml</FileName>
@@ -479,11 +487,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\partisan_commander_squads\partisans_panzerschreck_mp.xml</FileName>
-			<FileHash>4f9287f3e1d499c216e8efef59c8ea76</FileHash>
+			<FileHash>a304f6216da253575a889eb7e3f3b051</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\partisan_commander_squads\partisans_smg_mp.xml</FileName>
-			<FileHash>32d2a00da4c63d5fbe41e241221297e2</FileHash>
+			<FileHash>4d9cf968692d4bc68bc214799a1c3e48</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\troops\guards_troops_assault_mp.xml</FileName>
@@ -587,11 +595,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\commander\ability\light_infantry_panzergren_package.xml</FileName>
-			<FileHash>1805c7a442c6e697e1d90175ab3cb4b5</FileHash>
+			<FileHash>e3dbb40b3baf648621bbbce7429255c9</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\commander\ability\light_infantry_stormtrooper_package.xml</FileName>
-			<FileHash>7ba351ffeeb05b4ae3379a710f8c1a4d</FileHash>
+			<FileHash>fe67c0ecc8bef14636a3050fce6db3cf</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\items\stormtrooper_assault_package_mp.xml</FileName>
