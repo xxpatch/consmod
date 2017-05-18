@@ -18,8 +18,16 @@
 			<FileHash>5a4cda854e393d93ef235cac07adcf2c</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\assault_field_officer.xml</FileName>
+			<FileHash>82ab088d67e6b17df08ba1dcf4ef5c95</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\blinding_grenade.xml</FileName>
 			<FileHash>54fc9da0fbba4ed11c1c8109542c4f94</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\officer_smoke_artillery.xml</FileName>
+			<FileHash>cfb25b42636a1b19a09259c7e6a0ad92</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\panzer_defensive_smoke.xml</FileName>
@@ -47,7 +55,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\commander_ability\relief_infantry.xml</FileName>
-			<FileHash>2b24622a5aebe2eef9f07947169f4a5e</FileHash>
+			<FileHash>2927ff4016fbff25603715f36a875174</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\mortar_fire_flares_ability_mp.xml</FileName>
@@ -208,6 +216,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\buildings\defensive_structure\slit_trench_german_mp.xml</FileName>
 			<FileHash>d2d80e03b4743c534f4e8c076bebd0fb</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\soldiers\officer\assault_officer_grenadiers_bodyguard_mp.xml</FileName>
+			<FileHash>275ee284ff21657b5489e82f1918535b</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\soldiers\ostruppen_soldier\ostruppen_soldier_mp.xml</FileName>
@@ -394,6 +406,10 @@
 			<FileHash>a84314574dc25a8b6d49d1a908d75210</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\soldiers\officer_squad\assault_officer_squad_mp.xml</FileName>
+			<FileHash>ddaa5194fc8c9ae5dbb645808ec2a296</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\soldiers\ostruppen_squad\ostruppen_squad_reserves_mp.xml</FileName>
 			<FileHash>96e4b1c5b9b44e77d9ba2996466e2363</FileHash>
 		</BurnInfo>
@@ -475,7 +491,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\west_german\soldiers\field_officer_squad\terror_officer_squad_mp.xml</FileName>
-			<FileHash>bc15fd00658abaafb3ff504125ab5680</FileHash>
+			<FileHash>7ecaf9b8e82e43e877b3092db429fe8d</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\west_german\soldiers\jaeger_light_infantry_squad\jaeger_light_infantry_recon_squad_mp.xml</FileName>
@@ -532,6 +548,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\squad_formations\3man_wedge.xml</FileName>
 			<FileHash>f36a04b21bd1884d47df1c3fc30436c7</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\commander\ability\assault_field_officer.xml</FileName>
+			<FileHash>292690eef52212251f5a026107c97800</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\commander\ability\light_infantry_panzergren_package.xml</FileName>
