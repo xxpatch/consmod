@@ -86,6 +86,10 @@
 			<FileHash>4061211e3f52b467e9943503e6588c40</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\su76_su85_zis3_53k_isu152_infantry_tracking_mp.xml</FileName>
+			<FileHash>b3fda2de7dd91bfae80c4d6db2906cce</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\commander_ability\for_mother_russia_ability.xml</FileName>
 			<FileHash>b5e720a1367e89ba7154a240e62671e0</FileHash>
 		</BurnInfo>
@@ -427,11 +431,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\vehicles\soviet_at_gun_squads\m1937_53-k_45mm_at_gun_squad_mp.xml</FileName>
-			<FileHash>3b2744c84eb9eda43a72a6db0141428d</FileHash>
+			<FileHash>ecefab7db20c3e353d7a9b3be7b5bf26</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\vehicles\soviet_at_gun_squads\m1942_zis-3_76mm_at_gun_squad_mp.xml</FileName>
-			<FileHash>af3fc98fd942e992b4a7e36496c3ebff</FileHash>
+			<FileHash>20691dba93b533b758eee5649ef5684e</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp.xml</FileName>
