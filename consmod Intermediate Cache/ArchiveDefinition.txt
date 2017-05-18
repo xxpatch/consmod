@@ -134,6 +134,9 @@ TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\german\items\stug_top_gunner_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\german\research\battle_phase_3_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\german\research\battle_phase_4_mp.rgd
+	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\soviet\items\engineer_flamethrower_mp.rgd
+	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\soviet\items\engineer_minesweeper_mp.rgd
+	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\soviet\items\engineer_salvage_kit.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\soviet\items\guards_thompson_sub_machine_gun_upgrade_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\soviet\items\guard_dp-28_lmg_package_1_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\soviet\items\guard_dp-28_lmg_package_2_mp.rgd
