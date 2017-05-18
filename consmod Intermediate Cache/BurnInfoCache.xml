@@ -94,6 +94,10 @@
 			<FileHash>1c925bd0eee5d59fc6453f27b61c4b72</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\grenades\satchel_charge_throw_ability_homing_mp.xml</FileName>
+			<FileHash>ca7114fb951db13266c08e874e60ac93</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\conscript_oorah_mp.xml</FileName>
 			<FileHash>4061211e3f52b467e9943503e6588c40</FileHash>
 		</BurnInfo>
@@ -447,7 +451,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\troops\penal_battalion_mp.xml</FileName>
-			<FileHash>6e029ba691bc554f295f3f2c86df24d1</FileHash>
+			<FileHash>b8b4f1680e264e3084fd31756e6b58cc</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\troops\shock_troops_mp.xml</FileName>
@@ -662,8 +666,16 @@
 			<FileHash>a6a93ac368589d876528b71e92f19189</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\explosive_weapons\light_artillery\stuka_37mm_cannon_left_superiority_mp.xml</FileName>
+			<FileHash>3373260a69dfb5cc473474980e25d309</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\explosive_weapons\light_artillery\stuka_37mm_cannon_right_mp.xml</FileName>
 			<FileHash>5eeb721307bbc407946350aa4734c489</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\explosive_weapons\light_artillery\stuka_37mm_cannon_right_superiority_mp.xml</FileName>
+			<FileHash>2761a122f102ff551fc471ed65430407</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\small_arms\machine_gun\light_machine_gun\mg42_turret_mounted_stugiv_mp.xml</FileName>
@@ -739,7 +751,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\locale\english\english.ucs</FileName>
-			<FileHash>2dbc423e28dfef25de8d966b9bc593a9</FileHash>
+			<FileHash>1986176a142b186a184ecef22242eef3</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\info\f2791205c6e743b6a340ef0daf60b957.info</FileName>

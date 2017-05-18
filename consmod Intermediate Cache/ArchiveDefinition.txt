@@ -25,6 +25,7 @@ TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\abilities\soviet\modal_ability\grenades\conscript_molotov_cocktail_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\abilities\soviet\modal_ability\grenades\guards_throw_defensive_grenade_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\abilities\soviet\modal_ability\grenades\rgd_33_partisan_grenade_mp.rgd
+	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\abilities\soviet\modal_ability\grenades\satchel_charge_throw_ability_homing_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\abilities\soviet\timed_ability\conscript_oorah_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\abilities\soviet\timed_ability\su76_su85_zis3_53k_isu152_infantry_tracking_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\abilities\soviet\timed_ability\commander_ability\for_mother_russia_ability.rgd
@@ -167,7 +168,9 @@ TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\weapon\axis\explosive_weapons\grenade\bk_2h_frangible_blinding_grenade.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\weapon\axis\explosive_weapons\light_artillery\panzerwerfer_rockets_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\weapon\axis\explosive_weapons\light_artillery\stuka_37mm_cannon_left_mp.rgd
+	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\weapon\axis\explosive_weapons\light_artillery\stuka_37mm_cannon_left_superiority_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\weapon\axis\explosive_weapons\light_artillery\stuka_37mm_cannon_right_mp.rgd
+	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\weapon\axis\explosive_weapons\light_artillery\stuka_37mm_cannon_right_superiority_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\weapon\axis\small_arms\machine_gun\light_machine_gun\mg42_turret_mounted_stugiv_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\weapon\british\ballistic_weapon\infantry_anti_tank_weapon\piat_launcher_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\weapon\soviet\ballistic_weapon\anti_tank_gun\53k_45mm_m1937_at_gun_mp.rgd

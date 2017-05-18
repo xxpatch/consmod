@@ -382,7 +382,7 @@
 								<enum name="application_type" value="apply_to_ability" />
 								<bool name="exclusive" value="False" />
 								<string name="modifier_id" value="" />
-								<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\grenades\satchel_charge_throw_ability_homing_mp" />
+								<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\grenades\satchel_charge_throw_ability_homing_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 								<enum name="usage_type" value="multiplication" />
 								<float name="value" value="0.67" />
 								<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
@@ -480,7 +480,7 @@
 				<instance_reference name="ability" value="abilities\soviet\modal_ability\grenades\satchel_charge_throw_ability_mp" />
 				<instance_reference name="ability" value="abilities\soviet\always_on_ability\to_the_last_man_mp" />
 				<instance_reference name="ability" value="abilities\soviet\toggle_ability\penal_last_man_ui_mp" />
-				<instance_reference name="ability" value="abilities\soviet\modal_ability\grenades\satchel_charge_throw_ability_homing_mp" />
+				<instance_reference name="ability" value="abilities\soviet\modal_ability\grenades\satchel_charge_throw_ability_homing_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>
@@ -756,7 +756,7 @@
 												<enum name="application_type" value="apply_to_ability" />
 												<bool name="exclusive" value="False" />
 												<string name="modifier_id" value="" />
-												<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\grenades\satchel_charge_throw_ability_homing_mp" />
+												<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\grenades\satchel_charge_throw_ability_homing_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 												<enum name="usage_type" value="multiplication" />
 												<float name="value" value="0.778" />
 												<instance_reference name="tooltip" value="modifier_tooltip\ability_cost_munition_multiplier" />
