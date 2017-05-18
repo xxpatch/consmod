@@ -287,62 +287,6 @@
 			<float name="deflection_damage_multiplier" value="0.6667" />
 			<bool name="has_deflection_damage" value="True" />
 			<list name="on_deflected_actions">
-				<template_reference name="action" value="action\random_action">
-					<bool name="instant" value="False" />
-					<list name="random_actions">
-						<group name="action_choice">
-							<list name="actions">
-								<template_reference name="action" value="action\trigger_critical_action">
-									<float name="remove_at_health" value="1" />
-									<instance_reference name="critical" value="critical\vehicle_loader_injured" />
-									<uniqueid name="id" value="1073743545" />
-								</template_reference>
-							</list>
-							<int name="weight" value="5" />
-						</group>
-						<group name="action_choice">
-							<list name="actions">
-								<template_reference name="action" value="action\trigger_critical_action">
-									<float name="remove_at_health" value="1" />
-									<instance_reference name="critical" value="critical\vehicle_crew_shocked" />
-									<uniqueid name="id" value="1073743546" />
-								</template_reference>
-							</list>
-							<int name="weight" value="5" />
-						</group>
-						<group name="action_choice">
-							<list name="actions">
-								<template_reference name="action" value="action\trigger_critical_action">
-									<float name="remove_at_health" value="1" />
-									<instance_reference name="critical" value="critical\vehicle_damage_engine" />
-									<uniqueid name="id" value="1073743547" />
-								</template_reference>
-							</list>
-							<int name="weight" value="5" />
-						</group>
-						<group name="action_choice">
-							<list name="actions">
-								<template_reference name="action" value="action\trigger_critical_action">
-									<float name="remove_at_health" value="1" />
-									<instance_reference name="critical" value="critical\stunned_cannot_shoot_10_seconds" />
-									<uniqueid name="id" value="1073743548" />
-								</template_reference>
-							</list>
-							<int name="weight" value="5" />
-						</group>
-						<group name="action_choice">
-							<list name="actions">
-								<template_reference name="action" value="action\trigger_critical_action">
-									<float name="remove_at_health" value="1" />
-									<instance_reference name="critical" value="critical\_no_critical" />
-									<uniqueid name="id" value="1073743549" />
-								</template_reference>
-							</list>
-							<int name="weight" value="80" />
-						</group>
-					</list>
-					<uniqueid name="id" value="1073743550" />
-				</template_reference>
 			</list>
 		</group>
 		<group name="fire">

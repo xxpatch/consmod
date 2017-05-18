@@ -23,6 +23,8 @@ TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\abilities\soviet\modal_ability\commander_ability\forward_hq.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\abilities\soviet\modal_ability\commander_ability\mark_vehicle.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\abilities\soviet\modal_ability\commander_ability\passive_ability\tank_traps.rgd
+	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\abilities\soviet\modal_ability\dispatch\partisans_commander_anti_infantry.rgd
+	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\abilities\soviet\modal_ability\dispatch\partisans_commander_anti_vehicle.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\abilities\soviet\modal_ability\grenades\anti_tank_grenade_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\abilities\soviet\modal_ability\grenades\conscript_molotov_cocktail_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\abilities\soviet\modal_ability\grenades\guards_throw_defensive_grenade_mp.rgd
@@ -61,6 +63,9 @@ TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\ebps\races\german\soldiers\panzer_grenadiers\panzer_grenadiers_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\ebps\races\german\soldiers\stormtroopers\stormtroopers_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\ebps\races\german\team_weapons\at_gun\pak40_75mm_at_gun_mp.rgd
+	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\ebps\races\german\vehicles\armored_car_sdkfz_222\armored_car_sdkfz_222_mp.rgd
+	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\ebps\races\german\vehicles\light_halftrack_250\mechanized_250_halftrack_grenadier_mp.rgd
+	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\ebps\races\german\vehicles\light_halftrack_250\mechanized_250_halftrack_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\ebps\races\german\vehicles\panther_sdkfz_171\panther_sdkfz_171_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\ebps\races\german\vehicles\stug_iii_sdkfz_141_1\stug_iii_g_sdkfz_141_1_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\ebps\races\german\vehicles\stuka_aircraft\cargo_plane_fuel.rgd
@@ -110,6 +115,7 @@ TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\sbps\races\german\soldiers\stormtrooper_squad\stormtrooper_squad_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\sbps\races\german\vehicles\at_gun_squad\pak40_75mm_at_gun_squad_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\sbps\races\german\vehicles\panther_squad\panther_squad_mp.rgd
+	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\sbps\races\german\vehicles\scout_car_sdkfz222\scoutcar_sdkfz222_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\sbps\races\soviet\soldiers\conscript_squad\conscript_squad_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\sbps\races\soviet\soldiers\dshk_38_hmg_squad\dshk_38_hmg_squad_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\sbps\races\soviet\soldiers\m1910_maxim_hmg_squad\m1910_maxim_heavy_machine_gun_squad_mp.rgd
@@ -146,6 +152,7 @@ TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\german\commander\ability\light_infantry_stormtrooper_package.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\german\items\stormtrooper_assault_package_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\german\items\stug_top_gunner_mp.rgd
+	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\german\items\vehicles_optics_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\german\research\battle_phase_3_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\german\research\battle_phase_4_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\upgrade\soviet\items\engineer_flamethrower_mp.rgd
