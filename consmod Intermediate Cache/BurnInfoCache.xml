@@ -150,6 +150,14 @@
 			<FileHash>4061211e3f52b467e9943503e6588c40</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\isu152_ammo_switch_ap_shell_mp.xml</FileName>
+			<FileHash>649e0c38ec19ba2bb86bc5bc8e218e61</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\isu152_ammo_switch_he_shell_mp.xml</FileName>
+			<FileHash>854ae3538f19bb4727e5f5016f76102a</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\su76_su85_zis3_53k_isu152_infantry_tracking_mp.xml</FileName>
 			<FileHash>fb704843bb51e17147dde62db5e68de0</FileHash>
 		</BurnInfo>
@@ -442,6 +450,10 @@
 			<FileHash>9247c3bc4a68035dad0bcf306b2776ee</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\vehicles\isu_152_spg\isu_152_spg_mp.xml</FileName>
+			<FileHash>243c970dd7fa6498068dbb5241226bf9</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\vehicles\kv-1\kv-1_commander_mp.xml</FileName>
 			<FileHash>a9b95aa56b07d83805aef5e9a2406939</FileHash>
 		</BurnInfo>
@@ -454,8 +466,12 @@
 			<FileHash>78e7ad85a61658d96cb5af7b7bbb9ee7</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\vehicles\su_76m\su_76m_mp.xml</FileName>
+			<FileHash>58820150a094c7bec8b93d2442cc0e1b</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\vehicles\su_85\su_85_mp.xml</FileName>
-			<FileHash>56d2618d99af1070e415fdc1853808ba</FileHash>
+			<FileHash>3fc0fd49615367ad8514788e906cc128</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\vehicles\t_34\t_34_76_mp.xml</FileName>
