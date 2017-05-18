@@ -1,0 +1,13 @@
+model =
+{
+	"..\\..\\..\\Common\\CompleteMotionTree.abp",
+    
+	-- Common Soviet Gear
+    "..\\..\\sovietcommongear.abp",
+"..\\..\\..\\aef\\weapons\\smg_m1_thompson\\smg_m1_thompson",
+
+	
+
+	-- Main Mesh
+	"elite_rifleman",
+}

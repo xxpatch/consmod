@@ -1,0 +1,12 @@
+model =
+{
+	"..\\..\\..\\Common\\CompleteMotionTree.abp",
+   	"..\\..\\..\\common\\engineer.abp",
+    
+	-- Common Soviet Gear
+    "..\\..\\sovietcommongear.abp",
+    "..\\..\\weapons\\mine_tm35\\mine_tm35",
+
+	"conscript_sergeant",
+}
+
