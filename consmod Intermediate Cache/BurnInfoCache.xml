@@ -19,7 +19,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\assault_field_officer.xml</FileName>
-			<FileHash>bcddafdd6f494c9fe9db76c3155357e9</FileHash>
+			<FileHash>401d3ea9aa27342284950c7b21fa4578</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\blinding_grenade.xml</FileName>
@@ -32,6 +32,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\panzer_defensive_smoke.xml</FileName>
 			<FileHash>0dcac648e148e0a403f6e5e46ffac5a9</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\passive_ability\defensive_fortifications.xml</FileName>
+			<FileHash>1e620fc4a8a5c3903e6644188e452b43</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\dispatch\mechanized_assault_group.xml</FileName>
@@ -83,7 +87,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\commander_ability\passive_ability\tank_traps.xml</FileName>
-			<FileHash>73ae17041d52c76b5b76c09d15c44044</FileHash>
+			<FileHash>633b5bce9afe2d6c760d44b400d35fa4</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\dispatch\partisans_commander_anti_infantry.xml</FileName>
@@ -132,6 +136,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\commander_ability\rapid_conscription.xml</FileName>
 			<FileHash>6993f127cc9f55a68b61d33e566d602a</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\throw_away_hack_ui\cmd_at_gun_ambush_tactics_mp.xml</FileName>
+			<FileHash>417ca6d2b695d1967a673e8e154ce0e9</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\throw_away_hack_ui\cmd_guard_troops.xml</FileName>
