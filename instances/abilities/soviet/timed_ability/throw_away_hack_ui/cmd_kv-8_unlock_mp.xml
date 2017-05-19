@@ -10,16 +10,16 @@
 			<list name="start_target_actions">
 				<template_reference name="action" value="action\reinforcements_action">
 					<bool name="allow_building_spawn" value="False" />
-					<float name="minimum_pop_used" value="21" />
+					<float name="minimum_pop_used" value="14" />
 					<float name="points_total" value="0" />
 					<bool name="spawn_random_squads" value="False" />
 					<list name="entity_table">
 					</list>
 					<list name="squad_table">
-						<instance_reference name="squad" value="sbps\races\soviet\vehicles\is-2\is-2_mp" />
+						<instance_reference name="squad" value="sbps\races\soviet\vehicles\kv-8\kv-8_mp" />
 					</list>
 					<bool name="use_attack_move" value="False" />
-					<uniqueid name="id" value="1073746003" />
+					<uniqueid name="id" value="1073746036" />
 					<bool name="ignore_requirements" value="False" />
 				</template_reference>
 				<template_reference name="action" value="action\game_event_action">
@@ -28,7 +28,7 @@
 					<float name="event_param_end" value="-1" />
 					<enum name="event_type" value="flag_drop" />
 					<bool name="event_send_to_target_player" value="False" />
-					<uniqueid name="id" value="1073746004" />
+					<uniqueid name="id" value="1073746037" />
 				</template_reference>
 			</list>
 		</group>
@@ -40,8 +40,8 @@
 		<group name="cost">
 			<float name="action" value="0" />
 			<float name="command" value="0" />
-			<float name="fuel" value="288" />
-			<float name="manpower" value="800" />
+			<float name="fuel" value="182" />
+			<float name="manpower" value="488" />
 			<float name="munition" value="0" />
 			<float name="popcap" value="0" />
 		</group>
@@ -67,7 +67,7 @@
 		<float name="move_back_distance" value="10" />
 		<float name="range" value="30" />
 		<bool name="range_ignore" value="True" />
-		<float name="recharge_time" value="70" />
+		<float name="recharge_time" value="60" />
 		<bool name="refundable" value="False" />
 		<bool name="require_no_shot_block" value="False" />
 		<enum name="shared_timer" value="" />
@@ -78,7 +78,7 @@
 			<string name="code_3" value="" />
 		</group>
 		<group name="speech_code_3">
-			<string name="code_1" value="is2" />
+			<string name="code_1" value="kv8" />
 			<string name="code_2" value="" />
 			<string name="code_3" value="" />
 		</group>
@@ -96,15 +96,15 @@
 			<string name="cursor_nonmodal_good" value="" />
 		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="11050223" />
-			<locstring name="help_text" value="11050222" />
-			<string name="hotkey_name" value="tiger_ace" />
-			<icon name="icon_name" value="Icons_commander_cmdr_soviet_is2_unlock" />
+			<locstring name="extra_text" value="11050217" />
+			<locstring name="help_text" value="11050216" />
+			<string name="hotkey_name" value="" />
+			<icon name="icon_name" value="Icons_commander_cmdr_soviet_kv8_unlock" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="True" />
-			<locstring name="screen_name" value="11006769" />
+			<locstring name="screen_name" value="11035124" />
 			<icon name="icon_alternate_name" value="" />
-			<locstring name="brief_text" value="11050222" />
+			<locstring name="brief_text" value="11050216" />
 			<locstring name="help_text_alternate" value="0" />
 			<locstring name="screen_name_alternate" value="0" />
 			<locstring name="screen_name_short" value="0" />
@@ -116,10 +116,10 @@
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_resource">
 				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="11054644" />
+				<locstring name="ui_name" value="11043130" />
 				<template_reference name="resource" value="tables\resource_table">
 					<float name="action" value="0" />
-					<float name="command" value="13" />
+					<float name="command" value="9" />
 					<float name="fuel" value="0" />
 					<float name="manpower" value="0" />
 					<float name="munition" value="0" />
@@ -134,7 +134,7 @@
 				<bool name="is_present" value="True" />
 				<float name="max_completed" value="100" />
 				<float name="min_completed" value="1" />
-				<instance_reference name="upgrade_name" value="upgrade\soviet\commander\passive\is-2_support" />
+				<instance_reference name="upgrade_name" value="upgrade\soviet\commander\passive\kv-8_unlock" />
 			</template_reference>
 			<template_reference name="required" value="requirements\required_player_upgrade">
 				<enum name="reason" value="usage" />
@@ -144,21 +144,9 @@
 				<float name="min_completed" value="1" />
 				<instance_reference name="upgrade_name" value="upgrade\theatre_of_war\theatre_of_war_1941" />
 			</template_reference>
-			<template_reference name="required" value="requirements\required_not">
-				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="11095059" />
-				<list name="requirement_table">
-					<template_reference name="required" value="requirements\required_entity">
-						<enum name="reason" value="usage" />
-						<locstring name="ui_name" value="0" />
-						<instance_reference name="entity_blueprint_name" value="ebps\races\soviet\vehicles\is-2_heavy_tank\is-2_heavy_tank_mp" />
-						<enum name="entity_type" value="" />
-					</template_reference>
-				</list>
-			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />
-		<int name="ui_position" value="100" />
+		<int name="ui_position" value="90" />
 		<bool name="ui_mini_map_capture" value="True" />
 		<bool name="facing_ignore_during_active" value="False" />
 		<instance_reference name="ui_range" value="" />
@@ -190,5 +178,5 @@
 		<bool name="can_cast_outside_active_battle_field" value="False" />
 		<bool name="ability_super_event_cue" value="True" />
 	</group>
-	<uniqueid name="pbgid" value="352" />
+	<uniqueid name="pbgid" value="355" />
 </instance>

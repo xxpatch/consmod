@@ -146,12 +146,20 @@
 			<FileHash>633b5bce9afe2d6c760d44b400d35fa4</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\dispatch\kv-2.xml</FileName>
+			<FileHash>67aa76a6d89c8ded628f04c6d508fc5e</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\dispatch\partisans_commander_anti_infantry.xml</FileName>
 			<FileHash>bd127fc8fcda170ae186f39273337ddb</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\dispatch\partisans_commander_anti_vehicle.xml</FileName>
 			<FileHash>26d428c627221ef348415dbf7418b1a7</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\dispatch\sherman_soviet_dispatch.xml</FileName>
+			<FileHash>c19086e6d542307e41d047bd7daefe82</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\grenades\anti_tank_grenade_mp.xml</FileName>
@@ -215,7 +223,19 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\throw_away_hack_ui\cmd_is2_heavy_tank.xml</FileName>
-			<FileHash>3f84037fcda6743210257aa3553424f1</FileHash>
+			<FileHash>6b5e478bf38220e0aa0872cef2c00355</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\throw_away_hack_ui\cmd_isu-152.xml</FileName>
+			<FileHash>11f2cdebb7439446f1c670618e8d7a06</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\throw_away_hack_ui\cmd_kv-1_unlock.xml</FileName>
+			<FileHash>ece9d0503fb21ce0cd1c6cc3fff07d58</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\throw_away_hack_ui\cmd_kv-8_unlock_mp.xml</FileName>
+			<FileHash>5df0600c6694777833741f79e198b6f6</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\toggle_ability\guards_hit_the_dirt_mp.xml</FileName>
@@ -992,6 +1012,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\soviet\items\penal_ptrs_package_2_mp.xml</FileName>
 			<FileHash>a2e51dc83f7b5a4adb1245175a0de87f</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\soviet\research\soviet_t4_built_mp.xml</FileName>
+			<FileHash>2cbc8a4976d79585a4917b220978af23</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\aef\ballistic_weapon\infantry_anti_tank_weapon\m9_bazooka_mp.xml</FileName>
