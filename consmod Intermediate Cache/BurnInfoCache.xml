@@ -38,6 +38,10 @@
 			<FileHash>5a4cda854e393d93ef235cac07adcf2c</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\armor_commander.xml</FileName>
+			<FileHash>4ccaff9b0a5ac69a89501f1e25ac0bd4</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\assault_field_officer.xml</FileName>
 			<FileHash>401d3ea9aa27342284950c7b21fa4578</FileHash>
 		</BurnInfo>
@@ -82,8 +86,16 @@
 			<FileHash>930d6f40c676240a48816d2317cfe571</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\dispatch\puma_dispatch.xml</FileName>
+			<FileHash>d07ed195f9e7b23620d0cc55e560c462</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\dispatch\stormtroopers.xml</FileName>
 			<FileHash>b6904dafde040129f283316fb724a163</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\dispatch\stug_iii_e.xml</FileName>
+			<FileHash>6d7ebe9c54bae32ea2f7a4d8d8d74337</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\dispatch\tiger_tank_ace.xml</FileName>
@@ -330,8 +342,12 @@
 			<FileHash>233f631f24a841be1e7f52e6c26da0c6</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\buildings\base_building\hintere_panzerwerk_mp.xml</FileName>
+			<FileHash>bb695b872d5c27456ce07164479366f0</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\buildings\base_building\schweres_kriegswerk_mp.xml</FileName>
-			<FileHash>b5bc232226a85a8c1bae1d06fd4e5054</FileHash>
+			<FileHash>7c5a09083c04444661d86fb3deac2b64</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\buildings\base_building\hq\german_hq_mp.xml</FileName>
@@ -691,11 +707,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\panzer_iv_squad\panzer_iv_squad_mp.xml</FileName>
-			<FileHash>efd6b1732dd5bb10787e86926a246e0d</FileHash>
+			<FileHash>8769bdf275cbb3cdb48f7fdcb5117c64</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\panzer_iv_squad\panzer_iv_stubby_squad_mp.xml</FileName>
-			<FileHash>189f60c5282ac5750ea79b3425e39f6a</FileHash>
+			<FileHash>8ccbffd119ae8774505e808dd2bf442b</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\puma\puma_east_german_mp.xml</FileName>
@@ -715,7 +731,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\stug_iii_squad\stug_iii_squad_mp.xml</FileName>
-			<FileHash>03f7db6c78c81d3144258625b9c437cb</FileHash>
+			<FileHash>b931a7526683d1429cd0f643ff3919d7</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\tiger_squad\tiger_ace_squad_mp.xml</FileName>
@@ -899,11 +915,15 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\research\battle_phase_3_mp.xml</FileName>
-			<FileHash>1d7bf85427c28221f49f71626418b10f</FileHash>
+			<FileHash>8c5d4450fbcc7b772857d05cd5a638fd</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\research\battle_phase_4_mp.xml</FileName>
 			<FileHash>79c280442328c48e9478580c0d147ca7</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\research\ost_t3_built_mp.xml</FileName>
+			<FileHash>40db3c58e057dacf6ea1ed6b89dabbf7</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\research\ost_t4_built_mp.xml</FileName>
