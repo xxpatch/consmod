@@ -847,7 +847,7 @@
 									</template_reference>
 									<template_reference name="action" value="action\scar_function_call">
 										<string name="function_name" value="XP1_Vet_Level3" />
-										<uniqueid name="id" value="1073743865" />
+										<uniqueid name="id" value="1073746040" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
