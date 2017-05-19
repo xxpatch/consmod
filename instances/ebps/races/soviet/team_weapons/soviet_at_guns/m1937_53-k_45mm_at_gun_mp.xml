@@ -729,7 +729,7 @@
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\holdable_ext">
-			<enum name="holdable" value="hold_large_gun" />
+			<enum name="holdable" value="hold_heavy_machine_gun" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\upgrade_ext">
 			<bool name="must_be_in_supply" value="False" />
