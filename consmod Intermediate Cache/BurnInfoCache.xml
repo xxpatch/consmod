@@ -54,6 +54,10 @@
 			<FileHash>0dcac648e148e0a403f6e5e46ffac5a9</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\stuka_bombing_strike.xml</FileName>
+			<FileHash>ac7b484867469d190e3f67513e1569a8</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\passive_ability\defensive_fortifications.xml</FileName>
 			<FileHash>1e620fc4a8a5c3903e6644188e452b43</FileHash>
 		</BurnInfo>
@@ -1004,6 +1008,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\explosive_weapons\heavy_artillery\howitzer_75mm_light_support_gun_mp.xml</FileName>
 			<FileHash>be0badacb68f9056875a7502f77ab4d8</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\explosive_weapons\heavy_artillery\stuka_500_lb_bomb.xml</FileName>
+			<FileHash>ce966823df64a9631efd0d8cf90221be</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\explosive_weapons\light_artillery\panzerwerfer_rockets_mp.xml</FileName>
