@@ -98,18 +98,18 @@
 			<bool name="enable_auto_target_search" value="False" />
 			<bool name="fire_at_building_combat_slot" value="False" />
 			<float name="ground_hit_rate" value="1" />
-			<bool name="ignore_shot_blocking" value="False" />
+			<bool name="ignore_shot_blocking" value="True" />
 			<bool name="non_moving_setup" value="False" />
 			<bool name="point_blank" value="False" />
 			<bool name="prevents_prone" value="False" />
-			<bool name="reset_rotation_on_teardown" value="False" />
+			<bool name="reset_rotation_on_teardown" value="True" />
 			<bool name="share_parent_anim" value="False" />
 			<bool name="single_handed_weapon" value="False" />
 			<bool name="substitute_weapon" value="False" />
 			<bool name="support_weapon" value="False" />
 			<bool name="surprises_idle" value="False" />
-			<bool name="piercing" value="False" />
-			<float name="reaction_radius" value="3" />
+			<bool name="piercing" value="True" />
+			<float name="reaction_radius" value="5.1" />
 			<bool name="can_be_pilfered" value="False" />
 			<bool name="causes_combat" value="True" />
 			<bool name="can_abort_winddown" value="False" />
@@ -382,8 +382,8 @@
 		</group>
 		<group name="setup">
 			<float name="duration" value="0" />
-			<bool name="has_instant_setup" value="True" />
-			<bool name="can_interrupt_setup" value="True" />
+			<bool name="has_instant_setup" value="False" />
+			<bool name="can_interrupt_setup" value="False" />
 			<float name="attach_duration" value="0" />
 		</group>
 		<group name="suppressed">
@@ -418,9 +418,9 @@
 			<float name="fire_cone_angle" value="5" />
 			<group name="normal">
 				<float name="max_down" value="-90" />
-				<float name="max_left" value="-8" />
-				<float name="max_right" value="8" />
-				<float name="max_up" value="20" />
+				<float name="max_left" value="-20" />
+				<float name="max_right" value="20" />
+				<float name="max_up" value="90" />
 				<float name="speed_horizontal" value="6" />
 				<float name="speed_vertical" value="12" />
 			</group>
