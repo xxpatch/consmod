@@ -38,6 +38,10 @@
 			<FileHash>f9c2af90d35ff6fd89613c02851db71e</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\artillery\artillery_barrage_ability\elefant_barrage_ability_mp.xml</FileName>
+			<FileHash>3e34dcae780edee367134740d30d00f6</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\air_dropped_munitions.xml</FileName>
 			<FileHash>5a4cda854e393d93ef235cac07adcf2c</FileHash>
 		</BurnInfo>
@@ -294,6 +298,10 @@
 			<FileHash>e46ce3a99645c664d0e8f17eabb3e185</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\projectile\elefant_shell_he_mp.xml</FileName>
+			<FileHash>f82a62417f114769b3940bcf39beaaef</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\projectile\flak_37mm_shell_mp.xml</FileName>
 			<FileHash>7d655c019e692375e712602ed7eb318c</FileHash>
 		</BurnInfo>
@@ -303,7 +311,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\projectile\isu_152_shell_he_mp.xml</FileName>
-			<FileHash>4d5939dbf482644ddeb91208f43a882d</FileHash>
+			<FileHash>47bfd23087170e277be9390d3ed57887</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\projectile\mortar_flare_mp.xml</FileName>
@@ -463,7 +471,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\elefant_sdkfz_184\elefant_sdkfz_184_mp.xml</FileName>
-			<FileHash>adf7af7f3934575f16a233f5a73ecdca</FileHash>
+			<FileHash>e12d2f520a56b575780db3b0b37eb1d3</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\halftrack_sdkfz_251\halftrack_sdkfz_251_mp.xml</FileName>
@@ -930,6 +938,10 @@
 			<FileHash>80c9ed32fc742e247b3e18480445f6b1</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\slot_item\german\explosive_weapon\elefant_he_round_item_mp.xml</FileName>
+			<FileHash>0a8fc1a879bd97d8140b599ad221dad1</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\slot_item\german\small_arms\stormtrooper_mp44_mp.xml</FileName>
 			<FileHash>783c59203be9447897ce616240d600e1</FileHash>
 		</BurnInfo>
@@ -1118,6 +1130,10 @@
 			<FileHash>be1a34d4108594e4b820268003407181</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\elefant_88mm_gun_mp.xml</FileName>
+			<FileHash>f7ee0d8af8f2782b2b4ea53f25af0f0c</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\ostwind_flak_43_37mm_mp.xml</FileName>
 			<FileHash>a59dd78151d7c42a067db85a0879aa9f</FileHash>
 		</BurnInfo>
@@ -1208,6 +1224,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\british\ballistic_weapon\infantry_anti_tank_weapon\piat_launcher_mp.xml</FileName>
 			<FileHash>7d243049ea122bebe230db0a39a92f21</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\german\ballistic_weapon\tank_gun\elefant_supporting_fire_mp.xml</FileName>
+			<FileHash>0322b74c064c469e56db454af0916154</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\ballistic_weapon\anti_tank_gun\53k_45mm_m1937_at_gun_mp.xml</FileName>

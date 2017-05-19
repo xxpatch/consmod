@@ -17,11 +17,11 @@
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\panzer_defensive_smoke" />
 				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\german_hulldown_disable" />
-				<instance_reference name="ability" value="abilities\german\modal_ability\accessory_weapons\elefant_critical_shots_mp" />
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_vehicle" />
 				<instance_reference name="ability" value="abilities\german\toggle_ability\wehr_vehicle_hold_fire_mp" />
 				<instance_reference name="ability" value="abilities\aef\toggle_ability\usf_hold_fire_mp" />
 				<instance_reference name="ability" value="abilities\german\toggle_ability\handbrake_mode_new_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<instance_reference name="ability" value="abilities\german\modal_ability\artillery\artillery_barrage_ability\elefant_barrage_ability_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext">
@@ -738,7 +738,7 @@
 								<float name="z" value="0.2" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\axis\ballistic_weapon\tank_gun\elefant_88mm_gun_mp" />
+							<instance_reference name="weapon" value="weapon\axis\ballistic_weapon\tank_gun\elefant_88mm_gun_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						</group>
 						<group name="weapon">
 							<group name="heading">

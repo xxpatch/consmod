@@ -166,16 +166,16 @@
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\projectile_ext">
-			<float name="acceleration" value="20" />
+			<float name="acceleration" value="5" />
 			<group name="artillery">
 				<bool name="can_counter_barrage" value="False" />
 				<bool name="is_artillery" value="True" />
 				<bool name="is_target_only" value="False" />
 				<float name="speed_distance_multiplier" value="0.2" />
 				<float name="speed_increment" value="0.5" />
-				<enum name="firing_angle_type" value="lowest_non_collide_angle" />
+				<enum name="firing_angle_type" value="low_angle" />
 				<bool name="use_homing_when_no_blocker" value="False" />
-				<float name="non_collide_start_angle" value="5" />
+				<float name="non_collide_start_angle" value="10" />
 				<float name="non_collide_end_angle" value="15" />
 			</group>
 			<float name="building_hit_fx_delay" value="0" />
@@ -191,7 +191,7 @@
 			<float name="life_time_while_alive" value="0" />
 			<float name="rotation_speed" value="0" />
 			<bool name="spawn_collision_fx" value="False" />
-			<float name="speed" value="50" />
+			<float name="speed" value="29" />
 			<bool name="collision_land_ignore" value="False" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext">
@@ -202,10 +202,10 @@
 					<bool name="retrigger" value="False" />
 					<string name="state_machine_name" value="projectile_use" />
 					<string name="undo_action_state_name" value="" />
-					<uniqueid name="id" value="1073746214" />
+					<uniqueid name="id" value="1073746221" />
 				</template_reference>
 			</list>
 		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="1073741828" />
+	<uniqueid name="pbgid" value="1073741829" />
 </instance>
