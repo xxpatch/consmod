@@ -418,6 +418,14 @@
 			<FileHash>578c87faa718fa702a76a83f4b979bac</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\team_weapons\at_gun\pak43_88mm_at_gun_mp.xml</FileName>
+			<FileHash>2283e9d68b5316bf1385bf4f1fbb1fe1</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\team_weapons\german_field_artillery\howitzer_105mm_le_fh18_mp.xml</FileName>
+			<FileHash>c1f97869395ab9ac2021ad388380e714</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\armored_car_sdkfz_222\armored_car_sdkfz_222_mp.xml</FileName>
 			<FileHash>456e5e617abc080762fe066e1743aeac</FileHash>
 		</BurnInfo>
@@ -539,7 +547,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\team_weapons\soviet_field_artillery\m1931_203mm_b-4_howitzer_artillery_commander_mp.xml</FileName>
-			<FileHash>15bc0fe7b08655dcaf5e76d183c2520a</FileHash>
+			<FileHash>9eda3c12124e1d0bdb07949aa40459a3</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\team_weapons\soviet_field_artillery\m1937_152mm_ml_20_artillery_mp.xml</FileName>
+			<FileHash>f957704b9329b1db499546bdb0b5dc90</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\vehicles\is-2_heavy_tank\is-2_heavy_tank_mp.xml</FileName>
