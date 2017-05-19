@@ -463,7 +463,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\halftrack_sdkfz_251\halftrack_sdkfz_251_mp.xml</FileName>
-			<FileHash>92a92863a23c7bde0d5fa9bcedc503b7</FileHash>
+			<FileHash>992c4f94d8cb4fd2a59338a7aa1c885c</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\light_halftrack_250\mechanized_250_halftrack_grenadier_mp.xml</FileName>
@@ -963,7 +963,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\british\items\universal_carrier_wasp_package_upgrade_mp.xml</FileName>
-			<FileHash>8cce64e8bac39b8b53d3e7fdddc0c395</FileHash>
+			<FileHash>9ddb259ae25381cdba8c6480d4d5ad28</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\commander\ability\assault_field_officer.xml</FileName>
@@ -980,6 +980,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\commander\passive\defensive_fortifications.xml</FileName>
 			<FileHash>26189d28e97806b1556051108ca35f12</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\items\sdkfz_251_halftrack_flammpanzerwagen_upgrade_mp.xml</FileName>
+			<FileHash>55413818b32d65377dc8e3b4cfe5ad9e</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\items\stormtrooper_assault_package_mp.xml</FileName>

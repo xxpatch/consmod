@@ -1157,7 +1157,7 @@
 					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="0" />
 					<bool name="is_present" value="False" />
-					<instance_reference name="upgrade_name" value="upgrade\german\items\sdkfz_251_halftrack_flammpanzerwagen_upgrade_mp" />
+					<instance_reference name="upgrade_name" value="upgrade\german\items\sdkfz_251_halftrack_flammpanzerwagen_upgrade_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 					<bool name="include_queued" value="False" />
 				</template_reference>
 			</list>
@@ -1204,7 +1204,7 @@
 			<bool name="must_be_in_supply" value="False" />
 			<float name="number_of_standard_slots" value="-1" />
 			<list name="standard_upgrades">
-				<instance_reference name="upgrade" value="upgrade\german\items\sdkfz_251_halftrack_flammpanzerwagen_upgrade_mp" />
+				<instance_reference name="upgrade" value="upgrade\german\items\sdkfz_251_halftrack_flammpanzerwagen_upgrade_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 		</template_reference>
 	</list>
