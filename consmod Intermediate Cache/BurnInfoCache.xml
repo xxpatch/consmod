@@ -83,7 +83,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\mortar_fire_flares_ability_mp.xml</FileName>
-			<FileHash>aca55c03755a680be3e110a38fee66b5</FileHash>
+			<FileHash>7cea772602eefb7b1ac80b5b120025f9</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\artillery\artillery_barrage_ability\at_76mm_he_barrage_ability_mp.xml</FileName>
@@ -170,10 +170,6 @@
 			<FileHash>6993f127cc9f55a68b61d33e566d602a</FileHash>
 		</BurnInfo>
 		<BurnInfo>
-			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\commander_ability\tank_detection_ability.xml</FileName>
-			<FileHash>37632d5edf31d0b443a3967a804212e3</FileHash>
-		</BurnInfo>
-		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\throw_away_hack_ui\cmd_at_gun_ambush_tactics_mp.xml</FileName>
 			<FileHash>417ca6d2b695d1967a673e8e154ce0e9</FileHash>
 		</BurnInfo>
@@ -214,12 +210,20 @@
 			<FileHash>c5e58131b4c105001a1503b2d7628dad</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\projectile\mortar_flare_mp.xml</FileName>
+			<FileHash>eb7bae755c74757dc008221aafe356e2</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\projectile\panzerwerfer_rocket_mp.xml</FileName>
 			<FileHash>4d99c0954058cec0a9ac38a8c89fcebe</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\projectile\soviet_45mm_t70_tank_mp.xml</FileName>
 			<FileHash>5b98106aad43c432fa2d3f010d15136d</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\props\mortar_flare_marker_mp.xml</FileName>
+			<FileHash>6741c3ab56aecf653c8b271131fb47a9</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\aef\buildings\defensive_structures\sov_popcap_add_mp.xml</FileName>
@@ -435,11 +439,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\team_weapons\hm-120_38_mortar_mp.xml</FileName>
-			<FileHash>29dc858f5ca645eb665220c8cfce4ec1</FileHash>
+			<FileHash>b48fd5295202605f059ecfe6c399484b</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\team_weapons\pm41_82mm_mortar_mp.xml</FileName>
-			<FileHash>339c54eac6e90914e1efacc3c0051afc</FileHash>
+			<FileHash>264881ed65ec9043227e99ecaaeab0ca</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\team_weapons\soviet_at_guns\m1937_53-k_45mm_at_gun_mp.xml</FileName>
@@ -707,7 +711,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\mortar_squad\hm-120_38_mortar_squad_mp.xml</FileName>
-			<FileHash>1ab09001deac0c7fffb10c7d36f28c5f</FileHash>
+			<FileHash>32a30d1d8d08c79e88675fa04af1aadc</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\mortar_squad\pm-82_41_mortar_squad_mp.xml</FileName>
@@ -1084,6 +1088,14 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\light_artillery\zis3_at_gun_he_shots_mp.xml</FileName>
 			<FileHash>d93eb125f0fb15cf7153fcdbc4368be5</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\mortar\hm_38_120mm_mortar_flares_mp.xml</FileName>
+			<FileHash>e35026c6dd618349c587c0a1a01c92a6</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\mortar\pm41_82mm_mortar_flare_mp.xml</FileName>
+			<FileHash>f1221fbb2dfe5eee5a601148134f5850</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\flame_throwers\flamethrower_roks3_mp.xml</FileName>

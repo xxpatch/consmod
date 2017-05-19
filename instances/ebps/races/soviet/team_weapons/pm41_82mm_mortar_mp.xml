@@ -274,7 +274,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\soviet\explosive_weapons\mortar\pm41_82mm_mortar_flare_mp" />
+							<instance_reference name="weapon" value="weapon\soviet\explosive_weapons\mortar\pm41_82mm_mortar_flare_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
