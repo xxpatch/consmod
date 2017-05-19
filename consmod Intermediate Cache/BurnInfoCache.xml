@@ -298,6 +298,10 @@
 			<FileHash>e46ce3a99645c664d0e8f17eabb3e185</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\projectile\brummbar_150mm_he_shell_mp.xml</FileName>
+			<FileHash>28b4d29b41a3c4caa3dfa97b18c708f6</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\projectile\elefant_shell_he_mp.xml</FileName>
 			<FileHash>bfb0149530036d1540c83faf6aa6e11a</FileHash>
 		</BurnInfo>
@@ -1127,11 +1131,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\brummbar_150mm_bunker_buster_mp.xml</FileName>
-			<FileHash>6a4e013223549b0fdd28126191ddbca8</FileHash>
+			<FileHash>4aa43ad06c7eca39b33ae16b8e41d499</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\brummbar_150mm_mp.xml</FileName>
-			<FileHash>be1a34d4108594e4b820268003407181</FileHash>
+			<FileHash>1a5c509ea51177d9cd3310897d81e8c7</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\elefant_88mm_gun_mp.xml</FileName>

@@ -370,7 +370,7 @@
 		</group>
 		<group name="projectile">
 			<bool name="delete_previous_on_hit" value="False" />
-			<instance_reference name="projectile" value="ebps\projectile\brummbar_150mm_he_shell_mp" />
+			<instance_reference name="projectile" value="ebps\projectile\brummbar_150mm_he_shell_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 		</group>
 		<group name="range">
 			<float name="max" value="60" />
@@ -455,7 +455,7 @@
 				<float name="max_down" value="-90" />
 				<float name="max_left" value="-25" />
 				<float name="max_right" value="25" />
-				<float name="max_up" value="50" />
+				<float name="max_up" value="90" />
 				<float name="speed_horizontal" value="15" />
 				<float name="speed_vertical" value="30" />
 			</group>
