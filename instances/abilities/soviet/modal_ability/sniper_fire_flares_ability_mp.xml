@@ -8,48 +8,58 @@
 			<list name="start_self_actions">
 			</list>
 			<list name="start_target_actions">
-				<template_reference name="action" value="action\sequence_action">
-					<uniqueid name="id" value="1073745971" />
-					<list name="action_list_sequences">
-						<list name="actions">
-							<template_reference name="action" value="action\artillery_attack">
-								<bool name="disable_parent_hardpoint" value="True" />
-								<group name="filter_weapons">
-									<instance_reference name="weapon_01" value="" />
-									<instance_reference name="weapon_02" value="" />
-									<instance_reference name="weapon_03" value="" />
-								</group>
-								<float name="num_salvo" value="1" />
-								<float name="use_hardpoint" value="4" />
-								<bool name="face_to_target" value="True" />
-								<uniqueid name="id" value="1073745972" />
-								<bool name="target_override_direction_times_max_range" value="False" />
+				<template_reference name="action" value="action\delay">
+					<float name="delay" value="7" />
+					<float name="delay_min" value="0" />
+					<bool name="progress_bar" value="False" />
+					<bool name="randomize" value="False" />
+					<list name="delayed_actions">
+						<template_reference name="action" value="action\paradrop_action">
+							<float name="drop_drift" value="5" />
+							<float name="drop_height" value="18" />
+							<float name="drop_zone_centre_scatter" value="4" />
+							<instance_reference name="entity_to_spawn" value="ebps\projectile\airdrop_flare" />
+							<float name="max_squad_entity_count" value="0" />
+							<instance_reference name="squad_to_spawn" value="" />
+							<int name="number_of_entities_to_spawn" value="1" />
+							<float name="entity_scatter" value="0" />
+							<float name="entity_height_scatter" value="0" />
+							<uniqueid name="id" value="1073746100" />
+							<enum name="paradrop_drift_type" value="random_dir" />
+							<template_reference name="scatter_type_option" value="options\none">
 							</template_reference>
-						</list>
-						<list name="actions">
-							<template_reference name="action" value="action\spawn_entity">
-								<float name="duration" value="10" />
-								<instance_reference name="entity_blueprint" value="ebps\props\mortar_flare_marker_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-								<bool name="permanent" value="True" />
-								<bool name="player_owned" value="True" />
-								<group name="target_info">
-									<template_reference name="target_info" value="type_ability_target_type\all">
-									</template_reference>
-								</group>
-								<uniqueid name="id" value="1073745980" />
-								<template_reference name="spawn_attached_option" value="options\none">
-								</template_reference>
-								<list name="spawned_entity_actions">
+							<float name="group_landing_scatter_radius" value="0" />
+							<group name="group_landing_scatter_addition">
+								<instance_reference name="blizzard_active_player_upgrade" value="" />
+								<float name="additional_scatter_during_blizzard" value="0" />
+								<float name="additional_scatter_in_fog_of_war" value="0" />
+								<float name="additional_scatter_near_entity" value="0" />
+								<float name="additional_scatter_entity_radius" value="0" />
+								<list name="near_entities">
 								</list>
-								<group name="offset">
-									<float name="x" value="0" />
-									<float name="y" value="0" />
-									<float name="z" value="0" />
-								</group>
+							</group>
+							<template_reference name="ui_help_text" value="tables\help_text_phrase">
+								<int name="phrase_order" value="0" />
+								<locstring name="phrase" value="0" />
 							</template_reference>
-						</list>
+						</template_reference>
 					</list>
-					<bool name="run_now" value="True" />
+					<uniqueid name="id" value="1073746101" />
+					<bool name="can_prevent_refund" value="True" />
+				</template_reference>
+				<template_reference name="action" value="action\use_accessory_weapon">
+					<instance_reference name="accessory_weapon_item" value="slot_item\soviet\small_arms\sniper_flare_mp" />
+					<instance_reference name="decrement_accessory_item" value="" />
+					<bool name="entity_target_only" value="False" />
+					<bool name="force_squad_to_target" value="False" />
+					<bool name="no_decrement" value="True" />
+					<float name="number_of_shots" value="1" />
+					<group name="target_info">
+						<template_reference name="target_info" value="type_ability_target_type\is_position">
+						</template_reference>
+					</group>
+					<uniqueid name="id" value="1073746102" />
+					<bool name="target_override_direction_times_max_range" value="False" />
 				</template_reference>
 			</list>
 		</group>
@@ -73,20 +83,20 @@
 		<float name="duration_time" value="-1" />
 		<bool name="enable_in_building" value="False" />
 		<bool name="enable_in_vehicle" value="False" />
-		<bool name="engage_combat" value="True" />
+		<bool name="engage_combat" value="False" />
 		<float name="entity_busy_time" value="0" />
 		<float name="facing_angle" value="5" />
 		<bool name="facing_ignore" value="False" />
 		<float name="final_close_in_distance" value="0" />
-		<bool name="fire_and_forget" value="False" />
+		<bool name="fire_and_forget" value="True" />
 		<bool name="garrison_target" value="False" />
-		<bool name="has_speech_code" value="True" />
+		<bool name="has_speech_code" value="False" />
 		<float name="initial_delay_time" value="0" />
 		<bool name="initial_recharge" value="False" />
 		<bool name="is_default_action" value="False" />
 		<bool name="move_back" value="False" />
 		<float name="move_back_distance" value="10" />
-		<float name="range" value="80" />
+		<float name="range" value="50" />
 		<bool name="range_ignore" value="False" />
 		<float name="recharge_time" value="30" />
 		<bool name="refundable" value="True" />
@@ -194,5 +204,5 @@
 		<bool name="can_cast_outside_active_battle_field" value="False" />
 		<bool name="ability_super_event_cue" value="False" />
 	</group>
-	<uniqueid name="pbgid" value="95352" />
+	<uniqueid name="pbgid" value="318" />
 </instance>

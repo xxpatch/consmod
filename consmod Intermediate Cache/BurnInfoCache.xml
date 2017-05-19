@@ -123,7 +123,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\mortar_fire_flares_ability_mp.xml</FileName>
-			<FileHash>ddfabaa3279b602104f1c599e7a7cf5f</FileHash>
+			<FileHash>6327cf1bb3e29e0a3997c1025efe1de9</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\sniper_fire_flares_ability_mp.xml</FileName>
+			<FileHash>30b1a3ddb762ee3ecaef5ed793237d19</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\artillery\artillery_barrage_ability\at_76mm_he_barrage_ability_mp.xml</FileName>
@@ -259,7 +263,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\toggle_ability\kv1_defense_mp.xml</FileName>
-			<FileHash>793eb32ae577605645baaf518a6510c7</FileHash>
+			<FileHash>512ed4816b4d5c917acb5bfdc91e0ecd</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\toggle_ability\commander_ability\at_gun_ambush_tactics.xml</FileName>
@@ -276,6 +280,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\critical\vehicle_crew_shocked_speed.xml</FileName>
 			<FileHash>ac6b6283fbd8e4278c2fda25e71af7a4</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\environment\art_ambient\objects\vehicles\wrecked_vehicles\wrecked_stug_iii_g_sdkfz_141_1_gameplay.xml</FileName>
+			<FileHash>e46ce3a99645c664d0e8f17eabb3e185</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\projectile\flak_37mm_shell_mp.xml</FileName>
@@ -487,7 +495,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\stug_iii_sdkfz_141_1\stug_iii_g_sdkfz_141_1_mp.xml</FileName>
-			<FileHash>e3af04ed322d778b60dc2b3566acd844</FileHash>
+			<FileHash>53082d4ac32ad481facc1c4cadd06690</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\stuka_aircraft\cargo_plane_fuel.xml</FileName>
