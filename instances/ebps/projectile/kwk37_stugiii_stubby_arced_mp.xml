@@ -3,7 +3,7 @@
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext">
 			<string name="alternate_sua" value="" />
 			<bool name="always_revealed_in_fow" value="False" />
-			<file name="animator" value="armies\common\projectiles\shell_heavy\shell_heavy" />
+			<file name="animator" value="armies\common\projectiles\shell_medium\shell_medium" />
 			<bool name="is_visible_in_game" value="True" />
 			<float name="precise_size" value="-1" />
 		</template_reference>
@@ -89,12 +89,12 @@
 							<instance_reference name="terrain_material" value="" />
 						</group>
 					</group>
-					<float name="vertical_scale" value="0.0025" />
+					<float name="vertical_scale" value="0.0015" />
 					<enum name="deform_type" value="tp_additive" />
 				</group>
-				<float name="radius_max" value="4" />
-				<float name="radius_min" value="2" />
-				<float name="splat_only_splat_seconds" value="90" />
+				<float name="radius_max" value="3" />
+				<float name="radius_min" value="1" />
+				<float name="splat_only_splat_seconds" value="0" />
 				<group name="splat_only_splats">
 					<group name="entry_01">
 						<string name="splat_texture" value="" />
@@ -166,12 +166,12 @@
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\projectile_ext">
-			<float name="acceleration" value="20" />
+			<float name="acceleration" value="5" />
 			<group name="artillery">
 				<bool name="can_counter_barrage" value="False" />
 				<bool name="is_artillery" value="True" />
 				<bool name="is_target_only" value="False" />
-				<float name="speed_distance_multiplier" value="0.2" />
+				<float name="speed_distance_multiplier" value="0.05" />
 				<float name="speed_increment" value="0.5" />
 				<enum name="firing_angle_type" value="low_angle" />
 				<bool name="use_homing_when_no_blocker" value="False" />
@@ -187,7 +187,7 @@
 			<float name="deathtimer" value="2.5" />
 			<float name="delay_detonate_time" value="0" />
 			<bool name="delay_detonate_ui_enabled" value="False" />
-			<string name="launcher_marker" value="Marker_Tank_Barrel_End" />
+			<string name="launcher_marker" value="markerfx_stubgun_muzzle" />
 			<float name="life_time_while_alive" value="0" />
 			<float name="rotation_speed" value="10000" />
 			<bool name="spawn_collision_fx" value="False" />
@@ -202,10 +202,10 @@
 					<bool name="retrigger" value="False" />
 					<string name="state_machine_name" value="projectile_use" />
 					<string name="undo_action_state_name" value="" />
-					<uniqueid name="id" value="1073746214" />
+					<uniqueid name="id" value="1073746223" />
 				</template_reference>
 			</list>
 		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="1073741828" />
+	<uniqueid name="pbgid" value="2061" />
 </instance>
