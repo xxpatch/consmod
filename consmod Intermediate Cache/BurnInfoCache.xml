@@ -963,7 +963,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\british\items\universal_carrier_wasp_package_upgrade_mp.xml</FileName>
-			<FileHash>9ddb259ae25381cdba8c6480d4d5ad28</FileHash>
+			<FileHash>c3d106594c0376e3ee3de6d6cc259f3d</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\commander\ability\assault_field_officer.xml</FileName>
@@ -982,8 +982,20 @@
 			<FileHash>26189d28e97806b1556051108ca35f12</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\items\bunker_command_mp.xml</FileName>
+			<FileHash>f4e42ff58b81824dd46725bdc2562527</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\items\bunker_medic_station_mp.xml</FileName>
+			<FileHash>18fe992f8c5342de72f841306ff184c5</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\items\bunker_mg42_addition_mp.xml</FileName>
+			<FileHash>e4b2a9000c154fdb2f1011b33e22ad2f</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\items\sdkfz_251_halftrack_flammpanzerwagen_upgrade_mp.xml</FileName>
-			<FileHash>55413818b32d65377dc8e3b4cfe5ad9e</FileHash>
+			<FileHash>81ec29c12d9e87db7f69b8a40efaf814</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\items\stormtrooper_assault_package_mp.xml</FileName>
@@ -1155,7 +1167,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\explosive_weapons\light_artillery\stuka_37mm_cannon_left_superiority_mp.xml</FileName>
-			<FileHash>50e31a843a31beccd673a6eef1032894</FileHash>
+			<FileHash>c1adf099ff7dc10d5d4e6566d114b91e</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\explosive_weapons\light_artillery\stuka_37mm_cannon_right_mp.xml</FileName>
@@ -1163,7 +1175,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\explosive_weapons\light_artillery\stuka_37mm_cannon_right_superiority_mp.xml</FileName>
-			<FileHash>8ec1ac7f848da017f93622e7b51a2813</FileHash>
+			<FileHash>a87f2fefa3774a5ce05e0236b8dfdd23</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\flame_throwers\halftrack_flammenwerfer_mp.xml</FileName>
