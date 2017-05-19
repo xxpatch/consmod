@@ -677,7 +677,7 @@
 						<list name="recrew_penalties_list">
 						</list>
 						<float name="abandon_animation_seconds" value="0" />
-						<int name="recrew_max_squad_size" value="6" />
+						<int name="recrew_max_squad_size" value="5" />
 						<bool name="abandoned_allows_pass_through" value="True" />
 						<list name="apply_to_driver_action">
 						</list>
@@ -740,7 +740,7 @@
 					<instance_reference name="ext_key" value="racebps\british" />
 					<group name="info">
 						<instance_reference name="capture_squad_blueprint" value="sbps\races\soviet\soldiers\dshk_38_hmg_squad\dshk_38_hmg_squad_mp" />
-						<float name="max_capture_crew_size" value="2" />
+						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
 						</list>
@@ -757,7 +757,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\population_ext">
 			<float name="medic_pop" value="0" />
-			<float name="personnel_pop" value="1" />
+			<float name="personnel_pop" value="2" />
 			<float name="vehicle_pop" value="0" />
 		</template_reference>
 	</list>
