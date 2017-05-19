@@ -172,6 +172,14 @@
 		</enum_table>
 		<enum name="ui_group_cast_type" value="multi" />
 		<list name="requirements_target">
+			<template_reference name="required" value="requirements\required_in_territory">
+				<enum name="reason" value="usage" />
+				<locstring name="ui_name" value="0" />
+				<bool name="in_supply" value="True" />
+				<bool name="is_secured" value="False" />
+				<bool name="is_secured_by_checkpoint" value="False" />
+				<bool name="not_in_transition" value="False" />
+			</template_reference>
 		</list>
 		<template_reference name="targeted_ability_option" value="options\none">
 		</template_reference>
