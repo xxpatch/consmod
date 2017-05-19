@@ -170,6 +170,10 @@
 			<FileHash>6993f127cc9f55a68b61d33e566d602a</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\commander_ability\tank_detection_ability.xml</FileName>
+			<FileHash>37632d5edf31d0b443a3967a804212e3</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\throw_away_hack_ui\cmd_at_gun_ambush_tactics_mp.xml</FileName>
 			<FileHash>417ca6d2b695d1967a673e8e154ce0e9</FileHash>
 		</BurnInfo>
@@ -1008,6 +1012,14 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\explosive_weapons\light_artillery\stuka_37mm_cannon_right_superiority_mp.xml</FileName>
 			<FileHash>2761a122f102ff551fc471ed65430407</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\flame_throwers\halftrack_flammenwerfer_mp.xml</FileName>
+			<FileHash>3f914f7ad691d11bf841a9a8e0af5433</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\flame_throwers\halftrack_flammenwerfer_right_mp.xml</FileName>
+			<FileHash>1f1693290a61d12456fc8b18ba2833f4</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\small_arms\machine_gun\light_machine_gun\mg42_turret_mounted_stugiv_mp.xml</FileName>
