@@ -176,7 +176,7 @@
 				<enum name="firing_angle_type" value="high_angle" />
 				<bool name="use_homing_when_no_blocker" value="True" />
 				<float name="non_collide_start_angle" value="10" />
-				<float name="non_collide_end_angle" value="80" />
+				<float name="non_collide_end_angle" value="75" />
 			</group>
 			<float name="building_hit_fx_delay" value="0" />
 			<bool name="collision_building_wall_panel_ignore" value="False" />
