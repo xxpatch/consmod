@@ -159,11 +159,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\force_reload_machine_gun_mp.xml</FileName>
-			<FileHash>bffed872170c53da7e14c4dd54570848</FileHash>
+			<FileHash>c4c0d09a6242251aa35f777e498bb4c9</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\force_reload_mp.xml</FileName>
-			<FileHash>a27353711e1bc1d0975716603e699523</FileHash>
+			<FileHash>f89acb2b205bdc768bef67997ccd694d</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\mortar_fire_flares_ability_mp.xml</FileName>
@@ -184,6 +184,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\artillery\artillery_barrage_ability\b4_203mm_barrage_commander_vet3_mp.xml</FileName>
 			<FileHash>7dcf11b44af9eab16d3fe23d64c7e983</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\commander_ability\booby_trap.xml</FileName>
+			<FileHash>d453cc68545412fa39155da82d46ab74</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\commander_ability\forward_hq.xml</FileName>
@@ -382,8 +386,12 @@
 			<FileHash>5b98106aad43c432fa2d3f010d15136d</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\props\booby_trap.xml</FileName>
+			<FileHash>86e4d9ead7346fee99657bc102621c6d</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\props\demo_charge_mp.xml</FileName>
-			<FileHash>d76a8c97d6cda0d86bc72571dd0eb11a</FileHash>
+			<FileHash>59d5f35f1cb3d82c06d235b91e913771</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\props\mortar_flare_marker_mp.xml</FileName>
@@ -1462,6 +1470,10 @@
 			<FileHash>99bb7167747cfac08c3edc5eee2d494b</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\sp\explosive_weapons\mine\engineer_demolition_large.xml</FileName>
+			<FileHash>345c10a2447de795f0d28b103b5883ed</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\locale\english\english.ucs</FileName>
 			<FileHash>1b7c7053d803a460318c48516389a7bf</FileHash>
 		</BurnInfo>
@@ -1476,6 +1488,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\data\art\armies\soviet\soldiers\elite_rifleman\elite_nocape.abp</FileName>
 			<FileHash>f13976d1ea645f85eae411e459ab44cb</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\data\ui\forcereload.png</FileName>
+			<FileHash>5cf701509b6cc91309fd22b8aa1ae184</FileHash>
 		</BurnInfo>
 	</BurnInfo>
 	<BurnInfoExtendedInfo />

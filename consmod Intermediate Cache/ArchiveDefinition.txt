@@ -48,6 +48,7 @@ TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\abilities\soviet\modal_ability\artillery\artillery_barrage_ability\at_76mm_he_barrage_ability_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\abilities\soviet\modal_ability\artillery\artillery_barrage_ability\b4_203mm_barrage_commander_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\abilities\soviet\modal_ability\artillery\artillery_barrage_ability\b4_203mm_barrage_commander_vet3_mp.rgd
+	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\abilities\soviet\modal_ability\commander_ability\booby_trap.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\abilities\soviet\modal_ability\commander_ability\forward_hq.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\abilities\soviet\modal_ability\commander_ability\il-2_sturmovik_attack_advanced.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\abilities\soviet\modal_ability\commander_ability\mark_vehicle.rgd
@@ -97,6 +98,7 @@ TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\mortar_flare_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\panzerwerfer_rocket_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\ebps\projectile\soviet_45mm_t70_tank_mp.rgd
+	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\ebps\props\booby_trap.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\ebps\props\demo_charge_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\ebps\props\mortar_flare_marker_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\ebps\races\aef\buildings\defensive_structures\sov_popcap_add_mp.rgd
@@ -367,6 +369,7 @@ TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\weapon\soviet\small_arms\machine_gun\sub_machine_gun\conscript_ppsh-41_sub_machine_gun_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\weapon\soviet\small_arms\single_fire\rifle\guards_troops_mosin_nagant_rifle_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\weapon\soviet\small_arms\single_fire\rifle\mosin_nagant_rifle_conscript_mp.rgd
+	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\weapon\sp\explosive_weapons\mine\engineer_demolition_large.rgd
 TOCEnd
 TOCStart name="locale" alias="locale" path="" relativeroot="locale"
 	FileSettingsStart defverification="crc_blocks" defcompression="stream_compress"
@@ -392,4 +395,6 @@ TOCStart name="data" alias="data" path="" relativeroot="data"
 	FileSettingsEnd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\data\art\armies\soviet\soldiers\conscript_sergeant\conscript_sergeant.abp
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\data\art\armies\soviet\soldiers\elite_rifleman\elite_nocape.abp
+	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\data\ui\Assets\Textures\f2791205c6e743b6a340ef0daf60b957_I1.dds
+	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\data\ui\Bin\f2791205c6e743b6a340ef0daf60b957.gfx
 TOCEnd

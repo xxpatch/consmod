@@ -36,7 +36,7 @@
 						<template_reference name="action" value="action\remove_weapon">
 							<bool name="fire_and_forget" value="False" />
 							<float name="hardpoint" value="1" />
-							<uniqueid name="id" value="1073746323" />
+							<uniqueid name="id" value="1073746453" />
 						</template_reference>
 						<template_reference name="action" value="action\add_weapon">
 							<float name="hardpoint" value="1" />
@@ -55,15 +55,15 @@
 								<enum name="type" value="default" />
 								<instance_reference name="weapon" value="weapon\sp\explosive_weapons\mine\engineer_demolition_large" mod="f2791205c6e743b6a340ef0daf60b957" />
 							</group>
-							<uniqueid name="id" value="1073746324" />
+							<uniqueid name="id" value="1073746454" />
 						</template_reference>
 						<template_reference name="action" value="action\change_weapon">
 							<float name="hardpoint" value="1" />
 							<instance_reference name="weapon" value="weapon\sp\explosive_weapons\mine\engineer_demolition_large" mod="f2791205c6e743b6a340ef0daf60b957" />
-							<uniqueid name="id" value="1073746325" />
+							<uniqueid name="id" value="1073746455" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073746326" />
+					<uniqueid name="id" value="1073746456" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -76,7 +76,7 @@
 					<bool name="fire_and_forget" value="True" />
 					<bool name="is_terrain_only" value="False" />
 					<bool name="allies_only" value="False" />
-					<uniqueid name="id" value="1073746327" />
+					<uniqueid name="id" value="1073746457" />
 				</template_reference>
 			</list>
 		</template_reference>
@@ -105,7 +105,7 @@
 			<locstring name="screen_name" value="0" />
 			<enum name="selection_name" value="prop" />
 			<float name="selection_scale" value="1" />
-			<enum name="selection_type" value="targettable" />
+			<enum name="selection_type" value="no_select" />
 			<bool name="sloppy_selectable" value="False" />
 			<group name="speaker">
 				<string name="code_1" value="" />
@@ -193,7 +193,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\soviet\explosive_weapons\mine\engineer_demoliion_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+							<instance_reference name="weapon" value="weapon\sp\explosive_weapons\mine\engineer_demolition_large" mod="f2791205c6e743b6a340ef0daf60b957" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -204,15 +204,18 @@
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\demolition_charge_ext">
-			<bool name="booby_trap_enabled" value="False" />
-			<float name="death_delay_seconds" value="20" />
+			<bool name="booby_trap_enabled" value="True" />
+			<float name="death_delay_seconds" value="1" />
 			<enum name="detect_type" value="" />
-			<float name="explosions_max" value="4" />
+			<float name="explosions_max" value="1" />
 			<float name="explosions_min" value="1" />
-			<float name="explosions_stagger_time" value="2" />
+			<float name="explosions_stagger_time" value="0" />
 			<list name="detected_actions">
 			</list>
 			<list name="explosion_actions">
+				<template_reference name="action" value="action\detonate">
+					<uniqueid name="id" value="1073746458" />
+				</template_reference>
 			</list>
 			<list name="on_boobytrap_actions">
 			</list>
@@ -226,7 +229,7 @@
 				<float name="chance_splat_only" value="0" />
 				<enum name="cover_type" value="tp_heavy" />
 				<group name="deformation">
-					<string name="deform_decal_file" value="mortar_crater" />
+					<string name="deform_decal_file" value="" />
 					<bool name="limited" value="True" />
 					<bool name="random_rotation" value="True" />
 					<float name="rotation" value="0" />
@@ -296,7 +299,7 @@
 							<instance_reference name="terrain_material" value="" />
 						</group>
 					</group>
-					<float name="vertical_scale" value="0.005" />
+					<float name="vertical_scale" value="0" />
 					<enum name="deform_type" value="tp_additive" />
 				</group>
 				<float name="radius_max" value="4.2" />
@@ -424,10 +427,10 @@
 			<instance_reference name="wreck_entity" value="" />
 			<list name="death_actions">
 				<template_reference name="action" value="action\detonate">
-					<uniqueid name="id" value="1073746380" />
+					<uniqueid name="id" value="1073746459" />
 				</template_reference>
 			</list>
-			<float name="armor" value="4" />
+			<float name="armor" value="35" />
 			<float name="rear_armor" value="0" />
 			<float name="target_size" value="1" />
 			<bool name="dies_from_broken_ice" value="True" />
@@ -483,8 +486,8 @@
 				<enum name="unit_type14" value="" />
 				<enum name="unit_type15" value="" />
 			</group>
-			<enum name="weapon_targeting" value="manual_only" />
+			<enum name="weapon_targeting" value="no_targeting" />
 		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="1073741830" />
+	<uniqueid name="pbgid" value="2066" />
 </instance>
