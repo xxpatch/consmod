@@ -17,7 +17,7 @@
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\panzer_defensive_smoke" />
 				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\german_hulldown_disable" />
-				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\lay_heavy_at_mine" />
+				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\lay_heavy_at_mine" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_vehicle" />
 				<instance_reference name="ability" value="abilities\german\timed_ability\scout_car_halftrack_infantry_awareness_mp" />
 				<instance_reference name="ability" value="abilities\german\toggle_ability\handbrake_mode_new_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
