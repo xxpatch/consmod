@@ -6,15 +6,6 @@
 					<float name="duration" value="1.5" />
 					<bool name="permanent" value="False" />
 					<list name="modifiers">
-						<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
-							<enum name="application_type" value="apply_to_weapon" />
-							<bool name="exclusive" value="False" />
-							<string name="modifier_id" value="" />
-							<string name="target_type_name" value="hardpoint_01" />
-							<enum name="usage_type" value="enable" />
-							<float name="value" value="-1" />
-							<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
-						</template_reference>
 						<template_reference name="modifier" value="modifiers\move_enable_modifier">
 							<enum name="application_type" value="apply_to_entity" />
 							<bool name="exclusive" value="False" />
@@ -35,6 +26,47 @@
 						</template_reference>
 					</list>
 					<uniqueid name="id" value="1073746242" />
+				</template_reference>
+				<template_reference name="action" value="action\timed_action">
+					<float name="duration" value="5" />
+					<bool name="fire_and_forget" value="False" />
+					<list name="subactions">
+						<template_reference name="action" value="action\apply_modifiers_action">
+							<float name="duration" value="1.5" />
+							<bool name="permanent" value="False" />
+							<list name="modifiers">
+								<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
+									<enum name="application_type" value="apply_to_weapon" />
+									<bool name="exclusive" value="False" />
+									<string name="modifier_id" value="" />
+									<string name="target_type_name" value="hardpoint_01" />
+									<enum name="usage_type" value="enable" />
+									<float name="value" value="-1" />
+									<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
+								</template_reference>
+								<template_reference name="modifier" value="modifiers\move_enable_modifier">
+									<enum name="application_type" value="apply_to_entity" />
+									<bool name="exclusive" value="False" />
+									<string name="modifier_id" value="" />
+									<string name="target_type_name" value="" />
+									<enum name="usage_type" value="enable" />
+									<float name="value" value="-1" />
+									<instance_reference name="tooltip" value="modifier_tooltip\move_enable_modifier" />
+								</template_reference>
+								<template_reference name="modifier" value="modifiers\received_accuracy_modifier">
+									<enum name="application_type" value="apply_to_entity" />
+									<bool name="exclusive" value="True" />
+									<string name="modifier_id" value="kv2_siege" />
+									<string name="target_type_name" value="" />
+									<enum name="usage_type" value="multiplication" />
+									<float name="value" value="10" />
+									<instance_reference name="tooltip" value="modifier_tooltip\received_accuracy_modifier" />
+								</template_reference>
+							</list>
+							<uniqueid name="id" value="1073746375" />
+						</template_reference>
+					</list>
+					<uniqueid name="id" value="1073746374" />
 				</template_reference>
 				<template_reference name="action" value="action\timed_action">
 					<float name="duration" value="1.5" />
@@ -82,15 +114,6 @@
 									<float name="duration" value="1.5" />
 									<bool name="permanent" value="False" />
 									<list name="modifiers">
-										<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
-											<enum name="application_type" value="apply_to_weapon" />
-											<bool name="exclusive" value="False" />
-											<string name="modifier_id" value="" />
-											<string name="target_type_name" value="hardpoint_01" />
-											<enum name="usage_type" value="enable" />
-											<float name="value" value="-1" />
-											<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
-										</template_reference>
 										<template_reference name="modifier" value="modifiers\move_enable_modifier">
 											<enum name="application_type" value="apply_to_entity" />
 											<bool name="exclusive" value="False" />
