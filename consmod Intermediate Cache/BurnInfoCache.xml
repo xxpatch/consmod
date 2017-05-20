@@ -823,7 +823,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\soldiers\stormtrooper_squad\stormtrooper_squad_mp.xml</FileName>
-			<FileHash>5dafdd40978cd564e62426cba246f949</FileHash>
+			<FileHash>1f4f0c54387f16e78e6ee8dd0badb5cf</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\at_gun_squad\pak40_75mm_at_gun_squad_mp.xml</FileName>
@@ -1079,7 +1079,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\commander\ability\light_infantry_stormtrooper_package.xml</FileName>
-			<FileHash>8861c76ae3a7cb3271ea540fd7bd7390</FileHash>
+			<FileHash>6513627f234bcb5437c561f2029dd724</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\commander\passive\defensive_fortifications.xml</FileName>
@@ -1103,7 +1103,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\items\stormtrooper_assault_package_mp.xml</FileName>
-			<FileHash>1cff00575f3d31d0439aa3f9f6ef2483</FileHash>
+			<FileHash>2410f67d340f1ebfa2100410a4814048</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\items\stormtrooper_panzerschreck_mp.xml</FileName>
+			<FileHash>941d4d8ab8bfca886441b6405da3495a</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\items\stug_top_gunner_mp.xml</FileName>
