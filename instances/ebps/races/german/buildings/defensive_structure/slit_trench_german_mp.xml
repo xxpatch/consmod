@@ -111,7 +111,7 @@
 		<template_reference name="exts" value="ebpextensions\type_ext">
 			<group name="unit_type_list">
 				<enum name="unit_type00" value="defence_building" />
-				<enum name="unit_type01" value="ambient_building" />
+				<enum name="unit_type01" value="" />
 				<enum name="unit_type02" value="tactical_structure" />
 				<enum name="unit_type03" value="building" />
 				<enum name="unit_type04" value="" />
@@ -207,7 +207,7 @@
 				<string name="code_3" value="" />
 			</group>
 			<group name="speech_code_3">
-				<string name="code_1" value="" />
+				<string name="code_1" value="sth" />
 				<string name="code_2" value="" />
 				<string name="code_3" value="" />
 			</group>
@@ -601,19 +601,30 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\requirement_ext">
 			<list name="requirement_table">
-				<template_reference name="required" value="requirements\required_resource">
+				<template_reference name="required" value="requirements\required_any_in_list">
 					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="11053019" />
-					<template_reference name="resource" value="tables\resource_table">
-						<float name="action" value="0" />
-						<float name="command" value="2" />
-						<float name="fuel" value="0" />
-						<float name="manpower" value="0" />
-						<float name="munition" value="0" />
-						<float name="soviet_progression" value="0" />
-						<float name="soviet_227" value="0" />
-						<float name="popcap" value="0" />
-					</template_reference>
+					<list name="requirements">
+						<template_reference name="requirement" value="requirements\required_resource">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="11053019" />
+							<template_reference name="resource" value="tables\resource_table">
+								<float name="action" value="0" />
+								<float name="command" value="2" />
+								<float name="fuel" value="0" />
+								<float name="manpower" value="0" />
+								<float name="munition" value="0" />
+								<float name="soviet_progression" value="0" />
+								<float name="soviet_227" value="0" />
+								<float name="popcap" value="0" />
+							</template_reference>
+						</template_reference>
+						<template_reference name="requirement" value="requirements\required_race">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<instance_reference name="race" value="racebps\british" />
+						</template_reference>
+					</list>
 				</template_reference>
 				<template_reference name="required" value="requirements\required_any_in_list">
 					<enum name="reason" value="usage_and_display" />
@@ -634,6 +645,11 @@
 							<float name="max_completed" value="100" />
 							<float name="min_completed" value="1" />
 							<instance_reference name="upgrade_name" value="upgrade\west_german\commander\passive\heavy_fortifications" />
+						</template_reference>
+						<template_reference name="requirement" value="requirements\required_race">
+							<enum name="reason" value="usage_and_display" />
+							<locstring name="ui_name" value="0" />
+							<instance_reference name="race" value="racebps\british" />
 						</template_reference>
 					</list>
 				</template_reference>
