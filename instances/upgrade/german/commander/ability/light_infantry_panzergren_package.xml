@@ -42,22 +42,22 @@
 		<bool name="validate_actions" value="True" />
 		<list name="actions">
 			<template_reference name="action" value="action\slot_item_add">
-				<instance_reference name="slot_item" value="slot_item\german\small_arms\jaeger_panzergren_g43_rifle_item_mp" />
+				<instance_reference name="slot_item" value="slot_item\german\small_arms\jaeger_panzergren_g43_rifle_item_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<bool name="permanent" value="True" />
 				<uniqueid name="id" value="1073743592" />
 			</template_reference>
 			<template_reference name="action" value="action\slot_item_add">
-				<instance_reference name="slot_item" value="slot_item\german\small_arms\jaeger_panzergren_g43_rifle_item_mp" />
+				<instance_reference name="slot_item" value="slot_item\german\small_arms\jaeger_panzergren_g43_rifle_item_slot_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<bool name="permanent" value="True" />
 				<uniqueid name="id" value="1073743593" />
 			</template_reference>
 			<template_reference name="action" value="action\slot_item_add">
-				<instance_reference name="slot_item" value="slot_item\german\small_arms\jaeger_panzergren_g43_rifle_item_mp" />
+				<instance_reference name="slot_item" value="slot_item\german\small_arms\jaeger_panzergren_g43_rifle_item_slot_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<bool name="permanent" value="True" />
 				<uniqueid name="id" value="1073743598" />
 			</template_reference>
 			<template_reference name="action" value="action\slot_item_add">
-				<instance_reference name="slot_item" value="slot_item\german\small_arms\jaeger_panzergren_g43_rifle_item_mp" />
+				<instance_reference name="slot_item" value="slot_item\german\small_arms\jaeger_panzergren_g43_rifle_item_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<bool name="permanent" value="True" />
 				<uniqueid name="id" value="1073743599" />
 			</template_reference>
@@ -76,16 +76,6 @@
 					</template_reference>
 				</list>
 				<uniqueid name="id" value="1073743594" />
-			</template_reference>
-			<template_reference name="action" value="action\slot_item_add">
-				<instance_reference name="slot_item" value="slot_item\soviet\small_arms\dummy_1_slot_item_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-				<bool name="permanent" value="True" />
-				<uniqueid name="id" value="1073743600" />
-			</template_reference>
-			<template_reference name="action" value="action\slot_item_add">
-				<instance_reference name="slot_item" value="slot_item\soviet\small_arms\dummy_1_slot_item_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-				<bool name="permanent" value="True" />
-				<uniqueid name="id" value="1073743601" />
 			</template_reference>
 		</list>
 		<list name="requirements">

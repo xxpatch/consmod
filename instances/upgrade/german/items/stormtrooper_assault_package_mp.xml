@@ -48,7 +48,7 @@
 				<uniqueid name="id" value="1073743606" />
 			</template_reference>
 			<template_reference name="action" value="action\slot_item_add">
-				<instance_reference name="slot_item" value="slot_item\german\small_arms\stormtrooper_mp44_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<instance_reference name="slot_item" value="slot_item\german\small_arms\stormtrooper_mp44_slot_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<bool name="permanent" value="True" />
 				<uniqueid name="id" value="1073743607" />
 			</template_reference>
@@ -58,19 +58,9 @@
 				<uniqueid name="id" value="1073743608" />
 			</template_reference>
 			<template_reference name="action" value="action\slot_item_add">
-				<instance_reference name="slot_item" value="slot_item\german\small_arms\stormtrooper_mp44_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<instance_reference name="slot_item" value="slot_item\german\small_arms\stormtrooper_mp44_slot_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<bool name="permanent" value="True" />
 				<uniqueid name="id" value="1073743609" />
-			</template_reference>
-			<template_reference name="action" value="action\slot_item_add">
-				<instance_reference name="slot_item" value="slot_item\soviet\small_arms\dummy_1_slot_item_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-				<bool name="permanent" value="True" />
-				<uniqueid name="id" value="1073743610" />
-			</template_reference>
-			<template_reference name="action" value="action\slot_item_add">
-				<instance_reference name="slot_item" value="slot_item\soviet\small_arms\dummy_1_slot_item_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-				<bool name="permanent" value="True" />
-				<uniqueid name="id" value="1073743611" />
 			</template_reference>
 		</list>
 		<list name="requirements">

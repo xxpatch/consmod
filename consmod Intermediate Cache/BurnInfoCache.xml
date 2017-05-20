@@ -1018,8 +1018,20 @@
 			<FileHash>0a8fc1a879bd97d8140b599ad221dad1</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\slot_item\german\small_arms\jaeger_panzergren_g43_rifle_item_mp.xml</FileName>
+			<FileHash>2e2d78dd3095a94ceb926e4454f10d43</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\slot_item\german\small_arms\jaeger_panzergren_g43_rifle_item_slot_mp.xml</FileName>
+			<FileHash>849ccf59c6b284c5f8dede5caa53dfcf</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\slot_item\german\small_arms\stormtrooper_mp44_mp.xml</FileName>
 			<FileHash>783c59203be9447897ce616240d600e1</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\slot_item\german\small_arms\stormtrooper_mp44_slot_mp.xml</FileName>
+			<FileHash>2bbcd88315a5dacfb0b2ce4ad1ab9931</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\slot_item\soviet\anti_tank_weapon\ptrs_41_anti_tank_rifle_conscript_mp.xml</FileName>
@@ -1038,12 +1050,12 @@
 			<FileHash>134606124d04df9c53569e7a61d734be</FileHash>
 		</BurnInfo>
 		<BurnInfo>
-			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\slot_item\soviet\small_arms\dummy_1_slot_item_mp.xml</FileName>
-			<FileHash>a1134de7aafb2ae60238f2e6b51452f8</FileHash>
-		</BurnInfo>
-		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\slot_item\soviet\small_arms\partisan_ppsh41_assault_package_mp.xml</FileName>
 			<FileHash>4dd09964763e921d32746a460c140a7f</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\slot_item\soviet\small_arms\partisan_ppsh41_assault_package_slot_mp.xml</FileName>
+			<FileHash>fdc562a9343853980879b68c4de8f5b9</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\squad_formations\3man_wedge.xml</FileName>
@@ -1063,11 +1075,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\commander\ability\light_infantry_panzergren_package.xml</FileName>
-			<FileHash>e3dbb40b3baf648621bbbce7429255c9</FileHash>
+			<FileHash>cb2c2e0db0d7a5dfa96b73a069dcb021</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\commander\ability\light_infantry_stormtrooper_package.xml</FileName>
-			<FileHash>fe67c0ecc8bef14636a3050fce6db3cf</FileHash>
+			<FileHash>8861c76ae3a7cb3271ea540fd7bd7390</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\commander\passive\defensive_fortifications.xml</FileName>
@@ -1091,7 +1103,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\items\stormtrooper_assault_package_mp.xml</FileName>
-			<FileHash>c1a48a26d648b9868d48e00989c6e4c4</FileHash>
+			<FileHash>1cff00575f3d31d0439aa3f9f6ef2483</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\items\stug_top_gunner_mp.xml</FileName>
@@ -1171,7 +1183,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\soviet\items\partisan_ppsh-41_sub_machine_gun_upgrade_mp.xml</FileName>
-			<FileHash>5b7ee4ed600281a7d3efffaaf134dab8</FileHash>
+			<FileHash>0b266fd99963ac25d3375d300865dec2</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\soviet\items\penal_ptrs_package_1_mp.xml</FileName>
