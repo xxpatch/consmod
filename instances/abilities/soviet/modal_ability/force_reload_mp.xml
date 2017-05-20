@@ -81,7 +81,7 @@
 			<locstring name="extra_text" value="34" mod="a0826357b7334b76b790ad100f047c6c" />
 			<locstring name="help_text" value="35" mod="a0826357b7334b76b790ad100f047c6c" />
 			<string name="hotkey_name" value="F" />
-			<icon name="icon_name" value="ModIcons_f2791205c6e743b6a340ef0daf60b957_forcereload" />
+			<icon name="icon_name" value="Icons_abilities_ability_aef_m2hb_hmg_armor_piercing_shells" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
 			<locstring name="screen_name" value="37" mod="a0826357b7334b76b790ad100f047c6c" />

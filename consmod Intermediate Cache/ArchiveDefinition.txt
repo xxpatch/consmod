@@ -395,6 +395,4 @@ TOCStart name="data" alias="data" path="" relativeroot="data"
 	FileSettingsEnd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\data\art\armies\soviet\soldiers\conscript_sergeant\conscript_sergeant.abp
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\data\art\armies\soviet\soldiers\elite_rifleman\elite_nocape.abp
-	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\data\ui\Assets\Textures\f2791205c6e743b6a340ef0daf60b957_I1.dds
-	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\data\ui\Bin\f2791205c6e743b6a340ef0daf60b957.gfx
 TOCEnd

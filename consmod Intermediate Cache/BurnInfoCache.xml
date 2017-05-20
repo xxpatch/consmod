@@ -159,11 +159,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\force_reload_machine_gun_mp.xml</FileName>
-			<FileHash>c4c0d09a6242251aa35f777e498bb4c9</FileHash>
+			<FileHash>bffed872170c53da7e14c4dd54570848</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\force_reload_mp.xml</FileName>
-			<FileHash>f89acb2b205bdc768bef67997ccd694d</FileHash>
+			<FileHash>2d337d292a28edfa4b76cf069ff65093</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\mortar_fire_flares_ability_mp.xml</FileName>
@@ -1488,10 +1488,6 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\data\art\armies\soviet\soldiers\elite_rifleman\elite_nocape.abp</FileName>
 			<FileHash>f13976d1ea645f85eae411e459ab44cb</FileHash>
-		</BurnInfo>
-		<BurnInfo>
-			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\data\ui\forcereload.png</FileName>
-			<FileHash>5cf701509b6cc91309fd22b8aa1ae184</FileHash>
 		</BurnInfo>
 	</BurnInfo>
 	<BurnInfoExtendedInfo />
