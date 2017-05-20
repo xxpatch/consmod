@@ -149,7 +149,7 @@
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\combat_engineer_squad\combat_engineer_squad_mp" />
+							<instance_reference name="squad_type_to_monitor" value="sbps\races\soviet\soldiers\combat_engineer_squad\combat_engineer_squad_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 						<group name="replace_info">

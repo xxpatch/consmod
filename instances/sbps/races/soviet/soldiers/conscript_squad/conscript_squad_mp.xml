@@ -716,7 +716,7 @@
 				<instance_reference name="ability" value="abilities\soviet\toggle_ability\conscript_evasive_tactics_mp" />
 				<instance_reference name="ability" value="abilities\soviet\modal_ability\repair_ability\soviet_conscript_repair_ability_mp" />
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
-				<instance_reference name="ability" value="abilities\soviet\modal_ability\fieldcraft_trip_flare_mp" />
+				<instance_reference name="ability" value="abilities\soviet\modal_ability\fieldcraft_trip_flare_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\soviet\modal_ability\grenades\anti_tank_grenade_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
