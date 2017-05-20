@@ -126,7 +126,7 @@
 		<float name="initial_delay_time" value="0" />
 		<bool name="initial_recharge" value="False" />
 		<bool name="is_default_action" value="False" />
-		<bool name="move_back" value="True" />
+		<bool name="move_back" value="False" />
 		<float name="move_back_distance" value="15" />
 		<float name="range" value="4" />
 		<bool name="range_ignore" value="False" />
@@ -173,7 +173,7 @@
 			<locstring name="screen_name_short" value="0" />
 		</group>
 		<locstring name="ui_usage_txt" value="0" />
-		<bool name="validate_actions" value="False" />
+		<bool name="validate_actions" value="True" />
 		<list name="global_self_actions">
 		</list>
 		<list name="requirements">

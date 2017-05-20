@@ -110,7 +110,7 @@
 		<float name="initial_delay_time" value="0" />
 		<bool name="initial_recharge" value="False" />
 		<bool name="is_default_action" value="False" />
-		<bool name="move_back" value="True" />
+		<bool name="move_back" value="False" />
 		<float name="move_back_distance" value="15" />
 		<float name="range" value="4" />
 		<bool name="range_ignore" value="False" />
