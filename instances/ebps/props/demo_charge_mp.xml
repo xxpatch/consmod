@@ -423,9 +423,8 @@
 			<bool name="ui_can_scuttle" value="False" />
 			<instance_reference name="wreck_entity" value="" />
 			<list name="death_actions">
-				<template_reference name="action" value="action\self_destruction_action">
-					<instance_reference name="detonation_weapon_name" value="weapon\soviet\explosive_weapons\mine\engineer_demoliion_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-					<uniqueid name="id" value="1073746376" />
+				<template_reference name="action" value="action\detonate">
+					<uniqueid name="id" value="1073746380" />
 				</template_reference>
 			</list>
 			<float name="armor" value="4" />
