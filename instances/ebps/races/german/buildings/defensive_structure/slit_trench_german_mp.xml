@@ -467,12 +467,12 @@
 			<bool name="enable_trigger_attack_in_hold" value="False" />
 			<bool name="holds_produced_squads" value="False" />
 			<bool name="keep_abandoned_team_weapon" value="False" />
-			<float name="load_seconds" value="1" />
+			<float name="load_seconds" value="0.375" />
 			<float name="max_load_seconds" value="2" />
 			<float name="min_hold_seconds" value="1" />
 			<float name="num_slots" value="6" />
 			<float name="num_squad_slots" value="1" />
-			<float name="percent_unload_on_death" value="0.75" />
+			<float name="percent_unload_on_death" value="0.5" />
 			<bool name="revert_ownership" value="True" />
 			<bool name="scavenge_enabled" value="False" />
 			<group name="scavenge_resource">
@@ -484,7 +484,7 @@
 				<float name="popcap" value="0" />
 			</group>
 			<bool name="shared_with_other_same_type_units" value="False" />
-			<float name="unload_seconds" value="0.5" />
+			<float name="unload_seconds" value="0.25" />
 			<bool name="use_building_target_scan_radius" value="False" />
 			<bool name="use_crouching_posture" value="True" />
 			<list name="on_loaded_hold_actions">
