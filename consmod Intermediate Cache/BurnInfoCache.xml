@@ -134,6 +134,10 @@
 			<FileHash>3502a34c3c851fed7bfa42309da440ef</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\pak40_target_weak_point_mp.xml</FileName>
+			<FileHash>476d9c40014929e1e7ca3044ae63a9f8</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\panzergrenadier_mark_target.xml</FileName>
 			<FileHash>5ff8dd41a215a9964ce06637fa917400</FileHash>
 		</BurnInfo>
@@ -539,7 +543,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\team_weapons\at_gun\pak40_75mm_at_gun_mp.xml</FileName>
-			<FileHash>578c87faa718fa702a76a83f4b979bac</FileHash>
+			<FileHash>287fdac320659355d6c51ea5d8736dd5</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\team_weapons\at_gun\pak43_88mm_at_gun_mp.xml</FileName>
@@ -859,7 +863,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\at_gun_squad\pak40_75mm_at_gun_squad_mp.xml</FileName>
-			<FileHash>7f6cb42d2583997da0d11b201ae18937</FileHash>
+			<FileHash>932bdd7f86729ef81363fe2ee14139e3</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\brummbar_squad\brummbar_squad_mp.xml</FileName>
@@ -1102,6 +1106,10 @@
 			<FileHash>c3d106594c0376e3ee3de6d6cc259f3d</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\ability_lock_out\ability_lock_out_pak40_twp_mp.xml</FileName>
+			<FileHash>7c7df4789d36e44d246120c263c61500</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\commander\ability\assault_field_officer.xml</FileName>
 			<FileHash>8b95f0f057437295633bdc2e2ffaf388</FileHash>
 		</BurnInfo>
@@ -1240,6 +1248,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\anti_tank_gun\75mm_pak_40_ap_mp.xml</FileName>
 			<FileHash>24f96b19f417a0cd4909063daff48393</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\anti_tank_gun\75mm_pak_40_mp.xml</FileName>
+			<FileHash>19dbc948f09c13c25c853b76070a8691</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\infantry_anti_tank_weapon\panzerschreck_atw_mp.xml</FileName>
