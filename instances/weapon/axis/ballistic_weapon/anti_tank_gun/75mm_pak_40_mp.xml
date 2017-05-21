@@ -316,11 +316,6 @@
 									<instance_reference name="critical" value="critical\vehicle_crew_shocked_speed" mod="f2791205c6e743b6a340ef0daf60b957" />
 									<uniqueid name="id" value="1073746498" />
 								</template_reference>
-								<template_reference name="action" value="action\upgrade_remove">
-									<bool name="apply_to_entities_in_squad" value="False" />
-									<instance_reference name="upgrade" value="upgrade\german\ability_lock_out\ability_lock_out_pak40_twp_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-									<uniqueid name="id" value="1073746499" />
-								</template_reference>
 							</list>
 							<uniqueid name="id" value="1073746497" />
 							<bool name="fire_and_forget_non_global" value="False" />
