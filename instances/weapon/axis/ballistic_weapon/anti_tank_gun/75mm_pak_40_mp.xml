@@ -313,8 +313,13 @@
 							<list name="action_table">
 								<template_reference name="action" value="action\trigger_critical_action">
 									<float name="remove_at_health" value="1" />
-									<instance_reference name="critical" value="critical\vehicle_crew_shocked_speed" mod="f2791205c6e743b6a340ef0daf60b957" />
-									<uniqueid name="id" value="1073746498" />
+									<instance_reference name="critical" value="critical\vehicle_aec_temp_engine_damage" />
+									<uniqueid name="id" value="1073746568" />
+								</template_reference>
+								<template_reference name="action" value="action\trigger_critical_action">
+									<float name="remove_at_health" value="1" />
+									<instance_reference name="critical" value="critical\vehicle_vison_block_damaged" />
+									<uniqueid name="id" value="1073746567" />
 								</template_reference>
 							</list>
 							<uniqueid name="id" value="1073746497" />
