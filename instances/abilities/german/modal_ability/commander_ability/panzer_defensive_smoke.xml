@@ -41,7 +41,7 @@
 					<bool name="randomize" value="False" />
 					<list name="delayed_actions">
 						<template_reference name="action" value="action\spawn_entity">
-							<float name="duration" value="12" />
+							<float name="duration" value="15" />
 							<instance_reference name="entity_blueprint" value="ebps\gameplay\smoke_shot_block" />
 							<bool name="permanent" value="False" />
 							<bool name="player_owned" value="False" />
@@ -98,14 +98,14 @@
 			<float name="command" value="0" />
 			<float name="fuel" value="0" />
 			<float name="manpower" value="0" />
-			<float name="munition" value="30" />
+			<float name="munition" value="25" />
 			<float name="popcap" value="0" />
 		</group>
 		<string name="cursor_ghost_blueprint" value="" />
 		<float name="cursor_ghost_blueprint_angle" value="0" />
 		<bool name="disable_combat" value="False" />
 		<bool name="disable_when_active" value="True" />
-		<float name="duration_time" value="8" />
+		<float name="duration_time" value="17.5" />
 		<bool name="enable_in_building" value="False" />
 		<bool name="enable_in_vehicle" value="False" />
 		<bool name="engage_combat" value="True" />
@@ -123,7 +123,7 @@
 		<float name="move_back_distance" value="10" />
 		<float name="range" value="20" />
 		<bool name="range_ignore" value="False" />
-		<float name="recharge_time" value="38" />
+		<float name="recharge_time" value="45" />
 		<bool name="refundable" value="True" />
 		<bool name="require_no_shot_block" value="False" />
 		<enum name="shared_timer" value="" />
