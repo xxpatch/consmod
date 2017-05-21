@@ -41,8 +41,8 @@
 			<float name="length" value="0" />
 			<group name="origin">
 				<float name="x" value="0" />
-				<float name="y" value="2" />
-				<float name="z" value="0" />
+				<float name="y" value="3" />
+				<float name="z" value="0.2" />
 			</group>
 			<enum name="type" value="accessory" />
 			<instance_reference name="weapon" value="weapon\german\ballistic_weapon\tank_gun\elefant_supporting_fire_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
