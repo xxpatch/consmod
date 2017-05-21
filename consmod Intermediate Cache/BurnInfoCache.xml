@@ -51,7 +51,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\artillery\artillery_barrage_ability\elefant_barrage_ability_mp.xml</FileName>
-			<FileHash>1dad34a6aa0e033f6ef74e3d70cec074</FileHash>
+			<FileHash>145b445addbd9f34503b575af60e2404</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\air_dropped_munitions.xml</FileName>
@@ -135,7 +135,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\pak40_target_weak_point_mp.xml</FileName>
-			<FileHash>16618e15706ad3eccf7c819802a6e725</FileHash>
+			<FileHash>1ccbf5429fa54b9c4421ba653a246f8b</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\panzergrenadier_mark_target.xml</FileName>
@@ -183,7 +183,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\artillery\artillery_barrage_ability\at_76mm_he_barrage_ability_mp.xml</FileName>
-			<FileHash>207ee5ea580f11b8e8939d79a5ff79a2</FileHash>
+			<FileHash>76d82203b8da82e874aa167e9b313d7a</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\artillery\artillery_barrage_ability\b4_203mm_barrage_commander_mp.xml</FileName>
@@ -359,7 +359,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\projectile\elefant_shell_he_mp.xml</FileName>
-			<FileHash>bfb0149530036d1540c83faf6aa6e11a</FileHash>
+			<FileHash>d39e1d62084a110a9b0e52e1de5b2c02</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\projectile\flak_37mm_shell_mp.xml</FileName>
@@ -1367,7 +1367,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\german\ballistic_weapon\tank_gun\elefant_supporting_fire_mp.xml</FileName>
-			<FileHash>4dd5a4606a5a204cb7912afe69ace950</FileHash>
+			<FileHash>a210c685bfdcd75e0cd21e6e9cd76dc8</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\ballistic_weapon\anti_tank_gun\53k_45mm_m1937_at_gun_mp.xml</FileName>
@@ -1443,7 +1443,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\light_artillery\zis3_at_gun_he_shots_mp.xml</FileName>
-			<FileHash>d93eb125f0fb15cf7153fcdbc4368be5</FileHash>
+			<FileHash>36be0b823c1da3e1747650b49fdbebab</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\mine\engineer_demoliion_mp.xml</FileName>
