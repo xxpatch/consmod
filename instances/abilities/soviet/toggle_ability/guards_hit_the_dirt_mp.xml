@@ -148,7 +148,7 @@
 			<string name="cursor_nonmodal_good" value="" />
 		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="11039301" />
+			<locstring name="extra_text" value="33" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<locstring name="help_text" value="3" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<string name="hotkey_name" value="D" />
 			<icon name="icon_name" value="Icons_abilities_ability_soviet_evasive_tactics_on" />
@@ -193,7 +193,7 @@
 			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />
-		<int name="ui_position" value="32" />
+		<int name="ui_position" value="34" />
 		<bool name="ui_mini_map_capture" value="False" />
 		<bool name="facing_ignore_during_active" value="False" />
 		<instance_reference name="ui_range" value="" />

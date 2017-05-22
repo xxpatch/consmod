@@ -155,7 +155,7 @@
 			<string name="cursor_nonmodal_good" value="" />
 		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="11053821" />
+			<locstring name="extra_text" value="34" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<locstring name="help_text" value="24" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<string name="hotkey_name" value="F" />
 			<icon name="icon_name" value="Icons_abilities_ability_west_german_coordinated_fire" />

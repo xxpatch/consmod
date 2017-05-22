@@ -123,8 +123,8 @@
 			<string name="cursor_nonmodal_good" value="" />
 		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="11051617" />
-			<locstring name="help_text" value="11051042" />
+			<locstring name="extra_text" value="42" mod="f2791205c6e743b6a340ef0daf60b957" />
+			<locstring name="help_text" value="41" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<string name="hotkey_name" value="" />
 			<icon name="icon_name" value="Icons_commander_cmdr_soviet_forward_hq" />
 			<string name="overlay_name" value="" />
@@ -147,7 +147,7 @@
 				<bool name="is_present" value="True" />
 				<float name="max_completed" value="100" />
 				<float name="min_completed" value="1" />
-				<instance_reference name="upgrade_name" value="upgrade\soviet\commander\ability\forward_hq" />
+				<instance_reference name="upgrade_name" value="upgrade\soviet\commander\ability\forward_hq" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />
