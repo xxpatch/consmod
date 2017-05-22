@@ -135,7 +135,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\pak40_target_weak_point_mp.xml</FileName>
-			<FileHash>1ccbf5429fa54b9c4421ba653a246f8b</FileHash>
+			<FileHash>bace316728348ad289c7e9371f9804f0</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\panzergrenadier_mark_target.xml</FileName>
@@ -863,7 +863,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\at_gun_squad\pak40_75mm_at_gun_squad_mp.xml</FileName>
-			<FileHash>207516039adc9ba721b707e3babb82fb</FileHash>
+			<FileHash>28815e26c63bb644ceedd95f9f03a53a</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\brummbar_squad\brummbar_squad_mp.xml</FileName>
@@ -1110,6 +1110,10 @@
 			<FileHash>919f0bbc808033f31a7705bbd5b03fe5</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\ability_lock_out\ability_lock_out_pak40_twp_onair_mp.xml</FileName>
+			<FileHash>fd5e5e34326a7e8fc13281aff505684e</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\commander\ability\assault_field_officer.xml</FileName>
 			<FileHash>8b95f0f057437295633bdc2e2ffaf388</FileHash>
 		</BurnInfo>
@@ -1251,7 +1255,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\anti_tank_gun\75mm_pak_40_mp.xml</FileName>
-			<FileHash>9af802953adae261964d15aa2b3b0d0a</FileHash>
+			<FileHash>40b30711c4d084cab8b41e0c310c84c9</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\infantry_anti_tank_weapon\panzerschreck_atw_mp.xml</FileName>
