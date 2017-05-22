@@ -617,7 +617,7 @@
 											<string name="modifier_id" value="tiger_ace_fuel_resources" />
 											<string name="target_type_name" value="" />
 											<enum name="usage_type" value="multiplication" />
-											<float name="value" value="0.1" />
+											<float name="value" value="0.5" />
 											<instance_reference name="tooltip" value="modifier_tooltip\income_fuel_player_modifier" />
 										</template_reference>
 										<template_reference name="modifier" value="modifiers\income_manpower_player_modifier">
@@ -626,7 +626,7 @@
 											<string name="modifier_id" value="tiger_ace_manpower_resources" />
 											<string name="target_type_name" value="" />
 											<enum name="usage_type" value="multiplication" />
-											<float name="value" value="0.75" />
+											<float name="value" value="0.8" />
 											<instance_reference name="tooltip" value="modifier_tooltip\income_manpower_player_modifier" />
 										</template_reference>
 									</list>
