@@ -194,6 +194,10 @@
 			<FileHash>30b1a3ddb762ee3ecaef5ed793237d19</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\artillery\isu152_concrete_piercing_round_mp.xml</FileName>
+			<FileHash>e08e4ab6869b941f0d3853a887a2a774</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\artillery\artillery_barrage_ability\at_76mm_he_barrage_ability_mp.xml</FileName>
 			<FileHash>76d82203b8da82e874aa167e9b313d7a</FileHash>
 		</BurnInfo>
@@ -703,7 +707,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\vehicles\isu_152_spg\isu_152_spg_mp.xml</FileName>
-			<FileHash>017567265cc4017a370be43427ae4cb0</FileHash>
+			<FileHash>6ea18297bc6ebeaa31b38a07e78c41ff</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\vehicles\kv-1\kv-1_commander_mp.xml</FileName>
@@ -1102,6 +1106,10 @@
 			<FileHash>78a27661fc290701c31418658dce4a98</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\slot_item\soviet\ballistic_weapon\isu_piercing_item_mp.xml</FileName>
+			<FileHash>0655fa7628102f71ba6b5ef3ff3277d5</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\slot_item\soviet\grenades\conscript_molotov_vet_mp.xml</FileName>
 			<FileHash>e2f802d18fe18eea2eba877f5ad6bacb</FileHash>
 		</BurnInfo>
@@ -1428,6 +1436,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\ballistic_weapon\tank_gun\isu152_ml-20s_152mm_howitzer_gun_mp.xml</FileName>
 			<FileHash>606064b73ddec020303ac5575f308a6d</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\ballistic_weapon\tank_gun\isu152_ml-20s_152mm_howitzer_gun_piercing_shot_mp.xml</FileName>
+			<FileHash>7b7ff675f3974f997fb94d81e540e697</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\ballistic_weapon\tank_gun\kv2_m10_152mm.xml</FileName>
