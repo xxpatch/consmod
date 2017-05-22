@@ -1083,7 +1083,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\slot_item\german\explosive_weapon\elefant_he_round_item_mp.xml</FileName>
-			<FileHash>fa6a01f7cc0a98602064b55aaab9b636</FileHash>
+			<FileHash>8faf808734a813749b2e5d00c87f4ce5</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\slot_item\german\small_arms\jaeger_panzergren_g43_rifle_item_mp.xml</FileName>
@@ -1318,6 +1318,10 @@
 			<FileHash>f7ee0d8af8f2782b2b4ea53f25af0f0c</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\elefant_supporting_fire_mp.xml</FileName>
+			<FileHash>a210c685bfdcd75e0cd21e6e9cd76dc8</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\ostwind_flak_43_37mm_mp.xml</FileName>
 			<FileHash>a59dd78151d7c42a067db85a0879aa9f</FileHash>
 		</BurnInfo>
@@ -1416,10 +1420,6 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\british\ballistic_weapon\infantry_anti_tank_weapon\piat_launcher_mp.xml</FileName>
 			<FileHash>7d243049ea122bebe230db0a39a92f21</FileHash>
-		</BurnInfo>
-		<BurnInfo>
-			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\german\ballistic_weapon\tank_gun\elefant_supporting_fire_mp.xml</FileName>
-			<FileHash>a210c685bfdcd75e0cd21e6e9cd76dc8</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\ballistic_weapon\anti_tank_gun\53k_45mm_m1937_at_gun_mp.xml</FileName>
