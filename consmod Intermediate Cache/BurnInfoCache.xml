@@ -138,6 +138,10 @@
 			<FileHash>074b5af0be1e56e7eab588b1b8614c8a</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\pak43_target_weak_point_new_mp.xml</FileName>
+			<FileHash>4ea3dc9d2166963dcaeded3eb5255f21</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\panzergrenadier_mark_target.xml</FileName>
 			<FileHash>5ff8dd41a215a9964ce06637fa917400</FileHash>
 		</BurnInfo>
@@ -551,7 +555,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\team_weapons\at_gun\pak43_88mm_at_gun_mp.xml</FileName>
-			<FileHash>2283e9d68b5316bf1385bf4f1fbb1fe1</FileHash>
+			<FileHash>fc29e8b037ca7ea2f329e704987a7f19</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\team_weapons\german_field_artillery\howitzer_105mm_le_fh18_mp.xml</FileName>
@@ -762,6 +766,10 @@
 			<FileHash>511f3f0e7ab51360b8d95b471044c305</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\west_german\team_weapons\at_gun\pak43_88mm_at_gun_westgerman_mp.xml</FileName>
+			<FileHash>70a19275c27971a1857a2dbc9e01148d</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\west_german\vehicles\hetzer\hetzer_mp.xml</FileName>
 			<FileHash>84ec91a6f6ae8c79fc0d599a489c2cf2</FileHash>
 		</BurnInfo>
@@ -868,6 +876,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\at_gun_squad\pak40_75mm_at_gun_squad_mp.xml</FileName>
 			<FileHash>28815e26c63bb644ceedd95f9f03a53a</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\at_gun_squad\pak43_88mm_at_gun_squad_mp.xml</FileName>
+			<FileHash>e30359cd2c0f1e7956c71d0d6d07c8e4</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\brummbar_squad\brummbar_squad_mp.xml</FileName>
@@ -1011,7 +1023,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp.xml</FileName>
-			<FileHash>ffb8195f6907e44c8ec49c82f13c7fa6</FileHash>
+			<FileHash>75facbc2bf74de940d1578984751e0d0</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\west_german\soldiers\fallschirmjager_squad\fallschirmjager_squad_mp.xml</FileName>
@@ -1040,6 +1052,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\west_german\team_weapons\mg34_heavy_machine_gun_squad\mg34_heavy_machine_gun_squad_mp.xml</FileName>
 			<FileHash>257f9015b1e79be8dff270d98c429f8c</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\west_german\vehicles\at_gun_squad\pak43_88mm_at_gun_squad_westgerman_mp.xml</FileName>
+			<FileHash>063049454fef4f3a476a979fc094a6ff</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\west_german\vehicles\ostwind_squad\ostwind_squad_westgerman_mp.xml</FileName>
@@ -1260,6 +1276,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\anti_tank_gun\75mm_pak_40_mp.xml</FileName>
 			<FileHash>06a54807c47effa30f7f33b60648150f</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\anti_tank_gun\pak43_88mm_atg_mp.xml</FileName>
+			<FileHash>7a186dfd298bedb9274ab311c832669a</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\infantry_anti_tank_weapon\panzerschreck_atw_mp.xml</FileName>

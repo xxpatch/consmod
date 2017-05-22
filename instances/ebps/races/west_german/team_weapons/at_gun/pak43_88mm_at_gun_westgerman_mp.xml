@@ -1,4 +1,4 @@
-<instance description="the immobile heavy at gun&#xA;Multiplayer Clone." template="ebps">
+<instance description="west german version of this weapon" template="ebps">
 	<list name="extensions">
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext">
 			<string name="alternate_sua" value="armies\german\weapons\antitank_88mm_pak43\antitank_88mm_pak43" />
@@ -17,7 +17,7 @@
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\german\timed_ability\pak43_target_weak_point_new_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_deep_snow_camo" />
-				<instance_reference name="ability" value="abilities\german\toggle_ability\wehr_vehicle_hold_fire_mp" />
+				<instance_reference name="ability" value="abilities\west_german\toggle_ability\okw_vehicle_hold_fire_mp" />
 				<instance_reference name="ability" value="abilities\aef\toggle_ability\usf_hold_fire_mp" />
 			</list>
 		</template_reference>
@@ -30,8 +30,8 @@
 				<group name="cost">
 					<float name="action" value="0" />
 					<float name="command" value="0" />
-					<float name="fuel" value="40" />
-					<float name="manpower" value="195" />
+					<float name="fuel" value="0" />
+					<float name="manpower" value="320" />
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
 				</group>
@@ -179,7 +179,7 @@
 			<string name="extra_text_deprecated" value="" />
 			<bool name="ghost_enable" value="False" />
 			<bool name="has_speech_code" value="True" />
-			<locstring name="help_text" value="11011327" />
+			<locstring name="help_text" value="11072382" />
 			<string name="hotkey_name" value="A" />
 			<icon name="icon_name" value="Icons_commander_cmdr_german_pak_43_at_gun" />
 			<enum name="kill_type" value="heavy_armour" />
@@ -193,24 +193,24 @@
 			<bool name="obb_selectable" value="False" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="True" />
-			<locstring name="screen_name" value="11011328" />
+			<locstring name="screen_name" value="11072384" />
 			<enum name="selection_name" value="vehicle" />
 			<float name="selection_scale" value="1" />
 			<enum name="selection_type" value="squad_select" />
 			<bool name="sloppy_selectable" value="True" />
 			<group name="speaker">
-				<string name="code_1" value="an" />
-				<string name="code_2" value="xs" />
+				<string name="code_1" value="wp" />
+				<string name="code_2" value="" />
 				<string name="code_3" value="" />
 			</group>
 			<group name="speech_code_2">
-				<string name="code_1" value="43" />
-				<string name="code_2" value="at" />
+				<string name="code_1" value="at" />
+				<string name="code_2" value="43" />
 				<string name="code_3" value="" />
 			</group>
 			<group name="speech_code_3">
-				<string name="code_1" value="p43" />
-				<string name="code_2" value="ant" />
+				<string name="code_1" value="ant" />
+				<string name="code_2" value="p43" />
 				<string name="code_3" value="" />
 			</group>
 			<group name="speech_code_cover">
@@ -219,7 +219,7 @@
 				<string name="code_3" value="" />
 			</group>
 			<bool name="tacmap_team_only" value="False" />
-			<locstring name="tooltip_txt" value="11049208" />
+			<locstring name="tooltip_txt" value="11072386" />
 			<int name="ui_priority" value="0" />
 			<icon name="minimap_icon" value="" />
 			<icon name="portrait_icon_winter" value="Icons_portraits_vehicle_german_pak_43_w_portrait" />
@@ -231,13 +231,13 @@
 			<float name="minimap_icon_scale" value="1" />
 			<icon name="portrait_icon_summer" value="Icons_portraits_vehicle_german_pak_43_s_portrait" />
 			<locstring name="brief_text" value="0" />
-			<locstring name="extra_text" value="11047622" />
+			<locstring name="extra_text" value="11072380" />
 			<locstring name="screen_name_short" value="0" />
 			<bool name="show_in_build_log" value="False" />
 			<bool name="show_entity_appearance" value="True" />
-			<locstring name="screen_name_world" value="11047961" />
-			<locstring name="help_text_world" value="11047389" />
-			<locstring name="extra_text_world" value="11047388" />
+			<locstring name="screen_name_world" value="11072385" />
+			<locstring name="help_text_world" value="11072383" />
+			<locstring name="extra_text_world" value="11072381" />
 			<enum name="map_rotation_type_override" value="no_override" />
 			<icon name="symbol_icon_name" value="Icons_symbols_cmdr_german_pak_43_at_gun_symbol" />
 			<enum name="occlusion_state" value="can_be_occluded" />
@@ -303,6 +303,27 @@
 					</list>
 					<bool name="receives_attack_commands" value="False" />
 				</group>
+				<group name="hardpoint">
+					<float name="parent_hardpoint" value="1" />
+					<list name="weapon_table">
+						<group name="weapon">
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="5" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="1.82" />
+								<float name="z" value="0" />
+							</group>
+							<enum name="type" value="squad" />
+							<instance_reference name="weapon" value="weapon\axis\ballistic_weapon\tank_gun\pak43_critical_shot_mp" />
+						</group>
+					</list>
+					<bool name="receives_attack_commands" value="False" />
+				</group>
 			</list>
 			<int name="sight_hardpoint" value="-1" />
 			<list name="kill_actions">
@@ -361,7 +382,7 @@
 				<template_reference name="action" value="action\retreat_action">
 					<instance_reference name="entity_type_to_retreat_to" value="" />
 					<enum name="retreat_type" value="withdraw_to_edge" />
-					<uniqueid name="id" value="1073746074" />
+					<uniqueid name="id" value="1073746667" />
 					<float name="refund_percent_after_retreat" value="0" />
 				</template_reference>
 				<template_reference name="action" value="action\apply_modifiers_action">
@@ -378,7 +399,7 @@
 							<instance_reference name="tooltip" value="modifier_tooltip\sight_radius_modifier" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073746075" />
+					<uniqueid name="id" value="1073746668" />
 				</template_reference>
 			</list>
 			<list name="role_list">
@@ -402,7 +423,7 @@
 				<template_reference name="action" value="action\upgrade_remove">
 					<bool name="apply_to_entities_in_squad" value="False" />
 					<instance_reference name="upgrade" value="upgrade\is_manned" />
-					<uniqueid name="id" value="1073746076" />
+					<uniqueid name="id" value="1073746669" />
 				</template_reference>
 			</list>
 		</template_reference>
@@ -421,7 +442,7 @@
 			<bool name="must_be_in_territory" value="False" />
 			<bool name="must_be_on" value="False" />
 			<bool name="must_not_be_in_walkable_surfaces" value="True" />
-			<instance_reference name="on_construction_squad" value="sbps\races\german\vehicles\at_gun_squad\pak43_88mm_at_gun_squad_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+			<instance_reference name="on_construction_squad" value="sbps\races\west_german\vehicles\at_gun_squad\pak43_88mm_at_gun_squad_westgerman_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<float name="orientation" value="0" />
 			<enum name="placement_type" value="tp_structure" />
 			<bool name="prefer_spots_on_side_with_leader" value="False" />
@@ -447,11 +468,11 @@
 							<instance_reference name="tooltip" value="modifier_tooltip\capture_enable_squad_modifier" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073746077" />
+					<uniqueid name="id" value="1073746670" />
 				</template_reference>
 				<template_reference name="action" value="action\scar_function_call">
 					<string name="function_name" value="AE_SpawnPak43Defenses" />
-					<uniqueid name="id" value="1073746078" />
+					<uniqueid name="id" value="1073746671" />
 				</template_reference>
 				<template_reference name="action" value="action\apply_deformation_action">
 					<group name="deform_decal">
@@ -531,7 +552,7 @@
 					<float name="scale_x" value="12" />
 					<float name="scale_y" value="12" />
 					<bool name="undoable" value="False" />
-					<uniqueid name="id" value="1073746079" />
+					<uniqueid name="id" value="1073746672" />
 				</template_reference>
 			</list>
 			<list name="materials">
@@ -573,7 +594,7 @@
 					<list name="requirements">
 						<template_reference name="requirement" value="requirements\required_resource">
 							<enum name="reason" value="usage" />
-							<locstring name="ui_name" value="11025986" />
+							<locstring name="ui_name" value="11072406" />
 							<template_reference name="resource" value="tables\resource_table">
 								<float name="action" value="0" />
 								<float name="command" value="8" />
@@ -602,7 +623,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\german\vehicles\at_gun_squad\pak43_88mm_at_gun_squad_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\west_german\vehicles\at_gun_squad\pak43_88mm_at_gun_squad_westgerman_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
@@ -639,5 +660,5 @@
 			<float name="on_ice_overturn_scale" value="0" />
 		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="1555" />
+	<uniqueid name="pbgid" value="16771" />
 </instance>
