@@ -18,7 +18,7 @@
 				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\panzer_defensive_smoke" />
 				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\german_hulldown_disable" />
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_vehicle" />
-				<instance_reference name="ability" value="abilities\german\modal_ability\accessory_weapons\puma_critical_shots_mp" />
+				<instance_reference name="ability" value="abilities\german\timed_ability\stug_target_weak_point_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\german\toggle_ability\wehr_vehicle_hold_fire_mp" />
 				<instance_reference name="ability" value="abilities\aef\toggle_ability\usf_hold_fire_mp" />
 			</list>
@@ -542,7 +542,7 @@
 								<float name="z" value="1" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\axis\ballistic_weapon\tank_gun\puma_50mm_mp" />
+							<instance_reference name="weapon" value="weapon\axis\ballistic_weapon\tank_gun\puma_50mm_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
