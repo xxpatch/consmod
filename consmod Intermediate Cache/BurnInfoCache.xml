@@ -135,7 +135,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\pak40_target_weak_point_mp.xml</FileName>
-			<FileHash>bace316728348ad289c7e9371f9804f0</FileHash>
+			<FileHash>074b5af0be1e56e7eab588b1b8614c8a</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\panzergrenadier_mark_target.xml</FileName>
@@ -144,6 +144,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\scout_car_halftrack_infantry_awareness_mp.xml</FileName>
 			<FileHash>28bc034f02a017b154d79f0b2e6a7a4f</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\stug_target_weak_point_mp.xml</FileName>
+			<FileHash>ac1598da874bb664b28c00d45966aad0</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\commander_ability\relief_infantry.xml</FileName>
@@ -615,7 +619,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\stug_iii_sdkfz_141_1\stug_iii_g_sdkfz_141_1_mp.xml</FileName>
-			<FileHash>53082d4ac32ad481facc1c4cadd06690</FileHash>
+			<FileHash>4a707d0d30e783ee391f5d020ebfda9f</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\stuka_aircraft\cargo_plane_fuel.xml</FileName>
@@ -1255,7 +1259,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\anti_tank_gun\75mm_pak_40_mp.xml</FileName>
-			<FileHash>40b30711c4d084cab8b41e0c310c84c9</FileHash>
+			<FileHash>06a54807c47effa30f7f33b60648150f</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\infantry_anti_tank_weapon\panzerschreck_atw_mp.xml</FileName>
@@ -1291,7 +1295,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\stug_75mm_mp.xml</FileName>
-			<FileHash>4e6fdd0873cb86715bb7c0df8e9f7298</FileHash>
+			<FileHash>ab3b3664aeb61ff3e27f0c9d43dd58de</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\stug_75mm_short_commander_mp.xml</FileName>
