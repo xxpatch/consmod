@@ -22,6 +22,10 @@
 			<FileHash>65188a7b6d9aa3f41026f38d3ceb3f3e</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\british\modal_ability\destroy_cover_mp.xml</FileName>
+			<FileHash>f51affbc56e4dc403b3cc049c5a0a952</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\british\modal_ability\commander_ability\passive_ability\command_vehicle.xml</FileName>
 			<FileHash>c1f3840840efa307947212f4e3672d4a</FileHash>
 		</BurnInfo>
@@ -1494,8 +1498,12 @@
 			<FileHash>bdca6af530998b97f34f39e4b1d8ca0e</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\flame_throwers\grenade\molotov_cocktail_weapon_mp.xml</FileName>
+			<FileHash>a85ab4380ff0dcf850ed6a070789bcb6</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\flame_throwers\grenade\molotov_cocktail_weapon_vet_mp.xml</FileName>
-			<FileHash>e81dffe8a14a5d5b5cec44c2d366ccbc</FileHash>
+			<FileHash>0ec630355cb308f18f847533d1ce4259</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\small_arms\machine_gun\heavy_machine_gun\dshk_38_sokolov_mp.xml</FileName>

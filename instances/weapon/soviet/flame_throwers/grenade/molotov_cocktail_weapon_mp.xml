@@ -13,13 +13,13 @@
 			<float name="post_firing_aim_time" value="0" />
 			<float name="post_firing_cooldown_interval" value="0" />
 			<group name="ready_aim_time">
-				<float name="max" value="0.875" />
-				<float name="min" value="0.875" />
+				<float name="max" value="0.125" />
+				<float name="min" value="0.125" />
 			</group>
 			<group name="aim_time_multiplier">
-				<float name="near" value="1" />
-				<float name="far" value="1" />
-				<float name="mid" value="1" />
+				<float name="near" value="0" />
+				<float name="far" value="0" />
+				<float name="mid" value="0" />
 			</group>
 		</group>
 		<group name="anim_table">
@@ -30,7 +30,7 @@
 			<string name="track_vertical" value="" />
 			<string name="track_vertical_speed" value="" />
 			<string name="variety_name" value="" />
-			<string name="visibility_name" value="grenade_rgd_visible" />
+			<string name="visibility_name" value="molotov_cocktail_visible" />
 			<string name="target_range_name" value="" />
 		</group>
 		<group name="area_effect">
@@ -321,7 +321,7 @@
 						<string name="dca_action_name" value="Weapons\Splash_Damage\splashdmg_incendiary" />
 						<float name="duration" value="20" />
 						<bool name="is_terrain_only" value="True" />
-						<uniqueid name="id" value="1073741838" />
+						<uniqueid name="id" value="1073746734" />
 					</template_reference>
 				</list>
 			</template_reference>
@@ -333,8 +333,8 @@
 			</list>
 		</group>
 		<group name="fire">
-			<float name="wind_down" value="0.75" />
-			<float name="wind_up" value="0.125" />
+			<float name="wind_down" value="1.7" />
+			<float name="wind_up" value="1.7" />
 			<list name="on_fire_actions">
 				<template_reference name="action" value="action\timed_action">
 					<float name="duration" value="10" />
@@ -356,14 +356,14 @@
 											<instance_reference name="tooltip" value="modifier_tooltip\camouflage_enable" />
 										</template_reference>
 									</list>
-									<uniqueid name="id" value="1073741842" />
+									<uniqueid name="id" value="1073746735" />
 								</template_reference>
 							</list>
 							<enum name="change_target_type" value="squad" />
-							<uniqueid name="id" value="1073741843" />
+							<uniqueid name="id" value="1073746736" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073741844" />
+					<uniqueid name="id" value="1073746737" />
 				</template_reference>
 			</list>
 		</group>
@@ -546,5 +546,5 @@
 			</group>
 		</list>
 	</group>
-	<uniqueid name="pbgid" value="1073741823" />
+	<uniqueid name="pbgid" value="289" />
 </instance>
