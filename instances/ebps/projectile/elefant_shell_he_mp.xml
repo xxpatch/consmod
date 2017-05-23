@@ -4,7 +4,7 @@
 			<string name="alternate_sua" value="" />
 			<bool name="always_revealed_in_fow" value="False" />
 			<file name="animator" value="armies\common\projectiles\shell_heavy\shell_heavy" />
-			<bool name="is_visible_in_game" value="True" />
+			<bool name="is_visible_in_game" value="False" />
 			<float name="precise_size" value="-1" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\sim_entity_ext">
@@ -166,12 +166,12 @@
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\projectile_ext">
-			<float name="acceleration" value="50" />
+			<float name="acceleration" value="5" />
 			<group name="artillery">
 				<bool name="can_counter_barrage" value="False" />
 				<bool name="is_artillery" value="True" />
 				<bool name="is_target_only" value="False" />
-				<float name="speed_distance_multiplier" value="0" />
+				<float name="speed_distance_multiplier" value="0.05" />
 				<float name="speed_increment" value="0.5" />
 				<enum name="firing_angle_type" value="low_angle" />
 				<bool name="use_homing_when_no_blocker" value="False" />
@@ -189,21 +189,13 @@
 			<bool name="delay_detonate_ui_enabled" value="False" />
 			<string name="launcher_marker" value="Marker_Tank_Barrel_End" />
 			<float name="life_time_while_alive" value="0" />
-			<float name="rotation_speed" value="0" />
+			<float name="rotation_speed" value="10000" />
 			<bool name="spawn_collision_fx" value="False" />
-			<float name="speed" value="35" />
+			<float name="speed" value="29" />
 			<bool name="collision_land_ignore" value="False" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext">
 			<list name="actions">
-				<template_reference name="action" value="action\animator_set_state">
-					<bool name="apply_to_leader_only" value="False" />
-					<string name="do_action_state_name" value="tank_gun" />
-					<bool name="retrigger" value="False" />
-					<string name="state_machine_name" value="projectile_use" />
-					<string name="undo_action_state_name" value="" />
-					<uniqueid name="id" value="1073746762" />
-				</template_reference>
 			</list>
 		</template_reference>
 	</list>
