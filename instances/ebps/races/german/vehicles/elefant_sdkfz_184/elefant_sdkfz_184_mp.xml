@@ -320,6 +320,41 @@
 			<bool name="ui_can_scuttle" value="False" />
 			<instance_reference name="wreck_entity" value="ebps\environment\art_ambient\objects\vehicles\wrecked_vehicles\wrecked_elefant_sdkfz_184" />
 			<list name="death_actions">
+				<template_reference name="action" value="action\filter_action">
+					<bool name="apply_to_future_units" value="False" />
+					<bool name="apply_to_local_player" value="True" />
+					<instance_reference name="deprecated_entity_type" value="" />
+					<instance_reference name="deprecated_squad_type" value="" />
+					<group name="target_info">
+						<template_reference name="target_info" value="type_ability_target_type\all">
+						</template_reference>
+					</group>
+					<enum name="deprecated_unit_class_type" value="" />
+					<list name="action_table">
+						<template_reference name="action" value="action\make_dead">
+							<enum name="death_intensity" value="death_intensity_low" />
+							<bool name="ignore_invulnerability" value="False" />
+							<bool name="destroy" value="True" />
+							<list name="death_reaction_table">
+							</list>
+							<uniqueid name="id" value="1073746836" />
+						</template_reference>
+					</list>
+					<enum name="deprecated_squad_class_type" value="" />
+					<list name="target_requirements">
+						<template_reference name="required" value="requirements\required_unit_type">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<enum name="unit_type" value="coho_raid_3" />
+							<template_reference name="qualify_option" value="options\none">
+							</template_reference>
+							<bool name="search_load_out" value="False" />
+							<bool name="owned_by_player_only" value="True" />
+						</template_reference>
+					</list>
+					<bool name="target_squad" value="False" />
+					<uniqueid name="id" value="1073746837" />
+				</template_reference>
 			</list>
 			<float name="armor" value="400" />
 			<float name="rear_armor" value="110" />

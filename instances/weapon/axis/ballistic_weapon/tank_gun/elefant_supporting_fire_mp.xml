@@ -297,43 +297,53 @@
 					<float name="duration" value="10" />
 					<bool name="fire_and_forget" value="True" />
 					<list name="subactions">
-						<template_reference name="action" value="action\filter_action">
-							<bool name="apply_to_future_units" value="False" />
-							<bool name="apply_to_local_player" value="True" />
-							<instance_reference name="deprecated_entity_type" value="" />
-							<instance_reference name="deprecated_squad_type" value="" />
-							<group name="target_info">
-								<template_reference name="target_info" value="type_ability_target_type\all">
-								</template_reference>
-							</group>
-							<enum name="deprecated_unit_class_type" value="" />
-							<list name="action_table">
-								<template_reference name="action" value="action\off_map_artillery">
-									<float name="num_salvo" value="1" />
-									<float name="radius" value="7" />
-									<float name="source_offset_x" value="0" />
-									<float name="source_offset_y" value="1" />
-									<float name="source_offset_z" value="0" />
-									<float name="time_range_between_shells_max" value="0" />
-									<float name="time_range_between_shells_min" value="0.125" />
-									<instance_reference name="weapon_name" value="weapon\axis\explosive_weapons\heavy_artillery\elefant_airburst_shell_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-									<uniqueid name="id" value="1073746786" />
+						<template_reference name="action" value="action\delay">
+							<float name="delay" value="0.5" />
+							<float name="delay_min" value="0" />
+							<bool name="progress_bar" value="False" />
+							<bool name="randomize" value="False" />
+							<list name="delayed_actions">
+								<template_reference name="action" value="action\filter_action">
+									<bool name="apply_to_future_units" value="False" />
+									<bool name="apply_to_local_player" value="True" />
+									<instance_reference name="deprecated_entity_type" value="" />
+									<instance_reference name="deprecated_squad_type" value="" />
+									<group name="target_info">
+										<template_reference name="target_info" value="type_ability_target_type\all">
+										</template_reference>
+									</group>
+									<enum name="deprecated_unit_class_type" value="" />
+									<list name="action_table">
+										<template_reference name="action" value="action\off_map_artillery">
+											<float name="num_salvo" value="1" />
+											<float name="radius" value="7" />
+											<float name="source_offset_x" value="0" />
+											<float name="source_offset_y" value="1" />
+											<float name="source_offset_z" value="0" />
+											<float name="time_range_between_shells_max" value="0" />
+											<float name="time_range_between_shells_min" value="0.125" />
+											<instance_reference name="weapon_name" value="weapon\axis\explosive_weapons\heavy_artillery\elefant_airburst_shell_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+											<uniqueid name="id" value="1073746834" />
+										</template_reference>
+									</list>
+									<enum name="deprecated_squad_class_type" value="" />
+									<list name="target_requirements">
+										<template_reference name="required" value="requirements\required_unit_type">
+											<enum name="reason" value="usage" />
+											<locstring name="ui_name" value="0" />
+											<enum name="unit_type" value="coho_raid_3" />
+											<template_reference name="qualify_option" value="options\none">
+											</template_reference>
+											<bool name="search_load_out" value="False" />
+											<bool name="owned_by_player_only" value="True" />
+										</template_reference>
+									</list>
+									<bool name="target_squad" value="False" />
+									<uniqueid name="id" value="1073746835" />
 								</template_reference>
 							</list>
-							<enum name="deprecated_squad_class_type" value="" />
-							<list name="target_requirements">
-								<template_reference name="required" value="requirements\required_unit_type">
-									<enum name="reason" value="usage" />
-									<locstring name="ui_name" value="0" />
-									<enum name="unit_type" value="coho_raid_3" />
-									<template_reference name="qualify_option" value="options\none">
-									</template_reference>
-									<bool name="search_load_out" value="False" />
-									<bool name="owned_by_player_only" value="True" />
-								</template_reference>
-							</list>
-							<bool name="target_squad" value="False" />
-							<uniqueid name="id" value="1073746787" />
+							<uniqueid name="id" value="1073746833" />
+							<bool name="can_prevent_refund" value="True" />
 						</template_reference>
 					</list>
 					<uniqueid name="id" value="1073746780" />
@@ -384,7 +394,7 @@
 		</group>
 		<group name="range">
 			<float name="max" value="125" />
-			<float name="min" value="25" />
+			<float name="min" value="35" />
 			<group name="distance">
 				<float name="near" value="25" />
 				<float name="far" value="125" />
