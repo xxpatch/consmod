@@ -92,8 +92,8 @@
 					<float name="vertical_scale" value="0.0025" />
 					<enum name="deform_type" value="tp_additive" />
 				</group>
-				<float name="radius_max" value="4" />
-				<float name="radius_min" value="2" />
+				<float name="radius_max" value="5" />
+				<float name="radius_min" value="3" />
 				<float name="splat_only_splat_seconds" value="90" />
 				<group name="splat_only_splats">
 					<group name="entry_01">
@@ -166,22 +166,22 @@
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\projectile_ext">
-			<float name="acceleration" value="30" />
+			<float name="acceleration" value="900" />
 			<group name="artillery">
 				<bool name="can_counter_barrage" value="False" />
-				<bool name="is_artillery" value="False" />
+				<bool name="is_artillery" value="True" />
 				<bool name="is_target_only" value="False" />
 				<float name="speed_distance_multiplier" value="0.2" />
 				<float name="speed_increment" value="0.5" />
-				<enum name="firing_angle_type" value="low_angle" />
-				<bool name="use_homing_when_no_blocker" value="True" />
-				<float name="non_collide_start_angle" value="10" />
-				<float name="non_collide_end_angle" value="89" />
+				<enum name="firing_angle_type" value="high_angle" />
+				<bool name="use_homing_when_no_blocker" value="False" />
+				<float name="non_collide_start_angle" value="40" />
+				<float name="non_collide_end_angle" value="50" />
 			</group>
 			<float name="building_hit_fx_delay" value="0" />
 			<bool name="collision_building_wall_panel_ignore" value="False" />
 			<group name="collision_type">
-				<template_reference name="collision_type" value="type_projectile_collision\tp_artillery">
+				<template_reference name="collision_type" value="type_projectile_collision\tp_sticky">
 				</template_reference>
 			</group>
 			<float name="deathtimer" value="3" />
@@ -191,8 +191,8 @@
 			<float name="life_time_while_alive" value="0" />
 			<float name="rotation_speed" value="10000" />
 			<bool name="spawn_collision_fx" value="False" />
-			<float name="speed" value="80" />
-			<bool name="collision_land_ignore" value="True" />
+			<float name="speed" value="20" />
+			<bool name="collision_land_ignore" value="False" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext">
 			<list name="actions">
@@ -202,7 +202,7 @@
 					<bool name="retrigger" value="False" />
 					<string name="state_machine_name" value="projectile_use" />
 					<string name="undo_action_state_name" value="" />
-					<uniqueid name="id" value="1073746221" />
+					<uniqueid name="id" value="1073746762" />
 				</template_reference>
 			</list>
 		</template_reference>
