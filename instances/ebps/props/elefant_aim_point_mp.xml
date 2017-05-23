@@ -4,7 +4,7 @@
 			<string name="alternate_sua" value="" />
 			<bool name="always_revealed_in_fow" value="False" />
 			<file name="animator" value="armies\soviet\projectiles\demolitions\demolitions" />
-			<bool name="is_visible_in_game" value="True" />
+			<bool name="is_visible_in_game" value="False" />
 			<float name="precise_size" value="-1" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext">
