@@ -2,25 +2,115 @@
 	<group name="ability_bag">
 		<group name="action_list">
 			<list name="end_self_actions">
+				<template_reference name="action" value="action\change_target_action">
+					<list name="actions">
+						<template_reference name="action" value="action\upgrade_remove">
+							<bool name="apply_to_entities_in_squad" value="False" />
+							<instance_reference name="upgrade" value="upgrade\german\ability_lock_out\ability_lock_out_elefant_airburst_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+							<uniqueid name="id" value="1073746809" />
+						</template_reference>
+					</list>
+					<enum name="change_target_type" value="squad" />
+					<uniqueid name="id" value="1073746808" />
+				</template_reference>
+				<template_reference name="action" value="action\change_target_action">
+					<list name="actions">
+					</list>
+					<enum name="change_target_type" value="self" />
+					<uniqueid name="id" value="1073746813" />
+				</template_reference>
 			</list>
 			<list name="end_target_actions">
 			</list>
 			<list name="start_self_actions">
 			</list>
 			<list name="start_target_actions">
-				<template_reference name="action" value="action\use_accessory_weapon">
-					<instance_reference name="accessory_weapon_item" value="slot_item\german\explosive_weapon\elefant_he_round_item_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-					<instance_reference name="decrement_accessory_item" value="" />
-					<bool name="entity_target_only" value="False" />
-					<bool name="force_squad_to_target" value="False" />
-					<bool name="no_decrement" value="True" />
-					<float name="number_of_shots" value="6" />
-					<group name="target_info">
-						<template_reference name="target_info" value="type_ability_target_type\all">
+				<template_reference name="action" value="action\sequence_action">
+					<uniqueid name="id" value="1073746793" />
+					<list name="action_list_sequences">
+						<list name="actions">
+							<template_reference name="action" value="action\use_accessory_weapon">
+								<instance_reference name="accessory_weapon_item" value="slot_item\german\explosive_weapon\elefant_he_round_item_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+								<instance_reference name="decrement_accessory_item" value="" />
+								<bool name="entity_target_only" value="False" />
+								<bool name="force_squad_to_target" value="False" />
+								<bool name="no_decrement" value="True" />
+								<float name="number_of_shots" value="6" />
+								<group name="target_info">
+									<template_reference name="target_info" value="type_ability_target_type\all">
+									</template_reference>
+								</group>
+								<uniqueid name="id" value="1073746794" />
+								<bool name="target_override_direction_times_max_range" value="True" />
+							</template_reference>
+						</list>
+						<list name="actions">
+							<template_reference name="action" value="action\change_target_action">
+								<list name="actions">
+									<template_reference name="action" value="action\upgrade_add">
+										<bool name="apply_to_entities_in_squad" value="False" />
+										<bool name="trigger_publish_event" value="False" />
+										<instance_reference name="upgrade" value="upgrade\german\ability_lock_out\ability_lock_out_elefant_airburst_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+										<uniqueid name="id" value="1073746819" />
+									</template_reference>
+								</list>
+								<enum name="change_target_type" value="self" />
+								<uniqueid name="id" value="1073746815" />
+							</template_reference>
+						</list>
+					</list>
+					<bool name="run_now" value="False" />
+				</template_reference>
+				<template_reference name="action" value="action\requirement_action">
+					<bool name="check_self" value="True" />
+					<bool name="global_fire_and_forget_on_success" value="False" />
+					<bool name="instant_requirement_check" value="False" />
+					<bool name="kill_action_on_failed_requirements" value="True" />
+					<bool name="no_retrigger" value="True" />
+					<bool name="validate_all_sub_actions" value="True" />
+					<list name="requirement_table">
+						<template_reference name="required" value="requirements\required_not">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<list name="requirement_table">
+								<template_reference name="required" value="requirements\required_squad_upgrade">
+									<enum name="reason" value="usage" />
+									<locstring name="ui_name" value="0" />
+									<bool name="include_queued" value="False" />
+									<bool name="is_present" value="True" />
+									<instance_reference name="upgrade_name" value="upgrade\german\ability_lock_out\ability_lock_out_elefant_airburst_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+								</template_reference>
+							</list>
 						</template_reference>
-					</group>
-					<uniqueid name="id" value="1073746216" />
-					<bool name="target_override_direction_times_max_range" value="False" />
+					</list>
+					<list name="action_table">
+						<template_reference name="action" value="action\spawn_entity">
+							<float name="duration" value="9999" />
+							<instance_reference name="entity_blueprint" value="ebps\props\elefant_aim_point_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+							<bool name="permanent" value="False" />
+							<bool name="player_owned" value="True" />
+							<group name="target_info">
+								<template_reference name="target_info" value="type_ability_target_type\all">
+								</template_reference>
+							</group>
+							<uniqueid name="id" value="1073746810" />
+							<template_reference name="spawn_attached_option" value="options\none">
+							</template_reference>
+							<list name="spawned_entity_actions">
+							</list>
+							<group name="offset">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="0" />
+							</group>
+						</template_reference>
+					</list>
+					<uniqueid name="id" value="1073746811" />
+					<bool name="fire_and_forget_non_global" value="False" />
+					<template_reference name="ui_help_text" value="tables\help_text_phrase">
+						<int name="phrase_order" value="0" />
+						<locstring name="phrase" value="0" />
+					</template_reference>
 				</template_reference>
 				<template_reference name="action" value="action\game_event_action">
 					<float name="event_extra_param" value="0" />
