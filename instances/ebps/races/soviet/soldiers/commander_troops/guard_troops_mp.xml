@@ -3,7 +3,7 @@
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext">
 			<string name="alternate_sua" value="armies\common\base\commonhuman\commonhuman" />
 			<bool name="always_revealed_in_fow" value="False" />
-			<file name="animator" value="armies\soviet\soldiers\elite_rifleman\elite_nocape" />
+			<file name="animator" value="armies\soviet\soldiers\elite_rifleman_cape\elite_rifleman_cape" />
 			<bool name="is_visible_in_game" value="True" />
 			<float name="precise_size" value="-1" />
 		</template_reference>
@@ -15,10 +15,11 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ability_ext">
 			<list name="abilities">
-				<instance_reference name="ability" value="abilities\soviet\modal_ability\grenades\rg_42_anti_personnel_grenade_mp" />
+				<instance_reference name="ability" value="abilities\soviet\modal_ability\grenades\guards_throw_defensive_grenade_mp" />
 				<instance_reference name="ability" value="abilities\soviet\modal_ability\button_vehicle_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\global\army_item_abilities\army_item_global_cover_training" />
 				<instance_reference name="ability" value="abilities\global\army_item_abilities\army_item_soviet_not_gonna_die_like_this" />
+				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_deep_snow_camo" />
 				<instance_reference name="ability" value="abilities\global\custom_commander\heal_in_cover" />
 			</list>
 		</template_reference>
@@ -290,7 +291,7 @@
 				<enum name="unit_type05" value="guard_troops" />
 				<enum name="unit_type06" value="mp_unit" />
 				<enum name="unit_type07" value="soviet_infantry" />
-				<enum name="unit_type08" value="" />
+				<enum name="unit_type08" value="infantry_elite" />
 				<enum name="unit_type09" value="" />
 				<enum name="unit_type10" value="" />
 				<enum name="unit_type11" value="" />
@@ -421,7 +422,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\soviet\small_arms\single_fire\rifle\penal_troops_svt_rifle_mp" />
+							<instance_reference name="weapon" value="weapon\soviet\small_arms\single_fire\rifle\guards_troops_mosin_nagant_rifle_mp" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -486,7 +487,7 @@
 						<bool name="fire_and_forget" value="True" />
 						<bool name="is_terrain_only" value="False" />
 						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073743681" />
+						<uniqueid name="id" value="1073746877" />
 					</template_reference>
 				</list>
 			</group>
@@ -504,7 +505,7 @@
 						<bool name="fire_and_forget" value="True" />
 						<bool name="is_terrain_only" value="False" />
 						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073743682" />
+						<uniqueid name="id" value="1073746878" />
 					</template_reference>
 				</list>
 			</group>
@@ -522,7 +523,7 @@
 						<bool name="fire_and_forget" value="True" />
 						<bool name="is_terrain_only" value="False" />
 						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073743683" />
+						<uniqueid name="id" value="1073746879" />
 					</template_reference>
 				</list>
 			</group>
@@ -540,7 +541,7 @@
 						<bool name="fire_and_forget" value="True" />
 						<bool name="is_terrain_only" value="False" />
 						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073743684" />
+						<uniqueid name="id" value="1073746880" />
 					</template_reference>
 				</list>
 			</group>
@@ -558,7 +559,7 @@
 						<bool name="fire_and_forget" value="True" />
 						<bool name="is_terrain_only" value="False" />
 						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073743685" />
+						<uniqueid name="id" value="1073746881" />
 					</template_reference>
 				</list>
 			</group>
@@ -586,7 +587,7 @@
 						<bool name="fire_and_forget" value="True" />
 						<bool name="is_terrain_only" value="False" />
 						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073743686" />
+						<uniqueid name="id" value="1073746882" />
 					</template_reference>
 				</list>
 			</group>
@@ -618,7 +619,7 @@
 						<bool name="fire_and_forget" value="True" />
 						<bool name="is_terrain_only" value="False" />
 						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073743687" />
+						<uniqueid name="id" value="1073746883" />
 					</template_reference>
 				</list>
 				<group name="posture">
@@ -636,7 +637,7 @@
 						<bool name="fire_and_forget" value="True" />
 						<bool name="is_terrain_only" value="False" />
 						<bool name="allies_only" value="False" />
-						<uniqueid name="id" value="1073743688" />
+						<uniqueid name="id" value="1073746884" />
 					</template_reference>
 				</list>
 				<group name="posture">
@@ -709,7 +710,7 @@
 							<float name="deceleration_multiplier" value="0.3" />
 							<float name="pathfinding_size_x" value="0" />
 							<float name="pathfinding_size_y" value="0" />
-							<uniqueid name="id" value="1073743689" />
+							<uniqueid name="id" value="1073746885" />
 						</template_reference>
 						<template_reference name="action" value="action\apply_modifiers_action">
 							<float name="duration" value="1" />
@@ -725,10 +726,10 @@
 									<instance_reference name="tooltip" value="modifier_tooltip\speed_maximum_modifier" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073743690" />
+							<uniqueid name="id" value="1073746886" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073743691" />
+					<uniqueid name="id" value="1073746887" />
 				</template_reference>
 			</list>
 		</template_reference>
@@ -758,5 +759,5 @@
 			</list>
 		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="16659" />
+	<uniqueid name="pbgid" value="1679" />
 </instance>
