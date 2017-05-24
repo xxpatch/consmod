@@ -56,11 +56,6 @@
 				<bool name="permanent" value="True" />
 				<uniqueid name="id" value="1073743598" />
 			</template_reference>
-			<template_reference name="action" value="action\slot_item_add">
-				<instance_reference name="slot_item" value="slot_item\german\small_arms\jaeger_panzergren_g43_rifle_item_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-				<bool name="permanent" value="True" />
-				<uniqueid name="id" value="1073743599" />
-			</template_reference>
 			<template_reference name="action" value="action\apply_modifiers_action">
 				<float name="duration" value="0" />
 				<bool name="permanent" value="False" />
