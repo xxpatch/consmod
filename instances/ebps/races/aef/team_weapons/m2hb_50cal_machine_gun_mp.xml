@@ -632,7 +632,7 @@
 				<enum name="unit_type14" value="" />
 				<enum name="unit_type15" value="" />
 			</group>
-			<enum name="weapon_targeting" value="no_targeting" />
+			<enum name="weapon_targeting" value="manual_only" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\cost_ext">
 			<group name="time_cost">
