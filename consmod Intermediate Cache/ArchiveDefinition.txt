@@ -424,4 +424,5 @@ TOCStart name="data" alias="data" path="" relativeroot="data"
 	FileSettingsEnd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\data\art\armies\soviet\soldiers\conscript_sergeant\conscript_sergeant.abp
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\data\art\armies\soviet\soldiers\elite_rifleman\elite_nocape.abp
+	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\data\art\armies\soviet\vehicles\kv1_heavy_tank\kv1_heavy_tank.abp
 TOCEnd

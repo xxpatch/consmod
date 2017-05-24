@@ -355,7 +355,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\toggle_ability\kv1_defense_mp.xml</FileName>
-			<FileHash>c57a334245f3f72b2f0a659d540b3583</FileHash>
+			<FileHash>c942524ca69ac5420e591450b5d8b10f</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\toggle_ability\commander_ability\at_gun_ambush_tactics.xml</FileName>
@@ -1604,6 +1604,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\data\art\armies\soviet\soldiers\elite_rifleman\elite_nocape.abp</FileName>
 			<FileHash>f13976d1ea645f85eae411e459ab44cb</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\data\art\armies\soviet\vehicles\kv1_heavy_tank\kv1_heavy_tank.abp</FileName>
+			<FileHash>1dba9e7d3b5d47253cde39eb6faa12fb</FileHash>
 		</BurnInfo>
 	</BurnInfo>
 	<BurnInfoExtendedInfo />
