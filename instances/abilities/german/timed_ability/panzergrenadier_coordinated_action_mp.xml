@@ -224,13 +224,13 @@
 			<string name="cursor_nonmodal_good" value="" />
 		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="34" mod="f2791205c6e743b6a340ef0daf60b957" />
-			<locstring name="help_text" value="24" mod="f2791205c6e743b6a340ef0daf60b957" />
+			<locstring name="extra_text" value="49" mod="f2791205c6e743b6a340ef0daf60b957" />
+			<locstring name="help_text" value="50" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<string name="hotkey_name" value="V" />
 			<icon name="icon_name" value="Icons_abilities_ability_aef_priority_targeting_off" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="25" mod="f2791205c6e743b6a340ef0daf60b957" />
+			<locstring name="screen_name" value="51" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<icon name="icon_alternate_name" value="" />
 			<locstring name="brief_text" value="0" />
 			<locstring name="help_text_alternate" value="0" />
@@ -244,7 +244,7 @@
 		<list name="requirements">
 		</list>
 		<enum name="ability_super" value="tp_none" />
-		<int name="ui_position" value="34" />
+		<int name="ui_position" value="33" />
 		<bool name="ui_mini_map_capture" value="False" />
 		<bool name="facing_ignore_during_active" value="False" />
 		<instance_reference name="ui_range" value="" />
