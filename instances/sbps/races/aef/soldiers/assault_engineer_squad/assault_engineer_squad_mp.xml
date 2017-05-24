@@ -876,7 +876,7 @@
 							<int name="ui_position" value="13" />
 						</group>
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\races\aef\buildings\defensive_structures\fighting_position\fighting_position_mp" />
+							<instance_reference name="ebp" value="ebps\races\aef\buildings\defensive_structures\fighting_position\fighting_position_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 							<int name="ui_position" value="12" />
 						</group>
 						<group name="construction_item">

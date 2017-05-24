@@ -462,6 +462,14 @@
 			<FileHash>99ba246629174dffd20c34dbbade8341</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\aef\buildings\defensive_structures\fighting_position\fighting_position_mp.xml</FileName>
+			<FileHash>3a12865ef8f7ecd44247943cf882800d</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\aef\buildings\defensive_structures\fighting_position\fighting_position_riflemen_mp.xml</FileName>
+			<FileHash>83e83de239e82496b5fe752816862adf</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\aef\soldiers\assault_engineer\assault_engineer_mp.xml</FileName>
 			<FileHash>d8bf35919ab46724b2a4ee5d994160a5</FileHash>
 		</BurnInfo>
@@ -491,7 +499,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\aef\team_weapons\m2hb_50cal_machine_gun_mp.xml</FileName>
-			<FileHash>a8cd4900177f763ea3a504ff13c8ae21</FileHash>
+			<FileHash>d240da58da47763b9e4e291b64e4d9aa</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\aef\team_weapons\at_guns\m1_57mm_antitank_gun_mp.xml</FileName>
@@ -559,7 +567,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\buildings\defensive_structure\slit_trench_german_mp.xml</FileName>
-			<FileHash>01255f132d3e9860bbcb017b4f867307</FileHash>
+			<FileHash>4111fa23bdf06b985e19cd922d160ec3</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\buildings\defensive_structure\tank_trap.xml</FileName>
@@ -567,7 +575,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\buildings\defensive_structure\bunker\bunker_mp.xml</FileName>
-			<FileHash>138795de0eecd007e29876f771b22e33</FileHash>
+			<FileHash>084aa63606fa6e6feae01bd1daa5c900</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\soldiers\officer\assault_officer_grenadiers_bodyguard_mp.xml</FileName>
@@ -707,7 +715,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\team_weapons\dhsk_38_machine_gun_mp.xml</FileName>
-			<FileHash>3220241d54a3a6423e2b70310d738d00</FileHash>
+			<FileHash>807469e5dd7529cbb8c2f4d891401820</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\team_weapons\hm-120_38_mortar_mp.xml</FileName>
@@ -831,7 +839,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\aef\soldiers\assault_engineer_squad\assault_engineer_squad_mp.xml</FileName>
-			<FileHash>f83bd15e20050106bf1d32e96eed18c8</FileHash>
+			<FileHash>120312b1cd0503ae7c67f9923f583691</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\aef\soldiers\pathfinder_squad\pathfinder_squad_mp.xml</FileName>
