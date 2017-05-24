@@ -43,7 +43,7 @@
 				<float name="angle_left" value="0" />
 				<float name="angle_right" value="0" />
 				<enum name="area_type" value="circle" />
-				<float name="radius" value="6" />
+				<float name="radius" value="10" />
 			</group>
 			<group name="damage">
 				<float name="far" value="0.01" />
@@ -56,21 +56,21 @@
 				<float name="mid" value="0.1" />
 			</group>
 			<group name="distance">
-				<float name="far" value="3.5" />
-				<float name="near" value="1" />
-				<float name="mid" value="2.25" />
+				<float name="far" value="7.5" />
+				<float name="near" value="1.5" />
+				<float name="mid" value="5" />
 			</group>
 			<bool name="has_friendly_fire" value="True" />
 			<bool name="can_harm_shooter" value="False" />
 			<group name="suppression">
-				<float name="far" value="0.1" />
-				<float name="near" value="0.2" />
-				<float name="mid" value="0.15" />
+				<float name="far" value="0.25" />
+				<float name="near" value="0.25" />
+				<float name="mid" value="0.25" />
 			</group>
 			<group name="suppression_friendly">
-				<float name="far" value="0.1" />
-				<float name="near" value="0.2" />
-				<float name="mid" value="0.15" />
+				<float name="far" value="0.25" />
+				<float name="near" value="0.25" />
+				<float name="mid" value="0.25" />
 			</group>
 			<bool name="damage_all_in_hold" value="True" />
 			<template_reference name="aoe_penetration" value="tables\range_table">
@@ -80,8 +80,8 @@
 			</template_reference>
 			<group name="building_damage">
 				<float name="near" value="1" />
-				<float name="mid" value="1" />
-				<float name="far" value="1" />
+				<float name="mid" value="0.5" />
+				<float name="far" value="0.005" />
 			</group>
 			<instance_reference name="weapon_building_damage" value="weapon_building_damage\aoe_profile_he_shell" />
 			<enum name="aoe_origin_and_direction" value="hit_position_and_direction" />
@@ -364,19 +364,19 @@
 			</list>
 		</group>
 		<group name="scatter">
-			<float name="angle_scatter" value="5" />
+			<float name="angle_scatter" value="9.25" />
 			<bool name="burst_pattern_enable" value="False" />
 			<float name="delay_bracket_change_chance" value="0" />
 			<float name="distance_bracket_count_air" value="0" />
 			<float name="distance_bracket_count_ground" value="1" />
 			<float name="distance_scatter_max" value="18.5" />
 			<float name="distance_scatter_obj_hit_min" value="0" />
-			<float name="distance_scatter_offset" value="0.3" />
-			<float name="distance_scatter_ratio" value="0.15" />
+			<float name="distance_scatter_offset" value="0" />
+			<float name="distance_scatter_ratio" value="0.074" />
 			<float name="fow_angle_multiplier" value="2" />
 			<float name="fow_distance_multiplier" value="2" />
-			<float name="max_tilt_angle" value="0" />
-			<float name="min_tilt_angle" value="0" />
+			<float name="max_tilt_angle" value="90" />
+			<float name="min_tilt_angle" value="15" />
 			<float name="tilt_max_distance" value="0" />
 			<float name="tilt_scatter_chance" value="0" />
 		</group>

@@ -416,7 +416,7 @@
 		</group>
 		<group name="range">
 			<float name="max" value="125" />
-			<float name="min" value="60" />
+			<float name="min" value="66" />
 			<group name="distance">
 				<float name="near" value="60" />
 				<float name="far" value="125" />
