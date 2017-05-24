@@ -55,7 +55,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\artillery\artillery_barrage_ability\elefant_barrage_ability_mp.xml</FileName>
-			<FileHash>2c54768465a0b90298f8142c48c6e3bf</FileHash>
+			<FileHash>000486f6a224e14492ffac7e9479af00</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\air_dropped_munitions.xml</FileName>
@@ -390,12 +390,12 @@
 			<FileHash>28b4d29b41a3c4caa3dfa97b18c708f6</FileHash>
 		</BurnInfo>
 		<BurnInfo>
-			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\projectile\elefant_airburst_mp.xml</FileName>
-			<FileHash>4a6c1647b958dfb40f74febd416e3201</FileHash>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\projectile\elefant_airburst_offmap_mp.xml</FileName>
+			<FileHash>17c2280050966c0f18aaa710fa02688a</FileHash>
 		</BurnInfo>
 		<BurnInfo>
-			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\projectile\elefant_shell_he_mp.xml</FileName>
-			<FileHash>b8b4319d63e459986187ae1b5c72defc</FileHash>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\projectile\elefant_airburst_shell_visible_mp.xml</FileName>
+			<FileHash>a24b2e2059d5cc448901d5b1246ee4ef</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\projectile\flak_37mm_shell_222_mp.xml</FileName>
@@ -442,7 +442,7 @@
 			<FileHash>59d5f35f1cb3d82c06d235b91e913771</FileHash>
 		</BurnInfo>
 		<BurnInfo>
-			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\props\elefant_aim_point_mp.xml</FileName>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\props\elefant_barrage_aim_point_mp.xml</FileName>
 			<FileHash>7f06cfc7eb399aa1766780ce19f1e378</FileHash>
 		</BurnInfo>
 		<BurnInfo>
@@ -927,7 +927,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\elefant_tank_destroyer_squad\elefant_tank_destroyer_squad_mp.xml</FileName>
-			<FileHash>4f0432e8224a18180b9b9e7222f32eec</FileHash>
+			<FileHash>293230bda67a7b47c6bf1d9b79196064</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\halftrack_squad\mechanized_250_halftrack_grenadiers_mp.xml</FileName>
@@ -1111,7 +1111,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\slot_item\german\explosive_weapon\elefant_he_round_item_mp.xml</FileName>
-			<FileHash>8faf808734a813749b2e5d00c87f4ce5</FileHash>
+			<FileHash>1b2290a1f8b3b09644ea01ee25db110d</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\slot_item\german\small_arms\jaeger_panzergren_g43_rifle_item_mp.xml</FileName>
@@ -1172,10 +1172,6 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\british\items\universal_carrier_wasp_package_upgrade_mp.xml</FileName>
 			<FileHash>c3d106594c0376e3ee3de6d6cc259f3d</FileHash>
-		</BurnInfo>
-		<BurnInfo>
-			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\ability_lock_out\ability_lock_out_elefant_airburst_mp.xml</FileName>
-			<FileHash>3098a0d600136e9691cfe34502f58793</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\ability_lock_out\ability_lock_out_pak40_twp_mp.xml</FileName>
@@ -1358,8 +1354,8 @@
 			<FileHash>f7ee0d8af8f2782b2b4ea53f25af0f0c</FileHash>
 		</BurnInfo>
 		<BurnInfo>
-			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\elefant_supporting_fire_mp.xml</FileName>
-			<FileHash>862ee21c13f25194d760c90e061f1cdf</FileHash>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\elefant_airburst_barrage_weapon_mp.xml</FileName>
+			<FileHash>e1bff1a4a562c6800764cd7866382477</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\ballistic_weapon\tank_gun\ostwind_flak_43_37mm_mp.xml</FileName>
@@ -1406,8 +1402,8 @@
 			<FileHash>7e858ba991d4c69eeccf344a743b9eda</FileHash>
 		</BurnInfo>
 		<BurnInfo>
-			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\explosive_weapons\heavy_artillery\elefant_airburst_shell_mp.xml</FileName>
-			<FileHash>e597a7b9ab527c4495dbb9ce4470c096</FileHash>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\explosive_weapons\heavy_artillery\elefant_airburst_offmap_weapon_mp.xml</FileName>
+			<FileHash>9d63d0f0c53ccf707a041abd5c081ca3</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\explosive_weapons\heavy_artillery\howitzer_75mm_light_support_gun_mp.xml</FileName>

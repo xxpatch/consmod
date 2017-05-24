@@ -198,6 +198,27 @@
 			<list name="actions">
 			</list>
 		</template_reference>
+		<template_reference name="exts" value="ebpextensions\sight_ext">
+			<group name="detect_camouflage">
+				<float name="tp_global" value="0" />
+				<float name="tp_mine" value="0" />
+			</group>
+			<bool name="extended_sight" value="False" />
+			<float name="extended_sight_radius" value="70" />
+			<float name="reveal_area_on_death_time" value="1.5" />
+			<group name="sight_package">
+				<float name="inner_height" value="0" />
+				<float name="inner_radius" value="0" />
+				<float name="outer_height" value="0" />
+				<float name="outer_radius" value="0" />
+				<float name="cone_angle" value="360" />
+				<float name="cone_start_radius" value="0" />
+			</group>
+			<group name="extended_sight_target_info">
+				<template_reference name="extended_sight_target_info" value="type_ability_target_type\all">
+				</template_reference>
+			</group>
+		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="1073741833" />
 </instance>

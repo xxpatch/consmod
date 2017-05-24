@@ -13,13 +13,30 @@
 					</group>
 					<enum name="deprecated_unit_class_type" value="" />
 					<list name="action_table">
-						<template_reference name="action" value="action\make_dead">
-							<enum name="death_intensity" value="death_intensity_low" />
-							<bool name="ignore_invulnerability" value="False" />
-							<bool name="destroy" value="True" />
-							<list name="death_reaction_table">
+						<template_reference name="action" value="action\timed_action">
+							<float name="duration" value="5" />
+							<bool name="fire_and_forget" value="True" />
+							<list name="subactions">
+								<template_reference name="action" value="action\delay">
+									<float name="delay" value="2.5" />
+									<float name="delay_min" value="0" />
+									<bool name="progress_bar" value="False" />
+									<bool name="randomize" value="False" />
+									<list name="delayed_actions">
+										<template_reference name="action" value="action\make_dead">
+											<enum name="death_intensity" value="death_intensity_low" />
+											<bool name="ignore_invulnerability" value="False" />
+											<bool name="destroy" value="True" />
+											<list name="death_reaction_table">
+											</list>
+											<uniqueid name="id" value="1073746996" />
+										</template_reference>
+									</list>
+									<uniqueid name="id" value="1073746995" />
+									<bool name="can_prevent_refund" value="True" />
+								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073746832" />
+							<uniqueid name="id" value="1073746994" />
 						</template_reference>
 					</list>
 					<enum name="deprecated_squad_class_type" value="" />
@@ -35,39 +52,17 @@
 						</template_reference>
 					</list>
 					<bool name="target_squad" value="False" />
-					<uniqueid name="id" value="1073746831" />
+					<uniqueid name="id" value="1073746993" />
 				</template_reference>
 			</list>
 			<list name="end_target_actions">
 			</list>
 			<list name="start_self_actions">
-				<template_reference name="action" value="action\change_target_action">
-					<list name="actions">
-						<template_reference name="action" value="action\apply_modifiers_action">
-							<float name="duration" value="0" />
-							<bool name="permanent" value="False" />
-							<list name="modifiers">
-								<template_reference name="modifier" value="modifiers\enable_visible_in_fow">
-									<enum name="application_type" value="apply_to_entity" />
-									<bool name="exclusive" value="False" />
-									<string name="modifier_id" value="" />
-									<string name="target_type_name" value="" />
-									<enum name="usage_type" value="enable" />
-									<float name="value" value="1" />
-									<instance_reference name="tooltip" value="modifier_tooltip\enable_visible_in_fow" />
-								</template_reference>
-							</list>
-							<uniqueid name="id" value="1073746839" />
-						</template_reference>
-					</list>
-					<enum name="change_target_type" value="squad" />
-					<uniqueid name="id" value="1073746838" />
-				</template_reference>
 			</list>
 			<list name="start_target_actions">
 				<template_reference name="action" value="action\spawn_entity">
 					<float name="duration" value="0" />
-					<instance_reference name="entity_blueprint" value="ebps\props\elefant_aim_point_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+					<instance_reference name="entity_blueprint" value="ebps\props\elefant_barrage_aim_point_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 					<bool name="permanent" value="True" />
 					<bool name="player_owned" value="True" />
 					<group name="target_info">
@@ -96,7 +91,7 @@
 						<template_reference name="target_info" value="type_ability_target_type\all">
 						</template_reference>
 					</group>
-					<uniqueid name="id" value="1073746828" />
+					<uniqueid name="id" value="1073746987" />
 					<bool name="target_override_direction_times_max_range" value="True" />
 				</template_reference>
 				<template_reference name="action" value="action\game_event_action">
@@ -151,8 +146,8 @@
 		<float name="recharge_time" value="80" />
 		<bool name="refundable" value="True" />
 		<bool name="require_no_shot_block" value="False" />
-		<enum name="shared_timer" value="free_fire" />
-		<bool name="shared_timer_player_wide" value="False" />
+		<enum name="shared_timer" value="railway_gun" />
+		<bool name="shared_timer_player_wide" value="True" />
 		<group name="speech_code_2">
 			<string name="code_1" value="" />
 			<string name="code_2" value="ab" />
