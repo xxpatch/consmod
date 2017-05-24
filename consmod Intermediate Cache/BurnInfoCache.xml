@@ -146,8 +146,12 @@
 			<FileHash>4ea3dc9d2166963dcaeded3eb5255f21</FileHash>
 		</BurnInfo>
 		<BurnInfo>
-			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\panzergrenadier_mark_target.xml</FileName>
-			<FileHash>5e510704874d82643eaa5d950d31f3ef</FileHash>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\panzergrenadier_coordinated_action_mp.xml</FileName>
+			<FileHash>616817c5e935fa8b71fd22c3576ea8c4</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\panzergrenadier_mark_target_mp.xml</FileName>
+			<FileHash>5a5a57360eacc4871fe812ae3c7660a8</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\scout_car_halftrack_infantry_awareness_mp.xml</FileName>
@@ -919,7 +923,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\soldiers\panzer_grenadier_squad\panzer_grenadier_squad_mp.xml</FileName>
-			<FileHash>bb125b9f19d1df01db4f400a7ecd202b</FileHash>
+			<FileHash>9ed4bd69cb9fed159135cf90d8db5f34</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\soldiers\stormtrooper_squad\stormtrooper_squad_mp.xml</FileName>
@@ -1192,6 +1196,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\ability_lock_out\ability_lock_out_pak40_twp_onair_mp.xml</FileName>
 			<FileHash>fd5e5e34326a7e8fc13281aff505684e</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\ability_lock_out\ability_pgren_coordinated_active_mp.xml</FileName>
+			<FileHash>2c839ebf33b42e5ed0e39ef746ffa01e</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\commander\ability\assault_field_officer.xml</FileName>
