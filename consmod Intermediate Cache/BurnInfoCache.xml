@@ -434,6 +434,10 @@
 			<FileHash>5b98106aad43c432fa2d3f010d15136d</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\projectile\soviet_kv2_150mm_indirect.xml</FileName>
+			<FileHash>0f4c7887b97e53d4bbe694b1ee227185</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\props\booby_trap.xml</FileName>
 			<FileHash>86e4d9ead7346fee99657bc102621c6d</FileHash>
 		</BurnInfo>
@@ -1499,7 +1503,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\ballistic_weapon\tank_gun\kv2_m10_152mm_indirect.xml</FileName>
-			<FileHash>9c09cf518ab8ceb8486dd5431b07eee1</FileHash>
+			<FileHash>b0d8fd4ccd908b00343bec92c7ae7411</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\ballistic_weapon\tank_gun\su76_76mm_zis-3sh_gun_mp.xml</FileName>
