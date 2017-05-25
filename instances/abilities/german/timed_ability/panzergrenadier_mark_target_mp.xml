@@ -76,7 +76,7 @@
 		<float name="cursor_ghost_blueprint_angle" value="0" />
 		<bool name="disable_combat" value="False" />
 		<bool name="disable_when_active" value="True" />
-		<float name="duration_time" value="20" />
+		<float name="duration_time" value="-1" />
 		<bool name="enable_in_building" value="False" />
 		<bool name="enable_in_vehicle" value="False" />
 		<bool name="engage_combat" value="False" />
@@ -95,9 +95,9 @@
 		<float name="range" value="30" />
 		<bool name="range_ignore" value="False" />
 		<float name="recharge_time" value="60" />
-		<bool name="refundable" value="True" />
+		<bool name="refundable" value="False" />
 		<bool name="require_no_shot_block" value="False" />
-		<enum name="shared_timer" value="" />
+		<enum name="shared_timer" value="squad_ability_2" />
 		<bool name="shared_timer_player_wide" value="False" />
 		<group name="speech_code_2">
 			<string name="code_1" value="" />
@@ -160,7 +160,7 @@
 		<int name="ui_position" value="34" />
 		<bool name="ui_mini_map_capture" value="False" />
 		<bool name="facing_ignore_during_active" value="False" />
-		<instance_reference name="ui_range" value="" />
+		<instance_reference name="ui_range" value="ui_reticule\ability_range_default" />
 		<instance_reference name="ui_reticule" value="ui_reticule\ability_target_mob_reinforcements" />
 		<float name="ui_reticule_radius_min" value="1" />
 		<float name="ui_reticule_radius_max" value="1" />
