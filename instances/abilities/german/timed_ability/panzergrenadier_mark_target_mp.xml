@@ -40,8 +40,8 @@
 									<list name="modifiers">
 										<template_reference name="modifier" value="modifiers\received_accuracy_modifier">
 											<enum name="application_type" value="apply_to_entity" />
-											<bool name="exclusive" value="False" />
-											<string name="modifier_id" value="" />
+											<bool name="exclusive" value="True" />
+											<string name="modifier_id" value="pgren_mark_target" />
 											<string name="target_type_name" value="" />
 											<enum name="usage_type" value="multiplication" />
 											<float name="value" value="1.2" />

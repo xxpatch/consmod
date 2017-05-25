@@ -166,17 +166,17 @@
 											<list name="modifiers">
 												<template_reference name="modifier" value="modifiers\rotation_speed_modifier">
 													<enum name="application_type" value="apply_to_entity" />
-													<bool name="exclusive" value="False" />
-													<string name="modifier_id" value="" />
+													<bool name="exclusive" value="True" />
+													<string name="modifier_id" value="pgren_support_speed" />
 													<string name="target_type_name" value="" />
 													<enum name="usage_type" value="multiplication" />
-													<float name="value" value="1.1" />
+													<float name="value" value="1.07" />
 													<instance_reference name="tooltip" value="modifier_tooltip\rotation_speed_modifier" />
 												</template_reference>
 												<template_reference name="modifier" value="modifiers\weapon_scatter">
 													<enum name="application_type" value="apply_to_weapon" />
-													<bool name="exclusive" value="False" />
-													<string name="modifier_id" value="" />
+													<bool name="exclusive" value="True" />
+													<string name="modifier_id" value="pgren_support_scatter" />
 													<string name="target_type_name" value="hardpoint_01" />
 													<enum name="usage_type" value="multiplication" />
 													<float name="value" value="0.95" />
@@ -185,7 +185,7 @@
 												<template_reference name="modifier" value="modifiers\accuracy_weapon_modifier">
 													<enum name="application_type" value="apply_to_weapon" />
 													<bool name="exclusive" value="False" />
-													<string name="modifier_id" value="" />
+													<string name="modifier_id" value="pgren_support_accuracy" />
 													<string name="target_type_name" value="hardpoint_01" />
 													<enum name="usage_type" value="multiplication" />
 													<float name="value" value="1.1" />
@@ -278,6 +278,15 @@
 					</template_reference>
 					<template_reference name="info" value="type_ability_target_type\has_unit_type">
 						<enum name="unit_type" value="german_tanks" />
+					</template_reference>
+					<template_reference name="info" value="type_ability_target_type\not">
+						<group name="target_info">
+							<template_reference name="target_info" value="type_ability_target_type\has_upgrade">
+								<bool name="check_entity_only" value="False" />
+								<bool name="check_potential" value="False" />
+								<instance_reference name="upgrade" value="upgrade\german\ability_lock_out\ability_pgren_coordinated_active_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+							</template_reference>
+						</group>
 					</template_reference>
 				</list>
 			</template_reference>
