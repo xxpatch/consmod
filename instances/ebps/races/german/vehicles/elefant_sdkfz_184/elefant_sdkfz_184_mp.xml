@@ -798,8 +798,8 @@
 							<float name="length" value="0" />
 							<group name="origin">
 								<float name="x" value="0" />
-								<float name="y" value="0.5" />
-								<float name="z" value="0" />
+								<float name="y" value="3" />
+								<float name="z" value="0.2" />
 							</group>
 							<enum name="type" value="default" />
 							<instance_reference name="weapon" value="weapon\axis\explosive_weapons\heavy_artillery\elefant_airburst_offmap_weapon_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
@@ -810,8 +810,23 @@
 				<group name="hardpoint">
 					<float name="parent_hardpoint" value="-1" />
 					<list name="weapon_table">
+						<group name="weapon">
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="0.5" />
+								<float name="z" value="0" />
+							</group>
+							<enum name="type" value="default" />
+							<instance_reference name="weapon" value="" />
+						</group>
 					</list>
-					<bool name="receives_attack_commands" value="True" />
+					<bool name="receives_attack_commands" value="False" />
 				</group>
 				<group name="hardpoint">
 					<float name="parent_hardpoint" value="-1" />
