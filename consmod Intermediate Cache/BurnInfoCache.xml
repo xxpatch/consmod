@@ -1259,15 +1259,23 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\research\battle_phase_4_mp.xml</FileName>
-			<FileHash>42d47cb5a16ec8c6f7db8ed6bdb3538f</FileHash>
+			<FileHash>88f941fdb27e1c1b25ca1101ebe74994</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\research\ost_callins_1_mp.xml</FileName>
+			<FileHash>61b7f31184640bd6738e02c81b743ded</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\research\ost_callins_2_mp.xml</FileName>
+			<FileHash>2fdf825f873d27909ec6fbca45f11133</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\research\ost_t3_built_mp.xml</FileName>
-			<FileHash>40db3c58e057dacf6ea1ed6b89dabbf7</FileHash>
+			<FileHash>47a1b49541ded7c8e6dd00d0157d4da2</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\research\ost_t4_built_mp.xml</FileName>
-			<FileHash>d3d14882c4a35595314a0854f00a7105</FileHash>
+			<FileHash>bdee860b8381eaf86a2ff4a3edfd0eb4</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\soviet\ability_lock_out\guards_twp_active_mp.xml</FileName>

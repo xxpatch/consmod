@@ -2,7 +2,7 @@
 	<group name="upgrade_bag">
 		<bool name="enable_in_hold" value="False" />
 		<float name="global_max_limit" value="1" />
-		<bool name="has_speech_code" value="True" />
+		<bool name="has_speech_code" value="False" />
 		<float name="local_max_limit" value="1" />
 		<enum name="owner_type" value="player" />
 		<group name="speech_code_2">
@@ -11,7 +11,7 @@
 			<string name="code_3" value="" />
 		</group>
 		<group name="speech_code_3">
-			<string name="code_1" value="bp3" />
+			<string name="code_1" value="" />
 			<string name="code_2" value="" />
 			<string name="code_3" value="" />
 		</group>
@@ -19,24 +19,24 @@
 			<group name="cost">
 				<float name="action" value="0" />
 				<float name="command" value="0" />
-				<float name="fuel" value="65" />
-				<float name="manpower" value="200" />
+				<float name="fuel" value="0" />
+				<float name="manpower" value="0" />
 				<float name="munition" value="0" />
 				<float name="popcap" value="0" />
 			</group>
-			<float name="time_seconds" value="60" />
+			<float name="time_seconds" value="0" />
 		</group>
-		<bool name="ui_event_cue" value="True" />
-		<enum name="ui_group" value="unit_upgrade_panel" />
-		<int name="ui_position" value="1" />
+		<bool name="ui_event_cue" value="False" />
+		<enum name="ui_group" value="command_panel" />
+		<int name="ui_position" value="0" />
 		<group name="ui_info">
-			<locstring name="extra_text" value="11038896" />
-			<locstring name="help_text" value="11007810" />
-			<string name="hotkey_name" value="G" />
-			<icon name="icon_name" value="Icons_research_german_battle_phase_03" />
-			<bool name="reveal_for_decryption" value="True" />
-			<locstring name="screen_name" value="2100151" />
-			<locstring name="brief_text" value="11038898" />
+			<locstring name="extra_text" value="0" />
+			<locstring name="help_text" value="0" />
+			<string name="hotkey_name" value="" />
+			<icon name="icon_name" value="" />
+			<bool name="reveal_for_decryption" value="False" />
+			<locstring name="screen_name" value="0" />
+			<locstring name="brief_text" value="0" />
 			<locstring name="screen_name_short" value="0" />
 			<enum name="ui_style" value="default" />
 		</group>
@@ -49,17 +49,44 @@
 					<template_reference name="modifier" value="modifiers\ability_cost_fuel_modifier">
 						<enum name="application_type" value="apply_to_ability" />
 						<bool name="exclusive" value="True" />
-						<string name="modifier_id" value="ost_bp2" />
+						<string name="modifier_id" value="ost_t4" />
 						<enum name="usage_type" value="multiplication" />
 						<float name="value" value="0.8" />
 						<instance_reference name="tooltip" value="modifier_tooltip\no_modifier" />
-						<instance_reference name="target_type_name" value="abilities\german\modal_ability\dispatch\puma_dispatch" mod="f2791205c6e743b6a340ef0daf60b957" />
+						<instance_reference name="target_type_name" value="abilities\german\modal_ability\commander_ability\passive_ability\tiger_tank" />
+					</template_reference>
+					<template_reference name="modifier" value="modifiers\ability_cost_fuel_modifier">
+						<enum name="application_type" value="apply_to_ability" />
+						<bool name="exclusive" value="True" />
+						<string name="modifier_id" value="ost_t4" />
+						<enum name="usage_type" value="multiplication" />
+						<float name="value" value="0.8" />
+						<instance_reference name="tooltip" value="modifier_tooltip\no_modifier" />
+						<instance_reference name="target_type_name" value="abilities\german\modal_ability\commander_ability\passive_ability\elefant_unlock" />
 					</template_reference>
 					<template_reference name="modifier" value="modifiers\ability_cost_manpower_modifier">
 						<enum name="application_type" value="apply_to_ability" />
 						<bool name="exclusive" value="True" />
-						<string name="modifier_id" value="ost_bp2" />
-						<instance_reference name="target_type_name" value="abilities\german\modal_ability\dispatch\puma_dispatch" mod="f2791205c6e743b6a340ef0daf60b957" />
+						<string name="modifier_id" value="ost_t4" />
+						<instance_reference name="target_type_name" value="abilities\german\modal_ability\commander_ability\passive_ability\tiger_tank" />
+						<enum name="usage_type" value="multiplication" />
+						<float name="value" value="0.8" />
+						<instance_reference name="tooltip" value="modifier_tooltip\ability_cost_manpower_modifier" />
+					</template_reference>
+					<template_reference name="modifier" value="modifiers\ability_cost_manpower_modifier">
+						<enum name="application_type" value="apply_to_ability" />
+						<bool name="exclusive" value="True" />
+						<string name="modifier_id" value="ost_t4" />
+						<instance_reference name="target_type_name" value="abilities\german\modal_ability\commander_ability\passive_ability\elefant_unlock" />
+						<enum name="usage_type" value="multiplication" />
+						<float name="value" value="0.8" />
+						<instance_reference name="tooltip" value="modifier_tooltip\ability_cost_manpower_modifier" />
+					</template_reference>
+					<template_reference name="modifier" value="modifiers\ability_cost_manpower_modifier">
+						<enum name="application_type" value="apply_to_ability" />
+						<bool name="exclusive" value="True" />
+						<string name="modifier_id" value="ost_t4" />
+						<instance_reference name="target_type_name" value="abilities\german\modal_ability\dispatch\tiger_tank_ace" />
 						<enum name="usage_type" value="multiplication" />
 						<float name="value" value="0.8" />
 						<instance_reference name="tooltip" value="modifier_tooltip\ability_cost_manpower_modifier" />
@@ -67,40 +94,17 @@
 					<template_reference name="modifier" value="modifiers\ability_cost_fuel_modifier">
 						<enum name="application_type" value="apply_to_ability" />
 						<bool name="exclusive" value="True" />
-						<string name="modifier_id" value="ost_bp2" />
+						<string name="modifier_id" value="ost_t4" />
 						<enum name="usage_type" value="multiplication" />
 						<float name="value" value="0.8" />
 						<instance_reference name="tooltip" value="modifier_tooltip\no_modifier" />
-						<instance_reference name="target_type_name" value="abilities\german\modal_ability\dispatch\stug_iii_e" mod="f2791205c6e743b6a340ef0daf60b957" />
-					</template_reference>
-					<template_reference name="modifier" value="modifiers\ability_cost_manpower_modifier">
-						<enum name="application_type" value="apply_to_ability" />
-						<bool name="exclusive" value="True" />
-						<string name="modifier_id" value="ost_bp2" />
-						<instance_reference name="target_type_name" value="abilities\german\modal_ability\dispatch\stug_iii_e" mod="f2791205c6e743b6a340ef0daf60b957" />
-						<enum name="usage_type" value="multiplication" />
-						<float name="value" value="0.8" />
-						<instance_reference name="tooltip" value="modifier_tooltip\ability_cost_manpower_modifier" />
+						<instance_reference name="target_type_name" value="abilities\german\modal_ability\dispatch\tiger_tank_ace" />
 					</template_reference>
 				</list>
-				<uniqueid name="id" value="1073746014" />
+				<uniqueid name="id" value="1073747133" />
 			</template_reference>
 		</list>
 		<list name="requirements">
-			<template_reference name="required" value="requirements\required_all_in_list">
-				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="0" />
-				<list name="requirements">
-					<template_reference name="requirement" value="requirements\required_player_upgrade">
-						<enum name="reason" value="usage" />
-						<locstring name="ui_name" value="0" />
-						<bool name="is_present" value="True" />
-						<float name="max_completed" value="100" />
-						<float name="min_completed" value="1" />
-						<instance_reference name="upgrade_name" value="upgrade\german\research\battle_phase_2_mp" />
-					</template_reference>
-				</list>
-			</template_reference>
 		</list>
 		<icon name="ui_kicker_icon_name" value="" />
 		<locstring name="ui_squad_name_override" value="0" />
@@ -113,5 +117,5 @@
 		<list name="on_begin_actions">
 		</list>
 	</group>
-	<uniqueid name="pbgid" value="168" />
+	<uniqueid name="pbgid" value="1073741837" />
 </instance>
