@@ -55,7 +55,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\artillery\artillery_barrage_ability\elefant_barrage_ability_mp.xml</FileName>
-			<FileHash>49d0748ecdfa0590328e9bc61f4a0fcf</FileHash>
+			<FileHash>197b4a0511860dc30deec0c0b1f4d30b</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\air_dropped_munitions.xml</FileName>
@@ -83,7 +83,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\panzer_defensive_smoke.xml</FileName>
-			<FileHash>3b81894b3dc03dc1bb96ee4ad83b9192</FileHash>
+			<FileHash>e5d090a759428926d1d04976f793089a</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\stuka_aerial_superiority_recon.xml</FileName>
@@ -92,6 +92,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\stuka_bombing_strike.xml</FileName>
 			<FileHash>ac7b484867469d190e3f67513e1569a8</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\stuka_smoke_bomb.xml</FileName>
+			<FileHash>df9f81d16efcb0efa3d933eb45f94fb2</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\commander_ability\passive_ability\defensive_fortifications.xml</FileName>
@@ -702,6 +706,10 @@
 			<FileHash>464ab75671f7cf541d50cabafb8ae803</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\buildings\defensive_structures\commander_forward_hq_mp.xml</FileName>
+			<FileHash>3d48e7f4c1140f42bc5d2ec69a837d97</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\buildings\defensive_structures\tanktrap.xml</FileName>
 			<FileHash>a6f9228b9665ea92f1b016b8af2acb92</FileHash>
 		</BurnInfo>
@@ -1019,7 +1027,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\combat_engineer_squad\combat_engineer_squad_mp.xml</FileName>
-			<FileHash>404bee7ed30b190efe236c454d4c655e</FileHash>
+			<FileHash>b54c6fb8853437266415f1a0c7dadbdd</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\conscript_squad\conscript_squad_mp.xml</FileName>
@@ -1451,7 +1459,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\explosive_weapons\heavy_artillery\elefant_airburst_offmap_weapon_mp.xml</FileName>
-			<FileHash>74784eb30cd947485e83437607a86dd1</FileHash>
+			<FileHash>1287987633416e584ef8685aef8c92ca</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\explosive_weapons\heavy_artillery\howitzer_75mm_light_support_gun_mp.xml</FileName>
@@ -1639,7 +1647,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\locale\english\english.ucs</FileName>
-			<FileHash>b87fbab4a6f535941d24a9cb4bfa5750</FileHash>
+			<FileHash>c792b330a5963c4b2014ba2be4556068</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\info\f2791205c6e743b6a340ef0daf60b957.info</FileName>

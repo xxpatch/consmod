@@ -117,7 +117,7 @@
 			<bool name="ignore_relations" value="False" />
 			<template_reference name="wants_prone_firing_option" value="options\none">
 			</template_reference>
-			<enum name="attack_ground_type" value="outside_hold_only" />
+			<enum name="attack_ground_type" value="anywhere" />
 			<bool name="non_moving_setup_requires_facing" value="False" />
 		</group>
 		<group name="burst">

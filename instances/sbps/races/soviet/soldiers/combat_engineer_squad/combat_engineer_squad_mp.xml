@@ -774,6 +774,10 @@
 							<instance_reference name="ebp" value="ebps\races\soviet\buildings\defensive_structures\light_anti_vehicle_mines" />
 							<int name="ui_position" value="22" />
 						</group>
+						<group name="construction_item">
+							<instance_reference name="ebp" value="ebps\races\soviet\buildings\defensive_structures\commander_forward_hq_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+							<int name="ui_position" value="24" />
+						</group>
 					</list>
 					<enum name="construction_type" value="tp_construction_soviet_engineer_basic" />
 				</group>
