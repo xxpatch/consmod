@@ -538,6 +538,10 @@
 			<FileHash>7417ed4d7a317b0b5684acb79e8570fb</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\british\buildings\defensive_structures\brit_sandbag_fence.xml</FileName>
+			<FileHash>adecaaa39c97dff65a677612a8d8f03e</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\british\soldiers\brit_officer\air_support_officer_mp.xml</FileName>
 			<FileHash>73bc89235f0a87dbbdb436a0ee441379</FileHash>
 		</BurnInfo>
@@ -580,6 +584,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\buildings\base_building\hq\german_hq_mp.xml</FileName>
 			<FileHash>255803cbfdf8f63dd2a5c17efe11f7db</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\buildings\defensive_structure\german_sandbag_fence.xml</FileName>
+			<FileHash>02b48ba931046b8950c8abd45ccd9259</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\buildings\defensive_structure\slit_trench_german_mp.xml</FileName>
@@ -710,6 +718,10 @@
 			<FileHash>3d48e7f4c1140f42bc5d2ec69a837d97</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\buildings\defensive_structures\sand_bag_soviet_mp.xml</FileName>
+			<FileHash>be03091963ff85a9a7bec6de8edc75f2</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\buildings\defensive_structures\tanktrap.xml</FileName>
 			<FileHash>a6f9228b9665ea92f1b016b8af2acb92</FileHash>
 		</BurnInfo>
@@ -810,6 +822,10 @@
 			<FileHash>7958e436bff1b3310df97e68ad11282a</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\west_german\buildings\defensive_structures\wg_sandbag_fence_mp.xml</FileName>
+			<FileHash>95d337ee47157c4e190d95e03ae0dcce</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\west_german\soldiers\assault_pioneer\assault_pioneer_mp.xml</FileName>
 			<FileHash>f5142c2ba245d2010e53b8346835bab8</FileHash>
 		</BurnInfo>
@@ -903,11 +919,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\british\soldiers\tommy_squad\tommy_squad_mp.xml</FileName>
-			<FileHash>52aed1ce876c91a559e0604dcf7c315b</FileHash>
+			<FileHash>09f888e311f78aba33a6fba5675d8f43</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\british\soldiers\tommy_squad\tommy_squad_tank_hunter_mp.xml</FileName>
-			<FileHash>806ce81865371c8502faec6f9eccfac5</FileHash>
+			<FileHash>c561e077c96988d4abc45c8d509d42d3</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\british\team_weapons\at_gun_6_pounder\brit_6_pounder_at_gun_squad_mp.xml</FileName>
@@ -1031,7 +1047,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\conscript_squad\conscript_squad_mp.xml</FileName>
-			<FileHash>bbce15bfb4bbad1a9d0253fbc7f3ca5a</FileHash>
+			<FileHash>5d5d8c4a749cbd297aec55377d42d306</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\dshk_38_hmg_squad\dshk_38_hmg_squad_mp.xml</FileName>
