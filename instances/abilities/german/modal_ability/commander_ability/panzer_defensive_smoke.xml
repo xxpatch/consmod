@@ -12,27 +12,7 @@
 					<bool name="retrigger" value="False" />
 					<string name="state_machine_name" value="ability_defensivesmoke_state" />
 					<string name="undo_action_state_name" value="off" />
-					<uniqueid name="id" value="1073743384" />
-				</template_reference>
-				<template_reference name="action" value="action\spawn_entity">
-					<float name="duration" value="25" />
-					<instance_reference name="entity_blueprint" value="ebps\gameplay\smoke_los_block" />
-					<bool name="permanent" value="False" />
-					<bool name="player_owned" value="False" />
-					<group name="target_info">
-						<template_reference name="target_info" value="type_ability_target_type\all">
-						</template_reference>
-					</group>
-					<uniqueid name="id" value="1073743385" />
-					<template_reference name="spawn_attached_option" value="options\none">
-					</template_reference>
-					<list name="spawned_entity_actions">
-					</list>
-					<group name="offset">
-						<float name="x" value="0" />
-						<float name="y" value="0" />
-						<float name="z" value="0" />
-					</group>
+					<uniqueid name="id" value="1073747268" />
 				</template_reference>
 				<template_reference name="action" value="action\delay">
 					<float name="delay" value="0.75" />
@@ -41,7 +21,7 @@
 					<bool name="randomize" value="False" />
 					<list name="delayed_actions">
 						<template_reference name="action" value="action\spawn_entity">
-							<float name="duration" value="15" />
+							<float name="duration" value="12" />
 							<instance_reference name="entity_blueprint" value="ebps\gameplay\smoke_shot_block" />
 							<bool name="permanent" value="False" />
 							<bool name="player_owned" value="False" />
@@ -49,7 +29,7 @@
 								<template_reference name="target_info" value="type_ability_target_type\all">
 								</template_reference>
 							</group>
-							<uniqueid name="id" value="1073743388" />
+							<uniqueid name="id" value="1073747273" />
 							<template_reference name="spawn_attached_option" value="options\none">
 							</template_reference>
 							<list name="spawned_entity_actions">
@@ -62,14 +42,14 @@
 						</template_reference>
 						<template_reference name="action" value="action\spawn_entity">
 							<float name="duration" value="25" />
-							<instance_reference name="entity_blueprint" value="ebps\gameplay\smoke_los_inside_block" />
+							<instance_reference name="entity_blueprint" value="ebps\gameplay\smoke_los_block" />
 							<bool name="permanent" value="False" />
 							<bool name="player_owned" value="False" />
 							<group name="target_info">
 								<template_reference name="target_info" value="type_ability_target_type\all">
 								</template_reference>
 							</group>
-							<uniqueid name="id" value="1073743386" />
+							<uniqueid name="id" value="1073747274" />
 							<template_reference name="spawn_attached_option" value="options\none">
 							</template_reference>
 							<list name="spawned_entity_actions">
@@ -81,7 +61,37 @@
 							</group>
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073743387" />
+					<uniqueid name="id" value="1073747272" />
+					<bool name="can_prevent_refund" value="True" />
+				</template_reference>
+				<template_reference name="action" value="action\delay">
+					<float name="delay" value="4" />
+					<float name="delay_min" value="0" />
+					<bool name="progress_bar" value="False" />
+					<bool name="randomize" value="False" />
+					<list name="delayed_actions">
+						<template_reference name="action" value="action\spawn_entity">
+							<float name="duration" value="25" />
+							<instance_reference name="entity_blueprint" value="ebps\gameplay\smoke_los_inside_block" />
+							<bool name="permanent" value="False" />
+							<bool name="player_owned" value="False" />
+							<group name="target_info">
+								<template_reference name="target_info" value="type_ability_target_type\all">
+								</template_reference>
+							</group>
+							<uniqueid name="id" value="1073747270" />
+							<template_reference name="spawn_attached_option" value="options\none">
+							</template_reference>
+							<list name="spawned_entity_actions">
+							</list>
+							<group name="offset">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="0" />
+							</group>
+						</template_reference>
+					</list>
+					<uniqueid name="id" value="1073747271" />
 					<bool name="can_prevent_refund" value="True" />
 				</template_reference>
 			</list>
