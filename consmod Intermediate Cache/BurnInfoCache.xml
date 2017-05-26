@@ -235,7 +235,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\commander_ability\il-2_sturmovik_attack_advanced.xml</FileName>
-			<FileHash>896add4bd8338563af42fe60ea5cb3b7</FileHash>
+			<FileHash>ce850d0cb166a3761d7383b140fc95cf</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\commander_ability\mark_vehicle.xml</FileName>
@@ -584,6 +584,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\buildings\defensive_structure\slit_trench_german_mp.xml</FileName>
 			<FileHash>4111fa23bdf06b985e19cd922d160ec3</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\buildings\defensive_structure\sniper_digin_cover_mp.xml</FileName>
+			<FileHash>e4588f85cc890ee66c8288cc45f22192</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\buildings\defensive_structure\tank_trap.xml</FileName>
