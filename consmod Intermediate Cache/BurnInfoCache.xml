@@ -586,10 +586,6 @@
 			<FileHash>4111fa23bdf06b985e19cd922d160ec3</FileHash>
 		</BurnInfo>
 		<BurnInfo>
-			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\buildings\defensive_structure\sniper_digin_cover_mp.xml</FileName>
-			<FileHash>e4588f85cc890ee66c8288cc45f22192</FileHash>
-		</BurnInfo>
-		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\buildings\defensive_structure\tank_trap.xml</FileName>
 			<FileHash>57dcdb0ac0a608137db27e992b13952e</FileHash>
 		</BurnInfo>
@@ -767,7 +763,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\team_weapons\soviet_field_artillery\m1937_152mm_ml_20_artillery_mp.xml</FileName>
-			<FileHash>f957704b9329b1db499546bdb0b5dc90</FileHash>
+			<FileHash>8262e288a9345f151647f681d6bd1855</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\vehicles\is-2_heavy_tank\is-2_heavy_tank_mp.xml</FileName>
@@ -1586,8 +1582,16 @@
 			<FileHash>461f019a89b39f2757e3900b463e9582</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\heavy_artillery\152mm_m-30_mp.xml</FileName>
+			<FileHash>33628cb8e6f48cd6db8d5158c69793df</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\heavy_artillery\152mm_m-30_vet3_mp.xml</FileName>
+			<FileHash>b0375128b045f293df0657629503bbf1</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\heavy_artillery\203mm_b-4_commander_mp.xml</FileName>
-			<FileHash>49f99d92f38da96b64c30b96e9c57472</FileHash>
+			<FileHash>e7743a1889ebfc788bf3d1a56e991c32</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\light_artillery\il2_vya-23_autocannon_advanced_mp.xml</FileName>
