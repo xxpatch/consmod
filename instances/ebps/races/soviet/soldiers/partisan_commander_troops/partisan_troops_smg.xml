@@ -824,9 +824,9 @@
 												<template_reference name="action" value="action\ui_unit_modifier_action">
 													<bool name="die_with_creator" value="True" />
 													<template_reference name="ui_info" value="tables\ui_info">
-														<locstring name="screen_name" value="11140645" />
+														<locstring name="screen_name" value="61" mod="f2791205c6e743b6a340ef0daf60b957" />
 														<locstring name="help_text" value="53" mod="f2791205c6e743b6a340ef0daf60b957" />
-														<icon name="icon_name" value="Icons_abilities_ability_aef_first_strike" />
+														<icon name="icon_name" value="Icons_abilities_ability_soviet_camouflage" />
 														<string name="hotkey_name" value="" />
 													</template_reference>
 													<uniqueid name="id" value="1073747311" />

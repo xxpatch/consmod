@@ -55,7 +55,7 @@
 			<string name="extra_text_deprecated" value="" />
 			<bool name="ghost_enable" value="False" />
 			<bool name="has_speech_code" value="True" />
-			<locstring name="help_text" value="11048315" />
+			<locstring name="help_text" value="68" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<string name="hotkey_name" value="F" />
 			<icon name="icon_name" value="Icons_buildings_building_common_radio_post" />
 			<enum name="kill_type" value="" />
@@ -69,7 +69,7 @@
 			<bool name="obb_selectable" value="True" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="11048315" />
+			<locstring name="screen_name" value="70" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<enum name="selection_name" value="building" />
 			<float name="selection_scale" value="1" />
 			<enum name="selection_type" value="single_entity_select" />
@@ -107,7 +107,7 @@
 			<float name="minimap_icon_scale" value="0.75" />
 			<icon name="portrait_icon_summer" value="Icons_portraits_radio_post" />
 			<locstring name="brief_text" value="52" mod="f2791205c6e743b6a340ef0daf60b957" />
-			<locstring name="extra_text" value="0" />
+			<locstring name="extra_text" value="69" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<locstring name="screen_name_short" value="0" />
 			<bool name="show_in_build_log" value="True" />
 			<bool name="show_entity_appearance" value="True" />

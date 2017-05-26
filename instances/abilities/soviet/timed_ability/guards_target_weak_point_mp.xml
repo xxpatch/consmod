@@ -28,8 +28,8 @@
 						<template_reference name="action" value="action\ui_unit_modifier_action">
 							<bool name="die_with_creator" value="False" />
 							<template_reference name="ui_info" value="tables\ui_info">
-								<locstring name="screen_name" value="0" />
-								<locstring name="help_text" value="0" />
+								<locstring name="screen_name" value="66" mod="f2791205c6e743b6a340ef0daf60b957" />
+								<locstring name="help_text" value="67" mod="f2791205c6e743b6a340ef0daf60b957" />
 								<icon name="icon_name" value="Icons_abilities_ability_german_stun_critical" />
 								<string name="hotkey_name" value="" />
 							</template_reference>
@@ -171,7 +171,7 @@
 			<locstring name="extra_text" value="46" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<locstring name="help_text" value="47" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<string name="hotkey_name" value="W" />
-			<icon name="icon_name" value="Icons_abilities_ability_german_stun_critical" />
+			<icon name="icon_name" value="Icons_upgrades_icon_upgrade_soviet_ptrs_41" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
 			<locstring name="screen_name" value="48" mod="f2791205c6e743b6a340ef0daf60b957" />
