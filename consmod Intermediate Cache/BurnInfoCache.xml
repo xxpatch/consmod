@@ -174,6 +174,10 @@
 			<FileHash>824ee081c69716ca893f7577f5750ff3</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\always_on_ability\partisan_assassinate_mp.xml</FileName>
+			<FileHash>e80b7d70b71d0cb047719841f6c06ef4</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\button_vehicle_mp.xml</FileName>
 			<FileHash>8a02da2a035868b4984833cb9a5bac09</FileHash>
 		</BurnInfo>
@@ -1071,7 +1075,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\partisan_commander_squads\partisans_smg_mp.xml</FileName>
-			<FileHash>e8b93efd4574d21b5d01bc7b4fc68631</FileHash>
+			<FileHash>32b123a5624b1beca6b5d23c8af49140</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\troops\guards_troops_assault_mp.xml</FileName>
@@ -1671,7 +1675,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\locale\english\english.ucs</FileName>
-			<FileHash>f2d588e513b5f0323565404dc8728453</FileHash>
+			<FileHash>80a088014a8080fa46b81bff46d5c197</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\info\f2791205c6e743b6a340ef0daf60b957.info</FileName>
