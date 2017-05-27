@@ -3,7 +3,7 @@
 model =
 {
 	"kv1_heavy_tank",
-    "..\\..\\..\\german\\structures\\hull_down_m\\hull_down_m",	
+    "..\\..\\..\\german\\structures\\hull_down_xl\\hull_down_xl",	
 }
 
 simvis_attributes =
