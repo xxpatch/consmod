@@ -279,7 +279,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\grenades\conscript_molotov_cocktail_mp.xml</FileName>
-			<FileHash>ee478082106fb8d53f411eac899f7888</FileHash>
+			<FileHash>b1ee395842cbba1a212bdd955a6f7e86</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\grenades\guards_throw_defensive_grenade_mp.xml</FileName>
@@ -1322,6 +1322,10 @@
 			<FileHash>90d92ce42f382470d4e342f87058b7bf</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\soviet\ability_lock_out\molotov_vet_requirement_unmet_mp.xml</FileName>
+			<FileHash>073913751cd12ec1370946b161a19e74</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\soviet\commander\ability\forward_hq.xml</FileName>
 			<FileHash>848df049f616a6a648611ce26cc481a2</FileHash>
 		</BurnInfo>
@@ -1643,11 +1647,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\flame_throwers\grenade\molotov_cocktail_weapon_mp.xml</FileName>
-			<FileHash>03d96df4711de7c165c3b41f8c7af759</FileHash>
+			<FileHash>a85ab4380ff0dcf850ed6a070789bcb6</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\flame_throwers\grenade\molotov_cocktail_weapon_vet_mp.xml</FileName>
-			<FileHash>a696db928cd0e18c8aed539771e6c971</FileHash>
+			<FileHash>0ec630355cb308f18f847533d1ce4259</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\small_arms\machine_gun\heavy_machine_gun\dshk_38_sokolov_mp.xml</FileName>
