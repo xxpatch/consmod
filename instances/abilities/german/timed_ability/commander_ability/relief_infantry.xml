@@ -133,7 +133,7 @@
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\german\soldiers\ostruppen_squad\ostruppen_squad_mp" />
+							<instance_reference name="squad_type_to_monitor" value="sbps\races\german\soldiers\ostruppen_squad\ostruppen_squad_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 						<group name="replace_info">
@@ -161,7 +161,7 @@
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 					</list>
-					<instance_reference name="replacement_squad_type" value="sbps\races\german\soldiers\ostruppen_squad\ostruppen_squad_mp" />
+					<instance_reference name="replacement_squad_type" value="sbps\races\german\soldiers\ostruppen_squad\ostruppen_squad_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 					<int name="spawn_count" value="1" />
 					<int name="trigger_replace_at_entity_death_count" value="5" />
 					<uniqueid name="id" value="1073743569" />
