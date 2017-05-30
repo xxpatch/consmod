@@ -230,6 +230,10 @@
 			<FileHash>7b98b983d0fb306e6a84ce28ca9351c3</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\artillery\artillery_barrage_ability\katushya_creeping_barrage_mp.xml</FileName>
+			<FileHash>d34c2d3489676a2139b812beedbe3764</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\commander_ability\booby_trap.xml</FileName>
 			<FileHash>d5e3f18a1ab9dca27e17479157a5976a</FileHash>
 		</BurnInfo>
@@ -798,6 +802,10 @@
 			<FileHash>506d36e0f65f796dad62ba69b65f83ed</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\vehicles\katyusha_rocket_trucks\katyusha_bm-13n_mp.xml</FileName>
+			<FileHash>2ae9f7e61ea792b9cd9a728d1906b991</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\vehicles\kv-1\kv-1_commander_mp.xml</FileName>
 			<FileHash>9f803273b85e550c3e221a905db84c23</FileHash>
 		</BurnInfo>
@@ -1103,7 +1111,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\troops\guards_troops_mp.xml</FileName>
-			<FileHash>51739088726b28b5ad9f8dd856a3423b</FileHash>
+			<FileHash>b84ad3e6bf37c62c56d9afb631e61bdb</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\troops\penal_battalion_mp.xml</FileName>
@@ -1538,6 +1546,10 @@
 			<FileHash>5f19d8e4af1a06ff54f36f8be9be867a</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\flame_throwers\fire_artillery_weapon_mp.xml</FileName>
+			<FileHash>bcd7b6699ad3be938d691f97d04bed35</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\flame_throwers\halftrack_flammenwerfer_mp.xml</FileName>
 			<FileHash>883a45184dd884ef969cd5fb667b18d1</FileHash>
 		</BurnInfo>
@@ -1643,7 +1655,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\heavy_artillery\203mm_b-4_commander_mp.xml</FileName>
-			<FileHash>e36432dcf47b41f65426c4547caa258b</FileHash>
+			<FileHash>148dc88dd1d4a12c35b3aa4fec75d701</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\light_artillery\il2_vya-23_autocannon_advanced_mp.xml</FileName>
@@ -1652,6 +1664,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\light_artillery\il2_vya-23_autocannon_mp.xml</FileName>
 			<FileHash>f4ed12d0e71889b5d43aac2e34b7dd38</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\light_artillery\katyusha_bm_13_16_creeping_rockets_flame_mp.xml</FileName>
+			<FileHash>2469605f51b70280692af75d449c06e1</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\light_artillery\su76_zis-3sh_gun_barrage_mp.xml</FileName>
