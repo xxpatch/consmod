@@ -10,7 +10,7 @@
 			<list name="start_target_actions">
 				<template_reference name="action" value="action\construct_action">
 					<uniqueid name="id" value="1073747385" />
-					<instance_reference name="entity_blueprint_name" value="ebps\props\west_german_medical_supplies" />
+					<instance_reference name="entity_blueprint_name" value="ebps\props\west_german_medical_supplies" mod="f2791205c6e743b6a340ef0daf60b957" />
 					<bool name="query_only" value="False" />
 					<bool name="check_visible" value="True" />
 					<bool name="use_target_entity_facing" value="False" />
@@ -40,7 +40,7 @@
 		<bool name="engage_combat" value="False" />
 		<float name="entity_busy_time" value="0" />
 		<float name="facing_angle" value="5" />
-		<bool name="facing_ignore" value="False" />
+		<bool name="facing_ignore" value="True" />
 		<float name="final_close_in_distance" value="0" />
 		<bool name="fire_and_forget" value="False" />
 		<bool name="garrison_target" value="False" />
@@ -50,7 +50,7 @@
 		<bool name="is_default_action" value="False" />
 		<bool name="move_back" value="False" />
 		<float name="move_back_distance" value="0" />
-		<float name="range" value="3" />
+		<float name="range" value="5" />
 		<bool name="range_ignore" value="False" />
 		<float name="recharge_time" value="50" />
 		<bool name="refundable" value="True" />
@@ -103,7 +103,7 @@
 		<enum name="ability_super" value="tp_none" />
 		<int name="ui_position" value="31" />
 		<bool name="ui_mini_map_capture" value="False" />
-		<bool name="facing_ignore_during_active" value="False" />
+		<bool name="facing_ignore_during_active" value="True" />
 		<instance_reference name="ui_range" value="" />
 		<instance_reference name="ui_reticule" value="" />
 		<float name="ui_reticule_radius_min" value="1" />

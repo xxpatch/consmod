@@ -203,7 +203,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\m3_medpack_ability_mp.xml</FileName>
-			<FileHash>ad4e35101e30bf68557be904d6cbf0db</FileHash>
+			<FileHash>4a0a0a0fd5974b7aadf614ef0baf4847</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\modal_ability\mortar_fire_flares_ability_mp.xml</FileName>
@@ -476,6 +476,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\props\mortar_flare_marker_mp.xml</FileName>
 			<FileHash>49f52db201083db8f506cda4fa202efa</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\props\west_german_medical_supplies.xml</FileName>
+			<FileHash>29322659b81689bcb2ed74ebc8b16335</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\aef\buildings\defensive_structures\sov_popcap_add_mp.xml</FileName>
@@ -1587,7 +1591,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\ballistic_weapon\tank_gun\isu152_ml-20s_152mm_howitzer_gun_mp.xml</FileName>
-			<FileHash>eca82538c912e49d2839dbf0f49cd849</FileHash>
+			<FileHash>a199c41445eff0976fe4b8c79f7b49ac</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\ballistic_weapon\tank_gun\isu152_ml-20s_152mm_howitzer_gun_piercing_shot_mp.xml</FileName>
@@ -1651,11 +1655,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\light_artillery\su76_zis-3sh_gun_barrage_mp.xml</FileName>
-			<FileHash>d16085e3c2efde6a3432d55d9a81948e</FileHash>
-		</BurnInfo>
-		<BurnInfo>
-			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\light_artillery\zis3_at_gun_he_shots_mp.xml</FileName>
-			<FileHash>8d4cb9fe266e32da459be73793dec0f0</FileHash>
+			<FileHash>912ea8ea5b33cec9ecd22d05b03ee0c3</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\explosive_weapons\mine\engineer_demoliion_mp.xml</FileName>
