@@ -156,7 +156,7 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_item_slot_ext">
 			<bool name="can_pick_up" value="True" />
-			<float name="num_slots" value="2" />
+			<float name="num_slots" value="3" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext">
 			<list name="unit_list">
@@ -197,6 +197,7 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_upgrade_apply_ext">
 			<list name="upgrades">
+				<instance_reference name="upgrade" value="upgrade\soviet\items\guard_ptrs_package_1_mp" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_upgrade_ext">
@@ -650,7 +651,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\received_accuracy_modifier" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073742047" />
+										<uniqueid name="id" value="1073747461" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -666,7 +667,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073742048" />
+										<uniqueid name="id" value="1073747462" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
@@ -689,11 +690,11 @@
 												<string name="modifier_id" value="" />
 												<string name="target_type_name" value="hardpoint_01" />
 												<enum name="usage_type" value="multiplication" />
-												<float name="value" value="1.3" />
+												<float name="value" value="1.14" />
 												<instance_reference name="tooltip" value="modifier_tooltip\accuracy_weapon_modifier" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073742049" />
+										<uniqueid name="id" value="1073747463" />
 									</template_reference>
 								</list>
 							</group>
@@ -718,7 +719,7 @@
 												<enum name="usage_type" value="multiplication" />
 												<float name="value" value="1.25" />
 												<instance_reference name="tooltip" value="modifier_tooltip\ability_duration_time_modifier" />
-												<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\button_vehicle_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+												<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\button_vehicle_mp" />
 											</template_reference>
 											<template_reference name="modifier" value="modifiers\received_accuracy_modifier">
 												<enum name="application_type" value="apply_to_squad" />
@@ -730,13 +731,13 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\received_accuracy_modifier" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073742050" />
+										<uniqueid name="id" value="1073747464" />
 									</template_reference>
 									<template_reference name="action" value="action\upgrade_add">
 										<bool name="apply_to_entities_in_squad" value="False" />
 										<bool name="trigger_publish_event" value="False" />
 										<instance_reference name="upgrade" value="upgrade\max_vet" />
-										<uniqueid name="id" value="1073742051" />
+										<uniqueid name="id" value="1073747465" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -752,7 +753,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073742052" />
+										<uniqueid name="id" value="1073747466" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
@@ -769,8 +770,17 @@
 												<float name="value" value="0.8" />
 												<instance_reference name="tooltip" value="modifier_tooltip\cooldown_weapon_modifier" />
 											</template_reference>
+											<template_reference name="modifier" value="modifiers\accuracy_weapon_modifier">
+												<enum name="application_type" value="apply_to_weapon" />
+												<bool name="exclusive" value="False" />
+												<string name="modifier_id" value="" />
+												<string name="target_type_name" value="hardpoint_01" />
+												<enum name="usage_type" value="multiplication" />
+												<float name="value" value="1.14" />
+												<instance_reference name="tooltip" value="modifier_tooltip\accuracy_weapon_modifier" />
+											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073742053" />
+										<uniqueid name="id" value="1073747467" />
 									</template_reference>
 								</list>
 							</group>
