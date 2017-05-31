@@ -51,7 +51,7 @@
 					<list name="sections">
 						<group name="section">
 							<float name="duration" value="2" />
-							<float name="num_shots" value="4" />
+							<float name="num_shots" value="2" />
 							<list name="actions_end">
 							</list>
 							<list name="actions_start">
@@ -59,7 +59,7 @@
 						</group>
 						<group name="section">
 							<float name="duration" value="2" />
-							<float name="num_shots" value="4" />
+							<float name="num_shots" value="2" />
 							<list name="actions_end">
 							</list>
 							<list name="actions_start">
@@ -67,7 +67,7 @@
 						</group>
 						<group name="section">
 							<float name="duration" value="2" />
-							<float name="num_shots" value="4" />
+							<float name="num_shots" value="2" />
 							<list name="actions_end">
 							</list>
 							<list name="actions_start">
@@ -75,7 +75,7 @@
 						</group>
 						<group name="section">
 							<float name="duration" value="2" />
-							<float name="num_shots" value="4" />
+							<float name="num_shots" value="2" />
 							<list name="actions_end">
 							</list>
 							<list name="actions_start">
