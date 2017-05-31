@@ -146,6 +146,10 @@
 			<FileHash>336e2f88d936ff810c97e863c573a04e</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\panther_tiger_blitzkrieg_mp.xml</FileName>
+			<FileHash>d64762ce676d1bda49cd92a8260c05b9</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\panzergrenadier_mark_target_mp.xml</FileName>
 			<FileHash>e7d30fde3516c9eab3289f2e04286746</FileHash>
 		</BurnInfo>
@@ -719,11 +723,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\tiger_sdkfz_181\tiger_ace_sdkfz_181_mp.xml</FileName>
-			<FileHash>e09843465c5f39b54206ad65ddc60d0e</FileHash>
+			<FileHash>b2b8638e6d8c91042080f7e30b59e1b3</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\tiger_sdkfz_181\tiger_sdkfz_181_mp.xml</FileName>
-			<FileHash>f5c6661b978f2d5d6a4d71ee61d50f06</FileHash>
+			<FileHash>4fbe1b1e6633e6bbefe839e19e85c083</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\buildings\defensive_structures\commander_forward_hq_mp.xml</FileName>
@@ -1023,7 +1027,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\panther_squad\panther_squad_mp.xml</FileName>
-			<FileHash>e3806606a21f0a75da8f697ea44247e3</FileHash>
+			<FileHash>899b035ec4a082f12af98ed6babe3427</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\panzerwerfer_squad\panzerwerfer_squad_mp.xml</FileName>
@@ -1063,11 +1067,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\tiger_squad\tiger_ace_squad_mp.xml</FileName>
-			<FileHash>694f3dc77e14e8c495cbf14549fd76e0</FileHash>
+			<FileHash>d2f32f1f79c3a43cd5bc0de3cc639d63</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\tiger_squad\tiger_squad_mp.xml</FileName>
-			<FileHash>381b6d6d196404a4df8b31dacf9fc5f0</FileHash>
+			<FileHash>a269c5e638b5d3bc7a1779f339055bd2</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\combat_engineer_squad\combat_engineer_squad_mp.xml</FileName>
