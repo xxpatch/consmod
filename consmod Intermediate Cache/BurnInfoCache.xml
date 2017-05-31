@@ -723,7 +723,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\puma\puma_east_german.xml</FileName>
-			<FileHash>f09eefba8439ad7011831450e592d5e5</FileHash>
+			<FileHash>386f675cd8f6af1e838560878c9d06bf</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\stug_iii_sdkfz_141_1\stug_iii_e_sdkfz_141_1_commander_mp.xml</FileName>
@@ -916,6 +916,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\west_german\vehicles\jagdtiger_sdkfz_186\jagdtiger_sdkfz_186_mp.xml</FileName>
 			<FileHash>ea53fd51a0007683f44bbd64b4eaa92a</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\west_german\vehicles\puma_sdkfz_234\puma_sdkfz_234_mp.xml</FileName>
+			<FileHash>f95557936e204f2e162475ceaba13ece</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\formations\squad_team_weapon.xml</FileName>
