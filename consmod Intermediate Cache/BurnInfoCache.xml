@@ -10,12 +10,16 @@
 			<FileHash>c3633b5ec7f9a44785a4785b5cafa7c9</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\aef\timed_ability\flanking_speed.xml</FileName>
+			<FileHash>5d8c7db5e6b69ee2f06469b98654c84f</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\aef\timed_ability\m3_halftrack_speed_boost_mp.xml</FileName>
-			<FileHash>922bf9fea07500942042c363c4fcecc2</FileHash>
+			<FileHash>6e6b9b7ef665c57142f9a7c4ce9a843e</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\aef\timed_ability\wc51_speed_boost_mp.xml</FileName>
-			<FileHash>843c967fb08690e73018f48bc1c6fdfc</FileHash>
+			<FileHash>756f735f0f1ba60511133f5d5eebb566</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\british\modal_ability\commando_demo_mp.xml</FileName>
@@ -28,6 +32,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\british\modal_ability\commander_ability\passive_ability\command_vehicle.xml</FileName>
 			<FileHash>555cf71aade30be0befa7b2ab40f0e30</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\british\timed_ability\tune_up_bonus_mp.xml</FileName>
+			<FileHash>5f6cda72fce4d94280d2ed44bd4c534f</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\always_on_ability\ostruppen_cover_bonus.xml</FileName>
@@ -156,6 +164,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\panzergrenadier_support_tactics_mp.xml</FileName>
 			<FileHash>04b801229db650f4860ac3cd5c95a883</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\panzer_panther_tiger_ostwind_blitzkrieg_mp.xml</FileName>
+			<FileHash>694afc3313bccb6e3de4a56836b0c204</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\scout_car_halftrack_infantry_awareness_mp.xml</FileName>
@@ -326,6 +338,10 @@
 			<FileHash>56d37b6cd32d1ac547bfd14e47b16876</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\m5_m3a1_overdrive_mp.xml</FileName>
+			<FileHash>492d3a6d7a089419e4f6d1be294bf5bf</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\su76_su85_zis3_53k_isu152_infantry_tracking_mp.xml</FileName>
 			<FileHash>d9ca73fcfbc95dc2a282baf2058211f1</FileHash>
 		</BurnInfo>
@@ -388,6 +404,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\west_german\modal_ability\grenades\waffen_elite_bundled_assault_grenade.xml</FileName>
 			<FileHash>eccc390d93a2968f930b1283bbb71b79</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\west_german\timed_ability\combat_blitz_mp.xml</FileName>
+			<FileHash>f9926eccd4caf3ec6f370ced57e6aef6</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\west_german\toggle_ability\rakten_camouflage_mp.xml</FileName>
@@ -1023,7 +1043,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\ostwind_squad\ostwind_squad_mp.xml</FileName>
-			<FileHash>cc7b2002888be13b943b5544b666b82b</FileHash>
+			<FileHash>ecda867a691d74ce6cb50b8799e108c4</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\panther_squad\panther_squad_mp.xml</FileName>
@@ -1035,15 +1055,15 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\panzer_iv_squad\panzer_iv_command_squad_mp.xml</FileName>
-			<FileHash>a761ff1d6ff05697f8ac3971a6a9ab81</FileHash>
+			<FileHash>1fa52121d17378e9166f753f7c499074</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\panzer_iv_squad\panzer_iv_squad_mp.xml</FileName>
-			<FileHash>4bde020cb84f18a820b3dc24d7bdf679</FileHash>
+			<FileHash>b0604adb6458357e9f60e1c45dd18490</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\panzer_iv_squad\panzer_iv_stubby_squad_mp.xml</FileName>
-			<FileHash>31ce048e763ad5fa139f960bb70715c1</FileHash>
+			<FileHash>6f0bd65218d3e547d40fd6cb207c0be9</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\vehicles\puma\puma_east_german_mp.xml</FileName>
@@ -1135,7 +1155,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\vehicles\m3a1_scout_car_squad\m3a1_scout_car_squad_mp.xml</FileName>
-			<FileHash>271f63fbe7a7977234674759089dc39d</FileHash>
+			<FileHash>d3b04d65884fbe3427929e0217e04273</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\vehicles\soviet_at_gun_squads\m1937_53-k_45mm_at_gun_squad_mp.xml</FileName>

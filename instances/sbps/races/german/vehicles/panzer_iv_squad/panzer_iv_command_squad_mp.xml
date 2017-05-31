@@ -710,7 +710,7 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext">
 			<list name="abilities">
-				<instance_reference name="ability" value="abilities\german\timed_ability\panzer_panther_tiger_ostwind_blitzkrieg_mp" />
+				<instance_reference name="ability" value="abilities\german\timed_ability\panzer_panther_tiger_ostwind_blitzkrieg_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
 				<instance_reference name="ability" value="abilities\german\always_on_ability\panzer_commander_aura_mp" />
 			</list>
