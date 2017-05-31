@@ -122,10 +122,6 @@
 			<FileHash>179956be81cde239c5cb9f57dd72d58a</FileHash>
 		</BurnInfo>
 		<BurnInfo>
-			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\dispatch\puma_dispatch.xml</FileName>
-			<FileHash>cd215cc1ddb7f240ec18f266e4b168ba</FileHash>
-		</BurnInfo>
-		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\dispatch\stormtroopers.xml</FileName>
 			<FileHash>11b1377b506924e00e2b9686576ed4b7</FileHash>
 		</BurnInfo>
@@ -703,7 +699,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\puma\puma_east_german.xml</FileName>
-			<FileHash>15358c4086055a83816193419afdad85</FileHash>
+			<FileHash>f09eefba8439ad7011831450e592d5e5</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\vehicles\stug_iii_sdkfz_141_1\stug_iii_e_sdkfz_141_1_commander_mp.xml</FileName>
@@ -843,7 +839,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\vehicles\t_34\t_34_85_mp.xml</FileName>
-			<FileHash>954ab45e173f5f4ac591d9d34efe2028</FileHash>
+			<FileHash>8579740c00a3aba2ca5516a3d55bcd2d</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\vehicles\t_70m\t_70m_mp.xml</FileName>
@@ -1327,7 +1323,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\research\battle_phase_3_mp.xml</FileName>
-			<FileHash>fc5b0bd63680b1693356385754e91bf9</FileHash>
+			<FileHash>4f80abe5b4472e30549492b5484ca14e</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\german\research\battle_phase_4_mp.xml</FileName>
@@ -1562,6 +1558,10 @@
 			<FileHash>a75519aa558ddf0dba76a8924144cd1b</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\small_arms\machine_gun\light_machine_gun\puma_mg42_mp.xml</FileName>
+			<FileHash>35c8b6b6c691d685a6b116972ef83ffc</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\axis\small_arms\machine_gun\light_machine_gun\scout_car_mg34_coaxial_generic_mp.xml</FileName>
 			<FileHash>2badb9823e63216309ee9dd8ff627831</FileHash>
 		</BurnInfo>
@@ -1624,6 +1624,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\ballistic_weapon\tank_gun\t-34_ramming_weapon_mp.xml</FileName>
 			<FileHash>aba91e7acedd7d1ac2af426dc705a782</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\ballistic_weapon\tank_gun\t34_85_zis-s-53_85mm_t34_mp.xml</FileName>
+			<FileHash>d0092bfd85557302001b9967222b6a80</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\ballistic_weapon\tank_gun\t70_m1938_45mm_mp.xml</FileName>
@@ -1703,7 +1707,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\small_arms\machine_gun\heavy_machine_gun\maxim_m1910_hmg_mp.xml</FileName>
-			<FileHash>732cb1566859c385b64beacde6f25d97</FileHash>
+			<FileHash>9a5e786030ca53ad995f2698b613291a</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\small_arms\machine_gun\sub_machine_gun\conscript_ppsh-41_sub_machine_gun_mp.xml</FileName>
@@ -1720,6 +1724,10 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\sp\explosive_weapons\mine\engineer_demolition_large.xml</FileName>
 			<FileHash>1d5173d65bee1caf8ec25524d3eecdf3</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\west_german\small_arms\machine_gun\light_machine_gun\sdkfz_234_mg42_mp.xml</FileName>
+			<FileHash>2534348e104e0d6567c02cbc9530fd08</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\locale\english\english.ucs</FileName>
