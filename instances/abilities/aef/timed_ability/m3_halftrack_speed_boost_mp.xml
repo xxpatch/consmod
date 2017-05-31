@@ -12,7 +12,7 @@
 					<bool name="instant_requirement_check" value="False" />
 					<bool name="kill_action_on_failed_requirements" value="False" />
 					<bool name="no_retrigger" value="False" />
-					<bool name="validate_all_sub_actions" value="True" />
+					<bool name="validate_all_sub_actions" value="False" />
 					<list name="requirement_table">
 						<template_reference name="required" value="requirements\required_all_in_list">
 							<enum name="reason" value="usage" />
