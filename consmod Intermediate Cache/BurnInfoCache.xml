@@ -642,6 +642,10 @@
 			<FileHash>97e6e56378262bd0f8067a72408772cb</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\soldiers\officer\assault_officer_mp.xml</FileName>
+			<FileHash>2a8facb2c560bbf25148322ba5f3446f</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\german\soldiers\ostruppen_soldier\ostruppen_soldier_mp.xml</FileName>
 			<FileHash>dffecc808e113a2b07fc018ca2aea2aa</FileHash>
 		</BurnInfo>
@@ -999,7 +1003,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\soldiers\officer_squad\assault_officer_squad_mp.xml</FileName>
-			<FileHash>21701a5664f34620fc958668432043e2</FileHash>
+			<FileHash>1da3beef5ad422f8bae43ef038f8e308</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\soldiers\ostruppen_squad\ostruppen_squad_mp.xml</FileName>
@@ -1103,7 +1107,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\conscript_squad\conscript_squad_mp.xml</FileName>
-			<FileHash>455e64c53a6da96abe6e25068198c161</FileHash>
+			<FileHash>5d5d8c4a749cbd297aec55377d42d306</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\dshk_38_hmg_squad\dshk_38_hmg_squad_mp.xml</FileName>
@@ -1179,7 +1183,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\west_german\soldiers\field_officer_squad\terror_officer_squad_mp.xml</FileName>
-			<FileHash>367e173b5bf54214bbce80e1e05edfae</FileHash>
+			<FileHash>b3510031c381f6befafe69ce3df7e2e0</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\west_german\soldiers\jaeger_light_infantry_squad\jaeger_light_infantry_recon_squad_mp.xml</FileName>

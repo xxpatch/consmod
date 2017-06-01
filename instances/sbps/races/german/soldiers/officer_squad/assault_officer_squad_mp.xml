@@ -161,12 +161,12 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_loadout_ext">
 			<list name="unit_list">
 				<group name="loadout_data">
-					<float name="num" value="1" />
-					<instance_reference name="type" value="ebps\races\german\soldiers\officer\assault_officer_mp" />
-				</group>
-				<group name="loadout_data">
 					<float name="num" value="3" />
 					<instance_reference name="type" value="ebps\races\german\soldiers\officer\assault_officer_grenadiers_bodyguard_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+				</group>
+				<group name="loadout_data">
+					<float name="num" value="1" />
+					<instance_reference name="type" value="ebps\races\german\soldiers\officer\assault_officer_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				</group>
 			</list>
 			<float name="squad_female_chance" value="0" />
@@ -454,6 +454,10 @@
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
 				<instance_reference name="ability" value="abilities\german\modal_ability\infantry_medkits_mp" />
 				<instance_reference name="ability" value="abilities\german\timed_ability\stormtrooper_sprint_mp" />
+				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\assault_officer_victor_target" />
+				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\assault_officer_inspiration" />
+				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\officer_smoke_artillery" />
+				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\assault_officer_inspiration_vet3" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>
