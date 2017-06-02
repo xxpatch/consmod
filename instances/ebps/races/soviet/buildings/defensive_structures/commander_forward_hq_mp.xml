@@ -225,6 +225,10 @@
 					</list>
 					<uniqueid name="id" value="1073747259" />
 				</template_reference>
+				<template_reference name="action" value="action\add_ability_action">
+					<uniqueid name="id" value="1073747655" />
+					<instance_reference name="ability_to_add" value="abilities\soviet\timed_ability\forward_hq_buff_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+				</template_reference>
 			</list>
 			<list name="materials">
 				<instance_reference name="material" value="material\dirtywater" />
@@ -239,8 +243,8 @@
 			</group>
 			<instance_reference name="placement_valid" value="ui_rectangle\construction_placement_valid" />
 			<instance_reference name="placement_invalid" value="ui_rectangle\construction_placement_invalid" />
-			<instance_reference name="ui_range" value="" />
-			<float name="ui_range_radius" value="2" />
+			<instance_reference name="ui_range" value="ui_reticule\ability_range_default" />
+			<float name="ui_range_radius" value="45" />
 			<instance_reference name="ui_setfacing" value="" />
 			<bool name="query_weapon_for_range_ui" value="True" />
 			<bool name="squad_ignore_pathfinding" value="False" />
