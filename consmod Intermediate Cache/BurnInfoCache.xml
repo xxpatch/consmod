@@ -123,7 +123,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\dispatch\mechanized_grenadier_group.xml</FileName>
-			<FileHash>27af581c0cf39ba11d645a5c48295486</FileHash>
+			<FileHash>b1dc261c5fd199a2d2fb1188c138d66d</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\modal_ability\dispatch\ostruppen_reserves.xml</FileName>
@@ -179,7 +179,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\timed_ability\commander_ability\relief_infantry.xml</FileName>
-			<FileHash>ddbcbc1ed97dd3bc38d359e9a61e7814</FileHash>
+			<FileHash>6995a92c5cbb154c01ab742070b995ea</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\german\toggle_ability\handbrake_mode_new_mp.xml</FileName>
@@ -999,7 +999,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\soldiers\grenadier_squad\grenadier_squad_mg42lmg_mp.xml</FileName>
-			<FileHash>6641164c2dc67387372b5b92f2ea499a</FileHash>
+			<FileHash>ef04d4508baa49d8a6aa3bff773572e3</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\soldiers\grenadier_squad\grenadier_squad_mp.xml</FileName>
+			<FileHash>02884ec299112c9c5dc6e409b7a77da8</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\german\soldiers\mg42_heavy_machine_gun_squad\mg42_heavy_machine_gun_squad_mp.xml</FileName>

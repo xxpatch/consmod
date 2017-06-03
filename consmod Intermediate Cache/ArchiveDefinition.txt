@@ -252,6 +252,7 @@ TOCStart name="attrib" alias="attrib" path="" relativeroot="attrib"
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\sbps\races\british\team_weapons\at_gun_6_pounder\brit_6_pounder_at_gun_squad_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\sbps\races\british\team_weapons\british_machine_gun_squad\british_machine_gun_squad_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\sbps\races\german\soldiers\grenadier_squad\grenadier_squad_mg42lmg_mp.rgd
+	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\sbps\races\german\soldiers\grenadier_squad\grenadier_squad_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\sbps\races\german\soldiers\mg42_heavy_machine_gun_squad\mg42_heavy_machine_gun_squad_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\sbps\races\german\soldiers\mortar_team\mortar_team_81mm_mp.rgd
 	D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\attrib\attrib\sbps\races\german\soldiers\officer_squad\assault_officer_squad_mp.rgd
