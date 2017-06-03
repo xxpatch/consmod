@@ -19,8 +19,8 @@
 			<group name="cost">
 				<float name="action" value="0" />
 				<float name="command" value="0" />
-				<float name="fuel" value="10" />
-				<float name="manpower" value="60" />
+				<float name="fuel" value="25" />
+				<float name="manpower" value="100" />
 				<float name="munition" value="0" />
 				<float name="popcap" value="0" />
 			</group>
@@ -42,37 +42,17 @@
 		</group>
 		<bool name="validate_actions" value="False" />
 		<list name="actions">
-			<template_reference name="action" value="action\requirement_action">
-				<bool name="check_self" value="False" />
-				<bool name="global_fire_and_forget_on_success" value="False" />
-				<bool name="instant_requirement_check" value="True" />
-				<bool name="kill_action_on_failed_requirements" value="True" />
-				<bool name="no_retrigger" value="True" />
-				<bool name="validate_all_sub_actions" value="True" />
-				<list name="requirement_table">
-					<template_reference name="required" value="requirements\required_player_upgrade">
-						<enum name="reason" value="usage" />
-						<locstring name="ui_name" value="0" />
-						<bool name="is_present" value="True" />
-						<float name="max_completed" value="100" />
-						<float name="min_completed" value="1" />
-						<instance_reference name="upgrade_name" value="upgrade\german\research\ost_t3_built_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-					</template_reference>
-				</list>
-				<list name="action_table">
-					<template_reference name="action" value="action\upgrade_add">
-						<bool name="apply_to_entities_in_squad" value="False" />
-						<bool name="trigger_publish_event" value="False" />
-						<instance_reference name="upgrade" value="upgrade\german\research\ost_callins_2_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-						<uniqueid name="id" value="1073747141" />
-					</template_reference>
-				</list>
-				<uniqueid name="id" value="1073747140" />
-				<bool name="fire_and_forget_non_global" value="False" />
-				<template_reference name="ui_help_text" value="tables\help_text_phrase">
-					<int name="phrase_order" value="0" />
-					<locstring name="phrase" value="0" />
-				</template_reference>
+			<template_reference name="action" value="action\upgrade_add">
+				<bool name="apply_to_entities_in_squad" value="False" />
+				<bool name="trigger_publish_event" value="False" />
+				<instance_reference name="upgrade" value="upgrade\german\research\ost_callins_1_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<uniqueid name="id" value="1073747746" />
+			</template_reference>
+			<template_reference name="action" value="action\upgrade_add">
+				<bool name="apply_to_entities_in_squad" value="False" />
+				<bool name="trigger_publish_event" value="False" />
+				<instance_reference name="upgrade" value="upgrade\german\research\ost_callins_2_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<uniqueid name="id" value="1073747741" />
 			</template_reference>
 		</list>
 		<list name="requirements">

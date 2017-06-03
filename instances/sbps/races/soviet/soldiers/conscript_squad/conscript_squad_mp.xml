@@ -506,7 +506,7 @@
 									<bool name="is_present" value="True" />
 									<float name="max_completed" value="100" />
 									<float name="min_completed" value="1" />
-									<instance_reference name="upgrade_name" value="upgrade\soviet\research\hq_molotov_grenade_mp" />
+									<instance_reference name="upgrade_name" value="upgrade\soviet\research\hq_molotov_grenade_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 								</template_reference>
 							</list>
 						</template_reference>
@@ -565,7 +565,7 @@
 						<float name="max_persistent_squads" value="3" />
 						<list name="veterancy_rank_info">
 							<group name="veterancy_rank">
-								<float name="experience_value" value="480" />
+								<float name="experience_value" value="552" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
 								<locstring name="screen_name" value="1" mod="f2791205c6e743b6a340ef0daf60b957" />
 								<bool name="single_player_only" value="False" />
@@ -611,7 +611,7 @@
 								</list>
 							</group>
 							<group name="veterancy_rank">
-								<float name="experience_value" value="960" />
+								<float name="experience_value" value="1104" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
 								<locstring name="screen_name" value="11047384" />
 								<bool name="single_player_only" value="False" />
@@ -657,7 +657,7 @@
 								</list>
 							</group>
 							<group name="veterancy_rank">
-								<float name="experience_value" value="1920" />
+								<float name="experience_value" value="2208" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
 								<locstring name="screen_name" value="11047067" />
 								<bool name="single_player_only" value="False" />

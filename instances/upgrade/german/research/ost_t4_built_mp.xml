@@ -42,18 +42,6 @@
 		</group>
 		<bool name="validate_actions" value="False" />
 		<list name="actions">
-			<template_reference name="action" value="action\upgrade_add">
-				<bool name="apply_to_entities_in_squad" value="False" />
-				<bool name="trigger_publish_event" value="False" />
-				<instance_reference name="upgrade" value="upgrade\german\research\ost_callins_1_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-				<uniqueid name="id" value="1073747139" />
-			</template_reference>
-			<template_reference name="action" value="action\upgrade_add">
-				<bool name="apply_to_entities_in_squad" value="False" />
-				<bool name="trigger_publish_event" value="False" />
-				<instance_reference name="upgrade" value="upgrade\german\research\ost_callins_2_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-				<uniqueid name="id" value="1073747138" />
-			</template_reference>
 		</list>
 		<list name="requirements">
 		</list>
