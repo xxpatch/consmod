@@ -354,6 +354,10 @@
 			<FileHash>9f44f43706bd4715ac759373dec6bf0e</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\maxim_sustained_fire_mp.xml</FileName>
+			<FileHash>c910855f0b49be8ff2c0d5bf900a010a</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\su76_su85_zis3_53k_isu152_infantry_tracking_mp.xml</FileName>
 			<FileHash>d9ca73fcfbc95dc2a282baf2058211f1</FileHash>
 		</BurnInfo>
@@ -387,11 +391,11 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\throw_away_hack_ui\cmd_kv-1_unlock.xml</FileName>
-			<FileHash>97cf192aac80beb1cce4d9eb6fe6dde0</FileHash>
+			<FileHash>bd95b1d3a08629f0323148e88bf2f8a7</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\timed_ability\throw_away_hack_ui\cmd_kv-8_unlock_mp.xml</FileName>
-			<FileHash>6654ee1cebf54dc5e969e125f2e23622</FileHash>
+			<FileHash>3febc60fb68cb4cfbbb52ea75b404954</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\abilities\soviet\toggle_ability\guards_hit_the_dirt_mp.xml</FileName>
@@ -1999,7 +2003,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\soldiers\commander_troops\guard_troops_assault_mp.xml</FileName>
-			<FileHash>6ee1caa219df710ec0abee90c7a41457</FileHash>
+			<FileHash>bedac0d86b4c68b11d00fabea185d9af</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\soldiers\commander_troops\guard_troops_mp.xml</FileName>
@@ -2027,7 +2031,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\team_weapons\m1910_maxim_heavy_machine_gun_mp.xml</FileName>
-			<FileHash>96dbb80b1f9c03a26e1b8b43e60a5e4d</FileHash>
+			<FileHash>985b4f52930c1309ef9a98d8c37475e9</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\ebps\races\soviet\team_weapons\pm41_82mm_mortar_mp.xml</FileName>
@@ -2379,7 +2383,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\troops\penal_battalion_mp.xml</FileName>
-			<FileHash>189d8c77e77d48e3feccd0a52eff6aeb</FileHash>
+			<FileHash>16e5ddc44d80b07993bad470b6ac3d5b</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\soldiers\troops\shock_troops_mp.xml</FileName>
@@ -2387,7 +2391,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\vehicles\kv-1\kv-1_commander_mp.xml</FileName>
-			<FileHash>9a63063d061ccd2ad35d2bf914f78df6</FileHash>
+			<FileHash>38174d0cf680053546c31a3f0b963cc0</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\vehicles\kv-2\kv-2_mp.xml</FileName>
@@ -2395,7 +2399,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\vehicles\kv-8\kv-8_mp.xml</FileName>
-			<FileHash>1f694762949f4c8a26bfc631a2d111ad</FileHash>
+			<FileHash>d6184ac5f2e5d885f16d58e17bc7c2ce</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\sbps\races\soviet\vehicles\m3a1_scout_car_squad\m3a1_scout_car_squad_mp.xml</FileName>
@@ -2632,6 +2636,14 @@
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\soviet\commander\passive\anti_tank_gun_ambush_tactics.xml</FileName>
 			<FileHash>b1a9f7811b8c15cdd4e753c5b104c285</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\soviet\commander\passive\kv-8_unlock.xml</FileName>
+			<FileHash>ef0d2b4eaf280c7375c4cea73573d915</FileHash>
+		</BurnInfo>
+		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\soviet\commander\passive\kv1_unlock.xml</FileName>
+			<FileHash>198bf40f1af38cfc30c00a9edc012781</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\upgrade\soviet\commander\passive\tank_traps.xml</FileName>
@@ -2994,6 +3006,10 @@
 			<FileHash>123f39637d32edd73c10931a5f11589c</FileHash>
 		</BurnInfo>
 		<BurnInfo>
+			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\soviet\small_arms\single_fire\rifle\penal_troops_svt_rifle_mp.xml</FileName>
+			<FileHash>3c89b9fc5315a6a9ae726719f6b5b382</FileHash>
+		</BurnInfo>
+		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\instances\weapon\sp\explosive_weapons\mine\engineer_demolition_large.xml</FileName>
 			<FileHash>1d5173d65bee1caf8ec25524d3eecdf3</FileHash>
 		</BurnInfo>
@@ -3003,7 +3019,7 @@
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\locale\english\english.ucs</FileName>
-			<FileHash>2a64d7e399307847275944d3a898d734</FileHash>
+			<FileHash>2bd0a4065cbd837c8aae2c6204d61233</FileHash>
 		</BurnInfo>
 		<BurnInfo>
 			<FileName>D:\Windows7\Documents\my games\Company of Heroes 2\mod projects\ConsMod\consmod Intermediate Cache\Intermediate Files\info\f2791205c6e743b6a340ef0daf60b957.info</FileName>

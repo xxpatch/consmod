@@ -134,7 +134,7 @@
 				<bool name="is_present" value="True" />
 				<float name="max_completed" value="100" />
 				<float name="min_completed" value="1" />
-				<instance_reference name="upgrade_name" value="upgrade\soviet\commander\passive\kv-8_unlock" />
+				<instance_reference name="upgrade_name" value="upgrade\soviet\commander\passive\kv-8_unlock" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</template_reference>
 			<template_reference name="required" value="requirements\required_player_upgrade">
 				<enum name="reason" value="usage" />
