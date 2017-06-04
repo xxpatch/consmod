@@ -7,7 +7,7 @@
 			</list>
 			<list name="start_self_actions">
 				<template_reference name="action" value="action\replacement_squad_action">
-					<float name="maximum_replacements" value="2" />
+					<float name="maximum_replacements" value="3" />
 					<float name="period" value="70" />
 					<list name="action_table">
 						<template_reference name="action" value="action\filter_action">

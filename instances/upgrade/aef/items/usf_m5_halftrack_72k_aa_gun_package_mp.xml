@@ -77,13 +77,13 @@
 						<float name="z" value="-2" />
 					</group>
 					<enum name="type" value="squad" />
-					<instance_reference name="weapon" value="weapon\soviet\small_arms\machine_gun\heavy_machine_gun\m5_halftrack_quad_50_cal_m2hb_mp" />
+					<instance_reference name="weapon" value="weapon\soviet\small_arms\machine_gun\heavy_machine_gun\m5_halftrack_quad_50_cal_m2hb_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				</group>
 				<uniqueid name="id" value="1073745768" />
 			</template_reference>
 			<template_reference name="action" value="action\change_weapon">
 				<float name="hardpoint" value="1" />
-				<instance_reference name="weapon" value="weapon\soviet\small_arms\machine_gun\heavy_machine_gun\m5_halftrack_quad_50_cal_m2hb_mp" />
+				<instance_reference name="weapon" value="weapon\soviet\small_arms\machine_gun\heavy_machine_gun\m5_halftrack_quad_50_cal_m2hb_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<uniqueid name="id" value="1073745769" />
 			</template_reference>
 			<template_reference name="action" value="action\apply_modifiers_action">
