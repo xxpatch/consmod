@@ -1092,7 +1092,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\soviet\vehicles\su-76m\su-76m_mp" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\soviet\vehicles\su-76m\su-76m_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						<float name="max_capture_crew_size" value="2" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
