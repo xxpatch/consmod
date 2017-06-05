@@ -436,7 +436,7 @@
 		<group name="penetration">
 			<float name="near" value="200" />
 			<float name="far" value="140" />
-			<float name="mid" value="160" />
+			<float name="mid" value="165" />
 		</group>
 		<group name="ui_map_colour">
 			<int name="red" value="0" />
