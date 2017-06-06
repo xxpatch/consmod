@@ -1,9 +1,9 @@
-<instance description="This is the more powerful version of  the grenade more effective from cover etc.&#xA;Multiplayer Clone." template="weapon">
+<instance description="" template="weapon">
 	<group name="weapon_bag">
 		<group name="accuracy">
-			<float name="near" value="11" />
-			<float name="far" value="11" />
-			<float name="mid" value="11" />
+			<float name="near" value="0" />
+			<float name="far" value="0" />
+			<float name="mid" value="0" />
 		</group>
 		<group name="aim">
 			<group name="fire_aim_time">
@@ -30,7 +30,7 @@
 			<string name="track_vertical" value="" />
 			<string name="track_vertical_speed" value="" />
 			<string name="variety_name" value="" />
-			<string name="visibility_name" value="grenade_rgd_visible" />
+			<string name="visibility_name" value="grenade_pineapple_visible" />
 			<string name="target_range_name" value="" />
 		</group>
 		<group name="area_effect">
@@ -109,7 +109,7 @@
 			<bool name="support_weapon" value="False" />
 			<bool name="surprises_idle" value="False" />
 			<bool name="piercing" value="False" />
-			<float name="reaction_radius" value="5.1" />
+			<float name="reaction_radius" value="5" />
 			<bool name="can_be_pilfered" value="True" />
 			<bool name="causes_combat" value="True" />
 			<bool name="can_abort_winddown" value="False" />
@@ -290,46 +290,17 @@
 			</list>
 		</group>
 		<group name="fire">
-			<float name="wind_down" value="0.75" />
-			<float name="wind_up" value="0.125" />
+			<float name="wind_down" value="0.25" />
+			<float name="wind_up" value="0.619" />
 			<list name="on_fire_actions">
-				<template_reference name="action" value="action\timed_action">
-					<float name="duration" value="10" />
-					<bool name="fire_and_forget" value="True" />
-					<list name="subactions">
-						<template_reference name="action" value="action\change_target_action">
-							<list name="actions">
-								<template_reference name="action" value="action\apply_modifiers_action">
-									<float name="duration" value="10" />
-									<bool name="permanent" value="False" />
-									<list name="modifiers">
-										<template_reference name="modifier" value="modifiers\camouflage_enable">
-											<enum name="application_type" value="apply_to_entity" />
-											<bool name="exclusive" value="True" />
-											<string name="modifier_id" value="" />
-											<string name="target_type_name" value="" />
-											<enum name="usage_type" value="enable" />
-											<float name="value" value="-1" />
-											<instance_reference name="tooltip" value="modifier_tooltip\camouflage_enable" />
-										</template_reference>
-									</list>
-									<uniqueid name="id" value="1073747386" />
-								</template_reference>
-							</list>
-							<enum name="change_target_type" value="squad" />
-							<uniqueid name="id" value="1073747387" />
-						</template_reference>
-					</list>
-					<uniqueid name="id" value="1073747388" />
-				</template_reference>
 			</list>
 		</group>
-		<float name="flinch_radius" value="15" />
+		<float name="flinch_radius" value="3.5" />
 		<string name="fx_action_target_name" value="grenade_target" />
 		<bool name="fx_always_visible" value="False" />
 		<float name="fx_building_hit_delay" value="0" />
-		<float name="fx_delay_in_building" value="0.5" />
-		<string name="fx_munition_name" value="grenade" />
+		<float name="fx_delay_in_building" value="0" />
+		<string name="fx_munition_name" value="mills_bomb" />
 		<string name="fx_tracer_name" value="" />
 		<float name="fx_tracer_speed" value="0" />
 		<bool name="fx_use_building_panel_normal" value="False" />
@@ -343,7 +314,7 @@
 			<float name="moving_end_time" value="0" />
 			<float name="moving_start_time" value="0" />
 		</group>
-		<string name="name" value="RGD_33_Sleeved" />
+		<string name="name" value="Gammon Bomb - Light" />
 		<group name="offhand">
 			<float name="offhand_end_time" value="0" />
 			<float name="offhand_start_time" value="0" />
@@ -364,11 +335,11 @@
 		</group>
 		<group name="projectile">
 			<bool name="delete_previous_on_hit" value="False" />
-			<instance_reference name="projectile" value="ebps\projectile\rgd_33_sleeved_grenade_mp" />
+			<instance_reference name="projectile" value="ebps\projectile\british_mills_bomb" />
 		</group>
 		<group name="range">
 			<float name="max" value="20" />
-			<float name="min" value="5" />
+			<float name="min" value="0" />
 			<group name="distance">
 				<float name="near" value="-1" />
 				<float name="far" value="-1" />
@@ -386,8 +357,8 @@
 				<float name="mid" value="1" />
 			</group>
 			<group name="frequency">
-				<float name="max" value="0" />
-				<float name="min" value="0" />
+				<float name="max" value="1" />
+				<float name="min" value="1" />
 			</group>
 			<list name="on_reload_actions">
 			</list>
@@ -444,14 +415,14 @@
 			<float name="duration" value="0" />
 		</group>
 		<group name="tracking">
-			<float name="fire_cone_angle" value="60" />
+			<float name="fire_cone_angle" value="16" />
 			<group name="normal">
 				<float name="max_down" value="-90" />
 				<float name="max_left" value="-60" />
 				<float name="max_right" value="60" />
 				<float name="max_up" value="89" />
-				<float name="speed_horizontal" value="360" />
-				<float name="speed_vertical" value="360" />
+				<float name="speed_horizontal" value="90" />
+				<float name="speed_vertical" value="90" />
 			</group>
 			<float name="pivot_end_time" value="0" />
 			<bool name="pivot_only" value="False" />
@@ -463,9 +434,9 @@
 		<instance_reference name="ui_range" value="" />
 		<instance_reference name="ui_setfacing" value="" />
 		<group name="penetration">
-			<float name="near" value="25" />
-			<float name="far" value="25" />
 			<float name="mid" value="25" />
+			<float name="far" value="25" />
+			<float name="near" value="25" />
 		</group>
 		<group name="ui_map_colour">
 			<int name="red" value="0" />
@@ -476,5 +447,5 @@
 		<list name="target_type_table">
 		</list>
 	</group>
-	<uniqueid name="pbgid" value="214" />
+	<uniqueid name="pbgid" value="89218" />
 </instance>
