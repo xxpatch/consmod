@@ -634,7 +634,7 @@
 							<group name="veterancy_rank">
 								<float name="experience_value" value="870" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11052742" />
+								<locstring name="screen_name" value="11045412" />
 								<bool name="single_player_only" value="False" />
 								<list name="leader_actions">
 								</list>
@@ -656,6 +656,28 @@
 											</template_reference>
 										</list>
 										<uniqueid name="id" value="1073744219" />
+									</template_reference>
+									<template_reference name="action" value="action\change_target_action">
+										<list name="actions">
+											<template_reference name="action" value="action\apply_modifiers_action">
+												<float name="duration" value="0" />
+												<bool name="permanent" value="False" />
+												<list name="modifiers">
+													<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
+														<enum name="application_type" value="apply_to_weapon" />
+														<bool name="exclusive" value="False" />
+														<string name="modifier_id" value="" />
+														<string name="target_type_name" value="hardpoint_02" />
+														<enum name="usage_type" value="enable" />
+														<float name="value" value="1" />
+														<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
+													</template_reference>
+												</list>
+												<uniqueid name="id" value="1073747926" />
+											</template_reference>
+										</list>
+										<enum name="change_target_type" value="entities" />
+										<uniqueid name="id" value="1073747927" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
