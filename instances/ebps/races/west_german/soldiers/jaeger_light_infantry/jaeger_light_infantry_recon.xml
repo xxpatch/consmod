@@ -951,14 +951,10 @@
 							<bool name="no_retrigger" value="False" />
 							<bool name="validate_all_sub_actions" value="True" />
 							<list name="requirement_table">
-								<template_reference name="required" value="requirements\required_slot_item">
+								<template_reference name="required" value="requirements\required_squad_veterancy">
 									<enum name="reason" value="usage" />
-									<locstring name="ui_name" value="0" />
-									<bool name="check_item_on_entity" value="False" />
-									<bool name="display_requirement" value="True" />
-									<float name="max_owned" value="10" />
-									<float name="min_owned" value="1" />
-									<instance_reference name="slot_item" value="slot_item\german\ambush_camo_slot_item" />
+									<locstring name="ui_name" value="113" mod="f2791205c6e743b6a340ef0daf60b957" />
+									<float name="veterancy_rank" value="5" />
 								</template_reference>
 							</list>
 							<list name="action_table">
@@ -976,7 +972,7 @@
 													<string name="modifier_id" value="" />
 													<string name="target_type_name" value="hardpoint_01" />
 													<enum name="usage_type" value="multiplication" />
-													<float name="value" value="1.5" />
+													<float name="value" value="1.4" />
 													<instance_reference name="tooltip" value="modifier_tooltip\accuracy_weapon_modifier" />
 												</template_reference>
 											</list>
@@ -989,26 +985,6 @@
 											<string name="state_machine_name" value="ability_attack_buff_state" />
 											<string name="undo_action_state_name" value="off" />
 											<uniqueid name="id" value="1073742736" />
-										</template_reference>
-										<template_reference name="action" value="action\delay">
-											<float name="delay" value="0.125" />
-											<float name="delay_min" value="0" />
-											<bool name="progress_bar" value="False" />
-											<bool name="randomize" value="False" />
-											<list name="delayed_actions">
-												<template_reference name="action" value="action\ui_unit_modifier_action">
-													<bool name="die_with_creator" value="False" />
-													<template_reference name="ui_info" value="tables\ui_info">
-														<locstring name="screen_name" value="0" />
-														<locstring name="help_text" value="0" />
-														<icon name="icon_name" value="Icons_abilities_ability_soviet_defensive_weapons" />
-														<string name="hotkey_name" value="" />
-													</template_reference>
-													<uniqueid name="id" value="1073742737" />
-												</template_reference>
-											</list>
-											<uniqueid name="id" value="1073742738" />
-											<bool name="can_prevent_refund" value="True" />
 										</template_reference>
 									</list>
 									<uniqueid name="id" value="1073742739" />

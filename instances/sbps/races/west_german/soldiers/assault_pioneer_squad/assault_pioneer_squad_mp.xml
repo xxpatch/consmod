@@ -410,7 +410,7 @@
 			<list name="upgrades">
 				<instance_reference name="upgrade" value="upgrade\west_german\items\assault_pioneer_repair_upgrade" />
 				<instance_reference name="upgrade" value="upgrade\west_german\items\volks_flamethrower_mp" />
-				<instance_reference name="upgrade" value="upgrade\west_german\items\assault_pioneer_combat_upgrade" />
+				<instance_reference name="upgrade" value="upgrade\west_german\items\assault_pioneer_combat_upgrade" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_action_apply_ext">
@@ -608,7 +608,7 @@
 								<enum name="application_type" value="apply_to_ability" />
 								<bool name="exclusive" value="False" />
 								<string name="modifier_id" value="" />
-								<instance_reference name="target_type_name" value="abilities\west_german\modal_ability\grenades\pioneer_stun_grenade_mp" />
+								<instance_reference name="target_type_name" value="abilities\west_german\modal_ability\grenades\pioneer_stun_grenade_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 								<enum name="usage_type" value="multiplication" />
 								<float name="value" value="0.67" />
 								<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
@@ -673,7 +673,7 @@
 							<group name="veterancy_rank">
 								<float name="experience_value" value="640" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11140636" />
+								<locstring name="screen_name" value="103" mod="f2791205c6e743b6a340ef0daf60b957" />
 								<bool name="single_player_only" value="False" />
 								<list name="leader_actions">
 								</list>
@@ -695,22 +695,6 @@
 											</template_reference>
 										</list>
 										<uniqueid name="id" value="1073742531" />
-									</template_reference>
-									<template_reference name="action" value="action\apply_modifiers_action">
-										<float name="duration" value="0" />
-										<bool name="permanent" value="True" />
-										<list name="modifiers">
-											<template_reference name="modifier" value="modifiers\construction_rate">
-												<enum name="application_type" value="apply_to_squad" />
-												<bool name="exclusive" value="False" />
-												<string name="modifier_id" value="" />
-												<string name="target_type_name" value="" />
-												<enum name="usage_type" value="multiplication" />
-												<float name="value" value="1.118034" />
-												<instance_reference name="tooltip" value="modifier_tooltip\construction_rate" />
-											</template_reference>
-										</list>
-										<uniqueid name="id" value="1073742532" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
@@ -781,7 +765,7 @@
 							<group name="veterancy_rank">
 								<float name="experience_value" value="2560" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11071314" />
+								<locstring name="screen_name" value="130" mod="f2791205c6e743b6a340ef0daf60b957" />
 								<bool name="single_player_only" value="False" />
 								<list name="leader_actions">
 								</list>
@@ -798,7 +782,7 @@
 												<string name="modifier_id" value="" />
 												<string name="target_type_name" value="" />
 												<enum name="usage_type" value="multiplication" />
-												<float name="value" value="1.118034" />
+												<float name="value" value="1.2" />
 												<instance_reference name="tooltip" value="modifier_tooltip\construction_rate" />
 											</template_reference>
 										</list>
@@ -827,29 +811,13 @@
 							<group name="veterancy_rank">
 								<float name="experience_value" value="3405" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11071315" />
+								<locstring name="screen_name" value="131" mod="f2791205c6e743b6a340ef0daf60b957" />
 								<bool name="single_player_only" value="False" />
 								<list name="leader_actions">
 								</list>
 								<list name="non_leader_actions">
 								</list>
 								<list name="squad_actions">
-									<template_reference name="action" value="action\apply_modifiers_action">
-										<float name="duration" value="0" />
-										<bool name="permanent" value="True" />
-										<list name="modifiers">
-											<template_reference name="modifier" value="modifiers\received_accuracy_modifier">
-												<enum name="application_type" value="apply_to_squad" />
-												<bool name="exclusive" value="False" />
-												<string name="modifier_id" value="" />
-												<string name="target_type_name" value="" />
-												<enum name="usage_type" value="multiplication" />
-												<float name="value" value="0.85" />
-												<instance_reference name="tooltip" value="modifier_tooltip\received_accuracy_modifier" />
-											</template_reference>
-										</list>
-										<uniqueid name="id" value="1073742538" />
-									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
 										<bool name="permanent" value="True" />
@@ -878,18 +846,18 @@
 												<string name="modifier_id" value="" />
 												<string name="target_type_name" value="hardpoint_01" />
 												<enum name="usage_type" value="multiplication" />
-												<float name="value" value="1.15" />
+												<float name="value" value="1.35" />
 												<instance_reference name="tooltip" value="modifier_tooltip\accuracy_weapon_modifier" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073742540" />
+										<uniqueid name="id" value="1073748102" />
 									</template_reference>
 								</list>
 							</group>
 							<group name="veterancy_rank">
 								<float name="experience_value" value="4256" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11071316" />
+								<locstring name="screen_name" value="102" mod="f2791205c6e743b6a340ef0daf60b957" />
 								<bool name="single_player_only" value="False" />
 								<list name="leader_actions">
 								</list>
@@ -914,22 +882,6 @@
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
-									<template_reference name="action" value="action\apply_modifiers_action">
-										<float name="duration" value="0" />
-										<bool name="permanent" value="True" />
-										<list name="modifiers">
-											<template_reference name="modifier" value="modifiers\accuracy_weapon_modifier">
-												<enum name="application_type" value="apply_to_weapon" />
-												<bool name="exclusive" value="False" />
-												<string name="modifier_id" value="" />
-												<string name="target_type_name" value="hardpoint_01" />
-												<enum name="usage_type" value="multiplication" />
-												<float name="value" value="1.2" />
-												<instance_reference name="tooltip" value="modifier_tooltip\accuracy_weapon_modifier" />
-											</template_reference>
-										</list>
-										<uniqueid name="id" value="1073742542" />
-									</template_reference>
 								</list>
 							</group>
 						</list>
@@ -943,7 +895,7 @@
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\repair_ability\west_german_repair_ability_mp" />
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\pioneer_volks_salvage" />
-				<instance_reference name="ability" value="abilities\west_german\modal_ability\grenades\pioneer_stun_grenade_mp" />
+				<instance_reference name="ability" value="abilities\west_german\modal_ability\grenades\pioneer_stun_grenade_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\assault_pioneer_drop_medpack_ability_mp" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\pioneer_volks_through_salvage" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\sp\refuel_tank_wg_sp" />
