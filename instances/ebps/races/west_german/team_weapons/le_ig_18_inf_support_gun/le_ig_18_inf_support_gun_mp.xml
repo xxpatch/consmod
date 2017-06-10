@@ -19,7 +19,7 @@
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\artillery\mortar_barrage_ability\le_ig_18_barrage_wg_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\artillery\mortar_barrage_ability\le_ig_18_barrage_wg_vet_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\accessory_weapons\isg_hollow_charge_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-				<instance_reference name="ability" value="abilities\west_german\modal_ability\artillery\mortar_barrage_ability\le_ig_18_hollow_charge_vet_5_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<instance_reference name="ability" value="abilities\west_german\modal_ability\accessory_weapons\isg_hollow_charge_vet_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\artillery\mortar_barrage_ability\le_ig_18_barrage_wg_smoke_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 		</template_reference>

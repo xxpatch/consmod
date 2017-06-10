@@ -354,7 +354,7 @@
 			<float name="min" value="25" />
 			<group name="distance">
 				<float name="near" value="-1" />
-				<float name="far" value="60" />
+				<float name="far" value="-1" />
 				<float name="mid" value="-1" />
 			</group>
 		</group>
@@ -393,7 +393,7 @@
 			<float name="tilt_scatter_chance" value="0" />
 		</group>
 		<group name="setup">
-			<float name="duration" value="0" />
+			<float name="duration" value="1" />
 			<bool name="has_instant_setup" value="False" />
 			<bool name="can_interrupt_setup" value="False" />
 			<float name="attach_duration" value="0" />
@@ -430,11 +430,11 @@
 			<float name="fire_cone_angle" value="5" />
 			<group name="normal">
 				<float name="max_down" value="-90" />
-				<float name="max_left" value="-25" />
-				<float name="max_right" value="25" />
+				<float name="max_left" value="-10" />
+				<float name="max_right" value="10" />
 				<float name="max_up" value="90" />
 				<float name="speed_horizontal" value="3" />
-				<float name="speed_vertical" value="15" />
+				<float name="speed_vertical" value="5" />
 			</group>
 			<float name="pivot_end_time" value="0" />
 			<bool name="pivot_only" value="False" />

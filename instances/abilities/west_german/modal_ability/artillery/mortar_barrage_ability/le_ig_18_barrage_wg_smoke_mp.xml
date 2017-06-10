@@ -92,7 +92,7 @@
 		<bool name="is_default_action" value="False" />
 		<bool name="move_back" value="False" />
 		<float name="move_back_distance" value="10" />
-		<float name="range" value="100" />
+		<float name="range" value="80" />
 		<bool name="range_ignore" value="False" />
 		<float name="recharge_time" value="30" />
 		<bool name="refundable" value="True" />
@@ -125,7 +125,7 @@
 		<group name="ui_info">
 			<locstring name="extra_text" value="144" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<locstring name="help_text" value="143" mod="f2791205c6e743b6a340ef0daf60b957" />
-			<string name="hotkey_name" value="B" />
+			<string name="hotkey_name" value="C" />
 			<icon name="icon_name" value="Icons_abilities_ability_aef_smoke_barrage" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />

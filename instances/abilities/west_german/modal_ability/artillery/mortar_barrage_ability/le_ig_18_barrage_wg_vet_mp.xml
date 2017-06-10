@@ -39,7 +39,7 @@
 						<instance_reference name="weapon_02" value="" />
 						<instance_reference name="weapon_03" value="" />
 					</group>
-					<float name="num_salvo" value="8" />
+					<float name="num_salvo" value="6" />
 					<float name="use_hardpoint" value="2" />
 					<bool name="face_to_target" value="True" />
 					<uniqueid name="id" value="1073748430" />
@@ -92,9 +92,9 @@
 		<bool name="is_default_action" value="False" />
 		<bool name="move_back" value="False" />
 		<float name="move_back_distance" value="10" />
-		<float name="range" value="100" />
+		<float name="range" value="80" />
 		<bool name="range_ignore" value="False" />
-		<float name="recharge_time" value="30" />
+		<float name="recharge_time" value="45" />
 		<bool name="refundable" value="True" />
 		<bool name="require_no_shot_block" value="False" />
 		<enum name="shared_timer" value="axis_sync_mortar_barrage" />
@@ -141,16 +141,10 @@
 		<list name="global_self_actions">
 		</list>
 		<list name="requirements">
-			<template_reference name="required" value="requirements\required_all_in_list">
+			<template_reference name="required" value="requirements\required_squad_veterancy">
 				<enum name="reason" value="usage_and_display" />
 				<locstring name="ui_name" value="0" />
-				<list name="requirements">
-					<template_reference name="requirement" value="requirements\required_squad_veterancy">
-						<enum name="reason" value="usage_and_display" />
-						<locstring name="ui_name" value="0" />
-						<float name="veterancy_rank" value="4" />
-					</template_reference>
-				</list>
+				<float name="veterancy_rank" value="4" />
 			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />
