@@ -669,13 +669,13 @@
 																		<float name="z" value="0" />
 																	</group>
 																	<enum name="type" value="default" />
-																	<instance_reference name="weapon" value="weapon\west_german\ballistic_weapon\tank_gun\luchs_kwk38_20mm_vet2_mp" />
+																	<instance_reference name="weapon" value="weapon\west_german\ballistic_weapon\tank_gun\luchs_kwk38_20mm_vet2_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 																</group>
 																<uniqueid name="id" value="1073748293" />
 															</template_reference>
 															<template_reference name="action" value="action\change_weapon">
 																<float name="hardpoint" value="1" />
-																<instance_reference name="weapon" value="weapon\west_german\ballistic_weapon\tank_gun\luchs_kwk38_20mm_vet2_mp" />
+																<instance_reference name="weapon" value="weapon\west_german\ballistic_weapon\tank_gun\luchs_kwk38_20mm_vet2_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 																<uniqueid name="id" value="1073748294" />
 															</template_reference>
 														</list>
@@ -821,7 +821,7 @@
 												<string name="modifier_id" value="" />
 												<string name="target_type_name" value="" />
 												<enum name="usage_type" value="multiply_add" />
-												<float name="value" value="0.2" />
+												<float name="value" value="0.12" />
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
@@ -884,13 +884,13 @@
 																		<float name="z" value="0" />
 																	</group>
 																	<enum name="type" value="default" />
-																	<instance_reference name="weapon" value="weapon\west_german\ballistic_weapon\tank_gun\luchs_kwk38_20mm_vet2_mp" />
+																	<instance_reference name="weapon" value="weapon\west_german\ballistic_weapon\tank_gun\luchs_kwk38_20mm_vet2_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 																</group>
 																<uniqueid name="id" value="1073748305" />
 															</template_reference>
 															<template_reference name="action" value="action\change_weapon">
 																<float name="hardpoint" value="1" />
-																<instance_reference name="weapon" value="weapon\west_german\ballistic_weapon\tank_gun\luchs_kwk38_20mm_vet2_mp" />
+																<instance_reference name="weapon" value="weapon\west_german\ballistic_weapon\tank_gun\luchs_kwk38_20mm_vet2_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 																<uniqueid name="id" value="1073748306" />
 															</template_reference>
 														</list>
@@ -919,7 +919,7 @@
 												<string name="modifier_id" value="" />
 												<string name="target_type_name" value="" />
 												<enum name="usage_type" value="multiply_add" />
-												<float name="value" value="0.2" />
+												<float name="value" value="0.12" />
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
@@ -996,7 +996,7 @@
 												<string name="modifier_id" value="" />
 												<string name="target_type_name" value="" />
 												<enum name="usage_type" value="multiply_add" />
-												<float name="value" value="0.2" />
+												<float name="value" value="0.12" />
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
@@ -1026,7 +1026,7 @@
 												<string name="modifier_id" value="" />
 												<string name="target_type_name" value="" />
 												<enum name="usage_type" value="multiply_add" />
-												<float name="value" value="0.2" />
+												<float name="value" value="0.12" />
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
@@ -1056,7 +1056,7 @@
 												<string name="modifier_id" value="" />
 												<string name="target_type_name" value="" />
 												<enum name="usage_type" value="multiply_add" />
-												<float name="value" value="0.2" />
+												<float name="value" value="0.12" />
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
