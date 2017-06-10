@@ -1068,7 +1068,7 @@
 							<int name="ui_position" value="0" />
 						</group>
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\races\west_german\team_weapons\german_field_artillery\okw_howitzer_105mm_le_fh18_mp" />
+							<instance_reference name="ebp" value="ebps\races\west_german\team_weapons\german_field_artillery\okw_howitzer_105mm_le_fh18_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 							<int name="ui_position" value="21" />
 						</group>
 					</list>
