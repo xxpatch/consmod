@@ -196,18 +196,6 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_action_apply_ext">
 			<list name="actions">
-				<template_reference name="action" value="action\change_target_action">
-					<list name="actions">
-						<template_reference name="action" value="action\upgrade_add">
-							<bool name="apply_to_entities_in_squad" value="False" />
-							<bool name="trigger_publish_event" value="False" />
-							<instance_reference name="upgrade" value="upgrade\german\ability_lock_out\ability_lock_out_assgren_grenades" />
-							<uniqueid name="id" value="1073743885" />
-						</template_reference>
-					</list>
-					<enum name="change_target_type" value="squad" />
-					<uniqueid name="id" value="1073743886" />
-				</template_reference>
 			</list>
 			<list name="squad_entity_actions">
 			</list>
@@ -650,6 +638,8 @@
 				<instance_reference name="ability" value="abilities\german\modal_ability\stormtrooper_tank_detection_mp" />
 				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\jaeger_interrogation" />
 				<instance_reference name="ability" value="abilities\soviet\toggle_ability\sniper_hold_fire_mp" />
+				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\stormtrooper_blinding_grenade" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<instance_reference name="ability" value="abilities\german\modal_ability\grenades\stormtrooper_bundled_grenade_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>

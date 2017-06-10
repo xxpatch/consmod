@@ -489,18 +489,6 @@
 						<locstring name="phrase" value="0" />
 					</template_reference>
 				</template_reference>
-				<template_reference name="action" value="action\change_target_action">
-					<list name="actions">
-						<template_reference name="action" value="action\upgrade_add">
-							<bool name="apply_to_entities_in_squad" value="False" />
-							<bool name="trigger_publish_event" value="False" />
-							<instance_reference name="upgrade" value="upgrade\german\ability_lock_out\ability_lock_out_assgren_grenades" />
-							<uniqueid name="id" value="1073743889" />
-						</template_reference>
-					</list>
-					<enum name="change_target_type" value="squad" />
-					<uniqueid name="id" value="1073743890" />
-				</template_reference>
 			</list>
 			<list name="squad_entity_actions">
 			</list>
@@ -634,6 +622,7 @@
 				<instance_reference name="ability" value="abilities\soviet\always_on_ability\sniper_delayed_cover_auto_camouflage_mp" />
 				<instance_reference name="ability" value="abilities\soviet\modal_ability\fieldcraft_trip_flare_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\soviet\toggle_ability\sniper_hold_fire_mp" />
+				<instance_reference name="ability" value="abilities\soviet\modal_ability\grenades\partisan_anti_tank_grenade_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>
