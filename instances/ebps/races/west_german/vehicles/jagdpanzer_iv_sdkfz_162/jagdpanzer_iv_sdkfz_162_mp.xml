@@ -16,7 +16,7 @@
 		<template_reference name="exts" value="ebpextensions\ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_vehicle" />
-				<instance_reference name="ability" value="abilities\west_german\toggle_ability\battle_plans\armor_plans\tiger_prowl_jagdpanzer_mp" />
+				<instance_reference name="ability" value="abilities\west_german\toggle_ability\battle_plans\armor_plans\tiger_prowl_jagdpanzer_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\west_german\toggle_ability\okw_vehicle_hold_fire_mp" />
 				<instance_reference name="ability" value="abilities\aef\toggle_ability\usf_hold_fire_mp" />
 				<instance_reference name="ability" value="abilities\german\toggle_ability\handbrake_mode_new_mp" />
@@ -925,7 +925,7 @@
 			<float name="attack_priority" value="80" />
 			<enum name="camouflage_type" value="tp_global" />
 			<bool name="chain_revealer" value="False" />
-			<float name="detection_radius" value="10" />
+			<float name="detection_radius" value="20" />
 			<bool name="must_be_fully_constructed" value="False" />
 			<bool name="permanently_activated" value="False" />
 			<float name="combat_reset_time" value="10" />
@@ -1009,7 +1009,7 @@
 									<locstring name="ui_name" value="0" />
 									<bool name="garrisoned" value="False" />
 									<bool name="healed" value="False" />
-									<float name="in_combat_since" value="5" />
+									<float name="in_combat_since" value="10" />
 									<bool name="injured" value="False" />
 									<bool name="leader" value="False" />
 									<bool name="not_moving" value="False" />
