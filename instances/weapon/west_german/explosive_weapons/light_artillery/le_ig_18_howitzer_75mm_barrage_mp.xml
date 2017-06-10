@@ -335,7 +335,7 @@
 		</group>
 		<group name="projectile">
 			<bool name="delete_previous_on_hit" value="False" />
-			<instance_reference name="projectile" value="ebps\projectile\west_german_75mm_ig_18_isg_projectile_mp" />
+			<instance_reference name="projectile" value="ebps\projectile\west_german_75mm_ig_18_isg_projectile_high_angle_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 		</group>
 		<group name="range">
 			<float name="max" value="80" />
@@ -415,12 +415,12 @@
 			<float name="duration" value="0" />
 		</group>
 		<group name="tracking">
-			<float name="fire_cone_angle" value="20" />
+			<float name="fire_cone_angle" value="5" />
 			<group name="normal">
 				<float name="max_down" value="-90" />
 				<float name="max_left" value="-25" />
 				<float name="max_right" value="25" />
-				<float name="max_up" value="80" />
+				<float name="max_up" value="70" />
 				<float name="speed_horizontal" value="3" />
 				<float name="speed_vertical" value="15" />
 			</group>
