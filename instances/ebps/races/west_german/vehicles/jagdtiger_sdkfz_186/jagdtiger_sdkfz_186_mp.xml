@@ -17,7 +17,7 @@
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_vehicle" />
 				<instance_reference name="ability" value="abilities\west_german\toggle_ability\okw_vehicle_hold_fire_mp" />
-				<instance_reference name="ability" value="abilities\west_german\timed_ability\jagdtiger_piercing_shell_ability_mp" />
+				<instance_reference name="ability" value="abilities\west_german\timed_ability\jagdtiger_piercing_shell_ability_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\aef\toggle_ability\usf_hold_fire_mp" />
 				<instance_reference name="ability" value="abilities\german\toggle_ability\handbrake_mode_new_mp" />
 			</list>
@@ -193,7 +193,7 @@
 								<bool name="big_explosive" value="True" />
 								<bool name="small_explosive" value="True" />
 							</enum_table>
-							<instance_reference name="critical" value="critical\_no_critical_rear" />
+							<instance_reference name="critical" value="critical\vehicle_crew_dazed_jagdtiger" mod="f2791205c6e743b6a340ef0daf60b957" />
 							<enum_table name="applicable_hit_direction">
 								<bool name="front" value="False" />
 								<bool name="rear" value="True" />
@@ -246,7 +246,7 @@
 								<bool name="big_explosive" value="True" />
 								<bool name="small_explosive" value="True" />
 							</enum_table>
-							<instance_reference name="critical" value="critical\_no_critical_rear" />
+							<instance_reference name="critical" value="critical\vehicle_crew_dazed_jagdtiger" mod="f2791205c6e743b6a340ef0daf60b957" />
 							<enum_table name="applicable_hit_direction">
 								<bool name="front" value="False" />
 								<bool name="rear" value="True" />
@@ -283,7 +283,7 @@
 								<bool name="big_explosive" value="True" />
 								<bool name="small_explosive" value="True" />
 							</enum_table>
-							<instance_reference name="critical" value="critical\_no_critical_rear" />
+							<instance_reference name="critical" value="critical\vehicle_crew_dazed_jagdtiger" mod="f2791205c6e743b6a340ef0daf60b957" />
 							<enum_table name="applicable_hit_direction">
 								<bool name="front" value="False" />
 								<bool name="rear" value="True" />
@@ -320,7 +320,7 @@
 								<bool name="big_explosive" value="True" />
 								<bool name="small_explosive" value="True" />
 							</enum_table>
-							<instance_reference name="critical" value="critical\_no_critical_rear" />
+							<instance_reference name="critical" value="critical\vehicle_crew_dazed_jagdtiger" mod="f2791205c6e743b6a340ef0daf60b957" />
 							<enum_table name="applicable_hit_direction">
 								<bool name="front" value="False" />
 								<bool name="rear" value="True" />
@@ -411,27 +411,6 @@
 								<bool name="rear" value="True" />
 							</enum_table>
 							<enum name="apply_on" value="penetrate" />
-						</group>
-					</list>
-				</group>
-				<group name="critical_group">
-					<float name="max_health_percentage" value="1" />
-					<list name="critical_info">
-						<group name="info">
-							<float name="weight" value="10" />
-							<enum_table name="applicable_weapons">
-								<bool name="small_arms" value="False" />
-								<bool name="flame" value="False" />
-								<bool name="ballistic" value="True" />
-								<bool name="big_explosive" value="True" />
-								<bool name="small_explosive" value="False" />
-							</enum_table>
-							<instance_reference name="critical" value="critical\vehicle_crew_dazed_jagdtiger" />
-							<enum_table name="applicable_hit_direction">
-								<bool name="front" value="True" />
-								<bool name="rear" value="True" />
-							</enum_table>
-							<enum name="apply_on" value="deflect" />
 						</group>
 					</list>
 				</group>
@@ -634,7 +613,7 @@
 								<float name="z" value="0.2" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\west_german\ballistic_weapon\tank_gun\jagdtiger_pak_44_128mm_gun_mp" />
+							<instance_reference name="weapon" value="weapon\west_german\ballistic_weapon\tank_gun\jagdtiger_pak_44_128mm_gun_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						</group>
 						<group name="weapon">
 							<group name="heading">
@@ -649,7 +628,7 @@
 								<float name="z" value="0.2" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\west_german\ballistic_weapon\tank_gun\jagdtiger_pak_44_128mm_piercing_gun_mp" />
+							<instance_reference name="weapon" value="weapon\west_german\ballistic_weapon\tank_gun\jagdtiger_pak_44_128mm_piercing_gun_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />

@@ -83,7 +83,7 @@
 		<bool name="is_default_action" value="False" />
 		<bool name="move_back" value="False" />
 		<float name="move_back_distance" value="10" />
-		<float name="range" value="125" />
+		<float name="range" value="85" />
 		<bool name="range_ignore" value="False" />
 		<float name="recharge_time" value="30" />
 		<bool name="refundable" value="True" />
@@ -120,7 +120,7 @@
 			<icon name="icon_name" value="Icons_abilities_ability_west_german_128mm_supporting_fire" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="182" mod="f2791205c6e743b6a340ef0daf60b957" />
+			<locstring name="screen_name" value="11052310" />
 			<icon name="icon_alternate_name" value="" />
 			<locstring name="brief_text" value="0" />
 			<locstring name="help_text_alternate" value="0" />
@@ -134,23 +134,12 @@
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_all_in_list">
 				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="180" mod="f2791205c6e743b6a340ef0daf60b957" />
-				<list name="requirements">
-					<template_reference name="requirement" value="requirements\required_squad_veterancy">
-						<enum name="reason" value="usage" />
-						<locstring name="ui_name" value="179" mod="f2791205c6e743b6a340ef0daf60b957" />
-						<float name="veterancy_rank" value="4" />
-					</template_reference>
-				</list>
-			</template_reference>
-			<template_reference name="required" value="requirements\required_all_in_list">
-				<enum name="reason" value="usage" />
 				<locstring name="ui_name" value="11072457" />
 				<list name="requirements">
 					<template_reference name="requirement" value="requirements\required_critical">
 						<enum name="reason" value="usage" />
 						<locstring name="ui_name" value="0" />
-						<instance_reference name="critical_name" value="critical\vehicle_crew_dazed_jagdtiger" />
+						<instance_reference name="critical_name" value="critical\vehicle_crew_dazed_jagdtiger" mod="f2791205c6e743b6a340ef0daf60b957" />
 						<bool name="is_present" value="False" />
 					</template_reference>
 					<template_reference name="requirement" value="requirements\required_critical">
@@ -185,6 +174,11 @@
 				<bool name="is_present" value="False" />
 				<instance_reference name="upgrade_name" value="upgrade\west_german\ability_lock_out\jagdtiger_ability_barrage_lock_out" />
 				<bool name="include_queued" value="False" />
+			</template_reference>
+			<template_reference name="required" value="requirements\required_squad_veterancy">
+				<enum name="reason" value="usage_and_display" />
+				<locstring name="ui_name" value="179" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<float name="veterancy_rank" value="1" />
 			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_artillery" />
