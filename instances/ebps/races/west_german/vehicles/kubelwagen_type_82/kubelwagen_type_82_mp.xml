@@ -16,7 +16,7 @@
 		<template_reference name="exts" value="ebpextensions\ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_vehicle" />
-				<instance_reference name="ability" value="abilities\west_german\toggle_ability\kubelwagen_detection_mp" />
+				<instance_reference name="ability" value="abilities\west_german\toggle_ability\kubelwagen_detection_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\german\toggle_ability\handbrake_mode_new_mp" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\siphon_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>

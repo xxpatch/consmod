@@ -414,6 +414,27 @@
 						</group>
 					</list>
 				</group>
+				<group name="critical_group">
+					<float name="max_health_percentage" value="1" />
+					<list name="critical_info">
+						<group name="info">
+							<float name="weight" value="10" />
+							<enum_table name="applicable_weapons">
+								<bool name="small_arms" value="False" />
+								<bool name="flame" value="False" />
+								<bool name="ballistic" value="True" />
+								<bool name="big_explosive" value="True" />
+								<bool name="small_explosive" value="False" />
+							</enum_table>
+							<instance_reference name="critical" value="critical\vehicle_crew_dazed_jagdtiger" />
+							<enum_table name="applicable_hit_direction">
+								<bool name="front" value="True" />
+								<bool name="rear" value="True" />
+							</enum_table>
+							<enum name="apply_on" value="deflect" />
+						</group>
+					</list>
+				</group>
 			</list>
 			<float name="weapon_priority" value="0" />
 			<template_reference name="wreck_entity_option" value="options\ebpextensions\healthext\wreck_table">
@@ -1187,7 +1208,7 @@
 			<bool name="must_be_in_supply" value="False" />
 			<float name="number_of_standard_slots" value="-1" />
 			<list name="standard_upgrades">
-				<instance_reference name="upgrade" value="upgrade\west_german\passive\jagdtiger_engine_improvements_i_mp" />
+				<instance_reference name="upgrade" value="upgrade\west_german\passive\jagdtiger_engine_improvements_i_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\recrewable_ext">
@@ -1195,7 +1216,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\west_german\vehicles\jagdtiger_td_squad\jagdtiger_td_squad_mp" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\west_german\vehicles\jagdtiger_td_squad\jagdtiger_td_squad_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="3" />
 						<list name="recrew_penalties_list">
