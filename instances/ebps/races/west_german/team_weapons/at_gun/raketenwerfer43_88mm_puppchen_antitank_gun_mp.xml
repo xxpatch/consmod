@@ -18,6 +18,7 @@
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_deep_snow_camo" />
 				<instance_reference name="ability" value="abilities\west_german\toggle_ability\okw_ratken_vehicle_hold_fire_mp" />
 				<instance_reference name="ability" value="abilities\aef\toggle_ability\usf_hold_fire_mp" />
+				<instance_reference name="ability" value="abilities\west_german\always_on_ability\raketenwerfer_overwatch_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext">
@@ -282,7 +283,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\west_german\ballistic_weapon\anti_tank_gun\raketenwerfer43_88mm_wg_mp" />
+							<instance_reference name="weapon" value="weapon\west_german\ballistic_weapon\anti_tank_gun\raketenwerfer43_88mm_wg_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
