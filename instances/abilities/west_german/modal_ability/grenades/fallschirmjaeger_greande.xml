@@ -1,4 +1,4 @@
-<instance description="bundled grenade " template="abilities">
+<instance description="bundled grenade &#xA;Multiplayer Clone." template="abilities">
 	<group name="ability_bag">
 		<group name="action_list">
 			<list name="end_self_actions">
@@ -19,7 +19,7 @@
 						<template_reference name="target_info" value="type_ability_target_type\all">
 						</template_reference>
 					</group>
-					<uniqueid name="id" value="1073745947" />
+					<uniqueid name="id" value="1073753241" />
 					<bool name="target_override_direction_times_max_range" value="False" />
 				</template_reference>
 				<template_reference name="action" value="action\delay">
@@ -34,10 +34,10 @@
 							<float name="event_param_end" value="-1" />
 							<enum name="event_type" value="grenade" />
 							<bool name="event_send_to_target_player" value="False" />
-							<uniqueid name="id" value="1073745948" />
+							<uniqueid name="id" value="1073753242" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073745949" />
+					<uniqueid name="id" value="1073753243" />
 					<bool name="can_prevent_refund" value="False" />
 				</template_reference>
 			</list>
@@ -80,7 +80,7 @@
 		<float name="recharge_time" value="30" />
 		<bool name="refundable" value="True" />
 		<bool name="require_no_shot_block" value="False" />
-		<enum name="shared_timer" value="squad_ability_1" />
+		<enum name="shared_timer" value="allied_grenades_satchel_charges" />
 		<bool name="shared_timer_player_wide" value="False" />
 		<group name="speech_code_2">
 			<string name="code_1" value="" />
@@ -106,13 +106,13 @@
 			<string name="cursor_nonmodal_good" value="" />
 		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="11053302" />
-			<locstring name="help_text" value="11069086" />
+			<locstring name="extra_text" value="11039147" />
+			<locstring name="help_text" value="11007183" />
 			<string name="hotkey_name" value="D" />
 			<icon name="icon_name" value="Icons_abilities_ability_german_bundled_grenade" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="11053301" />
+			<locstring name="screen_name" value="11007182" />
 			<icon name="icon_alternate_name" value="" />
 			<locstring name="brief_text" value="0" />
 			<locstring name="help_text_alternate" value="0" />
@@ -125,38 +125,12 @@
 		</list>
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_not">
-				<enum name="reason" value="usage_and_display" />
-				<locstring name="ui_name" value="0" />
-				<list name="requirement_table">
-					<template_reference name="required" value="requirements\required_in_cover">
-						<enum name="reason" value="usage_and_display" />
-						<locstring name="ui_name" value="0" />
-						<group name="cover_type_table">
-							<enum name="cover_type_01" value="tp_trench" />
-							<enum name="cover_type_02" value="" />
-							<enum name="cover_type_03" value="" />
-							<enum name="cover_type_04" value="" />
-							<enum name="cover_type_05" value="" />
-							<enum name="cover_type_06" value="" />
-						</group>
-					</template_reference>
-				</list>
-			</template_reference>
-			<template_reference name="required" value="requirements\required_player_upgrade">
-				<enum name="reason" value="usage_and_display" />
-				<locstring name="ui_name" value="0" />
-				<bool name="is_present" value="False" />
-				<float name="max_completed" value="100" />
-				<float name="min_completed" value="1" />
-				<instance_reference name="upgrade_name" value="upgrade\tutorial_player_upgrade" />
-			</template_reference>
-			<template_reference name="required" value="requirements\required_not">
 				<enum name="reason" value="usage" />
 				<locstring name="ui_name" value="0" />
 				<list name="requirement_table">
 					<template_reference name="required" value="requirements\required_in_state">
 						<enum name="reason" value="usage" />
-						<locstring name="ui_name" value="11074365" />
+						<locstring name="ui_name" value="11074366" />
 						<bool name="garrisoned" value="False" />
 						<bool name="healed" value="False" />
 						<float name="in_combat_since" value="-1" />
@@ -177,8 +151,8 @@
 		<bool name="facing_ignore_during_active" value="False" />
 		<instance_reference name="ui_range" value="ui_reticule\ability_range_default" />
 		<instance_reference name="ui_reticule" value="ui_reticule\ability_target_grenade_negative" />
-		<float name="ui_reticule_radius_min" value="4.5" />
-		<float name="ui_reticule_radius_max" value="4.5" />
+		<float name="ui_reticule_radius_min" value="4" />
+		<float name="ui_reticule_radius_max" value="4" />
 		<enum name="pending_ability_out_of_range_behaviour" value="chase" />
 		<enum name="ui_group" value="group_primary" />
 		<string name="ui_targetable_sm_key" value="" />
@@ -204,5 +178,5 @@
 		<bool name="can_cast_outside_active_battle_field" value="False" />
 		<bool name="ability_super_event_cue" value="False" />
 	</group>
-	<uniqueid name="pbgid" value="2376" />
+	<uniqueid name="pbgid" value="14267" />
 </instance>
