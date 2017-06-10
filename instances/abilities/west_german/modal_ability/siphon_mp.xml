@@ -265,6 +265,15 @@
 						<locstring name="phrase" value="0" />
 					</template_reference>
 				</template_reference>
+				<template_reference name="action" value="action\sector_highlight">
+					<float name="highlight_r" value="238" />
+					<float name="highlight_g" value="25" />
+					<float name="highlight_b" value="113" />
+					<float name="highlight_a" value="200" />
+					<bool name="self_only" value="False" />
+					<uniqueid name="id" value="1073753433" />
+					<int name="priority" value="400" />
+				</template_reference>
 			</list>
 		</group>
 		<enum name="activation" value="targeted" />
