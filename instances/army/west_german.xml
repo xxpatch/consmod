@@ -121,7 +121,7 @@
 		<list name="abilities">
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\jagdtiger" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\wg_hq_pioneer_call_in" />
-			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\fallschirmjaeger" />
+			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\fallschirmjaeger" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\panzerfusiliers_dispatch" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\okw_stuka_aerial_superiority_recon" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\command_panther" />
