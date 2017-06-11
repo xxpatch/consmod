@@ -376,20 +376,20 @@
 			</list>
 		</group>
 		<group name="scatter">
-			<float name="angle_scatter" value="8" />
+			<float name="angle_scatter" value="6.75" />
 			<bool name="burst_pattern_enable" value="False" />
 			<float name="delay_bracket_change_chance" value="0" />
 			<float name="distance_bracket_count_air" value="0" />
 			<float name="distance_bracket_count_ground" value="1" />
-			<float name="distance_scatter_max" value="10" />
-			<float name="distance_scatter_obj_hit_min" value="5" />
+			<float name="distance_scatter_max" value="7" />
+			<float name="distance_scatter_obj_hit_min" value="0" />
 			<float name="distance_scatter_offset" value="0" />
-			<float name="distance_scatter_ratio" value="0.167" />
+			<float name="distance_scatter_ratio" value="0.1" />
 			<float name="fow_angle_multiplier" value="1.25" />
 			<float name="fow_distance_multiplier" value="1.25" />
 			<float name="max_tilt_angle" value="0" />
 			<float name="min_tilt_angle" value="0" />
-			<float name="tilt_max_distance" value="10" />
+			<float name="tilt_max_distance" value="0" />
 			<float name="tilt_scatter_chance" value="0" />
 		</group>
 		<group name="setup">
@@ -430,11 +430,11 @@
 			<float name="fire_cone_angle" value="5" />
 			<group name="normal">
 				<float name="max_down" value="-90" />
-				<float name="max_left" value="-10" />
-				<float name="max_right" value="10" />
+				<float name="max_left" value="-25" />
+				<float name="max_right" value="25" />
 				<float name="max_up" value="90" />
-				<float name="speed_horizontal" value="3" />
-				<float name="speed_vertical" value="9" />
+				<float name="speed_horizontal" value="8" />
+				<float name="speed_vertical" value="15" />
 			</group>
 			<float name="pivot_end_time" value="0" />
 			<bool name="pivot_only" value="False" />

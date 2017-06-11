@@ -211,8 +211,8 @@
 				<group name="cost">
 					<float name="action" value="0" />
 					<float name="command" value="0" />
-					<float name="fuel" value="200" />
-					<float name="manpower" value="490" />
+					<float name="fuel" value="185" />
+					<float name="manpower" value="510" />
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
 				</group>
@@ -555,7 +555,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\population_ext">
 			<float name="medic_pop" value="0" />
-			<float name="personnel_pop" value="16" />
+			<float name="personnel_pop" value="18" />
 			<float name="vehicle_pop" value="0" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\sight_ext">
@@ -712,7 +712,7 @@
 								<float name="z" value="-0.21" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\west_german\ballistic_weapon\tank_gun\panther_kwk42_75mm_mp" />
+							<instance_reference name="weapon" value="weapon\west_german\ballistic_weapon\tank_gun\panther_kwk42_75mm_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />

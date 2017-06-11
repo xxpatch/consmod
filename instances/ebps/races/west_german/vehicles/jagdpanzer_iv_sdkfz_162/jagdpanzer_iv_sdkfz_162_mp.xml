@@ -1044,8 +1044,8 @@
 											<bool name="exclusive" value="False" />
 											<string name="modifier_id" value="" />
 											<string name="target_type_name" value="hardpoint_01" />
-											<enum name="usage_type" value="multiply_add" />
-											<float name="value" value="1.5" />
+											<enum name="usage_type" value="multiplication" />
+											<float name="value" value="1.25" />
 											<instance_reference name="tooltip" value="modifier_tooltip\accuracy_weapon_modifier" />
 										</template_reference>
 										<template_reference name="modifier" value="modifiers\weapon_penetration_modifier">
@@ -1053,8 +1053,8 @@
 											<bool name="exclusive" value="False" />
 											<string name="modifier_id" value="" />
 											<string name="target_type_name" value="hardpoint_01" />
-											<enum name="usage_type" value="multiply_add" />
-											<float name="value" value="1.5" />
+											<enum name="usage_type" value="multiplication" />
+											<float name="value" value="1.25" />
 											<instance_reference name="tooltip" value="modifier_tooltip\weapon_penetration_modifier" />
 										</template_reference>
 									</list>

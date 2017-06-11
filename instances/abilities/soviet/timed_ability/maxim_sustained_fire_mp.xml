@@ -171,7 +171,7 @@
 			<locstring name="extra_text" value="11141504" />
 			<locstring name="help_text" value="11141497" />
 			<string name="hotkey_name" value="F" />
-			<icon name="icon_name" value="Icons_abilities_ability_german_phospherous_rounds" />
+			<icon name="icon_name" value="Icons_abilities_ability_suppressive_fire" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
 			<locstring name="screen_name" value="11141499" />

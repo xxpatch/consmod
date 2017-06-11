@@ -180,17 +180,12 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_upgrade_ext">
 			<float name="number_of_slots" value="-1" />
 			<list name="upgrades">
-				<instance_reference name="upgrade" value="upgrade\german\commander\ability\light_infantry_package" />
 				<instance_reference name="upgrade" value="upgrade\german\commander\ability\ambush_camou_package" />
+				<instance_reference name="upgrade" value="upgrade\west_german\items\jeagar_g43_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_action_apply_ext">
 			<list name="actions">
-				<template_reference name="action" value="action\slot_item_add">
-					<instance_reference name="slot_item" value="slot_item\west_german\small_arms\jaeger_light_recon_g43" />
-					<bool name="permanent" value="True" />
-					<uniqueid name="id" value="1073742697" />
-				</template_reference>
 				<template_reference name="action" value="action\requirement_action">
 					<bool name="check_self" value="False" />
 					<bool name="global_fire_and_forget_on_success" value="False" />
@@ -475,7 +470,7 @@
 								<enum name="application_type" value="apply_to_ability" />
 								<bool name="exclusive" value="False" />
 								<string name="modifier_id" value="" />
-								<instance_reference name="target_type_name" value="abilities\west_german\modal_ability\grenades\infiltration_tactics_grenade" />
+								<instance_reference name="target_type_name" value="abilities\west_german\modal_ability\grenades\infiltration_tactics_grenade" mod="f2791205c6e743b6a340ef0daf60b957" />
 								<enum name="usage_type" value="multiplication" />
 								<float name="value" value="0.67" />
 								<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
@@ -733,7 +728,7 @@
 				<instance_reference name="ability" value="abilities\german\modal_ability\infantry_medkits_mp" />
 				<instance_reference name="ability" value="abilities\west_german\always_on_ability\jaeger_light_infantry_camo" />
 				<instance_reference name="ability" value="abilities\german\timed_ability\assault_grenadier_sprint_mp" />
-				<instance_reference name="ability" value="abilities\west_german\modal_ability\grenades\infiltration_tactics_grenade" />
+				<instance_reference name="ability" value="abilities\west_german\modal_ability\grenades\infiltration_tactics_grenade" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\soviet\toggle_ability\sniper_hold_fire_mp" />
 				<instance_reference name="ability" value="abilities\west_german\always_on_ability\jaeger_assassinate_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
