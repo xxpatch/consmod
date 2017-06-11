@@ -58,18 +58,6 @@
 				</list>
 				<uniqueid name="id" value="1073748410" />
 			</template_reference>
-			<template_reference name="action" value="action\apply_crew_action">
-				<bool name="apply_removal" value="False" />
-				<string name="crew_name" value="Gunner_left" />
-				<bool name="kill" value="True" />
-				<uniqueid name="id" value="1073753759" />
-			</template_reference>
-			<template_reference name="action" value="action\apply_crew_action">
-				<bool name="apply_removal" value="False" />
-				<string name="crew_name" value="Gunner_right" />
-				<bool name="kill" value="True" />
-				<uniqueid name="id" value="1073753760" />
-			</template_reference>
 		</list>
 		<list name="requirements">
 		</list>
