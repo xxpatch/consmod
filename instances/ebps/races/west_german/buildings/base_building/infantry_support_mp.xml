@@ -566,7 +566,7 @@
 								<string name="desync_action_name" value="Detach_Skeleton" />
 								<string name="role_name" value="Gunner_left" />
 								<string name="sync_action_name" value="attach_gunner_basebuilding_02_left" />
-								<bool name="sync_on_create" value="True" />
+								<bool name="sync_on_create" value="False" />
 								<string name="abandon_event_name" value="abandon_gunner_basebuilding_02_left" />
 								<string name="animator_bp_female" value="" />
 							</group>
@@ -576,7 +576,7 @@
 								<string name="desync_action_name" value="Detach_Skeleton" />
 								<string name="role_name" value="Gunner_right" />
 								<string name="sync_action_name" value="attach_gunner_basebuilding_02_right" />
-								<bool name="sync_on_create" value="True" />
+								<bool name="sync_on_create" value="False" />
 								<string name="abandon_event_name" value="abandon_gunner_basebuilding_02_right" />
 								<string name="animator_bp_female" value="" />
 							</group>
