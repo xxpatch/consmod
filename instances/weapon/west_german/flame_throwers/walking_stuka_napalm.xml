@@ -305,8 +305,8 @@
 				</group>
 				<float name="damage_frequency" value="1.25" />
 				<instance_reference name="dot_weapon" value="weapon\axis\flame_throwers\mortar\halftrack_mortar_incendiary_dot_mp" />
-				<float name="dots_max" value="6" />
-				<float name="dots_min" value="6" />
+				<float name="dots_max" value="3" />
+				<float name="dots_min" value="3" />
 				<float name="duration_max" value="20" />
 				<float name="duration_min" value="20" />
 				<float name="radius_max" value="4" />
