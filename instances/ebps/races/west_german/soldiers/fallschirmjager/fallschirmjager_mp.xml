@@ -89,7 +89,7 @@
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
 				</group>
-				<float name="time_seconds" value="9.5" />
+				<float name="time_seconds" value="8" />
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext">
@@ -1107,7 +1107,7 @@
 						<template_reference name="action" value="action\upgrade_add">
 							<bool name="apply_to_entities_in_squad" value="False" />
 							<bool name="trigger_publish_event" value="False" />
-							<instance_reference name="upgrade" value="upgrade\west_german\items\falls_fg42_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+							<instance_reference name="upgrade" value="" />
 							<uniqueid name="id" value="1073753744" />
 						</template_reference>
 					</list>

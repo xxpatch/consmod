@@ -315,10 +315,10 @@
 									<bool name="set" value="False" />
 									<bool name="cause_criticals" value="True" />
 									<enum name="crit_weapon_type" value="ballistic" />
-									<uniqueid name="id" value="1073754151" />
+									<uniqueid name="id" value="1073753344" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073754152" />
+							<uniqueid name="id" value="1073753345" />
 							<bool name="fire_and_forget_non_global" value="False" />
 							<template_reference name="ui_help_text" value="tables\help_text_phrase">
 								<int name="phrase_order" value="0" />
@@ -326,7 +326,7 @@
 							</template_reference>
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073754153" />
+					<uniqueid name="id" value="1073753343" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -362,16 +362,16 @@
 										<template_reference name="action" value="action\trigger_critical_action">
 											<float name="remove_at_health" value="0.75" />
 											<instance_reference name="critical" value="critical\vehicle_damage_engine_snare" />
-											<uniqueid name="id" value="1073754154" />
+											<uniqueid name="id" value="1073753335" />
 										</template_reference>
 									</list>
 									<int name="weight" value="95" />
 								</group>
 							</list>
-							<uniqueid name="id" value="1073754155" />
+							<uniqueid name="id" value="1073753336" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073754156" />
+					<uniqueid name="id" value="1073753337" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -394,7 +394,7 @@
 					<bool name="set" value="True" />
 					<bool name="cause_criticals" value="True" />
 					<enum name="crit_weapon_type" value="big_explosive" />
-					<uniqueid name="id" value="1073754157" />
+					<uniqueid name="id" value="1073753338" />
 				</template_reference>
 				<template_reference name="action" value="action\requirement_action">
 					<bool name="check_self" value="False" />
@@ -436,10 +436,10 @@
 									<bool name="set" value="False" />
 									<bool name="cause_criticals" value="True" />
 									<enum name="crit_weapon_type" value="ballistic" />
-									<uniqueid name="id" value="1073754158" />
+									<uniqueid name="id" value="1073753346" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073754159" />
+							<uniqueid name="id" value="1073753347" />
 							<bool name="fire_and_forget_non_global" value="False" />
 							<template_reference name="ui_help_text" value="tables\help_text_phrase">
 								<int name="phrase_order" value="0" />
@@ -447,7 +447,7 @@
 							</template_reference>
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073754160" />
+					<uniqueid name="id" value="1073753348" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -480,14 +480,14 @@
 											<instance_reference name="tooltip" value="modifier_tooltip\camouflage_enable" />
 										</template_reference>
 									</list>
-									<uniqueid name="id" value="1073754161" />
+									<uniqueid name="id" value="1073753339" />
 								</template_reference>
 							</list>
 							<enum name="change_target_type" value="squad" />
-							<uniqueid name="id" value="1073754162" />
+							<uniqueid name="id" value="1073753340" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073754163" />
+					<uniqueid name="id" value="1073753341" />
 				</template_reference>
 			</list>
 		</group>
@@ -643,5 +643,5 @@
 		<list name="target_type_table">
 		</list>
 	</group>
-	<uniqueid name="pbgid" value="1073741833" />
+	<uniqueid name="pbgid" value="1073741832" />
 </instance>

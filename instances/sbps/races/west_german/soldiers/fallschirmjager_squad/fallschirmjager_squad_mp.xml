@@ -7,9 +7,9 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="11051431" />
+						<locstring name="extra_text" value="215" mod="f2791205c6e743b6a340ef0daf60b957" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11051432" />
+						<locstring name="help_text" value="214" mod="f2791205c6e743b6a340ef0daf60b957" />
 						<string name="hotkey_name" value="Q" />
 						<icon name="icon_name" value="Icons_units_unit_west_german_fallschirmjager" />
 						<bool name="minimap_team_only" value="False" />
@@ -408,7 +408,7 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_upgrade_ext">
 			<float name="number_of_slots" value="-1" />
 			<list name="upgrades">
-				<instance_reference name="upgrade" value="upgrade\west_german\items\falls_fg42_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<instance_reference name="upgrade" value="upgrade\west_german\items\fallschirmjager_fg_42" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_action_apply_ext">
@@ -505,22 +505,22 @@
 					</template_reference>
 				</template_reference>
 				<template_reference name="action" value="action\slot_item_add">
-					<instance_reference name="slot_item" value="slot_item\west_german\small_arms\falls_kar98_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+					<instance_reference name="slot_item" value="slot_item\west_german\small_arms\fallschirmjager_kar98k_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 					<bool name="permanent" value="True" />
 					<uniqueid name="id" value="1073753738" />
 				</template_reference>
 				<template_reference name="action" value="action\slot_item_add">
-					<instance_reference name="slot_item" value="slot_item\west_german\small_arms\falls_kar98_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+					<instance_reference name="slot_item" value="slot_item\west_german\small_arms\fallschirmjager_kar98k_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 					<bool name="permanent" value="True" />
 					<uniqueid name="id" value="1073753739" />
 				</template_reference>
 				<template_reference name="action" value="action\slot_item_add">
-					<instance_reference name="slot_item" value="slot_item\west_german\small_arms\falls_kar98_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+					<instance_reference name="slot_item" value="slot_item\west_german\small_arms\fallschirmjager_kar98k_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 					<bool name="permanent" value="True" />
 					<uniqueid name="id" value="1073753740" />
 				</template_reference>
 				<template_reference name="action" value="action\slot_item_add">
-					<instance_reference name="slot_item" value="slot_item\west_german\small_arms\falls_kar98_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+					<instance_reference name="slot_item" value="slot_item\west_german\small_arms\fallschirmjager_kar98k_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 					<bool name="permanent" value="True" />
 					<uniqueid name="id" value="1073753741" />
 				</template_reference>

@@ -2,6 +2,11 @@
 	<group name="ability_bag">
 		<group name="action_list">
 			<list name="end_self_actions">
+				<template_reference name="action" value="action\upgrade_remove">
+					<bool name="apply_to_entities_in_squad" value="False" />
+					<instance_reference name="upgrade" value="upgrade\west_german\veteran\assault_blitz_lockouts_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+					<uniqueid name="id" value="1073754146" />
+				</template_reference>
 			</list>
 			<list name="end_target_actions">
 			</list>
@@ -278,6 +283,12 @@
 						<locstring name="phrase" value="0" />
 					</template_reference>
 				</template_reference>
+				<template_reference name="action" value="action\upgrade_add">
+					<bool name="apply_to_entities_in_squad" value="False" />
+					<bool name="trigger_publish_event" value="False" />
+					<instance_reference name="upgrade" value="upgrade\west_german\veteran\assault_blitz_lockouts_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+					<uniqueid name="id" value="1073754145" />
+				</template_reference>
 			</list>
 			<list name="start_target_actions">
 			</list>
@@ -474,6 +485,19 @@
 			<template_reference name="required" value="requirements\required_interactive_stage">
 				<locstring name="ui_name" value="11071180" />
 				<enum name="reason" value="usage" />
+			</template_reference>
+			<template_reference name="required" value="requirements\required_not">
+				<enum name="reason" value="usage" />
+				<locstring name="ui_name" value="0" />
+				<list name="requirement_table">
+					<template_reference name="required" value="requirements\required_entity_upgrade">
+						<enum name="reason" value="usage" />
+						<locstring name="ui_name" value="242" mod="f2791205c6e743b6a340ef0daf60b957" />
+						<bool name="is_present" value="True" />
+						<instance_reference name="upgrade_name" value="upgrade\west_german\veteran\assault_advance_lockouts_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+						<bool name="include_queued" value="False" />
+					</template_reference>
+				</list>
 			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_artillery" />

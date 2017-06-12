@@ -45,12 +45,12 @@
 				<float name="z" value="0" />
 			</group>
 			<enum name="type" value="accessory" />
-			<instance_reference name="weapon" value="weapon\west_german\ballistic_weapon\infantry_anti_tank_weapon\falls_panzerfaust_atw_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+			<instance_reference name="weapon" value="weapon\west_german\ballistic_weapon\infantry_anti_tank_weapon\fallschirmjager_panzerfaust_atw_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 		</group>
 		<list name="on_add_actions">
 		</list>
 		<list name="on_drop_actions">
 		</list>
 	</group>
-	<uniqueid name="pbgid" value="1073741840" />
+	<uniqueid name="pbgid" value="1073741835" />
 </instance>

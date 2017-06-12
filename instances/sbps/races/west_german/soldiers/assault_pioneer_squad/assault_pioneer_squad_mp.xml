@@ -1053,7 +1053,7 @@
 							<int name="ui_position" value="12" />
 						</group>
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\races\west_german\buildings\defensive_structures\flak_emplacement" />
+							<instance_reference name="ebp" value="ebps\races\west_german\buildings\defensive_structures\flak_emplacement" mod="f2791205c6e743b6a340ef0daf60b957" />
 							<int name="ui_position" value="31" />
 						</group>
 						<group name="construction_item">

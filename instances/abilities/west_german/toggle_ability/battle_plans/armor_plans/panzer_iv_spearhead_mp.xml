@@ -2,6 +2,11 @@
 	<group name="ability_bag">
 		<group name="action_list">
 			<list name="end_self_actions">
+				<template_reference name="action" value="action\upgrade_remove">
+					<bool name="apply_to_entities_in_squad" value="False" />
+					<instance_reference name="upgrade" value="upgrade\west_german\veteran\assault_advance_lockouts_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+					<uniqueid name="id" value="1073754150" />
+				</template_reference>
 			</list>
 			<list name="end_target_actions">
 			</list>
@@ -86,6 +91,54 @@
 							</list>
 							<uniqueid name="id" value="1073753635" />
 						</template_reference>
+						<template_reference name="action" value="action\apply_modifiers_action">
+							<float name="duration" value="0" />
+							<bool name="permanent" value="False" />
+							<list name="modifiers">
+								<template_reference name="modifier" value="modifiers\accuracy_weapon_modifier">
+									<enum name="application_type" value="apply_to_weapon" />
+									<bool name="exclusive" value="False" />
+									<string name="modifier_id" value="" />
+									<string name="target_type_name" value="hardpoint_02" />
+									<enum name="usage_type" value="multiplication" />
+									<float name="value" value="1.25" />
+									<instance_reference name="tooltip" value="modifier_tooltip\accuracy_weapon_modifier" />
+								</template_reference>
+							</list>
+							<uniqueid name="id" value="1073754140" />
+						</template_reference>
+						<template_reference name="action" value="action\apply_modifiers_action">
+							<float name="duration" value="0" />
+							<bool name="permanent" value="False" />
+							<list name="modifiers">
+								<template_reference name="modifier" value="modifiers\accuracy_weapon_modifier">
+									<enum name="application_type" value="apply_to_weapon" />
+									<bool name="exclusive" value="False" />
+									<string name="modifier_id" value="" />
+									<string name="target_type_name" value="hardpoint_03" />
+									<enum name="usage_type" value="multiplication" />
+									<float name="value" value="1.25" />
+									<instance_reference name="tooltip" value="modifier_tooltip\accuracy_weapon_modifier" />
+								</template_reference>
+							</list>
+							<uniqueid name="id" value="1073754141" />
+						</template_reference>
+						<template_reference name="action" value="action\apply_modifiers_action">
+							<float name="duration" value="0" />
+							<bool name="permanent" value="False" />
+							<list name="modifiers">
+								<template_reference name="modifier" value="modifiers\accuracy_weapon_modifier">
+									<enum name="application_type" value="apply_to_weapon" />
+									<bool name="exclusive" value="False" />
+									<string name="modifier_id" value="" />
+									<string name="target_type_name" value="hardpoint_04" />
+									<enum name="usage_type" value="multiplication" />
+									<float name="value" value="1.25" />
+									<instance_reference name="tooltip" value="modifier_tooltip\accuracy_weapon_modifier" />
+								</template_reference>
+							</list>
+							<uniqueid name="id" value="1073754142" />
+						</template_reference>
 					</list>
 					<uniqueid name="id" value="1073753636" />
 					<bool name="fire_and_forget_non_global" value="False" />
@@ -113,6 +166,12 @@
 				<template_reference name="action" value="action\ui_decorator_state_action">
 					<uniqueid name="id" value="1073753641" />
 					<string name="state_icon" value="FrameBraceEnabled" />
+				</template_reference>
+				<template_reference name="action" value="action\upgrade_add">
+					<bool name="apply_to_entities_in_squad" value="False" />
+					<bool name="trigger_publish_event" value="False" />
+					<instance_reference name="upgrade" value="upgrade\west_german\veteran\assault_advance_lockouts_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+					<uniqueid name="id" value="1073754149" />
 				</template_reference>
 			</list>
 			<list name="start_target_actions">
@@ -146,7 +205,7 @@
 		<bool name="fire_and_forget" value="False" />
 		<bool name="garrison_target" value="False" />
 		<bool name="has_speech_code" value="True" />
-		<float name="initial_delay_time" value="5" />
+		<float name="initial_delay_time" value="0" />
 		<bool name="initial_recharge" value="False" />
 		<bool name="is_default_action" value="False" />
 		<bool name="move_back" value="False" />
@@ -208,6 +267,19 @@
 			<template_reference name="required" value="requirements\required_interactive_stage">
 				<locstring name="ui_name" value="0" />
 				<enum name="reason" value="usage" />
+			</template_reference>
+			<template_reference name="required" value="requirements\required_not">
+				<enum name="reason" value="usage" />
+				<locstring name="ui_name" value="0" />
+				<list name="requirement_table">
+					<template_reference name="required" value="requirements\required_entity_upgrade">
+						<enum name="reason" value="usage" />
+						<locstring name="ui_name" value="243" mod="f2791205c6e743b6a340ef0daf60b957" />
+						<bool name="is_present" value="True" />
+						<instance_reference name="upgrade_name" value="upgrade\west_german\veteran\assault_blitz_lockouts_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+						<bool name="include_queued" value="False" />
+					</template_reference>
+				</list>
 			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />

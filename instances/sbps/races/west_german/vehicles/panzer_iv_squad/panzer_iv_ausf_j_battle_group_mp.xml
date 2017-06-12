@@ -472,7 +472,7 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_upgrade_ext">
 			<float name="number_of_slots" value="-1" />
 			<list name="upgrades">
-				<instance_reference name="upgrade" value="upgrade\west_german\items\tank_commander" />
+				<instance_reference name="upgrade" value="upgrade\west_german\items\tank_commander" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_action_apply_ext">
@@ -589,9 +589,9 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
-				<instance_reference name="ability" value="abilities\west_german\timed_ability\commander_ability\vehicle_emergency_repair_ability_mp" />
+				<instance_reference name="ability" value="abilities\west_german\timed_ability\commander_ability\vehicle_emergency_repair_ability_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\west_german\timed_ability\commander_ability\heat_shells_ability_mp" />
-				<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\coordinated_barrage" />
+				<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\coordinated_barrage" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\west_german\toggle_ability\battle_plans\armor_plans\panzer_iv_spearhead_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
@@ -856,7 +856,7 @@
 														<string name="modifier_id" value="" />
 														<string name="target_type_name" value="hardpoint_01" />
 														<enum name="usage_type" value="multiplication" />
-														<float name="value" value="0.75" />
+														<float name="value" value="0.866" />
 														<instance_reference name="tooltip" value="modifier_tooltip\weapon_scatter" />
 													</template_reference>
 												</list>

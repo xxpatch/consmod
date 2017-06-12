@@ -20,6 +20,7 @@
 				<instance_reference name="ability" value="abilities\german\modal_ability\artillery\artillery_barrage_ability\howitzer_105mm_victortarget_barrage_ability_mp" />
 				<instance_reference name="ability" value="abilities\german\toggle_ability\howitzer_counter_barrage_mp" />
 				<instance_reference name="ability" value="abilities\german\toggle_ability\howitzer_counter_barrage_attack_mp" />
+				<instance_reference name="ability" value="abilities\german\modal_ability\artillery\artillery_barrage_ability\howitzer_105mm_barrage_rapid_ability_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext">
@@ -550,7 +551,7 @@
 			<bool name="must_be_in_territory" value="False" />
 			<bool name="must_be_on" value="False" />
 			<bool name="must_not_be_in_walkable_surfaces" value="True" />
-			<instance_reference name="on_construction_squad" value="sbps\races\west_german\vehicles\howitzer_105mm_le_fh18_artillery\okw_howitzer_105mm_le_fh18_artillery_mp" />
+			<instance_reference name="on_construction_squad" value="sbps\races\west_german\vehicles\howitzer_105mm_le_fh18_artillery\okw_howitzer_105mm_le_fh18_artillery_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<float name="orientation" value="0" />
 			<enum name="placement_type" value="tp_structure" />
 			<bool name="prefer_spots_on_side_with_leader" value="False" />
