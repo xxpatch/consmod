@@ -144,12 +144,25 @@
 					</template_reference>
 				</list>
 			</template_reference>
-			<template_reference name="required" value="requirements\required_squad_upgrade">
+			<template_reference name="required" value="requirements\required_any_in_list">
 				<enum name="reason" value="usage_and_display" />
 				<locstring name="ui_name" value="0" />
-				<bool name="include_queued" value="False" />
-				<bool name="is_present" value="True" />
-				<instance_reference name="upgrade_name" value="upgrade\west_german\items\assault_pioneer_combat_upgrade" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<list name="requirements">
+					<template_reference name="requirement" value="requirements\required_squad_upgrade">
+						<enum name="reason" value="usage_and_display" />
+						<locstring name="ui_name" value="0" />
+						<bool name="include_queued" value="False" />
+						<bool name="is_present" value="True" />
+						<instance_reference name="upgrade_name" value="upgrade\west_german\items\assault_pioneer_combat_upgrade" mod="f2791205c6e743b6a340ef0daf60b957" />
+					</template_reference>
+					<template_reference name="requirement" value="requirements\required_squad_upgrade">
+						<enum name="reason" value="usage_and_display" />
+						<locstring name="ui_name" value="0" />
+						<bool name="include_queued" value="False" />
+						<bool name="is_present" value="True" />
+						<instance_reference name="upgrade_name" value="upgrade\west_german\items\volks_flamethrower_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+					</template_reference>
+				</list>
 			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />
