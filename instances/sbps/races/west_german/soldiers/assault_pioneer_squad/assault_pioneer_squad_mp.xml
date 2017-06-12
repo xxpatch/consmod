@@ -701,7 +701,7 @@
 								</list>
 							</group>
 							<group name="veterancy_rank">
-								<float name="experience_value" value="2560" />
+								<float name="experience_value" value="960" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
 								<locstring name="screen_name" value="130" mod="f2791205c6e743b6a340ef0daf60b957" />
 								<bool name="single_player_only" value="False" />
@@ -809,7 +809,7 @@
 								</list>
 							</group>
 							<group name="veterancy_rank">
-								<float name="experience_value" value="4256" />
+								<float name="experience_value" value="1920" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
 								<locstring name="screen_name" value="102" mod="f2791205c6e743b6a340ef0daf60b957" />
 								<bool name="single_player_only" value="False" />
@@ -839,7 +839,7 @@
 								</list>
 							</group>
 							<group name="veterancy_rank">
-								<float name="experience_value" value="3405" />
+								<float name="experience_value" value="2560" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
 								<locstring name="screen_name" value="131" mod="f2791205c6e743b6a340ef0daf60b957" />
 								<bool name="single_player_only" value="False" />
