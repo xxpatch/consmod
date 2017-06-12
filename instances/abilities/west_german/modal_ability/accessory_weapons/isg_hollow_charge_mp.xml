@@ -158,7 +158,7 @@
 					<template_reference name="required" value="requirements\required_squad_veterancy">
 						<enum name="reason" value="usage_and_display" />
 						<locstring name="ui_name" value="0" />
-						<float name="veterancy_rank" value="5" />
+						<float name="veterancy_rank" value="4" />
 					</template_reference>
 				</list>
 			</template_reference>
