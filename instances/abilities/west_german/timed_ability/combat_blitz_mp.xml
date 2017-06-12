@@ -2,10 +2,16 @@
 	<group name="ability_bag">
 		<group name="action_list">
 			<list name="end_self_actions">
-				<template_reference name="action" value="action\upgrade_remove">
-					<bool name="apply_to_entities_in_squad" value="False" />
-					<instance_reference name="upgrade" value="upgrade\west_german\veteran\assault_blitz_lockouts_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-					<uniqueid name="id" value="1073754146" />
+				<template_reference name="action" value="action\change_target_action">
+					<list name="actions">
+						<template_reference name="action" value="action\upgrade_remove">
+							<bool name="apply_to_entities_in_squad" value="False" />
+							<instance_reference name="upgrade" value="upgrade\west_german\veteran\assault_blitz_lockouts_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+							<uniqueid name="id" value="1073754173" />
+						</template_reference>
+					</list>
+					<enum name="change_target_type" value="squad" />
+					<uniqueid name="id" value="1073754172" />
 				</template_reference>
 			</list>
 			<list name="end_target_actions">
@@ -118,6 +124,19 @@
 									<locstring name="ui_name" value="0" />
 									<instance_reference name="critical_name" value="critical\vehicle_damage_engine_snare" />
 									<bool name="is_present" value="False" />
+								</template_reference>
+							</list>
+						</template_reference>
+						<template_reference name="required" value="requirements\required_not">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="242" mod="f2791205c6e743b6a340ef0daf60b957" />
+							<list name="requirement_table">
+								<template_reference name="required" value="requirements\required_entity_upgrade">
+									<enum name="reason" value="usage" />
+									<locstring name="ui_name" value="0" />
+									<bool name="is_present" value="True" />
+									<instance_reference name="upgrade_name" value="upgrade\west_german\veteran\assault_advance_lockouts_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+									<bool name="include_queued" value="False" />
 								</template_reference>
 							</list>
 						</template_reference>
@@ -283,11 +302,17 @@
 						<locstring name="phrase" value="0" />
 					</template_reference>
 				</template_reference>
-				<template_reference name="action" value="action\upgrade_add">
-					<bool name="apply_to_entities_in_squad" value="False" />
-					<bool name="trigger_publish_event" value="False" />
-					<instance_reference name="upgrade" value="upgrade\west_german\veteran\assault_blitz_lockouts_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-					<uniqueid name="id" value="1073754145" />
+				<template_reference name="action" value="action\change_target_action">
+					<list name="actions">
+						<template_reference name="action" value="action\upgrade_add">
+							<bool name="apply_to_entities_in_squad" value="False" />
+							<bool name="trigger_publish_event" value="False" />
+							<instance_reference name="upgrade" value="upgrade\west_german\veteran\assault_blitz_lockouts_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+							<uniqueid name="id" value="1073754170" />
+						</template_reference>
+					</list>
+					<enum name="change_target_type" value="squad" />
+					<uniqueid name="id" value="1073754169" />
 				</template_reference>
 			</list>
 			<list name="start_target_actions">
@@ -488,14 +513,14 @@
 			</template_reference>
 			<template_reference name="required" value="requirements\required_not">
 				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="0" />
+				<locstring name="ui_name" value="242" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<list name="requirement_table">
-					<template_reference name="required" value="requirements\required_entity_upgrade">
+					<template_reference name="required" value="requirements\required_squad_upgrade">
 						<enum name="reason" value="usage" />
-						<locstring name="ui_name" value="242" mod="f2791205c6e743b6a340ef0daf60b957" />
+						<locstring name="ui_name" value="0" />
+						<bool name="include_queued" value="False" />
 						<bool name="is_present" value="True" />
 						<instance_reference name="upgrade_name" value="upgrade\west_german\veteran\assault_advance_lockouts_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-						<bool name="include_queued" value="False" />
 					</template_reference>
 				</list>
 			</template_reference>
