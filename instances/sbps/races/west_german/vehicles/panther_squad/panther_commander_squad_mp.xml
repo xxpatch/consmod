@@ -559,7 +559,7 @@
 											</template_reference>
 										</group>
 									</template_reference>
-									<template_reference name="info" value="type_ability_target_type\allied">
+									<template_reference name="info" value="type_ability_target_type\own">
 									</template_reference>
 								</list>
 							</template_reference>
@@ -824,7 +824,7 @@
 																</template_reference>
 															</group>
 														</template_reference>
-														<template_reference name="info" value="type_ability_target_type\allied">
+														<template_reference name="info" value="type_ability_target_type\own">
 														</template_reference>
 													</list>
 												</template_reference>
@@ -950,7 +950,7 @@
 																</template_reference>
 															</group>
 														</template_reference>
-														<template_reference name="info" value="type_ability_target_type\allied">
+														<template_reference name="info" value="type_ability_target_type\own">
 														</template_reference>
 													</list>
 												</template_reference>
@@ -1120,7 +1120,7 @@
 																</template_reference>
 															</group>
 														</template_reference>
-														<template_reference name="info" value="type_ability_target_type\allied">
+														<template_reference name="info" value="type_ability_target_type\own">
 														</template_reference>
 													</list>
 												</template_reference>
@@ -1246,7 +1246,7 @@
 																</template_reference>
 															</group>
 														</template_reference>
-														<template_reference name="info" value="type_ability_target_type\allied">
+														<template_reference name="info" value="type_ability_target_type\own">
 														</template_reference>
 													</list>
 												</template_reference>
@@ -1328,7 +1328,7 @@
 																</template_reference>
 															</group>
 														</template_reference>
-														<template_reference name="info" value="type_ability_target_type\allied">
+														<template_reference name="info" value="type_ability_target_type\own">
 														</template_reference>
 													</list>
 												</template_reference>
@@ -1389,7 +1389,7 @@
 														</template_reference>
 													</group>
 												</template_reference>
-												<template_reference name="info" value="type_ability_target_type\allied">
+												<template_reference name="info" value="type_ability_target_type\own">
 												</template_reference>
 											</list>
 										</template_reference>
