@@ -625,6 +625,36 @@
 								</list>
 							</group>
 							<group name="veterancy_rank">
+								<float name="experience_value" value="3225" />
+								<bool name="hide_ingame_veterancy_art" value="False" />
+								<locstring name="screen_name" value="126" mod="f2791205c6e743b6a340ef0daf60b957" />
+								<bool name="single_player_only" value="False" />
+								<list name="leader_actions">
+								</list>
+								<list name="non_leader_actions">
+								</list>
+								<list name="squad_actions">
+									<template_reference name="action" value="action\apply_modifiers_action">
+										<float name="duration" value="0" />
+										<bool name="permanent" value="True" />
+										<list name="modifiers">
+											<template_reference name="modifier" value="modifiers\entity_veterency_experience_modifier">
+												<enum name="application_type" value="apply_to_squad" />
+												<bool name="exclusive" value="False" />
+												<string name="modifier_id" value="" />
+												<string name="target_type_name" value="" />
+												<enum name="usage_type" value="multiply_add" />
+												<float name="value" value="0.12" />
+												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
+											</template_reference>
+										</list>
+										<uniqueid name="id" value="1073748051" />
+									</template_reference>
+								</list>
+								<list name="squad_entity_actions">
+								</list>
+							</group>
+							<group name="veterancy_rank">
 								<float name="experience_value" value="4300" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
 								<locstring name="screen_name" value="119" mod="f2791205c6e743b6a340ef0daf60b957" />
@@ -688,6 +718,36 @@
 											</template_reference>
 										</list>
 										<uniqueid name="id" value="1073748045" />
+									</template_reference>
+								</list>
+								<list name="squad_entity_actions">
+								</list>
+							</group>
+							<group name="veterancy_rank">
+								<float name="experience_value" value="6450" />
+								<bool name="hide_ingame_veterancy_art" value="False" />
+								<locstring name="screen_name" value="11071465" />
+								<bool name="single_player_only" value="False" />
+								<list name="leader_actions">
+								</list>
+								<list name="non_leader_actions">
+								</list>
+								<list name="squad_actions">
+									<template_reference name="action" value="action\apply_modifiers_action">
+										<float name="duration" value="0" />
+										<bool name="permanent" value="True" />
+										<list name="modifiers">
+											<template_reference name="modifier" value="modifiers\entity_veterency_experience_modifier">
+												<enum name="application_type" value="apply_to_squad" />
+												<bool name="exclusive" value="False" />
+												<string name="modifier_id" value="" />
+												<string name="target_type_name" value="" />
+												<enum name="usage_type" value="multiply_add" />
+												<float name="value" value="0.12" />
+												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
+											</template_reference>
+										</list>
+										<uniqueid name="id" value="1073748052" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
@@ -758,66 +818,6 @@
 											</template_reference>
 										</list>
 										<uniqueid name="id" value="1073748048" />
-									</template_reference>
-								</list>
-								<list name="squad_entity_actions">
-								</list>
-							</group>
-							<group name="veterancy_rank">
-								<float name="experience_value" value="10750" />
-								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="126" mod="f2791205c6e743b6a340ef0daf60b957" />
-								<bool name="single_player_only" value="False" />
-								<list name="leader_actions">
-								</list>
-								<list name="non_leader_actions">
-								</list>
-								<list name="squad_actions">
-									<template_reference name="action" value="action\apply_modifiers_action">
-										<float name="duration" value="0" />
-										<bool name="permanent" value="True" />
-										<list name="modifiers">
-											<template_reference name="modifier" value="modifiers\entity_veterency_experience_modifier">
-												<enum name="application_type" value="apply_to_squad" />
-												<bool name="exclusive" value="False" />
-												<string name="modifier_id" value="" />
-												<string name="target_type_name" value="" />
-												<enum name="usage_type" value="multiply_add" />
-												<float name="value" value="0.12" />
-												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
-											</template_reference>
-										</list>
-										<uniqueid name="id" value="1073748051" />
-									</template_reference>
-								</list>
-								<list name="squad_entity_actions">
-								</list>
-							</group>
-							<group name="veterancy_rank">
-								<float name="experience_value" value="14298" />
-								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11071465" />
-								<bool name="single_player_only" value="False" />
-								<list name="leader_actions">
-								</list>
-								<list name="non_leader_actions">
-								</list>
-								<list name="squad_actions">
-									<template_reference name="action" value="action\apply_modifiers_action">
-										<float name="duration" value="0" />
-										<bool name="permanent" value="True" />
-										<list name="modifiers">
-											<template_reference name="modifier" value="modifiers\entity_veterency_experience_modifier">
-												<enum name="application_type" value="apply_to_squad" />
-												<bool name="exclusive" value="False" />
-												<string name="modifier_id" value="" />
-												<string name="target_type_name" value="" />
-												<enum name="usage_type" value="multiply_add" />
-												<float name="value" value="0.12" />
-												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
-											</template_reference>
-										</list>
-										<uniqueid name="id" value="1073748052" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
