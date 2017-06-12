@@ -177,7 +177,7 @@
 		<float name="move_back_distance" value="10" />
 		<float name="range" value="120" />
 		<bool name="range_ignore" value="False" />
-		<float name="recharge_time" value="150" />
+		<float name="recharge_time" value="120" />
 		<bool name="refundable" value="True" />
 		<bool name="require_no_shot_block" value="False" />
 		<enum name="shared_timer" value="squad_ability_1" />
@@ -235,11 +235,6 @@
 				<locstring name="ui_name" value="0" />
 				<instance_reference name="critical_name" value="critical\vehicle_gunner_injured" />
 				<bool name="is_present" value="False" />
-			</template_reference>
-			<template_reference name="required" value="requirements\required_squad_veterancy">
-				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="11072945" />
-				<float name="veterancy_rank" value="1" />
 			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />
