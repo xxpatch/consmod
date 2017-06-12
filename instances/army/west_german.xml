@@ -150,7 +150,6 @@
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\passive_ability\heat_shells_unlock" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\passive_ability\tank_commander_unlock" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch\urban_assault_light_infantry" />
-			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\king_tiger_dispatch" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\passive_ability\howitzer_105mm_emplacement_unlock_okw" />
 		</list>
 		<group name="resource_max_cap">
@@ -245,7 +244,7 @@
 				<instance_reference name="base_building" value="ebps\races\west_german\buildings\base_building\heavy_armor_support_mp" />
 				<instance_reference name="base_building" value="ebps\races\west_german\buildings\base_building\infantry_support_mp" />
 				<instance_reference name="base_building" value="ebps\races\west_german\buildings\base_building\light_armor_support_mp" />
-				<instance_reference name="base_building" value="ebps\races\west_german\buildings\base_building\hq\west_german_hq_mp" />
+				<instance_reference name="base_building" value="ebps\races\west_german\buildings\base_building\hq\west_german_hq_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 			<list name="unlocking_upgrade_list">
 			</list>
@@ -300,7 +299,7 @@
 		<list name="starting_buildings">
 			<group name="starting_building">
 				<string name="key" value="default" />
-				<instance_reference name="building" value="ebps\races\west_german\buildings\base_building\hq\west_german_hq_mp" />
+				<instance_reference name="building" value="ebps\races\west_german\buildings\base_building\hq\west_german_hq_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<list name="starting_squads">
 					<group name="starting_squad">
 						<instance_reference name="squad" value="sbps\races\west_german\vehicles\kubelwagen_squad\kubelwagen_squad_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
@@ -312,7 +311,7 @@
 			</group>
 			<group name="starting_building">
 				<string name="key" value="default_mp" />
-				<instance_reference name="building" value="ebps\races\west_german\buildings\base_building\hq\west_german_hq_mp" />
+				<instance_reference name="building" value="ebps\races\west_german\buildings\base_building\hq\west_german_hq_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<list name="starting_squads">
 					<group name="starting_squad">
 						<instance_reference name="squad" value="sbps\races\west_german\vehicles\kubelwagen_squad\kubelwagen_squad_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
