@@ -1074,7 +1074,7 @@
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_team_weapon_ext">
-			<bool name="can_auto_face_target" value="False" />
+			<bool name="can_auto_face_target" value="True" />
 			<list name="in_setup_action">
 			</list>
 			<list name="can_setup_requirement">
