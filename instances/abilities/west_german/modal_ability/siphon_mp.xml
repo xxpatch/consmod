@@ -44,6 +44,11 @@
 							<bool name="is_secured_by_checkpoint" value="False" />
 							<bool name="not_in_transition" value="False" />
 						</template_reference>
+						<template_reference name="required" value="requirements\required_ownership">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<enum name="ownership_type" value="enemy" />
+						</template_reference>
 					</list>
 					<list name="action_table">
 						<template_reference name="action" value="action\apply_modifiers_action">
@@ -105,6 +110,15 @@
 							</list>
 							<uniqueid name="id" value="1073753178" />
 						</template_reference>
+						<template_reference name="action" value="action\sector_highlight">
+							<float name="highlight_r" value="238" />
+							<float name="highlight_g" value="113" />
+							<float name="highlight_b" value="25" />
+							<float name="highlight_a" value="200" />
+							<bool name="self_only" value="False" />
+							<uniqueid name="id" value="1073754509" />
+							<int name="priority" value="500" />
+						</template_reference>
 					</list>
 					<uniqueid name="id" value="1073753182" />
 					<bool name="fire_and_forget_non_global" value="False" />
@@ -137,6 +151,11 @@
 							<bool name="is_secured" value="False" />
 							<bool name="is_secured_by_checkpoint" value="False" />
 							<bool name="not_in_transition" value="False" />
+						</template_reference>
+						<template_reference name="required" value="requirements\required_ownership">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<enum name="ownership_type" value="enemy" />
 						</template_reference>
 					</list>
 					<list name="action_table">
@@ -181,6 +200,15 @@
 							</list>
 							<uniqueid name="id" value="1073753185" />
 						</template_reference>
+						<template_reference name="action" value="action\sector_highlight">
+							<float name="highlight_r" value="238" />
+							<float name="highlight_g" value="113" />
+							<float name="highlight_b" value="25" />
+							<float name="highlight_a" value="200" />
+							<bool name="self_only" value="False" />
+							<uniqueid name="id" value="1073754510" />
+							<int name="priority" value="500" />
+						</template_reference>
 					</list>
 					<uniqueid name="id" value="1073753189" />
 					<bool name="fire_and_forget_non_global" value="False" />
@@ -213,6 +241,11 @@
 							<bool name="is_secured" value="False" />
 							<bool name="is_secured_by_checkpoint" value="False" />
 							<bool name="not_in_transition" value="False" />
+						</template_reference>
+						<template_reference name="required" value="requirements\required_ownership">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<enum name="ownership_type" value="enemy" />
 						</template_reference>
 					</list>
 					<list name="action_table">
@@ -257,6 +290,15 @@
 							</list>
 							<uniqueid name="id" value="1073753192" />
 						</template_reference>
+						<template_reference name="action" value="action\sector_highlight">
+							<float name="highlight_r" value="238" />
+							<float name="highlight_g" value="113" />
+							<float name="highlight_b" value="25" />
+							<float name="highlight_a" value="200" />
+							<bool name="self_only" value="False" />
+							<uniqueid name="id" value="1073754508" />
+							<int name="priority" value="500" />
+						</template_reference>
 					</list>
 					<uniqueid name="id" value="1073753196" />
 					<bool name="fire_and_forget_non_global" value="False" />
@@ -264,15 +306,6 @@
 						<int name="phrase_order" value="0" />
 						<locstring name="phrase" value="0" />
 					</template_reference>
-				</template_reference>
-				<template_reference name="action" value="action\sector_highlight">
-					<float name="highlight_r" value="238" />
-					<float name="highlight_g" value="113" />
-					<float name="highlight_b" value="25" />
-					<float name="highlight_a" value="200" />
-					<bool name="self_only" value="False" />
-					<uniqueid name="id" value="1073753433" />
-					<int name="priority" value="500" />
 				</template_reference>
 			</list>
 		</group>
