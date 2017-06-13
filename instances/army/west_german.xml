@@ -326,7 +326,7 @@
 				<instance_reference name="building" value="" />
 				<list name="starting_squads">
 					<group name="starting_squad">
-						<instance_reference name="squad" value="sbps\races\west_german\team_weapons\flak_emplacement\flak_emplacement_base" />
+						<instance_reference name="squad" value="sbps\races\west_german\team_weapons\flak_emplacement\flak_emplacement_base" mod="f2791205c6e743b6a340ef0daf60b957" />
 						<bool name="check_requirements" value="False" />
 					</group>
 				</list>
