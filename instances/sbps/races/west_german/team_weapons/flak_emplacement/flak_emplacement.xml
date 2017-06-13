@@ -164,6 +164,10 @@
 					<float name="num" value="1" />
 					<instance_reference name="type" value="ebps\races\west_german\buildings\defensive_structures\flak_emplacement" />
 				</group>
+				<group name="loadout_data">
+					<float name="num" value="2" />
+					<instance_reference name="type" value="ebps\races\west_german\soldiers\weapon_crew\flak_emplacement_crew" />
+				</group>
 			</list>
 			<float name="squad_female_chance" value="0" />
 		</template_reference>

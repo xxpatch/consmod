@@ -148,7 +148,7 @@
 			<bool name="must_be_in_territory" value="False" />
 			<bool name="must_be_on" value="False" />
 			<bool name="must_not_be_in_walkable_surfaces" value="True" />
-			<instance_reference name="on_construction_squad" value="sbps\races\west_german\team_weapons\flak_emplacement\flak_emplacement" mod="f2791205c6e743b6a340ef0daf60b957" />
+			<instance_reference name="on_construction_squad" value="sbps\races\west_german\team_weapons\flak_emplacement\flak_emplacement" />
 			<float name="orientation" value="0" />
 			<enum name="placement_type" value="tp_structure" />
 			<bool name="prefer_spots_on_side_with_leader" value="False" />
@@ -183,7 +183,7 @@
 							<instance_reference name="tooltip" value="modifier_tooltip\received_damage_modifier" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073753745" />
+					<uniqueid name="id" value="1073754459" />
 				</template_reference>
 			</list>
 			<list name="materials">
@@ -414,7 +414,7 @@
 					<float name="scale_x" value="6" />
 					<float name="scale_y" value="6" />
 					<bool name="undoable" value="False" />
-					<uniqueid name="id" value="1073753746" />
+					<uniqueid name="id" value="1073754457" />
 				</template_reference>
 				<template_reference name="action" value="action\apply_modifiers_action">
 					<float name="duration" value="0" />
@@ -430,7 +430,7 @@
 							<instance_reference name="tooltip" value="modifier_tooltip\received_damage_modifier" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073753747" />
+					<uniqueid name="id" value="1073754458" />
 				</template_reference>
 			</list>
 		</template_reference>
@@ -529,7 +529,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\west_german\team_weapons\flak_emplacement\flak_emplacement" mod="f2791205c6e743b6a340ef0daf60b957" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\west_german\team_weapons\flak_emplacement\flak_emplacement" />
 						<float name="max_capture_crew_size" value="2" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
@@ -563,7 +563,7 @@
 				<template_reference name="action" value="action\retreat_action">
 					<instance_reference name="entity_type_to_retreat_to" value="" />
 					<enum name="retreat_type" value="withdraw_to_edge" />
-					<uniqueid name="id" value="1073753748" />
+					<uniqueid name="id" value="1073754460" />
 					<float name="refund_percent_after_retreat" value="0" />
 				</template_reference>
 				<template_reference name="action" value="action\apply_modifiers_action">
@@ -580,7 +580,7 @@
 							<instance_reference name="tooltip" value="modifier_tooltip\sight_radius_modifier" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073753749" />
+					<uniqueid name="id" value="1073754461" />
 				</template_reference>
 			</list>
 			<list name="role_list">
@@ -601,30 +601,6 @@
 			</list>
 			<float name="destroy_on_abandon_health_threshold" value="-1" />
 			<list name="on_abandon_weapon_action">
-			</list>
-		</template_reference>
-		<template_reference name="exts" value="ebpextensions\crew_ext">
-			<list name="race_list">
-				<group name="race_data">
-					<instance_reference name="ext_key" value="" />
-					<group name="info">
-						<string name="sync_target_name" value="Vehicle_Target" />
-						<list name="role_list">
-							<group name="role">
-								<string name="animator_bp" value="armies\german\soldiers\vehicle_crew\vehicle_crew" />
-								<string name="death_event_name" value="Death_crew" />
-								<string name="desync_action_name" value="Detach_Skeleton" />
-								<string name="role_name" value="Gunner" />
-								<string name="sync_action_name" value="attach_gunner_flak_gun_target" />
-								<bool name="sync_on_create" value="True" />
-								<string name="abandon_event_name" value="" />
-								<string name="animator_bp_female" value="" />
-							</group>
-						</list>
-						<template_reference name="additional_crew_option" value="options\none">
-						</template_reference>
-					</group>
-				</group>
 			</list>
 		</template_reference>
 	</list>
