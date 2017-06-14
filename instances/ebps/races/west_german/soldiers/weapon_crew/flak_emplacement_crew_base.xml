@@ -194,7 +194,7 @@
 					</list>
 				</group>
 			</list>
-			<float name="weapon_priority" value="0" />
+			<float name="weapon_priority" value="-80" />
 			<template_reference name="wreck_entity_option" value="options\none">
 			</template_reference>
 			<list name="self_destruct_actions">
