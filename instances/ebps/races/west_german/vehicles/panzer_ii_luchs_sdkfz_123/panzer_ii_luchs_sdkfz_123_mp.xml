@@ -20,7 +20,7 @@
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\grenades\tank_throw_defensive_grenade_mp" />
 				<instance_reference name="ability" value="abilities\west_german\toggle_ability\luchs_hold_fire_mp" />
 				<instance_reference name="ability" value="abilities\west_german\toggle_ability\okw_vehicle_hold_fire_mp" />
-				<instance_reference name="ability" value="abilities\west_german\timed_ability\luchs_suppression_mp" />
+				<instance_reference name="ability" value="abilities\west_german\timed_ability\luchs_suppression_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext">
