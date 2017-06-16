@@ -422,6 +422,22 @@
 											<bool name="permanent" value="False" />
 											<uniqueid name="id" value="1073746921" />
 										</template_reference>
+										<template_reference name="action" value="action\change_target_action">
+											<list name="actions">
+												<template_reference name="action" value="action\ui_unit_modifier_action">
+													<bool name="die_with_creator" value="True" />
+													<template_reference name="ui_info" value="tables\ui_info">
+														<locstring name="screen_name" value="255" mod="f2791205c6e743b6a340ef0daf60b957" />
+														<locstring name="help_text" value="254" mod="f2791205c6e743b6a340ef0daf60b957" />
+														<icon name="icon_name" value="Icons_abilities_ability_british_critical_shot" />
+														<string name="hotkey_name" value="" />
+													</template_reference>
+													<uniqueid name="id" value="1073754542" />
+												</template_reference>
+											</list>
+											<enum name="change_target_type" value="squad" />
+											<uniqueid name="id" value="1073754541" />
+										</template_reference>
 									</list>
 									<uniqueid name="id" value="1073746920" />
 								</template_reference>
