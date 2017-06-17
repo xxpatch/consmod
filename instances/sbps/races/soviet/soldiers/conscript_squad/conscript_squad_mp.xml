@@ -162,7 +162,7 @@
 			<list name="unit_list">
 				<group name="loadout_data">
 					<float name="num" value="6" />
-					<instance_reference name="type" value="ebps\races\soviet\soldiers\conscript_soldier\conscript_soldier_mp" />
+					<instance_reference name="type" value="ebps\races\soviet\soldiers\conscript_soldier\conscript_soldier_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				</group>
 			</list>
 			<float name="squad_female_chance" value="0" />
@@ -396,7 +396,16 @@
 								<enum name="application_type" value="apply_to_ability" />
 								<bool name="exclusive" value="False" />
 								<string name="modifier_id" value="" />
-								<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\grenades\conscript_molotov_cocktail_mp" />
+								<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\grenades\conscript_molotov_cocktail_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+								<enum name="usage_type" value="multiplication" />
+								<float name="value" value="0.67" />
+								<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
+							</template_reference>
+							<template_reference name="modifier" value="modifiers\ability_max_range_modifier">
+								<enum name="application_type" value="apply_to_ability" />
+								<bool name="exclusive" value="False" />
+								<string name="modifier_id" value="" />
+								<instance_reference name="target_type_name" value="abilities\soviet\modal_ability\grenades\conscript_molotov_cocktail_vet_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 								<enum name="usage_type" value="multiplication" />
 								<float name="value" value="0.67" />
 								<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
