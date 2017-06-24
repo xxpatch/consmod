@@ -19,6 +19,7 @@
 				<instance_reference name="ability" value="abilities\west_german\toggle_ability\kubelwagen_detection_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\german\toggle_ability\handbrake_mode_new_mp" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\siphon_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<instance_reference name="ability" value="abilities\west_german\toggle_ability\battle_plans\armor_plans\kubel_prowl_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext">
@@ -826,15 +827,15 @@
 			<float name="attack_priority" value="20" />
 			<enum name="camouflage_type" value="tp_global" />
 			<bool name="chain_revealer" value="False" />
-			<float name="detection_radius" value="10" />
+			<float name="detection_radius" value="15" />
 			<bool name="must_be_fully_constructed" value="False" />
 			<bool name="permanently_activated" value="False" />
 			<float name="combat_reset_time" value="10" />
 			<float name="first_strike_shots" value="1" />
-			<float name="revert_max" value="10" />
+			<float name="revert_max" value="20" />
 			<float name="revert_multiplier" value="2" />
-			<float name="revert_time" value="5" />
-			<float name="revert_time_on_detection" value="5" />
+			<float name="revert_time" value="15" />
+			<float name="revert_time_on_detection" value="15" />
 			<list name="camouflage_actions">
 			</list>
 			<list name="first_strike_actions">

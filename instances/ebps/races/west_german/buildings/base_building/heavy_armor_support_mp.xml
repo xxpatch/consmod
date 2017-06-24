@@ -141,6 +141,7 @@
 		<template_reference name="exts" value="ebpextensions\ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\west_german\always_on_ability\dispatch_ability\sws_halftrack_forward_receivers" />
+				<instance_reference name="ability" value="abilities\west_german\toggle_ability\base_building_retreat_point_mp" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\construction_ext">
@@ -599,6 +600,7 @@
 			<float name="number_of_standard_slots" value="-1" />
 			<list name="standard_upgrades">
 				<instance_reference name="upgrade" value="upgrade\west_german\research\medic_healing_mp" />
+				<instance_reference name="upgrade" value="upgrade\west_german\research\retreat_point_unlock_upgrade" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\spawner_ext">

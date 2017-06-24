@@ -454,10 +454,11 @@
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
 				<instance_reference name="ability" value="abilities\german\modal_ability\infantry_medkits_mp" />
 				<instance_reference name="ability" value="abilities\german\timed_ability\stormtrooper_sprint_mp" />
-				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\assault_officer_victor_target" />
+				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\assault_officer_victor_target" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\assault_officer_inspiration" />
 				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\officer_smoke_artillery" />
 				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\assault_officer_inspiration_vet3" />
+				<instance_reference name="ability" value="abilities\german\modal_ability\commander_ability\assault_officer_mortar_barrage_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>
@@ -651,7 +652,7 @@
 												<enum name="application_type" value="apply_to_ability" />
 												<bool name="exclusive" value="False" />
 												<string name="modifier_id" value="" />
-												<instance_reference name="target_type_name" value="abilities\german\modal_ability\commander_ability\assault_officer_victor_target" />
+												<instance_reference name="target_type_name" value="abilities\german\modal_ability\commander_ability\assault_officer_victor_target" mod="f2791205c6e743b6a340ef0daf60b957" />
 												<enum name="usage_type" value="multiplication" />
 												<float name="value" value="1.4" />
 												<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />

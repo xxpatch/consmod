@@ -87,6 +87,22 @@
 									<enum name="change_target_type" value="squad" />
 									<uniqueid name="id" value="1073747127" />
 								</template_reference>
+								<template_reference name="action" value="action\change_target_action">
+									<list name="actions">
+										<template_reference name="action" value="action\ui_unit_modifier_action">
+											<bool name="die_with_creator" value="False" />
+											<template_reference name="ui_info" value="tables\ui_info">
+												<locstring name="screen_name" value="284" mod="f2791205c6e743b6a340ef0daf60b957" />
+												<locstring name="help_text" value="285" mod="f2791205c6e743b6a340ef0daf60b957" />
+												<icon name="icon_name" value="Icons_abilities_ability_aef_priority_targeting_off" />
+												<string name="hotkey_name" value="" />
+											</template_reference>
+											<uniqueid name="id" value="1073755129" />
+										</template_reference>
+									</list>
+									<enum name="change_target_type" value="squad" />
+									<uniqueid name="id" value="1073755128" />
+								</template_reference>
 							</list>
 							<uniqueid name="id" value="1073747121" />
 							<bool name="fire_and_forget_non_global" value="False" />
@@ -205,6 +221,22 @@
 									</list>
 									<enum name="change_target_type" value="entities" />
 									<uniqueid name="id" value="1073747131" />
+								</template_reference>
+								<template_reference name="action" value="action\change_target_action">
+									<list name="actions">
+										<template_reference name="action" value="action\ui_unit_modifier_action">
+											<bool name="die_with_creator" value="False" />
+											<template_reference name="ui_info" value="tables\ui_info">
+												<locstring name="screen_name" value="282" mod="f2791205c6e743b6a340ef0daf60b957" />
+												<locstring name="help_text" value="283" mod="f2791205c6e743b6a340ef0daf60b957" />
+												<icon name="icon_name" value="Icons_abilities_ability_aef_priority_targeting_off" />
+												<string name="hotkey_name" value="" />
+											</template_reference>
+											<uniqueid name="id" value="1073755126" />
+										</template_reference>
+									</list>
+									<enum name="change_target_type" value="squad" />
+									<uniqueid name="id" value="1073755124" />
 								</template_reference>
 							</list>
 							<uniqueid name="id" value="1073747120" />

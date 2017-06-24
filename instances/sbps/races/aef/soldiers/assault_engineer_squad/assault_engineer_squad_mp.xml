@@ -649,6 +649,11 @@
 										</list>
 										<uniqueid name="id" value="1073742901" />
 									</template_reference>
+									<template_reference name="action" value="action\add_to_squad_loadout_action">
+										<uniqueid name="id" value="1073755219" />
+										<instance_reference name="unit_type" value="ebps\races\aef\soldiers\assault_engineer\assault_engineer_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+										<int name="count" value="1" />
+									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
 									<template_reference name="action" value="action\apply_modifiers_action">
@@ -841,7 +846,7 @@
 			<instance_reference name="vaulting_formation" value="squad_formations\vaulting" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_population_ext">
-			<float name="personnel_pop" value="4" />
+			<float name="personnel_pop" value="3" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_engineer_ext">
 			<float name="construction_rate_multiplier" value="1" />

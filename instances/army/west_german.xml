@@ -247,6 +247,27 @@
 				<instance_reference name="base_building" value="ebps\races\west_german\buildings\base_building\hq\west_german_hq_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 			<list name="unlocking_upgrade_list">
+				<group name="unlocking_upgrade_info">
+					<instance_reference name="upgrade_pbg" value="upgrade\west_german\research\schwerer_tank_unlock_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+					<instance_reference name="unlocked_ability" value="" />
+					<instance_reference name="unlocked_building" value="ebps\races\west_german\buildings\base_building\infantry_support_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+					<list name="upgraded_squads">
+					</list>
+				</group>
+				<group name="unlocking_upgrade_info">
+					<instance_reference name="upgrade_pbg" value="upgrade\west_german\research\medic_healing_mp" />
+					<instance_reference name="unlocked_ability" value="" />
+					<instance_reference name="unlocked_building" value="ebps\races\west_german\buildings\base_building\heavy_armor_support_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+					<list name="upgraded_squads">
+					</list>
+				</group>
+				<group name="unlocking_upgrade_info">
+					<instance_reference name="upgrade_pbg" value="upgrade\west_german\research\repair_engineers_mp" />
+					<instance_reference name="unlocked_ability" value="" />
+					<instance_reference name="unlocked_building" value="ebps\races\west_german\buildings\base_building\light_armor_support_mp" />
+					<list name="upgraded_squads">
+					</list>
+				</group>
 			</list>
 			<group name="builder_squads">
 				<instance_reference name="base_builder_squad" value="sbps\races\west_german\vehicles\sws_halftrack_squad\sws_halftrack_squad_mp" />

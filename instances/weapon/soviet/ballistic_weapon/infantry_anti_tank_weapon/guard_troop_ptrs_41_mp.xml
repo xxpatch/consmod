@@ -392,7 +392,7 @@
 							<bool name="display_requirement" value="True" />
 							<float name="max_owned" value="8" />
 							<float name="min_owned" value="0" />
-							<instance_reference name="slot_item" value="slot_item\soviet\guards_twp_debuff_item_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+							<instance_reference name="slot_item" value="slot_item\soviet\guards_disabling_fire_debuff_item_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						</template_reference>
 					</list>
 					<list name="action_table">
@@ -418,7 +418,7 @@
 									<bool name="fire_and_forget" value="False" />
 									<list name="subactions">
 										<template_reference name="action" value="action\slot_item_add">
-											<instance_reference name="slot_item" value="slot_item\soviet\guards_twp_debuff_item_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+											<instance_reference name="slot_item" value="slot_item\soviet\guards_disabling_fire_debuff_item_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 											<bool name="permanent" value="False" />
 											<uniqueid name="id" value="1073746921" />
 										</template_reference>
@@ -485,7 +485,7 @@
 									<bool name="display_requirement" value="True" />
 									<float name="max_owned" value="8" />
 									<float name="min_owned" value="0" />
-									<instance_reference name="slot_item" value="slot_item\soviet\guards_twp_debuff_item_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+									<instance_reference name="slot_item" value="slot_item\soviet\guards_disabling_fire_debuff_item_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 								</template_reference>
 							</list>
 						</template_reference>
