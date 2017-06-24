@@ -499,6 +499,11 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_action_apply_ext">
 			<list name="actions">
+				<template_reference name="action" value="action\upgrade_remove">
+					<bool name="apply_to_entities_in_squad" value="True" />
+					<instance_reference name="upgrade" value="upgrade\aef\ability_lock_out\popcap_holder_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+					<uniqueid name="id" value="1073755504" />
+				</template_reference>
 			</list>
 			<list name="squad_entity_actions">
 			</list>

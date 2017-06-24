@@ -16,7 +16,7 @@
 					<list name="entity_table">
 					</list>
 					<list name="squad_table">
-						<instance_reference name="squad" value="sbps\races\aef\vehicles\m3_halftrack_squad\m3_halftrack_squad_assault_mp" />
+						<instance_reference name="squad" value="sbps\races\aef\vehicles\m3_halftrack_squad\m3_halftrack_squad_assault_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 					</list>
 					<bool name="use_attack_move" value="False" />
 					<uniqueid name="id" value="1073755175" />

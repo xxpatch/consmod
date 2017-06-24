@@ -396,7 +396,7 @@
 			<template_reference name="can_recrew_abandoned_option" value="options\sbpextensions\squad_combat_behaviour_ext\can_recrew_abandoned">
 				<template_reference name="is_mobile_driver_option" value="options\sbpextensions\squad_combat_behaviour_ext\is_mobile_driver">
 					<list name="abilities_to_bring">
-						<instance_reference name="ability" value="abilities\aef\timed_ability\vehicle_decrew_medics_mp" />
+						<instance_reference name="ability" value="abilities\aef\timed_ability\vehicle_decrew_medics_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 					</list>
 				</template_reference>
 			</template_reference>
