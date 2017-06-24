@@ -274,7 +274,7 @@
 		<float name="recharge_time" value="60" />
 		<bool name="refundable" value="False" />
 		<bool name="require_no_shot_block" value="False" />
-		<enum name="shared_timer" value="" />
+		<enum name="shared_timer" value="generic_unit_shared" />
 		<bool name="shared_timer_player_wide" value="False" />
 		<group name="speech_code_2">
 			<string name="code_1" value="" />
@@ -366,7 +366,7 @@
 		<string name="ui_targetable_on_key" value="" />
 		<string name="ui_targetable_off_key" value="" />
 		<enum name="ui_targetable_receiver" value="local" />
-		<enum name="ui_combine_type" value="intersection" />
+		<enum name="ui_combine_type" value="union" />
 		<enum name="ui_group_cast_type" value="single" />
 		<enum_table name="ui_modal_highlight">
 			<bool name="world_sector" value="False" />

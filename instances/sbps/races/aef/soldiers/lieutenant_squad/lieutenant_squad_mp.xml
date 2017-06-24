@@ -17,7 +17,7 @@
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
 						<locstring name="screen_name" value="11051143" />
-						<string name="selection_group" value="aef_officer" />
+						<string name="selection_group" value="rifleman" />
 						<group name="speaker_generic">
 							<string name="code_1" value="lt" />
 							<string name="code_2" value="" />
@@ -601,6 +601,7 @@
 				<instance_reference name="ability" value="abilities\aef\modal_ability\sp\refuel_tank_sp" />
 				<instance_reference name="ability" value="abilities\pm\american\specializations\lt_specialization\lt_specialization_focus" />
 				<instance_reference name="ability" value="abilities\aef\timed_ability\officer_stop_retreat_mp" />
+				<instance_reference name="ability" value="abilities\aef\modal_ability\lieutenant_push_forward_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>
