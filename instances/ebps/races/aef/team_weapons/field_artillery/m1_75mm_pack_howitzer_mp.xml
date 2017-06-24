@@ -256,7 +256,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\aef\explosive_weapons\light_artillery\pack_howitzer_75mm_auto_attack_mp" />
+							<instance_reference name="weapon" value="weapon\aef\explosive_weapons\light_artillery\pack_howitzer_75mm_auto_attack_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -277,7 +277,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\aef\explosive_weapons\light_artillery\pack_howitzer_75mm_barrage_mp" />
+							<instance_reference name="weapon" value="weapon\aef\explosive_weapons\light_artillery\pack_howitzer_75mm_barrage_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -298,7 +298,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\aef\explosive_weapons\light_artillery\pack_howitzer_75mm_white_phosphorous_mp" />
+							<instance_reference name="weapon" value="weapon\aef\explosive_weapons\light_artillery\pack_howitzer_75mm_white_phosphorous_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -340,7 +340,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\aef\explosive_weapons\light_artillery\pack_howitzer_75mm_barrage_heat_mp" />
+							<instance_reference name="weapon" value="weapon\aef\explosive_weapons\light_artillery\pack_howitzer_75mm_barrage_heat_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
