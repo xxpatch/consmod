@@ -592,7 +592,6 @@
 				<instance_reference name="ability" value="abilities\west_german\timed_ability\commander_ability\vehicle_emergency_repair_ability_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\west_german\timed_ability\commander_ability\heat_shells_ability_mp" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\coordinated_barrage" mod="f2791205c6e743b6a340ef0daf60b957" />
-				<instance_reference name="ability" value="abilities\west_german\toggle_ability\battle_plans\armor_plans\panzer_iv_spearhead_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>

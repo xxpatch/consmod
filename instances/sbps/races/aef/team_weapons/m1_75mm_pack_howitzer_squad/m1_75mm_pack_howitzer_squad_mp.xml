@@ -466,7 +466,7 @@
 					<bool name="is_present" value="True" />
 					<float name="max_completed" value="100" />
 					<float name="min_completed" value="1" />
-					<instance_reference name="upgrade_name" value="upgrade\aef\research\captain_dispatched_upgrade_mp" />
+					<instance_reference name="upgrade_name" value="upgrade\aef\research\captain_dispatched_upgrade_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				</template_reference>
 				<template_reference name="required" value="requirements\required_any_in_list">
 					<enum name="reason" value="display" />
@@ -969,7 +969,6 @@
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_howitzer" />
-				<instance_reference name="ability" value="abilities\aef\toggle_ability\usf_hold_fire_pack_howitzer_mp" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>

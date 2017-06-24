@@ -145,22 +145,22 @@
 								<instance_reference name="tooltip" value="modifier_tooltip\cooldown_weapon_modifier" />
 							</template_reference>
 						</list>
-						<uniqueid name="id" value="1073746918" />
+						<uniqueid name="id" value="1073755316" />
 					</template_reference>
 					<template_reference name="action" value="action\change_move_data_action">
 						<float name="acceleration_multiplier" value="0.93" />
 						<float name="deceleration_multiplier" value="0.93" />
 						<float name="pathfinding_size_x" value="0" />
 						<float name="pathfinding_size_y" value="0" />
-						<uniqueid name="id" value="1073746919" />
+						<uniqueid name="id" value="1073755317" />
 					</template_reference>
 				</list>
 				<enum name="change_target_type" value="entities" />
-				<uniqueid name="id" value="1073746917" />
+				<uniqueid name="id" value="1073755318" />
 			</template_reference>
 		</list>
 		<list name="on_drop_actions">
 		</list>
 	</group>
-	<uniqueid name="pbgid" value="1073741831" />
+	<uniqueid name="pbgid" value="1073741833" />
 </instance>

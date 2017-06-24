@@ -52,5 +52,5 @@
 		<list name="on_drop_actions">
 		</list>
 	</group>
-	<uniqueid name="pbgid" value="1073741835" />
+	<uniqueid name="pbgid" value="1073741841" />
 </instance>

@@ -101,7 +101,7 @@
 						<instance_reference name="target_type_name" value="abilities\german\modal_ability\dispatch\tiger_tank_ace" />
 					</template_reference>
 				</list>
-				<uniqueid name="id" value="1073747133" />
+				<uniqueid name="id" value="1073755320" />
 			</template_reference>
 		</list>
 		<list name="requirements">
@@ -117,5 +117,5 @@
 		<list name="on_begin_actions">
 		</list>
 	</group>
-	<uniqueid name="pbgid" value="1073741837" />
+	<uniqueid name="pbgid" value="1073741851" />
 </instance>

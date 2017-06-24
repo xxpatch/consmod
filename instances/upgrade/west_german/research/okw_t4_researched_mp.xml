@@ -137,7 +137,7 @@
 						<instance_reference name="tooltip" value="modifier_tooltip\ability_cost_manpower_modifier" />
 					</template_reference>
 				</list>
-				<uniqueid name="id" value="1073754237" />
+				<uniqueid name="id" value="1073755322" />
 			</template_reference>
 		</list>
 		<list name="requirements">
@@ -153,5 +153,5 @@
 		<list name="on_begin_actions">
 		</list>
 	</group>
-	<uniqueid name="pbgid" value="1073741846" />
+	<uniqueid name="pbgid" value="1073741853" />
 </instance>
