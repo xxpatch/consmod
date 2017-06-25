@@ -166,17 +166,17 @@
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\projectile_ext">
-			<float name="acceleration" value="5" />
+			<float name="acceleration" value="20" />
 			<group name="artillery">
 				<bool name="can_counter_barrage" value="False" />
 				<bool name="is_artillery" value="True" />
 				<bool name="is_target_only" value="False" />
 				<float name="speed_distance_multiplier" value="0.05" />
 				<float name="speed_increment" value="0.5" />
-				<enum name="firing_angle_type" value="low_angle" />
+				<enum name="firing_angle_type" value="lowest_non_collide_angle" />
 				<bool name="use_homing_when_no_blocker" value="False" />
 				<float name="non_collide_start_angle" value="10" />
-				<float name="non_collide_end_angle" value="89" />
+				<float name="non_collide_end_angle" value="25" />
 			</group>
 			<float name="building_hit_fx_delay" value="0" />
 			<bool name="collision_building_wall_panel_ignore" value="False" />
@@ -184,7 +184,7 @@
 				<template_reference name="collision_type" value="type_projectile_collision\tp_artillery">
 				</template_reference>
 			</group>
-			<float name="deathtimer" value="2.5" />
+			<float name="deathtimer" value="4" />
 			<float name="delay_detonate_time" value="0" />
 			<bool name="delay_detonate_ui_enabled" value="False" />
 			<string name="launcher_marker" value="Marker_Tank_Barrel_End" />
@@ -198,7 +198,7 @@
 			<list name="actions">
 				<template_reference name="action" value="action\animator_set_state">
 					<bool name="apply_to_leader_only" value="False" />
-					<string name="do_action_state_name" value="artillery" />
+					<string name="do_action_state_name" value="tank_gun" />
 					<bool name="retrigger" value="False" />
 					<string name="state_machine_name" value="projectile_use" />
 					<string name="undo_action_state_name" value="" />
