@@ -509,7 +509,7 @@
 				<float name="max_down" value="-90" />
 				<float name="max_left" value="-25" />
 				<float name="max_right" value="25" />
-				<float name="max_up" value="66" />
+				<float name="max_up" value="90" />
 				<float name="speed_horizontal" value="25" />
 				<float name="speed_vertical" value="25" />
 			</group>

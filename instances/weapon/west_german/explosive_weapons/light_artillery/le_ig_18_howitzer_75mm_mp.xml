@@ -98,7 +98,7 @@
 			<bool name="enable_auto_target_search" value="True" />
 			<bool name="fire_at_building_combat_slot" value="False" />
 			<float name="ground_hit_rate" value="1" />
-			<bool name="ignore_shot_blocking" value="True" />
+			<bool name="ignore_shot_blocking" value="False" />
 			<bool name="non_moving_setup" value="False" />
 			<bool name="point_blank" value="False" />
 			<bool name="prevents_prone" value="False" />
@@ -347,7 +347,7 @@
 		</group>
 		<group name="projectile">
 			<bool name="delete_previous_on_hit" value="False" />
-			<instance_reference name="projectile" value="ebps\projectile\west_german_75mm_ig_18_isg_projectile_low_angle_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+			<instance_reference name="projectile" value="ebps\projectile\west_german_75mm_ig_18_isg_projectile_high_angle_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 		</group>
 		<group name="range">
 			<float name="max" value="70" />
