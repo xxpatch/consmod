@@ -238,6 +238,21 @@
 				<float name="min_owned" value="1" />
 				<instance_reference name="slot_item" value="slot_item\aef\small_arms\paratrooper_thompson_mp" />
 			</template_reference>
+			<template_reference name="required" value="requirements\required_not">
+				<enum name="reason" value="usage_and_display" />
+				<locstring name="ui_name" value="0" />
+				<list name="requirement_table">
+					<template_reference name="required" value="requirements\required_slot_item">
+						<enum name="reason" value="usage_and_display" />
+						<locstring name="ui_name" value="11069057" />
+						<bool name="check_item_on_entity" value="False" />
+						<bool name="display_requirement" value="True" />
+						<float name="max_owned" value="10" />
+						<float name="min_owned" value="1" />
+						<instance_reference name="slot_item" value="slot_item\aef\small_arms\paratrooper_m1919a6_lmg_mp" />
+					</template_reference>
+				</list>
+			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />
 		<int name="ui_position" value="33" />
