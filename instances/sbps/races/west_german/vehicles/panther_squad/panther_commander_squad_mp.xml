@@ -466,7 +466,7 @@
 							<bool name="is_present" value="True" />
 							<float name="max_completed" value="100" />
 							<float name="min_completed" value="1" />
-							<instance_reference name="upgrade_name" value="upgrade\west_german\commander\ability\command_panther" />
+							<instance_reference name="upgrade_name" value="upgrade\west_german\commander\ability\command_panther" mod="f2791205c6e743b6a340ef0daf60b957" />
 						</template_reference>
 						<template_reference name="requirement" value="requirements\required_resource">
 							<enum name="reason" value="usage" />
