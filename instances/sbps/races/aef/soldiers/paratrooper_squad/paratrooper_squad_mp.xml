@@ -7,16 +7,16 @@
 				<group name="race_data">
 					<group name="info">
 						<bool name="allow_spawner_production" value="False" />
-						<locstring name="extra_text" value="292" mod="f2791205c6e743b6a340ef0daf60b957" />
+						<locstring name="extra_text" value="11051545" />
 						<bool name="has_speech_code" value="True" />
-						<locstring name="help_text" value="11073190" />
+						<locstring name="help_text" value="11051548" />
 						<string name="hotkey_name" value="W" />
 						<icon name="icon_name" value="Icons_units_unit_aef_paratroopers" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="" />
 						<instance_reference name="modal_ability" value="" />
 						<bool name="reveal_for_decryption" value="True" />
-						<locstring name="screen_name" value="291" mod="f2791205c6e743b6a340ef0daf60b957" />
+						<locstring name="screen_name" value="11051147" />
 						<string name="selection_group" value="paratrooper" />
 						<group name="speaker_generic">
 							<string name="code_1" value="pa" />
@@ -49,7 +49,7 @@
 						</group>
 						<icon name="portrait_name_summer" value="Icons_portraits_unit_aef_paratrooper_s_portrait" />
 						<float name="minimap_texture_scale" value="1" />
-						<locstring name="brief_text" value="11074406" />
+						<locstring name="brief_text" value="11051542" />
 						<locstring name="screen_name_short" value="0" />
 						<enum name="map_rotation_type_override" value="no_override" />
 						<bool name="decoratable" value="True" />
@@ -199,6 +199,14 @@
 							<float name="min_completed" value="1" />
 							<instance_reference name="upgrade_name" value="upgrade\pm\american\commanders\support\pm_support_unlock" />
 						</template_reference>
+						<template_reference name="requirement" value="requirements\required_player_upgrade">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<bool name="is_present" value="True" />
+							<float name="max_completed" value="100" />
+							<float name="min_completed" value="1" />
+							<instance_reference name="upgrade_name" value="upgrade\pm\american\unit_unlocks\pm_paratroopers_unlock" />
+						</template_reference>
 					</list>
 				</template_reference>
 			</list>
@@ -210,7 +218,7 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_upgrade_ext">
 			<float name="number_of_slots" value="-1" />
 			<list name="upgrades">
-				<instance_reference name="upgrade" value="upgrade\aef\items\paratrooper_thompson_sub_machine_gun_upgrade_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<instance_reference name="upgrade" value="upgrade\aef\items\paratrooper_thompson_sub_machine_gun_upgrade_mp" />
 				<instance_reference name="upgrade" value="upgrade\aef\items\paratrooper_m1919a6_lmg_mp" />
 				<instance_reference name="upgrade" value="upgrade\pm\american\specializations\troop_support\troop_support_medics_upg" />
 				<instance_reference name="upgrade" value="upgrade\aef\items\paratrooper_m1919a6_lmg_1_mp" />
@@ -324,7 +332,7 @@
 								<instance_reference name="tooltip" value="modifier_tooltip\move_enable_modifier" />
 							</template_reference>
 						</list>
-						<uniqueid name="id" value="1073755032" />
+						<uniqueid name="id" value="1073756128" />
 					</template_reference>
 					<template_reference name="action" value="action\delay">
 						<float name="delay" value="10" />
@@ -346,10 +354,10 @@
 										<instance_reference name="tooltip" value="modifier_tooltip\received_accuracy_modifier" />
 									</template_reference>
 								</list>
-								<uniqueid name="id" value="1073755033" />
+								<uniqueid name="id" value="1073756129" />
 							</template_reference>
 						</list>
-						<uniqueid name="id" value="1073755034" />
+						<uniqueid name="id" value="1073756130" />
 						<bool name="can_prevent_refund" value="True" />
 					</template_reference>
 					<template_reference name="action" value="action\animator_set_state">
@@ -358,7 +366,7 @@
 						<bool name="retrigger" value="False" />
 						<string name="state_machine_name" value="suppression" />
 						<string name="undo_action_state_name" value="normal" />
-						<uniqueid name="id" value="1073755035" />
+						<uniqueid name="id" value="1073756131" />
 					</template_reference>
 				</list>
 				<list name="suppressed_activate_actions">
@@ -412,7 +420,7 @@
 								<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
 							</template_reference>
 						</list>
-						<uniqueid name="id" value="1073755036" />
+						<uniqueid name="id" value="1073756132" />
 					</template_reference>
 					<template_reference name="action" value="action\requirement_action">
 						<bool name="check_self" value="False" />
@@ -446,10 +454,10 @@
 										<instance_reference name="tooltip" value="modifier_tooltip\received_suppression_squad_modifier" />
 									</template_reference>
 								</list>
-								<uniqueid name="id" value="1073755037" />
+								<uniqueid name="id" value="1073756133" />
 							</template_reference>
 						</list>
-						<uniqueid name="id" value="1073755038" />
+						<uniqueid name="id" value="1073756134" />
 						<bool name="fire_and_forget_non_global" value="False" />
 						<template_reference name="ui_help_text" value="tables\help_text_phrase">
 							<int name="phrase_order" value="0" />
@@ -482,7 +490,7 @@
 			<template_reference name="can_recrew_abandoned_option" value="options\sbpextensions\squad_combat_behaviour_ext\can_recrew_abandoned">
 				<template_reference name="is_mobile_driver_option" value="options\sbpextensions\squad_combat_behaviour_ext\is_mobile_driver">
 					<list name="abilities_to_bring">
-						<instance_reference name="ability" value="abilities\aef\timed_ability\vehicle_decrew_generic_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+						<instance_reference name="ability" value="abilities\aef\timed_ability\vehicle_decrew_generic_mp" />
 					</list>
 				</template_reference>
 			</template_reference>
@@ -494,7 +502,7 @@
 				<template_reference name="action" value="action\override_move_type_action">
 					<instance_reference name="move_type" value="move_type\assault_stance_test_move" />
 					<float name="priority" value="1200" />
-					<uniqueid name="id" value="1073755039" />
+					<uniqueid name="id" value="1073756135" />
 				</template_reference>
 				<template_reference name="action" value="action\requirement_action">
 					<bool name="check_self" value="False" />
@@ -559,7 +567,7 @@
 									<instance_reference name="tooltip" value="modifier_tooltip\health_regeneration_modifier" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073755040" />
+							<uniqueid name="id" value="1073756136" />
 						</template_reference>
 						<template_reference name="action" value="action\animator_set_state">
 							<bool name="apply_to_leader_only" value="False" />
@@ -567,7 +575,7 @@
 							<bool name="retrigger" value="True" />
 							<string name="state_machine_name" value="ability_heal_state" />
 							<string name="undo_action_state_name" value="off" />
-							<uniqueid name="id" value="1073755041" />
+							<uniqueid name="id" value="1073756137" />
 						</template_reference>
 						<template_reference name="action" value="action\ui_unit_modifier_action">
 							<bool name="die_with_creator" value="False" />
@@ -577,10 +585,10 @@
 								<icon name="icon_name" value="Icons_abilities_ability_common_heal" />
 								<string name="hotkey_name" value="" />
 							</template_reference>
-							<uniqueid name="id" value="1073755042" />
+							<uniqueid name="id" value="1073756138" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073755043" />
+					<uniqueid name="id" value="1073756139" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -627,10 +635,10 @@
 									<instance_reference name="tooltip" value="modifier_tooltip\squad_chill_per_tick_modifier" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073755044" />
+							<uniqueid name="id" value="1073756140" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073755045" />
+					<uniqueid name="id" value="1073756141" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -683,25 +691,15 @@
 									<instance_reference name="tooltip" value="modifier_tooltip\capture_rate_squad_modifier" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073755046" />
+							<uniqueid name="id" value="1073756142" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073755047" />
+					<uniqueid name="id" value="1073756143" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
 						<locstring name="phrase" value="0" />
 					</template_reference>
-				</template_reference>
-				<template_reference name="action" value="action\slot_item_add">
-					<instance_reference name="slot_item" value="slot_item\aef\ballistic_weapon\infantry_at_weapon\bazooka_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-					<bool name="permanent" value="True" />
-					<uniqueid name="id" value="1073755058" />
-				</template_reference>
-				<template_reference name="action" value="action\slot_item_add">
-					<instance_reference name="slot_item" value="slot_item\aef\ballistic_weapon\infantry_at_weapon\bazooka_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-					<bool name="permanent" value="True" />
-					<uniqueid name="id" value="1073755059" />
 				</template_reference>
 			</list>
 			<list name="squad_entity_actions">
@@ -722,6 +720,18 @@
 					<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
 				</template_reference>
 			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext">
+			<list name="abilities">
+				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
+				<instance_reference name="ability" value="abilities\aef\modal_ability\grenades\paratrooper_mk2_fragmentation_grenade_mp" />
+				<instance_reference name="ability" value="abilities\aef\modal_ability\paratrooper_suppressing_fire_ability_mp" />
+				<instance_reference name="ability" value="abilities\aef\modal_ability\paratrooper_assault_move_test_mp" />
+				<instance_reference name="ability" value="abilities\pm\aef\specializations\cover_specialization\cover_specialization_hunker_down" />
+				<instance_reference name="ability" value="abilities\aef\modal_ability\paratrooper_timed_demo_mp" />
+				<instance_reference name="ability" value="abilities\aef\modal_ability\sp\refuel_tank_sp" />
+			</list>
+			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_reinforce_ext">
 			<group name="time_cost_percentage">
@@ -779,7 +789,7 @@
 			<list name="actions">
 				<template_reference name="action" value="action\suppression">
 					<float name="suppression" value="0" />
-					<uniqueid name="id" value="1073755048" />
+					<uniqueid name="id" value="1073756144" />
 					<float name="supressionrecovertime" value="0" />
 				</template_reference>
 			</list>
@@ -856,77 +866,6 @@
 			</list>
 			<instance_reference name="vaulting_formation" value="squad_formations\vaulting" />
 		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_population_ext">
-			<float name="personnel_pop" value="3" />
-		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_type_ext">
-			<list name="squad_type_list">
-				<enum name="squad_type" value="infantry" />
-				<enum name="squad_type" value="aef_paratroopers_3_man" />
-				<enum name="squad_type" value="aef_unit" />
-			</list>
-		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_shared_veterancy_ext">
-			<float name="multiplier_pct_self" value="1" />
-			<float name="multiplier_pct_share" value="0.5" />
-			<float name="radius" value="35" />
-			<enum name="shared_veterancy_type" value="tp_commonwealth_infantry" />
-		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_paradrop_ext">
-			<float name="spawn_time_scatter" value="2" />
-		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_engineer_ext">
-			<float name="construction_rate_multiplier" value="1" />
-			<list name="in_construction_actions">
-				<template_reference name="action" value="action\apply_modifiers_action">
-					<float name="duration" value="0" />
-					<bool name="permanent" value="False" />
-					<list name="modifiers">
-						<template_reference name="modifier" value="modifiers\received_accuracy_modifier">
-							<enum name="application_type" value="apply_to_entity" />
-							<bool name="exclusive" value="False" />
-							<string name="modifier_id" value="" />
-							<string name="target_type_name" value="" />
-							<enum name="usage_type" value="multiplication" />
-							<float name="value" value="2" />
-							<instance_reference name="tooltip" value="modifier_tooltip\received_accuracy_modifier" />
-						</template_reference>
-					</list>
-					<uniqueid name="id" value="1073755049" />
-				</template_reference>
-			</list>
-			<list name="construction_groups">
-				<group name="construction_group">
-					<instance_reference name="construction_menu" value="construction_menu\basic_infantry" />
-					<list name="construction_items">
-						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\gameplay\buildable_campfire_mp" />
-							<int name="ui_position" value="11" />
-						</group>
-						<group name="construction_item">
-							<instance_reference name="ebp" value="" />
-							<int name="ui_position" value="0" />
-						</group>
-						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\races\aef\buildings\defensive_structures\aef_mine_mp" />
-							<int name="ui_position" value="13" />
-						</group>
-					</list>
-					<enum name="construction_type" value="tp_construction_soviet_engineer_basic" />
-				</group>
-			</list>
-		</template_reference>
-		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext">
-			<list name="abilities">
-				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
-				<instance_reference name="ability" value="abilities\aef\modal_ability\grenades\paratrooper_mk2_fragmentation_grenade_mp" />
-				<instance_reference name="ability" value="abilities\aef\modal_ability\paratrooper_suppressing_fire_ability_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-				<instance_reference name="ability" value="abilities\aef\modal_ability\paratrooper_assault_move_test_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-				<instance_reference name="ability" value="abilities\pm\aef\specializations\cover_specialization\cover_specialization_hunker_down" />
-				<instance_reference name="ability" value="abilities\aef\modal_ability\sp\refuel_tank_sp" />
-			</list>
-			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
-		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_veterancy_ext">
 			<list name="race_list">
 				<group name="race_data">
@@ -965,7 +904,7 @@
 												<enum name="usage_type" value="multiplication" />
 												<float name="value" value="0.75" />
 												<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
-												<instance_reference name="target_type_name" value="abilities\aef\modal_ability\paratrooper_assault_move_test_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+												<instance_reference name="target_type_name" value="abilities\aef\modal_ability\paratrooper_assault_move_test_mp" />
 											</template_reference>
 											<template_reference name="modifier" value="modifiers\ability_recharge_time_modifier">
 												<enum name="application_type" value="apply_to_ability" />
@@ -974,7 +913,7 @@
 												<enum name="usage_type" value="multiplication" />
 												<float name="value" value="0.75" />
 												<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
-												<instance_reference name="target_type_name" value="abilities\aef\modal_ability\paratrooper_suppressing_fire_ability_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+												<instance_reference name="target_type_name" value="abilities\aef\modal_ability\paratrooper_suppressing_fire_ability_mp" />
 											</template_reference>
 											<template_reference name="modifier" value="modifiers\ability_recharge_time_modifier">
 												<enum name="application_type" value="apply_to_ability" />
@@ -986,7 +925,7 @@
 												<instance_reference name="target_type_name" value="abilities\aef\modal_ability\paratrooper_timed_demo_mp" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073755050" />
+										<uniqueid name="id" value="1073756145" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -1002,7 +941,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073755051" />
+										<uniqueid name="id" value="1073756146" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
@@ -1032,7 +971,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073755052" />
+										<uniqueid name="id" value="1073756147" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -1048,7 +987,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073755053" />
+										<uniqueid name="id" value="1073756148" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
@@ -1065,17 +1004,8 @@
 												<float name="value" value="1.25" />
 												<instance_reference name="tooltip" value="modifier_tooltip\accuracy_weapon_modifier" />
 											</template_reference>
-											<template_reference name="modifier" value="modifiers\reload_weapon_modifier">
-												<enum name="application_type" value="apply_to_weapon" />
-												<bool name="exclusive" value="False" />
-												<string name="modifier_id" value="" />
-												<string name="target_type_name" value="hardpoint_01" />
-												<enum name="usage_type" value="multiplication" />
-												<float name="value" value="0.85" />
-												<instance_reference name="tooltip" value="modifier_tooltip\reload_weapon_modifier" />
-											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073755054" />
+										<uniqueid name="id" value="1073756149" />
 									</template_reference>
 								</list>
 							</group>
@@ -1103,7 +1033,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\received_accuracy_modifier" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073755055" />
+										<uniqueid name="id" value="1073756150" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -1119,7 +1049,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073755056" />
+										<uniqueid name="id" value="1073756151" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
@@ -1137,7 +1067,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\cooldown_weapon_modifier" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073755057" />
+										<uniqueid name="id" value="1073756152" />
 									</template_reference>
 								</list>
 							</group>
@@ -1147,6 +1077,62 @@
 				</group>
 			</list>
 		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_population_ext">
+			<float name="personnel_pop" value="3" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_type_ext">
+			<list name="squad_type_list">
+				<enum name="squad_type" value="infantry" />
+				<enum name="squad_type" value="aef_paratroopers_3_man" />
+				<enum name="squad_type" value="aef_unit" />
+			</list>
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_shared_veterancy_ext">
+			<float name="multiplier_pct_self" value="1" />
+			<float name="multiplier_pct_share" value="0.5" />
+			<float name="radius" value="35" />
+			<enum name="shared_veterancy_type" value="tp_commonwealth_infantry" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_paradrop_ext">
+			<float name="spawn_time_scatter" value="2" />
+		</template_reference>
+		<template_reference name="squadexts" value="sbpextensions\squad_engineer_ext">
+			<float name="construction_rate_multiplier" value="1" />
+			<list name="in_construction_actions">
+				<template_reference name="action" value="action\apply_modifiers_action">
+					<float name="duration" value="0" />
+					<bool name="permanent" value="False" />
+					<list name="modifiers">
+						<template_reference name="modifier" value="modifiers\received_accuracy_modifier">
+							<enum name="application_type" value="apply_to_entity" />
+							<bool name="exclusive" value="False" />
+							<string name="modifier_id" value="" />
+							<string name="target_type_name" value="" />
+							<enum name="usage_type" value="multiplication" />
+							<float name="value" value="2" />
+							<instance_reference name="tooltip" value="modifier_tooltip\received_accuracy_modifier" />
+						</template_reference>
+					</list>
+					<uniqueid name="id" value="1073756153" />
+				</template_reference>
+			</list>
+			<list name="construction_groups">
+				<group name="construction_group">
+					<instance_reference name="construction_menu" value="construction_menu\basic_infantry" />
+					<list name="construction_items">
+						<group name="construction_item">
+							<instance_reference name="ebp" value="ebps\races\aef\pm\buildings\defensive_structures\aef_sandbagwall_cover_specialization" />
+							<int name="ui_position" value="13" />
+						</group>
+						<group name="construction_item">
+							<instance_reference name="ebp" value="ebps\gameplay\buildable_campfire_mp" />
+							<int name="ui_position" value="11" />
+						</group>
+					</list>
+					<enum name="construction_type" value="tp_construction_soviet_engineer_basic" />
+				</group>
+			</list>
+		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="1073741823" />
+	<uniqueid name="pbgid" value="2628" />
 </instance>
