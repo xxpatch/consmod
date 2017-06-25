@@ -1287,7 +1287,7 @@
 							</template_reference>
 						</list>
 						<float name="driver_death_chance_on_entity_death" value="1" />
-						<instance_reference name="driver_squad_blueprint" value="sbps\races\aef\soldiers\vehicle_crew_squad\vehicle_crew_squad_mp" />
+						<instance_reference name="driver_squad_blueprint" value="sbps\races\aef\soldiers\vehicle_crew_squad\vehicle_crew_squad_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 					</group>
 				</group>
 				<group name="race_data">
