@@ -229,24 +229,18 @@
 				<locstring name="ui_name" value="11071180" />
 				<enum name="reason" value="usage" />
 			</template_reference>
-			<template_reference name="required" value="requirements\required_any_in_list">
+			<template_reference name="required" value="requirements\required_slot_item">
 				<enum name="reason" value="usage_and_display" />
 				<locstring name="ui_name" value="0" />
-				<list name="requirements">
-					<template_reference name="requirement" value="requirements\required_slot_item">
-						<enum name="reason" value="usage_and_display" />
-						<locstring name="ui_name" value="0" />
-						<bool name="check_item_on_entity" value="True" />
-						<bool name="display_requirement" value="True" />
-						<float name="max_owned" value="10" />
-						<float name="min_owned" value="1" />
-						<instance_reference name="slot_item" value="slot_item\aef\small_arms\paratrooper_thompson_mp" />
-					</template_reference>
-				</list>
+				<bool name="check_item_on_entity" value="True" />
+				<bool name="display_requirement" value="True" />
+				<float name="max_owned" value="10" />
+				<float name="min_owned" value="1" />
+				<instance_reference name="slot_item" value="slot_item\aef\small_arms\paratrooper_thompson_mp" />
 			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />
-		<int name="ui_position" value="34" />
+		<int name="ui_position" value="33" />
 		<bool name="ui_mini_map_capture" value="False" />
 		<bool name="facing_ignore_during_active" value="False" />
 		<instance_reference name="ui_range" value="" />
