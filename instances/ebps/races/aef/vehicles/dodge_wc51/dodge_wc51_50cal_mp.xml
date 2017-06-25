@@ -59,7 +59,7 @@
 				<group name="cost">
 					<float name="action" value="0" />
 					<float name="command" value="0" />
-					<float name="fuel" value="20" />
+					<float name="fuel" value="10" />
 					<float name="manpower" value="240" />
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
@@ -74,7 +74,7 @@
 			<float name="death_seconds" value="1.8" />
 			<bool name="delete_when_dead" value="True" />
 			<bool name="force_attacker_memory" value="False" />
-			<float name="hitpoints" value="180" />
+			<float name="hitpoints" value="240" />
 			<bool name="is_invincible" value="False" />
 			<bool name="is_salvagable_wreck" value="False" />
 			<bool name="keep_wreck_ownership" value="False" />
@@ -91,8 +91,8 @@
 			<instance_reference name="wreck_entity" value="ebps\environment\art_ambient\objects\vehicles\wrecked_vehicles\wrecked_wc51" />
 			<list name="death_actions">
 			</list>
-			<float name="armor" value="5.2" />
-			<float name="rear_armor" value="4" />
+			<float name="armor" value="3.9" />
+			<float name="rear_armor" value="2.5" />
 			<float name="target_size" value="14" />
 			<bool name="dies_from_broken_ice" value="True" />
 			<list name="criticals">
@@ -750,7 +750,7 @@
 			<float name="high_path_look_ahead_max_dist" value="25" />
 			<bool name="orient_to_terrain" value="True" />
 			<instance_reference name="pass_type" value="pass_types\light_crusher" />
-			<float name="rotation_rate" value="30" />
+			<float name="rotation_rate" value="45" />
 			<float name="rotation_rate_crouch" value="870" />
 			<float name="rotation_rate_prone" value="225" />
 			<float name="rotation_rate_stand" value="870" />

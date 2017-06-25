@@ -40,7 +40,7 @@
 					<list name="action_table">
 						<template_reference name="action" value="action\spawn_entity">
 							<float name="duration" value="999999" />
-							<instance_reference name="entity_blueprint" value="ebps\races\aef\buildings\defensive_structures\aef_16_pop_holder_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+							<instance_reference name="entity_blueprint" value="ebps\races\aef\buildings\defensive_structures\aef_15_pop_holder_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 							<bool name="permanent" value="False" />
 							<bool name="player_owned" value="True" />
 							<group name="target_info">
@@ -366,7 +366,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\population_ext">
 			<float name="medic_pop" value="0" />
-			<float name="personnel_pop" value="16" />
+			<float name="personnel_pop" value="15" />
 			<float name="vehicle_pop" value="0" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\sight_ext">
