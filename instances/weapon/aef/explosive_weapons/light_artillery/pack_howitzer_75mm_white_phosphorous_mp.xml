@@ -98,7 +98,7 @@
 			<bool name="enable_auto_target_search" value="False" />
 			<bool name="fire_at_building_combat_slot" value="False" />
 			<float name="ground_hit_rate" value="1" />
-			<bool name="ignore_shot_blocking" value="True" />
+			<bool name="ignore_shot_blocking" value="False" />
 			<bool name="non_moving_setup" value="False" />
 			<bool name="point_blank" value="False" />
 			<bool name="prevents_prone" value="False" />
@@ -457,7 +457,7 @@
 				<float name="max_down" value="-90" />
 				<float name="max_left" value="-25" />
 				<float name="max_right" value="25" />
-				<float name="max_up" value="75" />
+				<float name="max_up" value="66" />
 				<float name="speed_horizontal" value="25" />
 				<float name="speed_vertical" value="25" />
 			</group>

@@ -98,7 +98,7 @@
 			<bool name="enable_auto_target_search" value="True" />
 			<bool name="fire_at_building_combat_slot" value="False" />
 			<float name="ground_hit_rate" value="1" />
-			<bool name="ignore_shot_blocking" value="True" />
+			<bool name="ignore_shot_blocking" value="False" />
 			<bool name="non_moving_setup" value="False" />
 			<bool name="point_blank" value="False" />
 			<bool name="prevents_prone" value="False" />
@@ -371,7 +371,7 @@
 			<float name="distance_bracket_count_ground" value="1" />
 			<float name="distance_scatter_max" value="8" />
 			<float name="distance_scatter_obj_hit_min" value="0" />
-			<float name="distance_scatter_offset" value="0.3" />
+			<float name="distance_scatter_offset" value="0" />
 			<float name="distance_scatter_ratio" value="0.1" />
 			<float name="fow_angle_multiplier" value="1.25" />
 			<float name="fow_distance_multiplier" value="1.25" />
@@ -420,7 +420,7 @@
 				<float name="max_down" value="-90" />
 				<float name="max_left" value="-15" />
 				<float name="max_right" value="15" />
-				<float name="max_up" value="75" />
+				<float name="max_up" value="66" />
 				<float name="speed_horizontal" value="25" />
 				<float name="speed_vertical" value="25" />
 			</group>
