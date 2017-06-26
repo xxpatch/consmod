@@ -451,7 +451,7 @@
 				</group>
 				<group name="loadout_data">
 					<float name="num" value="1" />
-					<instance_reference name="type" value="ebps\races\british\team_weapons\at_gun_6_pounder\brit_6_pounder_at_gun_mp" />
+					<instance_reference name="type" value="ebps\races\british\team_weapons\at_gun_6_pounder\brit_6_pounder_at_gun_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				</group>
 			</list>
 			<float name="squad_female_chance" value="0" />
