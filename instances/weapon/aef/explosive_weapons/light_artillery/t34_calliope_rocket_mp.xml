@@ -388,8 +388,8 @@
 		</group>
 		<group name="reload">
 			<group name="duration">
-				<float name="max" value="1.5" />
-				<float name="min" value="1.5" />
+				<float name="max" value="0" />
+				<float name="min" value="0" />
 			</group>
 			<group name="duration_multiplier">
 				<float name="far" value="1" />
@@ -397,8 +397,8 @@
 				<float name="mid" value="1" />
 			</group>
 			<group name="frequency">
-				<float name="max" value="9" />
-				<float name="min" value="9" />
+				<float name="max" value="0" />
+				<float name="min" value="0" />
 			</group>
 			<list name="on_reload_actions" comment="This is to remove a slot item for an animator_set_state that we only want to trigger on the first shot of the calliope ability salvos&#xD;&#xA;&#xD;&#xA;/C-Mart Feb 6 2015">
 				<template_reference name="action" value="action\slot_item_remove">

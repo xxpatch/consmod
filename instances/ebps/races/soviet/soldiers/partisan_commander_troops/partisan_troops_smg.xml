@@ -31,7 +31,7 @@
 					<float name="action" value="0" />
 					<float name="command" value="0" />
 					<float name="fuel" value="0" />
-					<float name="manpower" value="54" />
+					<float name="manpower" value="50" />
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
 				</group>
@@ -724,6 +724,7 @@
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_deep_snow_camo" />
 				<instance_reference name="ability" value="abilities\global\custom_commander\heal_in_cover" />
+				<instance_reference name="ability" value="abilities\west_german\always_on_ability\flakhq_scan_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\camouflage_ext">
