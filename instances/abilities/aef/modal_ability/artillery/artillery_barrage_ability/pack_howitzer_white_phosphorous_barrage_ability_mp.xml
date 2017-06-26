@@ -129,7 +129,7 @@
 			<locstring name="screen_name_short" value="0" />
 		</group>
 		<locstring name="ui_usage_txt" value="0" />
-		<bool name="validate_actions" value="True" />
+		<bool name="validate_actions" value="False" />
 		<list name="global_self_actions">
 		</list>
 		<list name="requirements">
