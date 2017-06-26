@@ -447,7 +447,7 @@
 			<list name="unit_list">
 				<group name="loadout_data">
 					<float name="num" value="1" />
-					<instance_reference name="type" value="ebps\races\german\team_weapons\granatewerfer_34_81mm_mortar_mp" />
+					<instance_reference name="type" value="ebps\races\german\team_weapons\granatewerfer_34_81mm_mortar_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				</group>
 				<group name="loadout_data">
 					<float name="num" value="4" />
@@ -985,7 +985,6 @@
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_mortars" />
-				<instance_reference name="ability" value="abilities\german\toggle_ability\german_mortar_hold_fire_mp" />
 				<instance_reference name="ability" value="abilities\german\timed_ability\retreat_to_forward_hq" />
 				<instance_reference name="ability" value="abilities\german\timed_ability\stormtrooper_sprint_mp" />
 			</list>
