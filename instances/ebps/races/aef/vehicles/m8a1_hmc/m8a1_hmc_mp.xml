@@ -18,7 +18,7 @@
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_vehicle" />
 				<instance_reference name="ability" value="abilities\aef\modal_ability\artillery\artillery_barrage_ability\m8a1_hmc_75mm_barrage_ability_mp" />
 				<instance_reference name="ability" value="abilities\aef\modal_ability\artillery\artillery_barrage_ability\m8a1_hmc_smoke_barrage_mp" />
-				<instance_reference name="ability" value="abilities\aef\modal_ability\m36_m8_concealing_smoke_vet" />
+				<instance_reference name="ability" value="abilities\aef\modal_ability\m36_m8_concealing_smoke_vet" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\aef\toggle_ability\usf_hold_fire_mp" />
 			</list>
 		</template_reference>

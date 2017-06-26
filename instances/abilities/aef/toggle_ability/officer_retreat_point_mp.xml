@@ -236,6 +236,12 @@
 					</list>
 					<uniqueid name="id" value="1073755315" />
 				</template_reference>
+				<template_reference name="action" value="action\upgrade_add">
+					<bool name="apply_to_entities_in_squad" value="False" />
+					<bool name="trigger_publish_event" value="False" />
+					<instance_reference name="upgrade" value="upgrade\aef\ability_lock_out\major_frp_active_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+					<uniqueid name="id" value="1073756249" />
+				</template_reference>
 			</list>
 			<list name="start_target_actions">
 			</list>
