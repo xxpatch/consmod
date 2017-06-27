@@ -451,7 +451,7 @@
 				</group>
 				<group name="loadout_data">
 					<float name="num" value="4" />
-					<instance_reference name="type" value="ebps\races\west_german\soldiers\weapon_crew\hmg_crew_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+					<instance_reference name="type" value="ebps\races\west_german\soldiers\weapon_crew\anti_tank_gun_crew_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				</group>
 			</list>
 			<float name="squad_female_chance" value="0" />
