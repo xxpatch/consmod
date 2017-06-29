@@ -179,7 +179,7 @@
 							<instance_reference name="tooltip" value="modifier_tooltip\received_damage_modifier" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073756410" />
+					<uniqueid name="id" value="1073756435" />
 				</template_reference>
 				<template_reference name="action" value="action\requirement_action">
 					<bool name="check_self" value="False" />
@@ -189,13 +189,19 @@
 					<bool name="no_retrigger" value="False" />
 					<bool name="validate_all_sub_actions" value="True" />
 					<list name="requirement_table">
-						<template_reference name="required" value="requirements\required_player_upgrade">
+						<template_reference name="required" value="requirements\required_not">
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
-							<bool name="is_present" value="False" />
-							<float name="max_completed" value="100" />
-							<float name="min_completed" value="1" />
-							<instance_reference name="upgrade_name" value="upgrade\aef\ability_lock_out\caches_multiplayer_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+							<list name="requirement_table">
+								<template_reference name="required" value="requirements\required_player_upgrade">
+									<enum name="reason" value="usage" />
+									<locstring name="ui_name" value="0" />
+									<bool name="is_present" value="True" />
+									<float name="max_completed" value="100" />
+									<float name="min_completed" value="2" />
+									<instance_reference name="upgrade_name" value="upgrade\aef\ability_lock_out\caches_multiplayer_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+								</template_reference>
+							</list>
 						</template_reference>
 					</list>
 					<list name="action_table">
@@ -213,10 +219,10 @@
 									<instance_reference name="tooltip" value="modifier_tooltip\munition_resource_per_tick_modifier" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073756411" />
+							<uniqueid name="id" value="1073756436" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073756412" />
+					<uniqueid name="id" value="1073756437" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -236,7 +242,7 @@
 							<locstring name="ui_name" value="0" />
 							<bool name="is_present" value="True" />
 							<float name="max_completed" value="100" />
-							<float name="min_completed" value="1" />
+							<float name="min_completed" value="2" />
 							<instance_reference name="upgrade_name" value="upgrade\aef\ability_lock_out\caches_multiplayer_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						</template_reference>
 					</list>
@@ -255,10 +261,10 @@
 									<instance_reference name="tooltip" value="modifier_tooltip\munition_resource_per_tick_modifier" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073756413" />
+							<uniqueid name="id" value="1073756438" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073756414" />
+					<uniqueid name="id" value="1073756439" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />

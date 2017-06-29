@@ -189,13 +189,19 @@
 					<bool name="no_retrigger" value="False" />
 					<bool name="validate_all_sub_actions" value="True" />
 					<list name="requirement_table">
-						<template_reference name="required" value="requirements\required_player_upgrade">
+						<template_reference name="required" value="requirements\required_not">
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
-							<bool name="is_present" value="False" />
-							<float name="max_completed" value="100" />
-							<float name="min_completed" value="1" />
-							<instance_reference name="upgrade_name" value="upgrade\aef\ability_lock_out\caches_multiplayer_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+							<list name="requirement_table">
+								<template_reference name="required" value="requirements\required_player_upgrade">
+									<enum name="reason" value="usage" />
+									<locstring name="ui_name" value="0" />
+									<bool name="is_present" value="True" />
+									<float name="max_completed" value="100" />
+									<float name="min_completed" value="2" />
+									<instance_reference name="upgrade_name" value="upgrade\aef\ability_lock_out\caches_multiplayer_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+								</template_reference>
+							</list>
 						</template_reference>
 					</list>
 					<list name="action_table">
@@ -236,7 +242,7 @@
 							<locstring name="ui_name" value="0" />
 							<bool name="is_present" value="True" />
 							<float name="max_completed" value="100" />
-							<float name="min_completed" value="1" />
+							<float name="min_completed" value="2" />
 							<instance_reference name="upgrade_name" value="upgrade\aef\ability_lock_out\caches_multiplayer_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						</template_reference>
 					</list>
