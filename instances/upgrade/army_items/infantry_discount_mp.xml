@@ -248,7 +248,7 @@
 								<string name="modifier_id" value="caches_fix" />
 								<instance_reference name="target_type_name" value="ebps\races\aef\buildings\observation_post\observation_post_munition_aef_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 								<enum name="usage_type" value="addition" />
-								<float name="value" value="50" />
+								<float name="value" value="100" />
 								<instance_reference name="tooltip" value="modifier_tooltip\cost_manpower_modifier" />
 							</template_reference>
 							<template_reference name="modifier" value="modifiers\cost_manpower_modifier">
@@ -257,7 +257,7 @@
 								<string name="modifier_id" value="caches_fix" />
 								<instance_reference name="target_type_name" value="ebps\races\german\buildings\observation_post\munition_post_german_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 								<enum name="usage_type" value="addition" />
-								<float name="value" value="50" />
+								<float name="value" value="100" />
 								<instance_reference name="tooltip" value="modifier_tooltip\cost_manpower_modifier" />
 							</template_reference>
 							<template_reference name="modifier" value="modifiers\cost_manpower_modifier">
@@ -266,7 +266,7 @@
 								<string name="modifier_id" value="caches_fix" />
 								<instance_reference name="target_type_name" value="ebps\races\soviet\buildings\observation_post\observation_post_munition_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 								<enum name="usage_type" value="addition" />
-								<float name="value" value="50" />
+								<float name="value" value="100" />
 								<instance_reference name="tooltip" value="modifier_tooltip\cost_manpower_modifier" />
 							</template_reference>
 						</list>
