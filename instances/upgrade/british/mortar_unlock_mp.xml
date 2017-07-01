@@ -31,11 +31,11 @@
 		<int name="ui_position" value="1" />
 		<group name="ui_info">
 			<locstring name="extra_text" value="305" mod="f2791205c6e743b6a340ef0daf60b957" />
-			<locstring name="help_text" value="0" />
+			<locstring name="help_text" value="306" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<string name="hotkey_name" value="T" />
 			<icon name="icon_name" value="Icons_buildings_building_british_3_inch_mortar_emplacement" />
 			<bool name="reveal_for_decryption" value="True" />
-			<locstring name="screen_name" value="0" />
+			<locstring name="screen_name" value="307" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<locstring name="brief_text" value="0" />
 			<locstring name="screen_name_short" value="0" />
 			<enum name="ui_style" value="default" />
