@@ -221,7 +221,7 @@
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\ability_ext">
 			<list name="abilities">
-				<instance_reference name="ability" value="abilities\british\modal_ability\artillery\artillery_barrage_ability\bofors_suppressive_barrage_ability_mp" />
+				<instance_reference name="ability" value="abilities\british\modal_ability\artillery\artillery_barrage_ability\bofors_suppressive_barrage_ability_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\construction_ext">
@@ -232,7 +232,7 @@
 			<string name="construction_state_name" value="build_shovel_sandbag_state" />
 			<float name="construction_transition_time" value="1.36666" />
 			<bool name="force_construction" value="False" />
-			<float name="max_engineers" value="8" />
+			<float name="max_engineers" value="4" />
 			<bool name="must_be_in_command_territory" value="False" />
 			<bool name="must_be_in_line_of_sight" value="False" />
 			<bool name="must_be_in_supply_territory" value="True" />
@@ -270,7 +270,7 @@
 							<string name="modifier_id" value="" />
 							<string name="target_type_name" value="" />
 							<enum name="usage_type" value="addition" />
-							<float name="value" value="35" />
+							<float name="value" value="24" />
 							<instance_reference name="tooltip" value="modifier_tooltip\armor_modifier" />
 						</template_reference>
 					</list>
@@ -314,7 +314,7 @@
 			<instance_reference name="placement_valid" value="ui_rectangle\construction_placement_valid" />
 			<instance_reference name="placement_invalid" value="ui_rectangle\construction_placement_invalid" />
 			<instance_reference name="ui_range" value="ui_reticule\ability_range_default" />
-			<float name="ui_range_radius" value="0" />
+			<float name="ui_range_radius" value="45" />
 			<instance_reference name="ui_setfacing" value="" />
 			<bool name="query_weapon_for_range_ui" value="True" />
 			<bool name="squad_ignore_pathfinding" value="False" />
@@ -330,7 +330,7 @@
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
 				</group>
-				<float name="time_seconds" value="150" />
+				<float name="time_seconds" value="120" />
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\demolishable_ext">

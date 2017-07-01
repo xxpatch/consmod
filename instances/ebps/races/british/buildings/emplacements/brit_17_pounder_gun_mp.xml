@@ -17,7 +17,7 @@
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_deep_snow_camo" />
 				<instance_reference name="ability" value="abilities\british\modal_ability\brit_17_pounder_flares_ability_mp" />
-				<instance_reference name="ability" value="abilities\british\timed_ability\brit_17_pounder_piercing_shell_ability_mp" />
+				<instance_reference name="ability" value="abilities\british\timed_ability\brit_17_pounder_piercing_shell_ability_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\british\toggle_ability\brit_vehicle_hold_fire_mp" />
 				<instance_reference name="ability" value="abilities\aef\toggle_ability\usf_hold_fire_mp" />
 			</list>
@@ -297,7 +297,7 @@
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
 				</group>
-				<float name="time_seconds" value="160" />
+				<float name="time_seconds" value="0" />
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext">
@@ -326,11 +326,11 @@
 			</list>
 			<float name="armor" value="5" />
 			<float name="rear_armor" value="0" />
-			<float name="target_size" value="40" />
+			<float name="target_size" value="5" />
 			<bool name="dies_from_broken_ice" value="True" />
 			<list name="criticals">
 			</list>
-			<float name="weapon_priority" value="0" />
+			<float name="weapon_priority" value="-100" />
 			<template_reference name="wreck_entity_option" value="options\none">
 			</template_reference>
 			<list name="self_destruct_actions">
@@ -611,7 +611,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\british\team_weapons\at_gun_17_pounder\brit_17_pounder_at_gun_squad_mp" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\british\team_weapons\at_gun_17_pounder\brit_17_pounder_at_gun_squad_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
@@ -692,6 +692,28 @@
 			<float name="on_ice_accel_decel_multiplier" value="0.3" />
 			<float name="on_land_overturn_scale" value="0" />
 			<float name="on_ice_overturn_scale" value="1.3" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\team_weapon_ext">
+			<string name="attach_state_name" value="Artillery_Attach" />
+			<bool name="can_manual_abandon" value="False" />
+			<bool name="disable_garrison" value="False" />
+			<string name="ownership_state_name" value="AntiTankGun_Owner" />
+			<string name="role_state_name" value="Artillery_Role" />
+			<string name="sync_target_name" value="Artillery_Target" />
+			<enum name="team_weapon_type" value="tp_mobile" />
+			<string name="weapon_usage_state_name" value="" />
+			<list name="on_abandon_action">
+			</list>
+			<list name="role_list">
+			</list>
+			<float name="destroy_on_abandon_health_threshold" value="-1" />
+			<list name="on_abandon_weapon_action">
+				<template_reference name="action" value="action\upgrade_remove">
+					<bool name="apply_to_entities_in_squad" value="False" />
+					<instance_reference name="upgrade" value="upgrade\is_manned" />
+					<uniqueid name="id" value="1073756914" />
+				</template_reference>
+			</list>
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="94911" />

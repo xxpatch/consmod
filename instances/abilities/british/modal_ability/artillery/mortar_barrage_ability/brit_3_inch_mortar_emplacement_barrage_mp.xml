@@ -7,22 +7,6 @@
 					<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_lock_out_mortar_emplacement_barrage_active" />
 					<uniqueid name="id" value="1073756550" />
 				</template_reference>
-				<template_reference name="action" value="action\force_reload_action">
-					<int name="hardpoint_index" value="1" />
-					<uniqueid name="id" value="1073756551" />
-				</template_reference>
-				<template_reference name="action" value="action\force_reload_action">
-					<int name="hardpoint_index" value="2" />
-					<uniqueid name="id" value="1073756552" />
-				</template_reference>
-				<template_reference name="action" value="action\force_reload_action">
-					<int name="hardpoint_index" value="3" />
-					<uniqueid name="id" value="1073756553" />
-				</template_reference>
-				<template_reference name="action" value="action\force_reload_action">
-					<int name="hardpoint_index" value="4" />
-					<uniqueid name="id" value="1073756554" />
-				</template_reference>
 			</list>
 			<list name="end_target_actions">
 			</list>
@@ -31,7 +15,7 @@
 					<bool name="apply_to_entities_in_squad" value="False" />
 					<bool name="trigger_publish_event" value="False" />
 					<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_lock_out_mortar_emplacement_barrage_active" />
-					<uniqueid name="id" value="1073756557" />
+					<uniqueid name="id" value="1073756853" />
 				</template_reference>
 			</list>
 			<list name="start_target_actions">
@@ -44,8 +28,8 @@
 					</group>
 					<float name="num_salvo" value="4" />
 					<float name="use_hardpoint" value="3" />
-					<bool name="face_to_target" value="False" />
-					<uniqueid name="id" value="1073756558" />
+					<bool name="face_to_target" value="True" />
+					<uniqueid name="id" value="1073756847" />
 					<bool name="target_override_direction_times_max_range" value="False" />
 				</template_reference>
 				<template_reference name="action" value="action\artillery_attack">
@@ -57,13 +41,13 @@
 					</group>
 					<float name="num_salvo" value="4" />
 					<float name="use_hardpoint" value="4" />
-					<bool name="face_to_target" value="False" />
-					<uniqueid name="id" value="1073756559" />
+					<bool name="face_to_target" value="True" />
+					<uniqueid name="id" value="1073756848" />
 					<bool name="target_override_direction_times_max_range" value="False" />
 				</template_reference>
 				<template_reference name="action" value="action\scar_function_call">
 					<string name="function_name" value="AE_BarrageEvent" />
-					<uniqueid name="id" value="1073756560" />
+					<uniqueid name="id" value="1073756849" />
 				</template_reference>
 				<template_reference name="action" value="action\game_event_action">
 					<float name="event_extra_param" value="0" />
@@ -71,7 +55,7 @@
 					<float name="event_param_end" value="-1" />
 					<enum name="event_type" value="artillery_set" />
 					<bool name="event_send_to_target_player" value="False" />
-					<uniqueid name="id" value="1073756561" />
+					<uniqueid name="id" value="1073756850" />
 				</template_reference>
 			</list>
 		</group>

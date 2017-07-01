@@ -7,22 +7,6 @@
 					<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_lock_out_mortar_emplacement_barrage_active" />
 					<uniqueid name="id" value="1073756562" />
 				</template_reference>
-				<template_reference name="action" value="action\force_reload_action">
-					<int name="hardpoint_index" value="1" />
-					<uniqueid name="id" value="1073756563" />
-				</template_reference>
-				<template_reference name="action" value="action\force_reload_action">
-					<int name="hardpoint_index" value="2" />
-					<uniqueid name="id" value="1073756564" />
-				</template_reference>
-				<template_reference name="action" value="action\force_reload_action">
-					<int name="hardpoint_index" value="5" />
-					<uniqueid name="id" value="1073756565" />
-				</template_reference>
-				<template_reference name="action" value="action\force_reload_action">
-					<int name="hardpoint_index" value="6" />
-					<uniqueid name="id" value="1073756566" />
-				</template_reference>
 			</list>
 			<list name="end_target_actions">
 			</list>
@@ -43,23 +27,23 @@
 									<float name="value" value="6" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073756567" />
+							<uniqueid name="id" value="1073756842" />
 						</template_reference>
 					</list>
 					<enum name="change_target_type" value="squad" />
-					<uniqueid name="id" value="1073756568" />
+					<uniqueid name="id" value="1073756843" />
 				</template_reference>
 				<template_reference name="action" value="action\upgrade_add">
 					<bool name="apply_to_entities_in_squad" value="False" />
 					<bool name="trigger_publish_event" value="False" />
 					<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_lock_out_mortar_emplacement_barrage_active" />
-					<uniqueid name="id" value="1073756571" />
+					<uniqueid name="id" value="1073756846" />
 				</template_reference>
 			</list>
 			<list name="start_target_actions">
 				<template_reference name="action" value="action\scar_function_call">
 					<string name="function_name" value="AE_BarrageEvent" />
-					<uniqueid name="id" value="1073756572" />
+					<uniqueid name="id" value="1073756838" />
 				</template_reference>
 				<template_reference name="action" value="action\game_event_action">
 					<float name="event_extra_param" value="0" />
@@ -67,7 +51,7 @@
 					<float name="event_param_end" value="-1" />
 					<enum name="event_type" value="artillery_set" />
 					<bool name="event_send_to_target_player" value="False" />
-					<uniqueid name="id" value="1073756573" />
+					<uniqueid name="id" value="1073756839" />
 				</template_reference>
 				<template_reference name="action" value="action\creeping_barrage">
 					<float name="box_length" value="20" />
@@ -115,7 +99,7 @@
 							</list>
 						</group>
 					</list>
-					<uniqueid name="id" value="1073756574" />
+					<uniqueid name="id" value="1073756840" />
 					<bool name="valid_sections_only" value="False" comment="Allow triggering the Ability as long as part of the Sections are within weapon range." />
 				</template_reference>
 				<template_reference name="action" value="action\creeping_barrage">
@@ -164,7 +148,7 @@
 							</list>
 						</group>
 					</list>
-					<uniqueid name="id" value="1073756575" />
+					<uniqueid name="id" value="1073756841" />
 					<bool name="valid_sections_only" value="False" comment="Allow triggering the Ability as long as part of the Sections are within weapon range." />
 				</template_reference>
 			</list>

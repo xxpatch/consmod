@@ -2,85 +2,6 @@
 	<group name="ability_bag">
 		<group name="action_list">
 			<list name="end_self_actions">
-				<template_reference name="action" value="action\apply_modifiers_action">
-					<float name="duration" value="0" />
-					<bool name="permanent" value="False" />
-					<list name="modifiers">
-						<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
-							<enum name="application_type" value="apply_to_weapon" />
-							<bool name="exclusive" value="False" />
-							<string name="modifier_id" value="" />
-							<string name="target_type_name" value="hardpoint_01" />
-							<enum name="usage_type" value="enable" />
-							<float name="value" value="1" />
-							<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
-						</template_reference>
-						<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
-							<enum name="application_type" value="apply_to_weapon" />
-							<bool name="exclusive" value="False" />
-							<string name="modifier_id" value="" />
-							<string name="target_type_name" value="hardpoint_02" />
-							<enum name="usage_type" value="enable" />
-							<float name="value" value="1" />
-							<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
-						</template_reference>
-						<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
-							<enum name="application_type" value="apply_to_weapon" />
-							<bool name="exclusive" value="False" />
-							<string name="modifier_id" value="" />
-							<string name="target_type_name" value="hardpoint_03" />
-							<enum name="usage_type" value="enable" />
-							<float name="value" value="1" />
-							<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
-						</template_reference>
-						<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
-							<enum name="application_type" value="apply_to_weapon" />
-							<bool name="exclusive" value="False" />
-							<string name="modifier_id" value="" />
-							<string name="target_type_name" value="hardpoint_04" />
-							<enum name="usage_type" value="enable" />
-							<float name="value" value="1" />
-							<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
-						</template_reference>
-						<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
-							<enum name="application_type" value="apply_to_weapon" />
-							<bool name="exclusive" value="False" />
-							<string name="modifier_id" value="" />
-							<string name="target_type_name" value="hardpoint_05" />
-							<enum name="usage_type" value="enable" />
-							<float name="value" value="1" />
-							<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
-						</template_reference>
-						<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
-							<enum name="application_type" value="apply_to_weapon" />
-							<bool name="exclusive" value="False" />
-							<string name="modifier_id" value="" />
-							<string name="target_type_name" value="hardpoint_06" />
-							<enum name="usage_type" value="enable" />
-							<float name="value" value="1" />
-							<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
-						</template_reference>
-						<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
-							<enum name="application_type" value="apply_to_weapon" />
-							<bool name="exclusive" value="False" />
-							<string name="modifier_id" value="" />
-							<string name="target_type_name" value="hardpoint_07" />
-							<enum name="usage_type" value="enable" />
-							<float name="value" value="1" />
-							<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
-						</template_reference>
-						<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
-							<enum name="application_type" value="apply_to_weapon" />
-							<bool name="exclusive" value="False" />
-							<string name="modifier_id" value="" />
-							<string name="target_type_name" value="hardpoint_08" />
-							<enum name="usage_type" value="enable" />
-							<float name="value" value="1" />
-							<instance_reference name="tooltip" value="modifier_tooltip\enable_weapon_modifier" />
-						</template_reference>
-					</list>
-					<uniqueid name="id" value="1073756610" />
-				</template_reference>
 			</list>
 			<list name="end_target_actions">
 			</list>
@@ -91,8 +12,8 @@
 					<list name="modifiers">
 						<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
 							<enum name="application_type" value="apply_to_weapon" />
-							<bool name="exclusive" value="False" />
-							<string name="modifier_id" value="" />
+							<bool name="exclusive" value="True" />
+							<string name="modifier_id" value="braced" />
 							<string name="target_type_name" value="hardpoint_01" />
 							<enum name="usage_type" value="enable" />
 							<float name="value" value="-1" />
@@ -100,8 +21,8 @@
 						</template_reference>
 						<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
 							<enum name="application_type" value="apply_to_weapon" />
-							<bool name="exclusive" value="False" />
-							<string name="modifier_id" value="" />
+							<bool name="exclusive" value="True" />
+							<string name="modifier_id" value="braced" />
 							<string name="target_type_name" value="hardpoint_02" />
 							<enum name="usage_type" value="enable" />
 							<float name="value" value="-1" />
@@ -109,8 +30,8 @@
 						</template_reference>
 						<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
 							<enum name="application_type" value="apply_to_weapon" />
-							<bool name="exclusive" value="False" />
-							<string name="modifier_id" value="" />
+							<bool name="exclusive" value="True" />
+							<string name="modifier_id" value="braced" />
 							<string name="target_type_name" value="hardpoint_03" />
 							<enum name="usage_type" value="enable" />
 							<float name="value" value="-1" />
@@ -118,8 +39,8 @@
 						</template_reference>
 						<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
 							<enum name="application_type" value="apply_to_weapon" />
-							<bool name="exclusive" value="False" />
-							<string name="modifier_id" value="" />
+							<bool name="exclusive" value="True" />
+							<string name="modifier_id" value="braced" />
 							<string name="target_type_name" value="hardpoint_04" />
 							<enum name="usage_type" value="enable" />
 							<float name="value" value="-1" />
@@ -127,8 +48,8 @@
 						</template_reference>
 						<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
 							<enum name="application_type" value="apply_to_weapon" />
-							<bool name="exclusive" value="False" />
-							<string name="modifier_id" value="" />
+							<bool name="exclusive" value="True" />
+							<string name="modifier_id" value="braced" />
 							<string name="target_type_name" value="hardpoint_05" />
 							<enum name="usage_type" value="enable" />
 							<float name="value" value="-1" />
@@ -136,8 +57,8 @@
 						</template_reference>
 						<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
 							<enum name="application_type" value="apply_to_weapon" />
-							<bool name="exclusive" value="False" />
-							<string name="modifier_id" value="" />
+							<bool name="exclusive" value="True" />
+							<string name="modifier_id" value="braced" />
 							<string name="target_type_name" value="hardpoint_06" />
 							<enum name="usage_type" value="enable" />
 							<float name="value" value="-1" />
@@ -145,8 +66,8 @@
 						</template_reference>
 						<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
 							<enum name="application_type" value="apply_to_weapon" />
-							<bool name="exclusive" value="False" />
-							<string name="modifier_id" value="" />
+							<bool name="exclusive" value="True" />
+							<string name="modifier_id" value="braced" />
 							<string name="target_type_name" value="hardpoint_07" />
 							<enum name="usage_type" value="enable" />
 							<float name="value" value="-1" />
@@ -154,8 +75,8 @@
 						</template_reference>
 						<template_reference name="modifier" value="modifiers\enable_weapon_modifier">
 							<enum name="application_type" value="apply_to_weapon" />
-							<bool name="exclusive" value="False" />
-							<string name="modifier_id" value="" />
+							<bool name="exclusive" value="True" />
+							<string name="modifier_id" value="braced" />
 							<string name="target_type_name" value="hardpoint_08" />
 							<enum name="usage_type" value="enable" />
 							<float name="value" value="-1" />

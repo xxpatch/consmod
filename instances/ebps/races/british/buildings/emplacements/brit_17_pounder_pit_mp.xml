@@ -405,7 +405,7 @@
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
 				</group>
-				<float name="time_seconds" value="160" />
+				<float name="time_seconds" value="200" />
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext">
@@ -879,7 +879,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\british\team_weapons\at_gun_17_pounder\brit_17_pounder_at_gun_squad_mp" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\british\team_weapons\at_gun_17_pounder\brit_17_pounder_at_gun_squad_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="2" />
 						<list name="recrew_penalties_list">
@@ -954,7 +954,7 @@
 			<bool name="must_be_in_territory" value="False" />
 			<bool name="must_be_on" value="False" />
 			<bool name="must_not_be_in_walkable_surfaces" value="True" />
-			<instance_reference name="on_construction_squad" value="sbps\races\british\team_weapons\at_gun_17_pounder\brit_17_pounder_at_gun_squad_mp" />
+			<instance_reference name="on_construction_squad" value="sbps\races\british\team_weapons\at_gun_17_pounder\brit_17_pounder_at_gun_squad_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<float name="orientation" value="0" />
 			<enum name="placement_type" value="tp_structure" />
 			<bool name="prefer_spots_on_side_with_leader" value="False" />
@@ -1109,7 +1109,7 @@
 			<instance_reference name="placement_invalid" value="ui_rectangle\construction_placement_invalid" />
 			<instance_reference name="ui_range" value="ui_reticule\ability_range_default" />
 			<float name="ui_range_radius" value="80" />
-			<instance_reference name="ui_setfacing" value="ui_setfacing\17_pounder_default" />
+			<instance_reference name="ui_setfacing" value="ui_setfacing\weapon_default" />
 			<bool name="query_weapon_for_range_ui" value="True" />
 			<bool name="squad_ignore_pathfinding" value="True" />
 			<bool name="must_not_be_in_command_territory" value="True" />

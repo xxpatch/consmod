@@ -298,7 +298,7 @@
 			<string name="construction_state_name" value="build_shovel_sandbag_state" />
 			<float name="construction_transition_time" value="1.36666" />
 			<bool name="force_construction" value="False" />
-			<float name="max_engineers" value="0" />
+			<float name="max_engineers" value="4" />
 			<bool name="must_be_in_command_territory" value="False" />
 			<bool name="must_be_in_line_of_sight" value="False" />
 			<bool name="must_be_in_supply_territory" value="True" />
@@ -398,11 +398,11 @@
 					<float name="action" value="0" />
 					<float name="command" value="0" />
 					<float name="fuel" value="0" />
-					<float name="manpower" value="250" />
+					<float name="manpower" value="150" />
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
 				</group>
-				<float name="time_seconds" value="180" />
+				<float name="time_seconds" value="150" />
 			</group>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\health_ext">

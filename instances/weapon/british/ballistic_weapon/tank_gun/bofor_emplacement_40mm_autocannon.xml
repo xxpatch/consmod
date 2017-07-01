@@ -46,12 +46,12 @@
 				<float name="radius" value="1" />
 			</group>
 			<group name="damage">
-				<float name="far" value="1" />
+				<float name="far" value="0.05" />
 				<float name="near" value="1" />
 				<float name="mid" value="1" />
 			</group>
 			<group name="damage_friendly">
-				<float name="far" value="0.2" />
+				<float name="far" value="0.05" />
 				<float name="near" value="0.2" />
 				<float name="mid" value="0.2" />
 			</group>
@@ -72,7 +72,7 @@
 				<float name="near" value="0.1" />
 				<float name="mid" value="0.1" />
 			</group>
-			<bool name="damage_all_in_hold" value="False" />
+			<bool name="damage_all_in_hold" value="True" />
 			<template_reference name="aoe_penetration" value="tables\range_table">
 				<float name="far" value="15" />
 				<float name="mid" value="15" />
@@ -175,14 +175,14 @@
 				<float name="suppression_multiplier" value="1" />
 			</group>
 			<group name="tp_garrison_cover">
-				<float name="accuracy_multiplier" value="0.4" />
-				<float name="damage_multiplier" value="0.2" />
+				<float name="accuracy_multiplier" value="0.5" />
+				<float name="damage_multiplier" value="0.35" />
 				<float name="penetration_multiplier" value="1" />
 				<float name="suppression_multiplier" value="0" />
 			</group>
 			<group name="tp_garrison_halftrack">
 				<float name="accuracy_multiplier" value="0.5" />
-				<float name="damage_multiplier" value="0.1" />
+				<float name="damage_multiplier" value="0.5" />
 				<float name="penetration_multiplier" value="1" />
 				<float name="suppression_multiplier" value="0" />
 			</group>
@@ -462,7 +462,7 @@
 				<float name="penetration_multiplier" value="1" />
 				<float name="suppression_multiplier" value="0.5" />
 			</group>
-			<float name="amount" value="0.0006" />
+			<float name="amount" value="0.0015" />
 		</group>
 		<group name="teardown">
 			<float name="duration" value="0" />
