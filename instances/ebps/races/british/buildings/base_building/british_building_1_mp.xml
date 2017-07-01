@@ -891,7 +891,7 @@
 				<instance_reference name="ability" value="abilities\british\modal_ability\passive_bofors_emplacement_mp" />
 				<instance_reference name="ability" value="abilities\british\modal_ability\passive_mortar_emplacement_mp" />
 				<instance_reference name="ability" value="abilities\british\always_on_ability\brit_base_braced_static_mp" />
-				<instance_reference name="ability" value="abilities\british\timed_ability\howitzer_counter_barrage_commander_mp" />
+				<instance_reference name="ability" value="abilities\british\timed_ability\howitzer_counter_barrage_commander_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\crew_ext">

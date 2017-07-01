@@ -1,0 +1,256 @@
+<instance description="" template="upgrade">
+	<group name="upgrade_bag">
+		<bool name="enable_in_hold" value="False" />
+		<float name="global_max_limit" value="1" />
+		<bool name="has_speech_code" value="True" />
+		<float name="local_max_limit" value="1" />
+		<enum name="owner_type" value="player" />
+		<group name="speech_code_2">
+			<string name="code_1" value="" />
+			<string name="code_2" value="" />
+			<string name="code_3" value="" />
+		</group>
+		<group name="speech_code_3">
+			<string name="code_1" value="isi" />
+			<string name="code_2" value="" />
+			<string name="code_3" value="" />
+		</group>
+		<group name="time_cost">
+			<group name="cost">
+				<float name="action" value="0" />
+				<float name="command" value="0" />
+				<float name="fuel" value="35" />
+				<float name="manpower" value="150" />
+				<float name="munition" value="0" />
+				<float name="popcap" value="0" />
+			</group>
+			<float name="time_seconds" value="30" />
+		</group>
+		<bool name="ui_event_cue" value="True" />
+		<enum name="ui_group" value="unit_upgrade_panel" />
+		<int name="ui_position" value="3" />
+		<group name="ui_info">
+			<locstring name="extra_text" value="11094923" />
+			<locstring name="help_text" value="11084813" />
+			<string name="hotkey_name" value="S" />
+			<icon name="icon_name" value="Icons_abilities_ability_british_increase_squad_size" />
+			<bool name="reveal_for_decryption" value="True" />
+			<locstring name="screen_name" value="11084812" />
+			<locstring name="brief_text" value="0" />
+			<locstring name="screen_name_short" value="0" />
+			<enum name="ui_style" value="default" />
+		</group>
+		<bool name="validate_actions" value="False" />
+		<list name="actions">
+			<template_reference name="action" value="action\filter_action">
+				<bool name="apply_to_future_units" value="True" />
+				<bool name="apply_to_local_player" value="True" />
+				<instance_reference name="deprecated_entity_type" value="" />
+				<instance_reference name="deprecated_squad_type" value="sbps\races\british\soldiers\tommy_squad\tommy_squad_mp" />
+				<group name="target_info">
+					<template_reference name="target_info" value="type_ability_target_type\all">
+					</template_reference>
+				</group>
+				<enum name="deprecated_unit_class_type" value="" />
+				<list name="action_table">
+					<template_reference name="action" value="action\change_target_action">
+						<list name="actions">
+							<template_reference name="action" value="action\add_to_squad_loadout_action">
+								<uniqueid name="id" value="1073757046" />
+								<instance_reference name="unit_type" value="ebps\races\british\soldiers\tommy\tommy_mp" />
+								<int name="count" value="1" />
+							</template_reference>
+							<template_reference name="action" value="action\spawn_entity">
+								<float name="duration" value="9999999" />
+								<instance_reference name="entity_blueprint" value="ebps\races\british\buildings\defensive_structures\brit_squad_pop_reducer_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+								<bool name="permanent" value="False" />
+								<bool name="player_owned" value="True" />
+								<group name="target_info">
+									<template_reference name="target_info" value="type_ability_target_type\all">
+									</template_reference>
+								</group>
+								<uniqueid name="id" value="1073757047" />
+								<template_reference name="spawn_attached_option" value="options\none">
+								</template_reference>
+								<list name="spawned_entity_actions">
+								</list>
+								<group name="offset">
+									<float name="x" value="0" />
+									<float name="y" value="0" />
+									<float name="z" value="0" />
+								</group>
+							</template_reference>
+						</list>
+						<enum name="change_target_type" value="squad" />
+						<uniqueid name="id" value="1073757045" />
+					</template_reference>
+				</list>
+				<enum name="deprecated_squad_class_type" value="" />
+				<list name="target_requirements">
+				</list>
+				<bool name="target_squad" value="False" />
+				<uniqueid name="id" value="1073757041" />
+			</template_reference>
+			<template_reference name="action" value="action\filter_action">
+				<bool name="apply_to_future_units" value="True" />
+				<bool name="apply_to_local_player" value="True" />
+				<instance_reference name="deprecated_entity_type" value="" />
+				<instance_reference name="deprecated_squad_type" value="sbps\races\british\soldiers\tommy_squad\tommy_squad_tank_hunter_mp" />
+				<group name="target_info">
+					<template_reference name="target_info" value="type_ability_target_type\all">
+					</template_reference>
+				</group>
+				<enum name="deprecated_unit_class_type" value="" />
+				<list name="action_table">
+					<template_reference name="action" value="action\change_target_action">
+						<list name="actions">
+							<template_reference name="action" value="action\add_to_squad_loadout_action">
+								<uniqueid name="id" value="1073757048" />
+								<instance_reference name="unit_type" value="ebps\races\british\soldiers\tommy\tommy_mp" />
+								<int name="count" value="1" />
+							</template_reference>
+							<template_reference name="action" value="action\spawn_entity">
+								<float name="duration" value="9999999" />
+								<instance_reference name="entity_blueprint" value="ebps\races\british\buildings\defensive_structures\brit_squad_pop_reducer_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+								<bool name="permanent" value="False" />
+								<bool name="player_owned" value="True" />
+								<group name="target_info">
+									<template_reference name="target_info" value="type_ability_target_type\all">
+									</template_reference>
+								</group>
+								<uniqueid name="id" value="1073757049" />
+								<template_reference name="spawn_attached_option" value="options\none">
+								</template_reference>
+								<list name="spawned_entity_actions">
+								</list>
+								<group name="offset">
+									<float name="x" value="0" />
+									<float name="y" value="0" />
+									<float name="z" value="0" />
+								</group>
+							</template_reference>
+						</list>
+						<enum name="change_target_type" value="squad" />
+						<uniqueid name="id" value="1073757050" />
+					</template_reference>
+				</list>
+				<enum name="deprecated_squad_class_type" value="" />
+				<list name="target_requirements">
+				</list>
+				<bool name="target_squad" value="False" />
+				<uniqueid name="id" value="1073757051" />
+			</template_reference>
+			<template_reference name="action" value="action\filter_action">
+				<bool name="apply_to_future_units" value="True" />
+				<bool name="apply_to_local_player" value="True" />
+				<instance_reference name="deprecated_entity_type" value="" />
+				<instance_reference name="deprecated_squad_type" value="sbps\races\british\soldiers\sapper_squad\sapper_squad_mp" />
+				<group name="target_info">
+					<template_reference name="target_info" value="type_ability_target_type\all">
+					</template_reference>
+				</group>
+				<enum name="deprecated_unit_class_type" value="" />
+				<list name="action_table">
+					<template_reference name="action" value="action\change_target_action">
+						<list name="actions">
+							<template_reference name="action" value="action\add_to_squad_loadout_action">
+								<uniqueid name="id" value="1073757052" />
+								<instance_reference name="unit_type" value="ebps\races\british\soldiers\sapper\sapper_mp" />
+								<int name="count" value="1" />
+							</template_reference>
+							<template_reference name="action" value="action\spawn_entity">
+								<float name="duration" value="9999999" />
+								<instance_reference name="entity_blueprint" value="ebps\races\british\buildings\defensive_structures\brit_squad_pop_reducer_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+								<bool name="permanent" value="False" />
+								<bool name="player_owned" value="True" />
+								<group name="target_info">
+									<template_reference name="target_info" value="type_ability_target_type\all">
+									</template_reference>
+								</group>
+								<uniqueid name="id" value="1073757053" />
+								<template_reference name="spawn_attached_option" value="options\none">
+								</template_reference>
+								<list name="spawned_entity_actions">
+								</list>
+								<group name="offset">
+									<float name="x" value="0" />
+									<float name="y" value="0" />
+									<float name="z" value="0" />
+								</group>
+							</template_reference>
+						</list>
+						<enum name="change_target_type" value="squad" />
+						<uniqueid name="id" value="1073757054" />
+					</template_reference>
+				</list>
+				<enum name="deprecated_squad_class_type" value="" />
+				<list name="target_requirements">
+				</list>
+				<bool name="target_squad" value="False" />
+				<uniqueid name="id" value="1073757055" />
+			</template_reference>
+			<template_reference name="action" value="action\filter_action">
+				<bool name="apply_to_future_units" value="True" />
+				<bool name="apply_to_local_player" value="True" />
+				<instance_reference name="deprecated_entity_type" value="" />
+				<instance_reference name="deprecated_squad_type" value="sbps\races\british\soldiers\sapper_squad\sapper_squad_recovery_mp" />
+				<group name="target_info">
+					<template_reference name="target_info" value="type_ability_target_type\all">
+					</template_reference>
+				</group>
+				<enum name="deprecated_unit_class_type" value="" />
+				<list name="action_table">
+					<template_reference name="action" value="action\change_target_action">
+						<list name="actions">
+							<template_reference name="action" value="action\add_to_squad_loadout_action">
+								<uniqueid name="id" value="1073757056" />
+								<instance_reference name="unit_type" value="ebps\races\british\soldiers\sapper\sapper_recovery_mp" />
+								<int name="count" value="1" />
+							</template_reference>
+							<template_reference name="action" value="action\spawn_entity">
+								<float name="duration" value="9999999" />
+								<instance_reference name="entity_blueprint" value="ebps\races\british\buildings\defensive_structures\brit_squad_pop_reducer_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+								<bool name="permanent" value="False" />
+								<bool name="player_owned" value="True" />
+								<group name="target_info">
+									<template_reference name="target_info" value="type_ability_target_type\all">
+									</template_reference>
+								</group>
+								<uniqueid name="id" value="1073757057" />
+								<template_reference name="spawn_attached_option" value="options\none">
+								</template_reference>
+								<list name="spawned_entity_actions">
+								</list>
+								<group name="offset">
+									<float name="x" value="0" />
+									<float name="y" value="0" />
+									<float name="z" value="0" />
+								</group>
+							</template_reference>
+						</list>
+						<enum name="change_target_type" value="squad" />
+						<uniqueid name="id" value="1073757058" />
+					</template_reference>
+				</list>
+				<enum name="deprecated_squad_class_type" value="" />
+				<list name="target_requirements">
+				</list>
+				<bool name="target_squad" value="False" />
+				<uniqueid name="id" value="1073757059" />
+			</template_reference>
+		</list>
+		<list name="requirements">
+		</list>
+		<icon name="ui_kicker_icon_name" value="" />
+		<locstring name="ui_squad_name_override" value="0" />
+		<locstring name="ui_squad_help_text_override" value="0" />
+		<locstring name="ui_squad_extra_text_override" value="0" />
+		<list name="ui_preview">
+		</list>
+		<list name="on_cancel_actions">
+		</list>
+		<list name="on_begin_actions">
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="90675" />
+</instance>

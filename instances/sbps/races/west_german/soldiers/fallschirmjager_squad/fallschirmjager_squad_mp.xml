@@ -1003,7 +1003,7 @@
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
 				<instance_reference name="ability" value="abilities\west_german\always_on_ability\fallschrimjaeger_camo" mod="f2791205c6e743b6a340ef0daf60b957" />
-				<instance_reference name="ability" value="abilities\soviet\toggle_ability\sniper_hold_fire_mp" />
+				<instance_reference name="ability" value="abilities\soviet\toggle_ability\sniper_hold_fire_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\grenades\fallschirmjaeger_greande" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\accessory_weapons\fallschirmjaeger_panzerfaust" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\west_german\always_on_ability\falls_in_cover_stationary_camouflage_mp" mod="f2791205c6e743b6a340ef0daf60b957" />

@@ -607,7 +607,7 @@
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\soviet\always_on_ability\sniper_delayed_cover_auto_camouflage_mp" />
 				<instance_reference name="ability" value="abilities\soviet\modal_ability\fieldcraft_trip_flare_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-				<instance_reference name="ability" value="abilities\soviet\toggle_ability\sniper_hold_fire_mp" />
+				<instance_reference name="ability" value="abilities\soviet\toggle_ability\sniper_hold_fire_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\soviet\always_on_ability\partisan_assassinate_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\soviet\modal_ability\grenades\partisan_molotov_cocktail_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\soviet\modal_ability\grenades\rgd_33_partisan_grenade_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
