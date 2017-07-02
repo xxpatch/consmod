@@ -703,8 +703,13 @@
 		<list name="requirements_target">
 			<template_reference name="required" value="requirements\required_ownership">
 				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="79" mod="a0826357b7334b76b790ad100f047c6c" />
+				<locstring name="ui_name" value="0" />
 				<enum name="ownership_type" value="self" />
+			</template_reference>
+			<template_reference name="required" value="requirements\required_constructionstate">
+				<enum name="reason" value="usage" />
+				<locstring name="ui_name" value="0" />
+				<bool name="do_construction_completion_check" value="True" />
 			</template_reference>
 		</list>
 		<template_reference name="targeted_ability_option" value="options\none">
