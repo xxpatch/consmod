@@ -162,7 +162,7 @@
 			<list name="unit_list">
 				<group name="loadout_data">
 					<float name="num" value="4" />
-					<instance_reference name="type" value="ebps\races\british\soldiers\sapper\sapper_recovery_mp" />
+					<instance_reference name="type" value="ebps\races\british\soldiers\sapper\sapper_recovery_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				</group>
 			</list>
 			<float name="squad_female_chance" value="0" />
@@ -539,8 +539,8 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
-				<instance_reference name="ability" value="abilities\british\modal_ability\repair_ability\brit_repair_ews_ability_sappers_mp" />
-				<instance_reference name="ability" value="abilities\british\modal_ability\repair_ability\brit_repair_ability_sappers_mp" />
+				<instance_reference name="ability" value="abilities\british\modal_ability\repair_ability\brit_repair_ews_ability_sappers_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<instance_reference name="ability" value="abilities\british\modal_ability\repair_ability\brit_repair_ability_sappers_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\british\always_on_ability\engineer_cover_combat_bonus" />
 				<instance_reference name="ability" value="abilities\british\modal_ability\brit_pack_up_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>

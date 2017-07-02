@@ -472,7 +472,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\british\small_arms\single_fire\rifle\tommy_lee_enfield_rifle_mp" />
+							<instance_reference name="weapon" value="weapon\british\small_arms\single_fire\rifle\tommy_lee_enfield_rifle_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -563,22 +563,6 @@
 				<float name="safety_value" value="0" />
 				<float name="speed_multiplier" value="1" />
 				<list name="actions">
-					<template_reference name="action" value="action\apply_modifiers_action">
-						<float name="duration" value="0" />
-						<bool name="permanent" value="False" />
-						<list name="modifiers">
-							<template_reference name="modifier" value="modifiers\received_accuracy_modifier">
-								<enum name="application_type" value="apply_to_entity" />
-								<bool name="exclusive" value="False" />
-								<string name="modifier_id" value="" />
-								<string name="target_type_name" value="" />
-								<enum name="usage_type" value="multiplication" />
-								<float name="value" value="0.9" />
-								<instance_reference name="tooltip" value="modifier_tooltip\received_accuracy_modifier" />
-							</template_reference>
-						</list>
-						<uniqueid name="id" value="1073745658" />
-					</template_reference>
 				</list>
 			</group>
 			<group name="tp_heavy">
@@ -597,22 +581,6 @@
 						<bool name="allies_only" value="False" />
 						<uniqueid name="id" value="1073745659" />
 					</template_reference>
-					<template_reference name="action" value="action\apply_modifiers_action">
-						<float name="duration" value="0" />
-						<bool name="permanent" value="False" />
-						<list name="modifiers">
-							<template_reference name="modifier" value="modifiers\received_accuracy_modifier">
-								<enum name="application_type" value="apply_to_entity" />
-								<bool name="exclusive" value="False" />
-								<string name="modifier_id" value="" />
-								<string name="target_type_name" value="" />
-								<enum name="usage_type" value="multiplication" />
-								<float name="value" value="0.9" />
-								<instance_reference name="tooltip" value="modifier_tooltip\received_accuracy_modifier" />
-							</template_reference>
-						</list>
-						<uniqueid name="id" value="1073745660" />
-					</template_reference>
 				</list>
 			</group>
 			<group name="tp_light">
@@ -630,22 +598,6 @@
 						<bool name="is_terrain_only" value="False" />
 						<bool name="allies_only" value="False" />
 						<uniqueid name="id" value="1073745661" />
-					</template_reference>
-					<template_reference name="action" value="action\apply_modifiers_action">
-						<float name="duration" value="0" />
-						<bool name="permanent" value="False" />
-						<list name="modifiers">
-							<template_reference name="modifier" value="modifiers\received_accuracy_modifier">
-								<enum name="application_type" value="apply_to_entity" />
-								<bool name="exclusive" value="False" />
-								<string name="modifier_id" value="" />
-								<string name="target_type_name" value="" />
-								<enum name="usage_type" value="multiplication" />
-								<float name="value" value="0.9" />
-								<instance_reference name="tooltip" value="modifier_tooltip\received_accuracy_modifier" />
-							</template_reference>
-						</list>
-						<uniqueid name="id" value="1073745662" />
 					</template_reference>
 				</list>
 			</group>

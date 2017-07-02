@@ -162,7 +162,7 @@
 			<list name="unit_list">
 				<group name="loadout_data">
 					<float name="num" value="4" />
-					<instance_reference name="type" value="ebps\races\british\soldiers\sapper\sapper_mp" />
+					<instance_reference name="type" value="ebps\races\british\soldiers\sapper\sapper_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				</group>
 			</list>
 			<float name="squad_female_chance" value="0" />
@@ -177,7 +177,7 @@
 			<float name="number_of_slots" value="-1" />
 			<list name="upgrades">
 				<instance_reference name="upgrade" value="upgrade\british\items\sappers_minesweeper_upgrade_mp" />
-				<instance_reference name="upgrade" value="upgrade\british\items\sappers_heavy_squad_mp" />
+				<instance_reference name="upgrade" value="upgrade\british\items\sappers_heavy_squad_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="upgrade" value="upgrade\british\items\sapper_flamethrower" />
 			</list>
 		</template_reference>
@@ -450,7 +450,7 @@
 							<locstring name="ui_name" value="0" />
 							<bool name="include_queued" value="False" />
 							<bool name="is_present" value="True" />
-							<instance_reference name="upgrade_name" value="upgrade\british\items\sappers_heavy_squad_mp" />
+							<instance_reference name="upgrade_name" value="upgrade\british\items\sappers_heavy_squad_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						</template_reference>
 						<template_reference name="required" value="requirements\required_in_state">
 							<enum name="reason" value="usage" />
@@ -472,14 +472,14 @@
 							<float name="duration" value="0" />
 							<bool name="permanent" value="False" />
 							<list name="modifiers">
-								<template_reference name="modifier" value="modifiers\posture_speed_modifier">
-									<enum name="application_type" value="apply_to_squad" />
+								<template_reference name="modifier" value="modifiers\speed_maximum_modifier">
+									<enum name="application_type" value="apply_to_entity" />
 									<bool name="exclusive" value="False" />
 									<string name="modifier_id" value="" />
 									<string name="target_type_name" value="" />
-									<enum name="usage_type" value="addition" />
-									<float name="value" value="-1" />
-									<instance_reference name="tooltip" value="modifier_tooltip\posture_speed_modifier" />
+									<enum name="usage_type" value="multiplication" />
+									<float name="value" value="0.8" />
+									<instance_reference name="tooltip" value="modifier_tooltip\speed_maximum_modifier" />
 								</template_reference>
 							</list>
 							<uniqueid name="id" value="1073757102" />
@@ -592,8 +592,8 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
-				<instance_reference name="ability" value="abilities\british\modal_ability\repair_ability\brit_repair_ews_ability_sappers_mp" />
-				<instance_reference name="ability" value="abilities\british\modal_ability\repair_ability\brit_repair_ability_sappers_mp" />
+				<instance_reference name="ability" value="abilities\british\modal_ability\repair_ability\brit_repair_ews_ability_sappers_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<instance_reference name="ability" value="abilities\british\modal_ability\repair_ability\brit_repair_ability_sappers_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\british\always_on_ability\engineer_cover_combat_bonus" />
 				<instance_reference name="ability" value="abilities\british\modal_ability\brit_pack_up_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>

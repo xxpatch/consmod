@@ -735,7 +735,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073744385" />
+										<uniqueid name="id" value="1073757203" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
@@ -765,7 +765,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\received_accuracy_modifier" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073744386" />
+										<uniqueid name="id" value="1073757204" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -781,7 +781,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073744387" />
+										<uniqueid name="id" value="1073757205" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
@@ -801,7 +801,7 @@
 										<bool name="apply_to_entities_in_squad" value="False" />
 										<bool name="trigger_publish_event" value="False" />
 										<instance_reference name="upgrade" value="upgrade\max_vet" />
-										<uniqueid name="id" value="1073744388" />
+										<uniqueid name="id" value="1073757206" />
 									</template_reference>
 									<template_reference name="action" value="action\apply_modifiers_action">
 										<float name="duration" value="0" />
@@ -817,17 +817,17 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073744389" />
+										<uniqueid name="id" value="1073757207" />
 									</template_reference>
 									<template_reference name="action" value="action\slot_item_add">
 										<instance_reference name="slot_item" value="slot_item\british\small_arms\tommy_scoped_rifle_item_mp" />
 										<bool name="permanent" value="True" />
-										<uniqueid name="id" value="1073744390" />
+										<uniqueid name="id" value="1073757208" />
 									</template_reference>
 									<template_reference name="action" value="action\slot_item_add">
 										<instance_reference name="slot_item" value="slot_item\british\small_arms\tommy_scoped_rifle_item_mp" />
 										<bool name="permanent" value="True" />
-										<uniqueid name="id" value="1073744391" />
+										<uniqueid name="id" value="1073757209" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
@@ -854,7 +854,7 @@
 												<instance_reference name="tooltip" value="modifier_tooltip\accuracy_weapon_modifier" />
 											</template_reference>
 										</list>
-										<uniqueid name="id" value="1073744392" />
+										<uniqueid name="id" value="1073757210" />
 									</template_reference>
 								</list>
 							</group>
