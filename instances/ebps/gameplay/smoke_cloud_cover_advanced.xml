@@ -1,0 +1,208 @@
+<instance description="" template="ebps">
+	<list name="extensions">
+		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext">
+			<string name="alternate_sua" value="" />
+			<bool name="always_revealed_in_fow" value="True" />
+			<file name="animator" value="gameplay\fx_entities\smokebox_cover_smoke\smokebox_cover_smoke" />
+			<bool name="is_visible_in_game" value="False" />
+			<float name="precise_size" value="-1" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\sim_entity_ext">
+			<bool name="is_in_spatial_bucket" value="True" />
+			<float name="rotate_snap" value="90" />
+			<float name="transferable" value="0" />
+			<bool name="kill_paradrop" value="False" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\line_of_sight_ext">
+			<group name="blocking_box">
+				<float name="x" value="8" />
+				<float name="y" value="8" />
+				<float name="z" value="8" />
+			</group>
+			<bool name="is_shot_blocking" value="False" />
+			<bool name="use_blocking_box" value="False" />
+			<enum name="does_block_line_of_sight" value="Never" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\obj_cover_ext">
+			<enum name="cover_type" value="tp_light" />
+			<bool name="is_cover_directional" value="False" />
+			<bool name="is_shoot_through" value="True" />
+			<bool name="lengthwise_spots" value="False" />
+			<float name="offset_x" value="0" />
+			<float name="offset_y" value="0" />
+			<float name="offset_z" value="0" />
+			<bool name="prevent_prone" value="False" />
+			<float name="range_x" value="8" />
+			<float name="range_y" value="8" />
+			<float name="range_z" value="8" />
+			<bool name="require_standing" value="False" />
+			<bool name="use_simbox_range" value="False" />
+			<bool name="use_simbox_range_plus_spots" value="False" />
+		</template_reference>
+		<template_reference name="exts" value="ebpextensions\action_apply_ext">
+			<list name="actions">
+				<template_reference name="action" value="action\target">
+					<group name="area_info">
+						<float name="angle_left" value="0" />
+						<float name="angle_right" value="0" />
+						<enum name="area_type" value="circle" />
+						<float name="radius" value="5" />
+					</group>
+					<bool name="die_with_creator" value="True" />
+					<bool name="do_recalc_targets" value="True" />
+					<float name="duration" value="0" />
+					<bool name="entity_targets" value="False" />
+					<instance_reference name="entity_types_to_choose" value="" />
+					<bool name="stationary" value="False" />
+					<group name="target_info">
+						<template_reference name="target_info" value="type_ability_target_type\has_unit_type">
+							<enum name="unit_type" value="infantry" />
+						</template_reference>
+					</group>
+					<enum name="unit_type" value="" />
+					<list name="subactions">
+						<template_reference name="action" value="action\change_target_action">
+							<list name="actions">
+								<template_reference name="action" value="action\apply_modifiers_action">
+									<float name="duration" value="0" />
+									<bool name="permanent" value="False" />
+									<list name="modifiers">
+										<template_reference name="modifier" value="modifiers\received_suppression_squad_modifier">
+											<enum name="application_type" value="apply_to_squad" />
+											<bool name="exclusive" value="False" />
+											<string name="modifier_id" value="smoke_cloud" />
+											<string name="target_type_name" value="" />
+											<enum name="usage_type" value="multiplication" />
+											<float name="value" value="0.8" />
+											<instance_reference name="tooltip" value="modifier_tooltip\received_suppression_squad_modifier" />
+										</template_reference>
+									</list>
+									<uniqueid name="id" value="1073757438" />
+								</template_reference>
+								<template_reference name="action" value="action\requirement_action">
+									<bool name="check_self" value="False" />
+									<bool name="global_fire_and_forget_on_success" value="False" />
+									<bool name="instant_requirement_check" value="False" />
+									<bool name="kill_action_on_failed_requirements" value="False" />
+									<bool name="no_retrigger" value="False" />
+									<bool name="validate_all_sub_actions" value="True" />
+									<list name="requirement_table">
+										<template_reference name="required" value="requirements\required_not">
+											<enum name="reason" value="usage" />
+											<locstring name="ui_name" value="0" />
+											<list name="requirement_table">
+												<template_reference name="required" value="requirements\required_unit_type">
+													<enum name="reason" value="usage" />
+													<locstring name="ui_name" value="0" />
+													<enum name="unit_type" value="panzer_command_tank" />
+													<template_reference name="qualify_option" value="options\none">
+													</template_reference>
+													<bool name="search_load_out" value="False" />
+													<bool name="owned_by_player_only" value="True" />
+												</template_reference>
+											</list>
+										</template_reference>
+									</list>
+									<list name="action_table">
+										<template_reference name="action" value="action\ui_unit_modifier_action">
+											<bool name="die_with_creator" value="True" />
+											<template_reference name="ui_info" value="tables\ui_info">
+												<locstring name="screen_name" value="11046567" />
+												<locstring name="help_text" value="314" mod="f2791205c6e743b6a340ef0daf60b957" />
+												<icon name="icon_name" value="Icons_abilities_ability_british_infantry_support_smoke" />
+												<string name="hotkey_name" value="" />
+											</template_reference>
+											<uniqueid name="id" value="1073757439" />
+										</template_reference>
+									</list>
+									<uniqueid name="id" value="1073757440" />
+									<bool name="fire_and_forget_non_global" value="False" />
+									<template_reference name="ui_help_text" value="tables\help_text_phrase">
+										<int name="phrase_order" value="0" />
+										<locstring name="phrase" value="0" />
+									</template_reference>
+								</template_reference>
+								<template_reference name="action" value="action\requirement_action">
+									<bool name="check_self" value="False" />
+									<bool name="global_fire_and_forget_on_success" value="False" />
+									<bool name="instant_requirement_check" value="False" />
+									<bool name="kill_action_on_failed_requirements" value="False" />
+									<bool name="no_retrigger" value="False" />
+									<bool name="validate_all_sub_actions" value="True" />
+									<list name="requirement_table">
+										<template_reference name="required" value="requirements\required_not">
+											<enum name="reason" value="usage" />
+											<locstring name="ui_name" value="0" />
+											<list name="requirement_table">
+												<template_reference name="required" value="requirements\required_in_state">
+													<enum name="reason" value="usage" />
+													<locstring name="ui_name" value="0" />
+													<bool name="garrisoned" value="True" />
+													<bool name="healed" value="False" />
+													<float name="in_combat_since" value="-1" />
+													<bool name="injured" value="False" />
+													<bool name="leader" value="False" />
+													<bool name="not_moving" value="False" />
+													<bool name="not_retreating" value="False" />
+													<bool name="pinned" value="False" />
+													<bool name="suppressed" value="False" />
+													<bool name="camouflaged" value="False" />
+												</template_reference>
+											</list>
+										</template_reference>
+									</list>
+									<list name="action_table">
+										<template_reference name="action" value="action\animator_set_state">
+											<bool name="apply_to_leader_only" value="True" />
+											<string name="do_action_state_name" value="on" />
+											<bool name="retrigger" value="True" />
+											<string name="state_machine_name" value="ability_defensive_buff_state" />
+											<string name="undo_action_state_name" value="off" />
+											<uniqueid name="id" value="1073757441" />
+										</template_reference>
+									</list>
+									<uniqueid name="id" value="1073757442" />
+									<bool name="fire_and_forget_non_global" value="False" />
+									<template_reference name="ui_help_text" value="tables\help_text_phrase">
+										<int name="phrase_order" value="0" />
+										<locstring name="phrase" value="0" />
+									</template_reference>
+								</template_reference>
+							</list>
+							<enum name="change_target_type" value="squad" />
+							<uniqueid name="id" value="1073757436" />
+						</template_reference>
+					</list>
+					<uniqueid name="id" value="1073757433" />
+					<bool name="any_subaction" value="False" />
+				</template_reference>
+				<template_reference name="action" value="action\timed_action">
+					<float name="duration" value="16" />
+					<bool name="fire_and_forget" value="True" />
+					<list name="subactions">
+						<template_reference name="action" value="action\delay">
+							<float name="delay" value="15" />
+							<float name="delay_min" value="0" />
+							<bool name="progress_bar" value="False" />
+							<bool name="randomize" value="False" />
+							<list name="delayed_actions">
+								<template_reference name="action" value="action\make_dead">
+									<enum name="death_intensity" value="death_intensity_low" />
+									<bool name="ignore_invulnerability" value="False" />
+									<bool name="destroy" value="True" />
+									<list name="death_reaction_table">
+									</list>
+									<uniqueid name="id" value="1073757445" />
+								</template_reference>
+							</list>
+							<uniqueid name="id" value="1073757444" />
+							<bool name="can_prevent_refund" value="True" />
+						</template_reference>
+					</list>
+					<uniqueid name="id" value="1073757443" />
+				</template_reference>
+			</list>
+		</template_reference>
+	</list>
+	<uniqueid name="pbgid" value="1073741857" />
+</instance>
