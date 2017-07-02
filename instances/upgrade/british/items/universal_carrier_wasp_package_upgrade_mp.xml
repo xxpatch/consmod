@@ -21,10 +21,10 @@
 				<float name="command" value="0" />
 				<float name="fuel" value="0" />
 				<float name="manpower" value="0" />
-				<float name="munition" value="90" />
+				<float name="munition" value="70" />
 				<float name="popcap" value="0" />
 			</group>
-			<float name="time_seconds" value="20" />
+			<float name="time_seconds" value="35" />
 		</group>
 		<bool name="ui_event_cue" value="True" />
 		<enum name="ui_group" value="unit_upgrade_panel" />
@@ -66,13 +66,13 @@
 						<float name="z" value="-2.13" />
 					</group>
 					<enum name="type" value="default" />
-					<instance_reference name="weapon" value="weapon\british\flame_throwers\universal_carrier_ronson_flamethrower_system_mp" />
+					<instance_reference name="weapon" value="weapon\british\flame_throwers\universal_carrier_ronson_flamethrower_system_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				</group>
 				<uniqueid name="id" value="1073745820" />
 			</template_reference>
 			<template_reference name="action" value="action\change_weapon">
 				<float name="hardpoint" value="1" />
-				<instance_reference name="weapon" value="weapon\british\flame_throwers\universal_carrier_ronson_flamethrower_system_mp" />
+				<instance_reference name="weapon" value="weapon\british\flame_throwers\universal_carrier_ronson_flamethrower_system_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<uniqueid name="id" value="1073745821" />
 			</template_reference>
 			<template_reference name="action" value="action\change_combat_facing_action">
