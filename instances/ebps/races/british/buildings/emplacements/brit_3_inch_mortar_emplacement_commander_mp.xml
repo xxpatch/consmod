@@ -1190,7 +1190,7 @@
 				<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_lock_out_mortar_emplacement_slot_1_default_loaded" />
 				<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_lock_out_mortar_emplacement_slot_1_special_1_loaded" />
 				<instance_reference name="upgrade" value="upgrade\british\ability_lock_out\ability_lock_out_mortar_emplacement_slot_1_special_2_loaded" />
-				<instance_reference name="upgrade" value="upgrade\british\items\improved_fortifcation_squad" />
+				<instance_reference name="upgrade" value="upgrade\british\items\improved_fortifcation_squad" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="upgrade" value="upgrade\british\mortar_unlock_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 		</template_reference>

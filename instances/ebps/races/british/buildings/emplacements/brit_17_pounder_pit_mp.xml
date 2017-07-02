@@ -867,7 +867,7 @@
 			<bool name="must_be_in_supply" value="False" />
 			<float name="number_of_standard_slots" value="-1" />
 			<list name="standard_upgrades">
-				<instance_reference name="upgrade" value="upgrade\british\items\improved_fortifcation_squad" />
+				<instance_reference name="upgrade" value="upgrade\british\items\improved_fortifcation_squad" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\upgrade_apply_ext">

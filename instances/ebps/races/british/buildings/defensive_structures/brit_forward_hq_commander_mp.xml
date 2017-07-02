@@ -645,7 +645,7 @@
 												<enum name="unit_type" value="vehicle" />
 											</template_reference>
 											<template_reference name="info" value="type_ability_target_type\has_unit_type">
-												<enum name="unit_type" value="building" />
+												<enum name="unit_type" value="commonwealth_emplacements" />
 											</template_reference>
 										</list>
 									</template_reference>
