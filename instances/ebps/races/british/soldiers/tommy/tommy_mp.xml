@@ -65,7 +65,7 @@
 									<string name="modifier_id" value="xp_discount" />
 									<string name="target_type_name" value="" />
 									<enum name="usage_type" value="multiply_add" />
-									<float name="value" value="-0.2" />
+									<float name="value" value="-0.076923" />
 									<instance_reference name="tooltip" value="modifier_tooltip\blank_tooltip" />
 								</template_reference>
 							</list>
@@ -83,7 +83,7 @@
 					<float name="action" value="0" />
 					<float name="command" value="0" />
 					<float name="fuel" value="0" />
-					<float name="manpower" value="70" />
+					<float name="manpower" value="65" />
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
 				</group>
