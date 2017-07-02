@@ -68,7 +68,7 @@
 				<uniqueid name="id" value="1073757331" />
 			</template_reference>
 			<template_reference name="action" value="action\slot_item_add">
-				<instance_reference name="slot_item" value="slot_item\british\small_arms\sapper_vickers_k_light_machine_gun_mp" />
+				<instance_reference name="slot_item" value="slot_item\british\small_arms\sapper_vickers_k_light_machine_gun_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<bool name="permanent" value="True" />
 				<uniqueid name="id" value="1073757332" />
 			</template_reference>
