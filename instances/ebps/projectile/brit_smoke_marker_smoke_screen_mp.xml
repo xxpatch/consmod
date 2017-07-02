@@ -166,7 +166,7 @@
 				<template_reference name="action" value="action\victor_target_action">
 					<bool name="non_squad_entities_only" value="True" />
 					<list name="abilities_to_use">
-						<instance_reference name="ability" value="abilities\british\modal_ability\artillery\artillery_barrage_ability\qf_25lb_coordinated_fire_base_mp" />
+						<instance_reference name="ability" value="abilities\british\modal_ability\artillery\artillery_barrage_ability\qf_25lb_coordinated_fire_base_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 					</list>
 					<uniqueid name="id" value="1073756991" />
 				</template_reference>
@@ -201,8 +201,8 @@
 							<float name="source_offset_x" value="50" />
 							<float name="source_offset_y" value="200" />
 							<float name="source_offset_z" value="50" />
-							<float name="time_range_between_shells_max" value="15" />
-							<float name="time_range_between_shells_min" value="5" />
+							<float name="time_range_between_shells_max" value="10" />
+							<float name="time_range_between_shells_min" value="3" />
 							<instance_reference name="weapon_name" value="weapon\british\explosive_weapons\heavy_artillery\qf_25lb_howitzer_coordinated_airburst_shell_mp" />
 							<uniqueid name="id" value="1073756993" />
 						</template_reference>
