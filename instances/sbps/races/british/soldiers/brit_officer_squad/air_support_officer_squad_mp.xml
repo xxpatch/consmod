@@ -175,6 +175,12 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_requirement_ext">
 			<list name="requirement_table">
+				<template_reference name="required" value="requirements\required_squad">
+					<enum name="reason" value="usage" />
+					<locstring name="ui_name" value="315" mod="f2791205c6e743b6a340ef0daf60b957" />
+					<float name="max_squad_cap" value="1" />
+					<instance_reference name="squad_name" value="sbps\races\british\soldiers\brit_officer_squad\air_support_officer_squad_mp" />
+				</template_reference>
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_upgrade_apply_ext">
@@ -662,8 +668,8 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
-				<instance_reference name="ability" value="abilities\british\timed_ability\officer_charge_mp" />
-				<instance_reference name="ability" value="abilities\british\modal_ability\commander_ability\officer_recon_sweep" />
+				<instance_reference name="ability" value="abilities\british\timed_ability\officer_charge_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<instance_reference name="ability" value="abilities\british\modal_ability\commander_ability\officer_recon_sweep" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\british\modal_ability\grenades\tommy_gammon_bomb_medium_mp" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
@@ -995,7 +1001,7 @@
 			<enum name="shared_veterancy_type" value="tp_commonwealth_infantry" />
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_population_ext">
-			<float name="personnel_pop" value="4" />
+			<float name="personnel_pop" value="5" />
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="93511" />
