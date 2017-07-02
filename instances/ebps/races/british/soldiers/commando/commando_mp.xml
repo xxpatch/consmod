@@ -434,7 +434,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\british\small_arms\machine_gun\sub_machine_gun\commando_sten_mk_vi_silenced_smg_mp" />
+							<instance_reference name="weapon" value="weapon\british\small_arms\machine_gun\sub_machine_gun\commando_sten_mk_vi_silenced_smg_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -840,7 +840,7 @@
 															<enum name="reason" value="usage" />
 															<locstring name="ui_name" value="0" />
 															<string name="hardpoint_name" value="hardpoint_01" />
-															<instance_reference name="weapon" value="weapon\british\small_arms\machine_gun\sub_machine_gun\commando_sten_mk_vi_silenced_smg_mp" />
+															<instance_reference name="weapon" value="weapon\british\small_arms\machine_gun\sub_machine_gun\commando_sten_mk_vi_silenced_smg_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 														</template_reference>
 													</list>
 													<list name="action_table">
