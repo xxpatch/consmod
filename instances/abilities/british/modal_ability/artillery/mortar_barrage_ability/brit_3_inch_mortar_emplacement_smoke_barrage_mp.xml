@@ -102,55 +102,6 @@
 					<uniqueid name="id" value="1073756840" />
 					<bool name="valid_sections_only" value="False" comment="Allow triggering the Ability as long as part of the Sections are within weapon range." />
 				</template_reference>
-				<template_reference name="action" value="action\creeping_barrage">
-					<float name="box_length" value="20" />
-					<float name="box_width" value="8" />
-					<float name="hardpoint" value="6" />
-					<list name="sections">
-						<group name="section">
-							<float name="duration" value="0" />
-							<float name="num_shots" value="1" />
-							<list name="actions_end">
-							</list>
-							<list name="actions_start">
-							</list>
-						</group>
-						<group name="section">
-							<float name="duration" value="0" />
-							<float name="num_shots" value="1" />
-							<list name="actions_end">
-							</list>
-							<list name="actions_start">
-							</list>
-						</group>
-						<group name="section">
-							<float name="duration" value="0" />
-							<float name="num_shots" value="1" />
-							<list name="actions_end">
-							</list>
-							<list name="actions_start">
-							</list>
-						</group>
-						<group name="section">
-							<float name="duration" value="0" />
-							<float name="num_shots" value="1" />
-							<list name="actions_end">
-							</list>
-							<list name="actions_start">
-							</list>
-						</group>
-						<group name="section">
-							<float name="duration" value="0" />
-							<float name="num_shots" value="1" />
-							<list name="actions_end">
-							</list>
-							<list name="actions_start">
-							</list>
-						</group>
-					</list>
-					<uniqueid name="id" value="1073756841" />
-					<bool name="valid_sections_only" value="False" comment="Allow triggering the Ability as long as part of the Sections are within weapon range." />
-				</template_reference>
 			</list>
 		</group>
 		<enum name="activation" value="targeted" />
