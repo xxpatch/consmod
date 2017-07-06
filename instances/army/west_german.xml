@@ -54,7 +54,7 @@
 			<float name="action" value="0" />
 			<float name="command" value="0" />
 			<float name="fuel" value="10" />
-			<float name="manpower" value="380" />
+			<float name="manpower" value="340" />
 			<float name="munition" value="0" />
 			<float name="popcap" value="0" />
 		</group>
@@ -323,7 +323,7 @@
 				<instance_reference name="building" value="ebps\races\west_german\buildings\base_building\hq\west_german_hq_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<list name="starting_squads">
 					<group name="starting_squad">
-						<instance_reference name="squad" value="sbps\races\west_german\vehicles\kubelwagen_squad\kubelwagen_squad_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+						<instance_reference name="squad" value="sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						<bool name="check_requirements" value="False" />
 					</group>
 				</list>
@@ -335,7 +335,7 @@
 				<instance_reference name="building" value="ebps\races\west_german\buildings\base_building\hq\west_german_hq_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<list name="starting_squads">
 					<group name="starting_squad">
-						<instance_reference name="squad" value="sbps\races\west_german\vehicles\kubelwagen_squad\kubelwagen_squad_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+						<instance_reference name="squad" value="sbps\races\west_german\soldiers\assault_pioneer_squad\assault_pioneer_squad_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						<bool name="check_requirements" value="False" />
 					</group>
 				</list>
