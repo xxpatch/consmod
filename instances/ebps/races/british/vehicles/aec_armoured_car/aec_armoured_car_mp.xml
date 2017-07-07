@@ -1143,7 +1143,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="racebps\aef" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\british\vehicles\aec_armoured_car\aec_armoured_car_squad_mp" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\british\vehicles\aec_armoured_car\aec_armoured_car_squad_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						<float name="max_capture_crew_size" value="9" />
 						<float name="min_capture_crew_size" value="3" />
 						<list name="recrew_penalties_list">
@@ -1185,7 +1185,7 @@
 				<group name="race_data">
 					<instance_reference name="ext_key" value="" />
 					<group name="info">
-						<instance_reference name="capture_squad_blueprint" value="sbps\races\british\vehicles\aec_armoured_car\aec_armoured_car_squad_mp" />
+						<instance_reference name="capture_squad_blueprint" value="sbps\races\british\vehicles\aec_armoured_car\aec_armoured_car_squad_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						<float name="max_capture_crew_size" value="3" />
 						<float name="min_capture_crew_size" value="3" />
 						<list name="recrew_penalties_list">
