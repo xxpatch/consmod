@@ -163,26 +163,34 @@
 				</group>
 			</group>
 			<list name="on_detonate_actions">
+				<template_reference name="action" value="action\animator_set_state">
+					<bool name="apply_to_leader_only" value="False" />
+					<string name="do_action_state_name" value="on" />
+					<bool name="retrigger" value="False" />
+					<string name="state_machine_name" value="spawn_redsmoke" />
+					<string name="undo_action_state_name" value="" />
+					<uniqueid name="id" value="1073757931" />
+				</template_reference>
 				<template_reference name="action" value="action\victor_target_action">
 					<bool name="non_squad_entities_only" value="True" />
 					<list name="abilities_to_use">
 						<instance_reference name="ability" value="abilities\british\modal_ability\artillery\artillery_barrage_ability\qf_25lb_coordinated_fire_base_mp" />
 					</list>
-					<uniqueid name="id" value="1073756991" />
+					<uniqueid name="id" value="1073757932" />
 				</template_reference>
 				<template_reference name="action" value="action\victor_target_action">
 					<bool name="non_squad_entities_only" value="False" />
 					<list name="abilities_to_use">
 						<instance_reference name="ability" value="abilities\british\modal_ability\artillery\artillery_barrage_ability\qf_25lb_coordinated_fire_mp" />
 					</list>
-					<uniqueid name="id" value="1073756992" />
+					<uniqueid name="id" value="1073757933" />
 				</template_reference>
 				<template_reference name="action" value="action\victor_target_action">
 					<bool name="non_squad_entities_only" value="True" />
 					<list name="abilities_to_use">
 						<instance_reference name="ability" value="abilities\british\modal_ability\artillery\artillery_barrage_ability\qf_25lb_coordinated_fire_base_2_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 					</list>
-					<uniqueid name="id" value="1073757930" />
+					<uniqueid name="id" value="1073757937" />
 				</template_reference>
 				<template_reference name="action" value="action\requirement_action">
 					<bool name="check_self" value="True" />
@@ -211,10 +219,10 @@
 							<float name="time_range_between_shells_max" value="10" />
 							<float name="time_range_between_shells_min" value="3" />
 							<instance_reference name="weapon_name" value="weapon\british\explosive_weapons\heavy_artillery\qf_25lb_howitzer_coordinated_airburst_shell_mp" />
-							<uniqueid name="id" value="1073756993" />
+							<uniqueid name="id" value="1073757966" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073756994" />
+					<uniqueid name="id" value="1073757935" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -260,10 +268,10 @@
 					<bool name="retrigger" value="False" />
 					<string name="state_machine_name" value="spawn_redsmoke" />
 					<string name="undo_action_state_name" value="" />
-					<uniqueid name="id" value="1073756995" />
+					<uniqueid name="id" value="1073757936" />
 				</template_reference>
 			</list>
 		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="93212" />
+	<uniqueid name="pbgid" value="90544" />
 </instance>

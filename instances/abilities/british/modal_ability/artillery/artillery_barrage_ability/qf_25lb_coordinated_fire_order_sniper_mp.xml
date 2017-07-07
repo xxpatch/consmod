@@ -6,75 +6,43 @@
 			<list name="end_target_actions">
 			</list>
 			<list name="start_self_actions">
+				<template_reference name="action" value="action\delay">
+					<float name="delay" value="0.75" />
+					<float name="delay_min" value="0" />
+					<bool name="progress_bar" value="False" />
+					<bool name="randomize" value="False" />
+					<list name="delayed_actions">
+						<template_reference name="action" value="action\animator_set_state">
+							<bool name="apply_to_leader_only" value="False" />
+							<string name="do_action_state_name" value="off" />
+							<bool name="retrigger" value="True" />
+							<string name="state_machine_name" value="rifle_boys_at_visible" />
+							<string name="undo_action_state_name" value="on" />
+							<uniqueid name="id" value="1073757942" />
+						</template_reference>
+					</list>
+					<uniqueid name="id" value="1073757943" />
+					<bool name="can_prevent_refund" value="False" />
+				</template_reference>
 			</list>
 			<list name="start_target_actions">
-				<template_reference name="action" value="action\trigger_dca_action">
-					<string name="dca_action_name" value="UI\barrage_warning_smoke" />
-					<float name="duration" value="15" />
-					<bool name="is_terrain_only" value="True" />
-					<uniqueid name="id" value="1073757938" />
+				<template_reference name="action" value="action\use_accessory_weapon">
+					<instance_reference name="accessory_weapon_item" value="slot_item\british\grenades\sniper_smoke_marker_grenade_mp" />
+					<instance_reference name="decrement_accessory_item" value="" />
+					<bool name="entity_target_only" value="False" />
+					<bool name="force_squad_to_target" value="False" />
+					<bool name="no_decrement" value="True" />
+					<float name="number_of_shots" value="1" />
+					<group name="target_info">
+						<template_reference name="target_info" value="type_ability_target_type\all">
+						</template_reference>
+					</group>
+					<uniqueid name="id" value="1073757944" />
+					<bool name="target_override_direction_times_max_range" value="False" />
 				</template_reference>
 				<template_reference name="action" value="action\scar_function_call">
 					<string name="function_name" value="AE_BarrageEvent" />
-					<uniqueid name="id" value="1073756917" />
-				</template_reference>
-				<template_reference name="action" value="action\victor_target_action">
-					<bool name="non_squad_entities_only" value="True" />
-					<list name="abilities_to_use">
-						<instance_reference name="ability" value="abilities\british\modal_ability\artillery\artillery_barrage_ability\qf_25lb_coordinated_fire_base_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-					</list>
-					<uniqueid name="id" value="1073756918" />
-				</template_reference>
-				<template_reference name="action" value="action\victor_target_action">
-					<bool name="non_squad_entities_only" value="False" />
-					<list name="abilities_to_use">
-						<instance_reference name="ability" value="abilities\british\modal_ability\artillery\artillery_barrage_ability\qf_25lb_coordinated_fire_mp" />
-					</list>
-					<uniqueid name="id" value="1073756919" />
-				</template_reference>
-				<template_reference name="action" value="action\victor_target_action">
-					<bool name="non_squad_entities_only" value="True" />
-					<list name="abilities_to_use">
-						<instance_reference name="ability" value="abilities\british\modal_ability\artillery\artillery_barrage_ability\qf_25lb_coordinated_fire_base_2_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-					</list>
-					<uniqueid name="id" value="1073757939" />
-				</template_reference>
-				<template_reference name="action" value="action\requirement_action">
-					<bool name="check_self" value="True" />
-					<bool name="global_fire_and_forget_on_success" value="False" />
-					<bool name="instant_requirement_check" value="True" />
-					<bool name="kill_action_on_failed_requirements" value="False" />
-					<bool name="no_retrigger" value="False" />
-					<bool name="validate_all_sub_actions" value="True" />
-					<list name="requirement_table">
-						<template_reference name="required" value="requirements\required_player_upgrade">
-							<enum name="reason" value="usage" />
-							<locstring name="ui_name" value="0" />
-							<bool name="is_present" value="True" />
-							<float name="max_completed" value="100" />
-							<float name="min_completed" value="1" />
-							<instance_reference name="upgrade_name" value="upgrade\british\research\company_anvil_mp" />
-						</template_reference>
-					</list>
-					<list name="action_table">
-						<template_reference name="action" value="action\off_map_artillery">
-							<float name="num_salvo" value="4" />
-							<float name="radius" value="20" />
-							<float name="source_offset_x" value="50" />
-							<float name="source_offset_y" value="200" />
-							<float name="source_offset_z" value="50" />
-							<float name="time_range_between_shells_max" value="10" />
-							<float name="time_range_between_shells_min" value="3" />
-							<instance_reference name="weapon_name" value="weapon\british\explosive_weapons\heavy_artillery\qf_25lb_howitzer_coordinated_airburst_shell_mp" />
-							<uniqueid name="id" value="1073756920" />
-						</template_reference>
-					</list>
-					<uniqueid name="id" value="1073756921" />
-					<bool name="fire_and_forget_non_global" value="False" />
-					<template_reference name="ui_help_text" value="tables\help_text_phrase">
-						<int name="phrase_order" value="0" />
-						<locstring name="phrase" value="0" />
-					</template_reference>
+					<uniqueid name="id" value="1073757945" />
 				</template_reference>
 			</list>
 		</group>
@@ -111,10 +79,10 @@
 		<bool name="is_default_action" value="False" />
 		<bool name="move_back" value="False" />
 		<float name="move_back_distance" value="10" />
-		<float name="range" value="70" />
+		<float name="range" value="30" />
 		<bool name="range_ignore" value="False" />
 		<float name="recharge_time" value="80" />
-		<bool name="refundable" value="False" />
+		<bool name="refundable" value="True" />
 		<bool name="require_no_shot_block" value="False" />
 		<enum name="shared_timer" value="free_fire" />
 		<bool name="shared_timer_player_wide" value="True" />
@@ -154,7 +122,7 @@
 		<group name="ui_info">
 			<locstring name="extra_text" value="11083970" />
 			<locstring name="help_text" value="11083971" />
-			<string name="hotkey_name" value="G" />
+			<string name="hotkey_name" value="E" />
 			<icon name="icon_name" value="Icons_abilities_ability_british_coordinated_fire" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
@@ -186,9 +154,34 @@
 				<float name="min_completed" value="1" />
 				<instance_reference name="upgrade_name" value="upgrade\british\ability_lock_out\ability_lock_out_base_artillery_overwatch_ability_active" />
 			</template_reference>
+			<template_reference name="required" value="requirements\required_not">
+				<enum name="reason" value="usage" />
+				<locstring name="ui_name" value="11074362" />
+				<list name="requirement_table">
+					<template_reference name="required" value="requirements\required_in_state">
+						<enum name="reason" value="usage" />
+						<locstring name="ui_name" value="11074362" />
+						<bool name="garrisoned" value="False" />
+						<bool name="healed" value="False" />
+						<float name="in_combat_since" value="-1" />
+						<bool name="injured" value="False" />
+						<bool name="leader" value="False" />
+						<bool name="not_moving" value="False" />
+						<bool name="not_retreating" value="False" />
+						<bool name="pinned" value="True" />
+						<bool name="suppressed" value="False" />
+						<bool name="camouflaged" value="False" />
+					</template_reference>
+				</list>
+			</template_reference>
+			<template_reference name="required" value="requirements\required_squad_veterancy">
+				<enum name="reason" value="usage" />
+				<locstring name="ui_name" value="305" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<float name="veterancy_rank" value="1" />
+			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />
-		<int name="ui_position" value="32" />
+		<int name="ui_position" value="31" />
 		<bool name="ui_mini_map_capture" value="True" />
 		<bool name="facing_ignore_during_active" value="False" />
 		<instance_reference name="ui_range" value="ui_reticule\ability_range_artillery_barrage" />
@@ -220,5 +213,5 @@
 		<bool name="can_cast_outside_active_battle_field" value="False" />
 		<bool name="ability_super_event_cue" value="False" />
 	</group>
-	<uniqueid name="pbgid" value="90712" />
+	<uniqueid name="pbgid" value="92950" />
 </instance>

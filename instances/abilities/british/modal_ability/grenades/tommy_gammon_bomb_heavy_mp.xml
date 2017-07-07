@@ -1,4 +1,4 @@
-<instance description="Defensive grenades are fired from launchers around the Sturmtiger" template="abilities">
+<instance description="explosive grenade on the Paratroopers." template="abilities">
 	<group name="ability_bag">
 		<group name="action_list">
 			<list name="end_self_actions">
@@ -6,52 +6,44 @@
 			<list name="end_target_actions">
 			</list>
 			<list name="start_self_actions">
-				<template_reference name="action" value="action\timed_action">
-					<float name="duration" value="2" />
-					<bool name="fire_and_forget" value="False" />
-					<list name="subactions">
-						<template_reference name="action" value="action\kicker_message_action">
-							<float name="loop_interval" value="0.3" />
-							<locstring name="message" value="0" />
-							<float name="message_colour_a" value="255" />
-							<float name="message_colour_b" value="0" />
-							<float name="message_colour_g" value="255" />
-							<float name="message_colour_r" value="0" />
-							<float name="message_duration" value="0.2" />
-							<bool name="team_only" value="True" />
-							<bool name="check_fow" value="False" />
-							<uniqueid name="id" value="1073757407" />
-						</template_reference>
-					</list>
-					<uniqueid name="id" value="1073757408" />
-				</template_reference>
-				<template_reference name="action" value="action\animator_set_state">
-					<bool name="apply_to_leader_only" value="False" />
-					<string name="do_action_state_name" value="on" />
-					<bool name="retrigger" value="False" />
-					<string name="state_machine_name" value="ability_crew_grenade" />
-					<string name="undo_action_state_name" value="off" />
-					<uniqueid name="id" value="1073757409" />
-				</template_reference>
 			</list>
 			<list name="start_target_actions">
-				<template_reference name="action" value="action\artillery_attack">
-					<bool name="disable_parent_hardpoint" value="False" />
-					<group name="filter_weapons">
-						<instance_reference name="weapon_01" value="" />
-						<instance_reference name="weapon_02" value="" />
-						<instance_reference name="weapon_03" value="" />
+				<template_reference name="action" value="action\use_accessory_weapon">
+					<instance_reference name="accessory_weapon_item" value="slot_item\british\explosive_weapon\grenade\tommy_gammon_bomb_heavy" />
+					<instance_reference name="decrement_accessory_item" value="" />
+					<bool name="entity_target_only" value="False" />
+					<bool name="force_squad_to_target" value="False" />
+					<bool name="no_decrement" value="True" />
+					<float name="number_of_shots" value="1" />
+					<group name="target_info">
+						<template_reference name="target_info" value="type_ability_target_type\all">
+						</template_reference>
 					</group>
-					<float name="num_salvo" value="1" />
-					<float name="use_hardpoint" value="4" />
-					<bool name="face_to_target" value="False" />
-					<uniqueid name="id" value="1073757410" />
+					<uniqueid name="id" value="1073757954" />
 					<bool name="target_override_direction_times_max_range" value="False" />
+				</template_reference>
+				<template_reference name="action" value="action\delay">
+					<float name="delay" value="1.5" />
+					<float name="delay_min" value="0" />
+					<bool name="progress_bar" value="False" />
+					<bool name="randomize" value="False" />
+					<list name="delayed_actions">
+						<template_reference name="action" value="action\game_event_action">
+							<float name="event_extra_param" value="0" />
+							<float name="event_param_begin" value="1" />
+							<float name="event_param_end" value="-1" />
+							<enum name="event_type" value="grenade" />
+							<bool name="event_send_to_target_player" value="False" />
+							<uniqueid name="id" value="1073757955" />
+						</template_reference>
+					</list>
+					<uniqueid name="id" value="1073757956" />
+					<bool name="can_prevent_refund" value="False" />
 				</template_reference>
 			</list>
 		</group>
 		<enum name="activation" value="targeted" />
-		<bool name="can_interrupt" value="False" />
+		<bool name="can_interrupt" value="True" />
 		<bool name="can_target_in_fow" value="True" />
 		<float name="caster_close_in_distance" value="0" />
 		<bool name="casters_can_evacuate" value="False" />
@@ -60,20 +52,20 @@
 			<float name="command" value="0" />
 			<float name="fuel" value="0" />
 			<float name="manpower" value="0" />
-			<float name="munition" value="20" />
+			<float name="munition" value="45" />
 			<float name="popcap" value="0" />
 		</group>
 		<string name="cursor_ghost_blueprint" value="" />
 		<float name="cursor_ghost_blueprint_angle" value="0" />
 		<bool name="disable_combat" value="False" />
 		<bool name="disable_when_active" value="True" />
-		<float name="duration_time" value="3" />
+		<float name="duration_time" value="-1" />
 		<bool name="enable_in_building" value="False" />
 		<bool name="enable_in_vehicle" value="False" />
-		<bool name="engage_combat" value="True" />
+		<bool name="engage_combat" value="False" />
 		<float name="entity_busy_time" value="0" />
-		<float name="facing_angle" value="10" />
-		<bool name="facing_ignore" value="True" />
+		<float name="facing_angle" value="15" />
+		<bool name="facing_ignore" value="False" />
 		<float name="final_close_in_distance" value="0" />
 		<bool name="fire_and_forget" value="False" />
 		<bool name="garrison_target" value="False" />
@@ -83,21 +75,21 @@
 		<bool name="is_default_action" value="False" />
 		<bool name="move_back" value="False" />
 		<float name="move_back_distance" value="10" />
-		<float name="range" value="15" />
+		<float name="range" value="20" />
 		<bool name="range_ignore" value="False" />
-		<float name="recharge_time" value="22" />
+		<float name="recharge_time" value="30" />
 		<bool name="refundable" value="True" />
 		<bool name="require_no_shot_block" value="False" />
-		<enum name="shared_timer" value="" />
+		<enum name="shared_timer" value="squad_ability_1" />
 		<bool name="shared_timer_player_wide" value="False" />
 		<group name="speech_code_2">
-			<string name="code_1" value="" />
-			<string name="code_2" value="" />
+			<string name="code_1" value="ml" />
+			<string name="code_2" value="gn" />
 			<string name="code_3" value="" />
 		</group>
 		<group name="speech_code_3">
-			<string name="code_1" value="hcd" />
-			<string name="code_2" value="" />
+			<string name="code_1" value="mls" />
+			<string name="code_2" value="gnd" />
 			<string name="code_3" value="" />
 		</group>
 		<enum name="squad_caster" value="one_entity" />
@@ -114,13 +106,13 @@
 			<string name="cursor_nonmodal_good" value="" />
 		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="11090042" />
-			<locstring name="help_text" value="11084201" />
-			<string name="hotkey_name" value="N" />
-			<icon name="icon_name" value="Icons_abilities_ability_british_mills_grenade" />
+			<locstring name="extra_text" value="11090774" />
+			<locstring name="help_text" value="11083815" />
+			<string name="hotkey_name" value="F" />
+			<icon name="icon_name" value="Icons_abilities_ability_british_gammon_bomb_large" />
 			<string name="overlay_name" value="" />
 			<bool name="reveal_for_decryption" value="False" />
-			<locstring name="screen_name" value="11084200" />
+			<locstring name="screen_name" value="11083811" />
 			<icon name="icon_alternate_name" value="" />
 			<locstring name="brief_text" value="0" />
 			<locstring name="help_text_alternate" value="0" />
@@ -133,23 +125,43 @@
 		</list>
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_player_upgrade">
-				<enum name="reason" value="usage" />
-				<locstring name="ui_name" value="11084866" />
+				<enum name="reason" value="usage_and_display" />
+				<locstring name="ui_name" value="0" />
 				<bool name="is_present" value="True" />
 				<float name="max_completed" value="100" />
 				<float name="min_completed" value="1" />
-				<instance_reference name="upgrade_name" value="upgrade\british\research\tommy_mills_bomb_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<instance_reference name="upgrade_name" value="upgrade\british\research\company_hammer_mp" />
+			</template_reference>
+			<template_reference name="required" value="requirements\required_not">
+				<enum name="reason" value="usage" />
+				<locstring name="ui_name" value="11074362" />
+				<list name="requirement_table">
+					<template_reference name="required" value="requirements\required_in_state">
+						<enum name="reason" value="usage" />
+						<locstring name="ui_name" value="0" />
+						<bool name="garrisoned" value="False" />
+						<bool name="healed" value="False" />
+						<float name="in_combat_since" value="-1" />
+						<bool name="injured" value="False" />
+						<bool name="leader" value="False" />
+						<bool name="not_moving" value="False" />
+						<bool name="not_retreating" value="False" />
+						<bool name="pinned" value="True" />
+						<bool name="suppressed" value="False" />
+						<bool name="camouflaged" value="False" />
+					</template_reference>
+				</list>
 			</template_reference>
 		</list>
 		<enum name="ability_super" value="tp_none" />
-		<int name="ui_position" value="31" />
+		<int name="ui_position" value="32" />
 		<bool name="ui_mini_map_capture" value="False" />
 		<bool name="facing_ignore_during_active" value="False" />
 		<instance_reference name="ui_range" value="ui_reticule\ability_range_default" />
 		<instance_reference name="ui_reticule" value="ui_reticule\ability_target_grenade_negative" />
-		<float name="ui_reticule_radius_min" value="3" />
-		<float name="ui_reticule_radius_max" value="3" />
-		<enum name="pending_ability_out_of_range_behaviour" value="chase" />
+		<float name="ui_reticule_radius_min" value="4.5" />
+		<float name="ui_reticule_radius_max" value="4.5" />
+		<enum name="pending_ability_out_of_range_behaviour" value="ignore_range" />
 		<enum name="ui_group" value="group_primary" />
 		<string name="ui_targetable_sm_key" value="" />
 		<string name="ui_targetable_on_key" value="" />
@@ -164,10 +176,7 @@
 		</enum_table>
 		<list name="requirements_target">
 		</list>
-		<template_reference name="targeted_ability_option" value="options\abilities\targeted_ability_option">
-			<bool name="persist_targeted_ability" value="True" />
-			<bool name="post_ability_out_of_range_stop" value="False" />
-			<bool name="range_ignore_target_far_position" value="False" />
+		<template_reference name="targeted_ability_option" value="options\none">
 		</template_reference>
 		<enum name="ui_direction_requirement" value="nondirectional" />
 		<instance_reference name="cursor_ghost_ebp" value="" />
@@ -177,5 +186,5 @@
 		<bool name="can_cast_outside_active_battle_field" value="False" />
 		<bool name="ability_super_event_cue" value="False" />
 	</group>
-	<uniqueid name="pbgid" value="89431" />
+	<uniqueid name="pbgid" value="89206" />
 </instance>

@@ -32,18 +32,43 @@
 					<uniqueid name="id" value="1073756847" />
 					<bool name="target_override_direction_times_max_range" value="False" />
 				</template_reference>
-				<template_reference name="action" value="action\artillery_attack">
-					<bool name="disable_parent_hardpoint" value="True" />
-					<group name="filter_weapons">
-						<instance_reference name="weapon_01" value="" />
-						<instance_reference name="weapon_02" value="" />
-						<instance_reference name="weapon_03" value="" />
-					</group>
-					<float name="num_salvo" value="4" />
-					<float name="use_hardpoint" value="4" />
-					<bool name="face_to_target" value="True" />
-					<uniqueid name="id" value="1073756848" />
-					<bool name="target_override_direction_times_max_range" value="False" />
+				<template_reference name="action" value="action\requirement_action">
+					<bool name="check_self" value="True" />
+					<bool name="global_fire_and_forget_on_success" value="False" />
+					<bool name="instant_requirement_check" value="False" />
+					<bool name="kill_action_on_failed_requirements" value="False" />
+					<bool name="no_retrigger" value="False" />
+					<bool name="validate_all_sub_actions" value="True" />
+					<list name="requirement_table">
+						<template_reference name="required" value="requirements\required_entity_upgrade">
+							<enum name="reason" value="usage" />
+							<locstring name="ui_name" value="0" />
+							<bool name="is_present" value="True" />
+							<instance_reference name="upgrade_name" value="upgrade\british\mortar_unlock_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+							<bool name="include_queued" value="False" />
+						</template_reference>
+					</list>
+					<list name="action_table">
+						<template_reference name="action" value="action\artillery_attack">
+							<bool name="disable_parent_hardpoint" value="True" />
+							<group name="filter_weapons">
+								<instance_reference name="weapon_01" value="" />
+								<instance_reference name="weapon_02" value="" />
+								<instance_reference name="weapon_03" value="" />
+							</group>
+							<float name="num_salvo" value="4" />
+							<float name="use_hardpoint" value="4" />
+							<bool name="face_to_target" value="True" />
+							<uniqueid name="id" value="1073757941" />
+							<bool name="target_override_direction_times_max_range" value="False" />
+						</template_reference>
+					</list>
+					<uniqueid name="id" value="1073757940" />
+					<bool name="fire_and_forget_non_global" value="False" />
+					<template_reference name="ui_help_text" value="tables\help_text_phrase">
+						<int name="phrase_order" value="0" />
+						<locstring name="phrase" value="0" />
+					</template_reference>
 				</template_reference>
 				<template_reference name="action" value="action\scar_function_call">
 					<string name="function_name" value="AE_BarrageEvent" />
