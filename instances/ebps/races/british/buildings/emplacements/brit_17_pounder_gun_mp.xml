@@ -1,7 +1,7 @@
 <instance description="Clone of Pak 43" template="ebps">
 	<list name="extensions">
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext">
-			<string name="alternate_sua" value="" />
+			<string name="alternate_sua" value="armies\german\weapons\antitank_88mm_pak43\antitank_88mm_pak43" />
 			<bool name="always_revealed_in_fow" value="False" />
 			<file name="animator" value="armies\british\weapons\17_pounder\17_pounder" />
 			<bool name="is_visible_in_game" value="True" />
@@ -326,7 +326,7 @@
 			</list>
 			<float name="armor" value="5" />
 			<float name="rear_armor" value="0" />
-			<float name="target_size" value="5" />
+			<float name="target_size" value="1.5" />
 			<bool name="dies_from_broken_ice" value="True" />
 			<list name="criticals">
 			</list>

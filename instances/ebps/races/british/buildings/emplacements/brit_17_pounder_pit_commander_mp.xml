@@ -1,7 +1,7 @@
 <instance description="Clone of Pak 43" template="ebps">
 	<list name="extensions">
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext">
-			<string name="alternate_sua" value="" />
+			<string name="alternate_sua" value="armies\german\weapons\antitank_88mm_pak43\antitank_88mm_pak43" />
 			<bool name="always_revealed_in_fow" value="False" />
 			<file name="animator" value="armies\british\structures\pit_large\pit_large" />
 			<bool name="is_visible_in_game" value="True" />
@@ -1123,7 +1123,7 @@
 			<bool name="must_not_be_in_command_territory" value="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\site_ext">
-			<float name="extra_build_test_footprint" value="0" />
+			<float name="extra_build_test_footprint" value="5" />
 			<bool name="require_all_cells_clear" value="True" />
 			<bool name="snap_to_terrain" value="False" />
 			<bool name="ignore_impass" value="False" />

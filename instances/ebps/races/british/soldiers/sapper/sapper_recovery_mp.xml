@@ -17,7 +17,7 @@
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_deep_snow_camo" />
 				<instance_reference name="ability" value="abilities\british\modal_ability\destroy_cover_mp" />
-				<instance_reference name="ability" value="abilities\british\modal_ability\salvage_ability\sapper_salvage_wreck" />
+				<instance_reference name="ability" value="abilities\british\modal_ability\salvage_ability\sapper_salvage_wreck" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\action_apply_ext">
