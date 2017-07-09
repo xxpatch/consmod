@@ -1115,7 +1115,7 @@
 			<bool name="must_not_be_in_command_territory" value="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\site_ext">
-			<float name="extra_build_test_footprint" value="5" />
+			<float name="extra_build_test_footprint" value="4" />
 			<bool name="require_all_cells_clear" value="True" />
 			<bool name="snap_to_terrain" value="False" />
 			<bool name="ignore_impass" value="False" />

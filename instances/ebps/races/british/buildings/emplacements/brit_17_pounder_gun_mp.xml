@@ -589,7 +589,7 @@
 				<template_reference name="required" value="requirements\required_structure">
 					<enum name="reason" value="usage" />
 					<locstring name="ui_name" value="0" />
-					<instance_reference name="structure_name" value="ebps\races\british\buildings\base_building\british_building_2_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+					<instance_reference name="structure_name" value="ebps\races\british\buildings\base_building\british_building_2_mp" />
 					<int name="required_structure_count" value="1" />
 					<bool name="check_team" value="False" />
 					<bool name="require_construction_complete" value="True" />
@@ -692,28 +692,6 @@
 			<float name="on_ice_accel_decel_multiplier" value="0.3" />
 			<float name="on_land_overturn_scale" value="0" />
 			<float name="on_ice_overturn_scale" value="1.3" />
-		</template_reference>
-		<template_reference name="exts" value="ebpextensions\team_weapon_ext">
-			<string name="attach_state_name" value="Artillery_Attach" />
-			<bool name="can_manual_abandon" value="False" />
-			<bool name="disable_garrison" value="False" />
-			<string name="ownership_state_name" value="AntiTankGun_Owner" />
-			<string name="role_state_name" value="Artillery_Role" />
-			<string name="sync_target_name" value="Artillery_Target" />
-			<enum name="team_weapon_type" value="tp_mobile" />
-			<string name="weapon_usage_state_name" value="" />
-			<list name="on_abandon_action">
-			</list>
-			<list name="role_list">
-			</list>
-			<float name="destroy_on_abandon_health_threshold" value="-1" />
-			<list name="on_abandon_weapon_action">
-				<template_reference name="action" value="action\upgrade_remove">
-					<bool name="apply_to_entities_in_squad" value="False" />
-					<instance_reference name="upgrade" value="upgrade\is_manned" />
-					<uniqueid name="id" value="1073756914" />
-				</template_reference>
-			</list>
 		</template_reference>
 	</list>
 	<uniqueid name="pbgid" value="94911" />

@@ -425,7 +425,7 @@
 			<float name="amount" value="0" />
 		</group>
 		<group name="teardown">
-			<float name="duration" value="0" />
+			<float name="duration" value="2" />
 		</group>
 		<group name="tracking">
 			<float name="fire_cone_angle" value="10" />
@@ -439,7 +439,7 @@
 			</group>
 			<float name="pivot_end_time" value="0.87" />
 			<bool name="pivot_only" value="False" />
-			<float name="pivot_start_time" value="0" />
+			<float name="pivot_start_time" value="2" />
 			<float name="fire_cone_angle_vert" value="2" />
 		</group>
 		<locstring name="ui_name" value="0" />
