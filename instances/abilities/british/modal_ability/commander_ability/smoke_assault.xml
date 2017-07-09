@@ -226,7 +226,7 @@
 					<enum name="deprecated_unit_class_type" value="" />
 					<list name="action_table">
 						<template_reference name="action" value="action\timed_action">
-							<float name="duration" value="9" />
+							<float name="duration" value="10" />
 							<bool name="fire_and_forget" value="False" />
 							<list name="subactions">
 								<template_reference name="action" value="action\slot_item_add">
