@@ -19,7 +19,7 @@
 				<instance_reference name="ability" value="abilities\british\modal_ability\commander_ability\aec_defensive_smoke" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\british\modal_ability\commander_ability\passive_ability\command_vehicle_plane" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\british\toggle_ability\brit_vehicle_hold_fire_mp" />
-				<instance_reference name="ability" value="abilities\british\modal_ability\accessory_weapons\aec_tread_shots_mp" />
+				<instance_reference name="ability" value="abilities\british\timed_ability\aec_treadshot_new_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\aef\toggle_ability\usf_hold_fire_mp" />
 			</list>
 		</template_reference>
@@ -615,7 +615,7 @@
 								<float name="z" value="0.7" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\british\ballistic_weapon\tank_gun\aec_75mm_ap_mp" />
+							<instance_reference name="weapon" value="weapon\british\ballistic_weapon\tank_gun\aec_75mm_ap_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />

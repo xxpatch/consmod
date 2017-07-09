@@ -67,7 +67,7 @@
 							<uniqueid name="id" value="1073757426" />
 						</template_reference>
 						<template_reference name="action" value="action\interval_action">
-							<float name="interval_second" value="1.5" />
+							<float name="interval_second" value="1" />
 							<uniqueid name="id" value="1073757427" />
 							<list name="interval_subactions">
 								<group name="interval_subaction_group">
