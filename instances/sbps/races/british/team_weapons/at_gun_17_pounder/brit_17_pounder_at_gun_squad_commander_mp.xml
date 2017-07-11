@@ -414,7 +414,7 @@
 							<group name="veterancy_rank">
 								<float name="experience_value" value="2000" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11090855" />
+								<locstring name="screen_name" value="319" mod="f2791205c6e743b6a340ef0daf60b957" />
 								<bool name="single_player_only" value="False" />
 								<list name="leader_actions">
 								</list>
@@ -436,6 +436,31 @@
 											</template_reference>
 										</list>
 										<uniqueid name="id" value="1073756879" />
+									</template_reference>
+									<template_reference name="action" value="action\apply_modifiers_action">
+										<float name="duration" value="0" />
+										<bool name="permanent" value="False" />
+										<list name="modifiers">
+											<template_reference name="modifier" value="modifiers\ability_recharge_time_modifier">
+												<enum name="application_type" value="apply_to_ability" />
+												<bool name="exclusive" value="False" />
+												<string name="modifier_id" value="" />
+												<enum name="usage_type" value="multiplication" />
+												<float name="value" value="0.7777778" />
+												<instance_reference name="tooltip" value="modifier_tooltip\ability_recharge_time_modifier" />
+												<instance_reference name="target_type_name" value="abilities\british\timed_ability\brit_17_pounder_piercing_shell_ability_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+											</template_reference>
+											<template_reference name="modifier" value="modifiers\ability_cost_munition_multiplier">
+												<enum name="application_type" value="apply_to_ability" />
+												<bool name="exclusive" value="False" />
+												<string name="modifier_id" value="" />
+												<instance_reference name="target_type_name" value="abilities\british\timed_ability\brit_17_pounder_piercing_shell_ability_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+												<enum name="usage_type" value="multiplication" />
+												<float name="value" value="0.7777778" />
+												<instance_reference name="tooltip" value="modifier_tooltip\ability_cost_munition_multiplier" />
+											</template_reference>
+										</list>
+										<uniqueid name="id" value="1073758296" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
