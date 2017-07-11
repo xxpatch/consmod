@@ -51,7 +51,7 @@
 			<template_reference name="action" value="action\upgrade_add">
 				<bool name="apply_to_entities_in_squad" value="False" />
 				<bool name="trigger_publish_event" value="False" />
-				<instance_reference name="upgrade" value="upgrade\british\research\british_call_in_decrease_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<instance_reference name="upgrade" value="upgrade\british\research\british_call_in_decrease_mod_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<uniqueid name="id" value="1073757886" />
 			</template_reference>
 		</list>
