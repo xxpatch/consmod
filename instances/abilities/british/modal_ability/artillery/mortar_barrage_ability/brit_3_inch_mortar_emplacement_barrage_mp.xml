@@ -35,9 +35,9 @@
 				<template_reference name="action" value="action\requirement_action">
 					<bool name="check_self" value="True" />
 					<bool name="global_fire_and_forget_on_success" value="False" />
-					<bool name="instant_requirement_check" value="False" />
-					<bool name="kill_action_on_failed_requirements" value="False" />
-					<bool name="no_retrigger" value="False" />
+					<bool name="instant_requirement_check" value="True" />
+					<bool name="kill_action_on_failed_requirements" value="True" />
+					<bool name="no_retrigger" value="True" />
 					<bool name="validate_all_sub_actions" value="True" />
 					<list name="requirement_table">
 						<template_reference name="required" value="requirements\required_entity_upgrade">
