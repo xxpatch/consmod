@@ -1,7 +1,7 @@
 <instance description="Clone of Pak 43" template="ebps">
 	<list name="extensions">
 		<template_reference name="exts" value="ebpextensions\entity_blueprint_ext">
-			<string name="alternate_sua" value="armies\german\weapons\antitank_88mm_pak43\antitank_88mm_pak43" />
+			<string name="alternate_sua" value="armies\british\weapons\17_pounder\17_pounder" />
 			<bool name="always_revealed_in_fow" value="False" />
 			<file name="animator" value="armies\british\structures\pit_large\pit_large" />
 			<bool name="is_visible_in_game" value="True" />
