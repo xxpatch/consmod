@@ -18,10 +18,6 @@
 					<enum name="change_target_type" value="squad" />
 					<uniqueid name="id" value="1073758190" />
 				</template_reference>
-				<template_reference name="action" value="action\force_reload_action">
-					<int name="hardpoint_index" value="1" />
-					<uniqueid name="id" value="1073758264" />
-				</template_reference>
 			</list>
 			<list name="end_target_actions">
 			</list>
@@ -125,15 +121,6 @@
 											<enum name="usage_type" value="multiplication" />
 											<float name="value" value="1.2" />
 											<instance_reference name="tooltip" value="modifier_tooltip\accuracy_weapon_modifier" />
-										</template_reference>
-										<template_reference name="modifier" value="modifiers\reload_weapon_modifier">
-											<enum name="application_type" value="apply_to_weapon" />
-											<bool name="exclusive" value="False" />
-											<string name="modifier_id" value="" />
-											<string name="target_type_name" value="hardpoint_01" />
-											<enum name="usage_type" value="multiplication" />
-											<float name="value" value="0.5" />
-											<instance_reference name="tooltip" value="modifier_tooltip\reload_weapon_modifier" />
 										</template_reference>
 										<template_reference name="modifier" value="modifiers\range_weapon_modifier">
 											<enum name="application_type" value="apply_to_weapon" />
