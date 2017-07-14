@@ -165,26 +165,6 @@
 			<list name="on_detonate_actions">
 				<template_reference name="action" value="action\spawn_entity">
 					<float name="duration" value="20" />
-					<instance_reference name="entity_blueprint" value="ebps\gameplay\smoke_cloud_cover" />
-					<bool name="permanent" value="False" />
-					<bool name="player_owned" value="False" />
-					<group name="target_info">
-						<template_reference name="target_info" value="type_ability_target_type\all">
-						</template_reference>
-					</group>
-					<uniqueid name="id" value="1073757365" />
-					<template_reference name="spawn_attached_option" value="options\none">
-					</template_reference>
-					<list name="spawned_entity_actions">
-					</list>
-					<group name="offset">
-						<float name="x" value="0" />
-						<float name="y" value="0" />
-						<float name="z" value="0" />
-					</group>
-				</template_reference>
-				<template_reference name="action" value="action\spawn_entity">
-					<float name="duration" value="20" />
 					<instance_reference name="entity_blueprint" value="ebps\gameplay\smoke_shot_block" />
 					<bool name="permanent" value="False" />
 					<bool name="player_owned" value="False" />
@@ -192,7 +172,7 @@
 						<template_reference name="target_info" value="type_ability_target_type\all">
 						</template_reference>
 					</group>
-					<uniqueid name="id" value="1073757363" />
+					<uniqueid name="id" value="1073758441" />
 					<template_reference name="spawn_attached_option" value="options\none">
 					</template_reference>
 					<list name="spawned_entity_actions">
@@ -212,7 +192,7 @@
 						<template_reference name="target_info" value="type_ability_target_type\all">
 						</template_reference>
 					</group>
-					<uniqueid name="id" value="1073757364" />
+					<uniqueid name="id" value="1073758442" />
 					<template_reference name="spawn_attached_option" value="options\none">
 					</template_reference>
 					<list name="spawned_entity_actions">
@@ -262,10 +242,10 @@
 					<bool name="retrigger" value="False" />
 					<string name="state_machine_name" value="projectile_use" />
 					<string name="undo_action_state_name" value="" />
-					<uniqueid name="id" value="1073757358" />
+					<uniqueid name="id" value="1073758443" />
 				</template_reference>
 			</list>
 		</template_reference>
 	</list>
-	<uniqueid name="pbgid" value="89449" />
+	<uniqueid name="pbgid" value="92925" />
 </instance>

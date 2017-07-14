@@ -372,7 +372,7 @@
 								<enum name="application_type" value="apply_to_ability" />
 								<bool name="exclusive" value="False" />
 								<string name="modifier_id" value="" />
-								<instance_reference name="target_type_name" value="abilities\british\modal_ability\grenades\tommy_gammon_bomb_medium_mp" />
+								<instance_reference name="target_type_name" value="abilities\british\modal_ability\grenades\tommy_gammon_bomb_medium_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 								<enum name="usage_type" value="multiplication" />
 								<float name="value" value="0.67" />
 								<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
@@ -539,7 +539,7 @@
 						<template_reference name="required" value="requirements\required_squad_veterancy">
 							<enum name="reason" value="usage" />
 							<locstring name="ui_name" value="0" />
-							<float name="veterancy_rank" value="3" />
+							<float name="veterancy_rank" value="1" />
 						</template_reference>
 						<template_reference name="required" value="requirements\required_in_state">
 							<enum name="reason" value="usage" />
@@ -967,7 +967,7 @@
 												<enum name="application_type" value="apply_to_ability" />
 												<bool name="exclusive" value="False" />
 												<string name="modifier_id" value="" />
-												<instance_reference name="target_type_name" value="abilities\british\modal_ability\grenades\tommy_gammon_bomb_medium_mp" />
+												<instance_reference name="target_type_name" value="abilities\british\modal_ability\grenades\tommy_gammon_bomb_medium_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 												<enum name="usage_type" value="multiplication" />
 												<float name="value" value="1.25" />
 												<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />

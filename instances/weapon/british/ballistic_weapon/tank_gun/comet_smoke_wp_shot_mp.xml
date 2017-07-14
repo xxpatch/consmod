@@ -372,7 +372,7 @@
 		</group>
 		<group name="projectile">
 			<bool name="delete_previous_on_hit" value="False" />
-			<instance_reference name="projectile" value="ebps\projectile\brit_comet_smoke_shell_wp_mp" />
+			<instance_reference name="projectile" value="ebps\projectile\brit_comet_smoke_shell_wp_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 		</group>
 		<group name="range">
 			<float name="max" value="80" />
