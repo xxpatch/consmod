@@ -46,7 +46,7 @@
 						<float name="angle_left" value="0" />
 						<float name="angle_right" value="0" />
 						<enum name="area_type" value="circle" />
-						<float name="radius" value="5" />
+						<float name="radius" value="8" />
 					</group>
 					<bool name="die_with_creator" value="True" />
 					<bool name="do_recalc_targets" value="True" />
@@ -73,7 +73,7 @@
 											<string name="modifier_id" value="smoke_cloud" />
 											<string name="target_type_name" value="" />
 											<enum name="usage_type" value="multiplication" />
-											<float name="value" value="0.8" />
+											<float name="value" value="0.95" />
 											<instance_reference name="tooltip" value="modifier_tooltip\received_suppression_squad_modifier" />
 										</template_reference>
 									</list>
@@ -174,7 +174,7 @@
 						</template_reference>
 					</list>
 					<uniqueid name="id" value="1073757433" />
-					<bool name="any_subaction" value="False" />
+					<bool name="any_subaction" value="True" />
 				</template_reference>
 				<template_reference name="action" value="action\timed_action">
 					<float name="duration" value="16" />
