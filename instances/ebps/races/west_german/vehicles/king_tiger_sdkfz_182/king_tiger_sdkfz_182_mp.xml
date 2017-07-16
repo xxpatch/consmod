@@ -932,7 +932,7 @@
 			<float name="rotation_rate_stand" value="870" />
 			<bool name="smooth_path" value="True" />
 			<float name="speed_max" value="3.8" />
-			<instance_reference name="turn_plan" value="turn_plan\tank_i_heavy_crush" />
+			<instance_reference name="turn_plan" value="turn_plan\tank_i_heavy_crush" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<float name="on_ice_accel_decel_multiplier" value="0.6" />
 			<float name="on_land_overturn_scale" value="0.015" />
 			<float name="on_ice_overturn_scale" value="1.3" />
