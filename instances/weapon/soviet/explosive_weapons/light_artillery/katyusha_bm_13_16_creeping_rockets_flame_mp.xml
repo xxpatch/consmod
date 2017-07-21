@@ -304,7 +304,7 @@
 					</group>
 				</group>
 				<float name="damage_frequency" value="1.25" />
-				<instance_reference name="dot_weapon" value="weapon\soviet\flame_throwers\grenade\molotov_cocktail_dotdamage_mp" />
+				<instance_reference name="dot_weapon" value="weapon\soviet\flame_throwers\grenade\molotov_cocktail_dotdamage_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<float name="dots_max" value="3" />
 				<float name="dots_min" value="3" />
 				<float name="duration_max" value="20" />
