@@ -462,7 +462,7 @@
 				<enum name="unit_type" value="commonwealth_emplacements" />
 				<group name="weapon_multipliers">
 					<float name="accuracy_multiplier" value="1" />
-					<float name="damage_multiplier" value="0.065" />
+					<float name="damage_multiplier" value="0.75" />
 					<float name="penetration_multiplier" value="1" />
 					<float name="suppression_multiplier" value="1" />
 				</group>
