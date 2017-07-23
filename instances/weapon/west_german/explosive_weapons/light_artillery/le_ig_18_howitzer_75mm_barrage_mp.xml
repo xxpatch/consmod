@@ -338,8 +338,8 @@
 			<instance_reference name="projectile" value="ebps\projectile\west_german_75mm_ig_18_isg_projectile_high_angle_mod_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 		</group>
 		<group name="range">
-			<float name="max" value="80" />
-			<float name="min" value="40" />
+			<float name="max" value="85" />
+			<float name="min" value="35" />
 			<group name="distance">
 				<float name="near" value="-1" />
 				<float name="far" value="-1" />

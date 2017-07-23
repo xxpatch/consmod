@@ -351,11 +351,11 @@
 		</group>
 		<group name="range">
 			<float name="max" value="70" />
-			<float name="min" value="30" />
+			<float name="min" value="35" />
 			<group name="distance">
-				<float name="near" value="-1" />
-				<float name="far" value="-1" />
-				<float name="mid" value="-1" />
+				<float name="near" value="30" />
+				<float name="far" value="70" />
+				<float name="mid" value="50" />
 			</group>
 		</group>
 		<group name="reload">
