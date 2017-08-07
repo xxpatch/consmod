@@ -19,10 +19,10 @@
 			</group>
 			<group name="turn_plan">
 				<float name="delay_bonus_seconds" value="0.1" />
-				<float name="max_distance_to_try" value="1" />
+				<float name="max_distance_to_try" value="2" />
 				<float name="radius_multiplier" value="0.5" />
 				<enum name="turn_type" value="reverse" />
-				<float name="max_target_distance_to_try" value="1" />
+				<float name="max_target_distance_to_try" value="2" />
 			</group>
 		</list>
 		<float name="pivot_bonus_seconds_multiplier" value="1" />
