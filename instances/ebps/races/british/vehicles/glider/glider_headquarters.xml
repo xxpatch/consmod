@@ -1890,7 +1890,7 @@
 				<group name="spawn_item">
 					<int name="ui_position" value="12" />
 					<instance_reference name="entity" value="" />
-					<instance_reference name="squad" value="sbps\races\british\soldiers\brit_medic_squad\brit_medic_squad_mp" />
+					<instance_reference name="squad" value="sbps\races\british\soldiers\brit_medic_squad\brit_medic_squad_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 					<bool name="spawn_at_map_entry_point" value="False" />
 				</group>
 				<group name="spawn_item">
