@@ -141,7 +141,7 @@
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\german\soldiers\pioneer_squad\pioneer_squad_mp" />
+							<instance_reference name="squad_type_to_monitor" value="sbps\races\german\soldiers\pioneer_squad\pioneer_squad_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 						<group name="replace_info">
@@ -149,7 +149,7 @@
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 						<group name="replace_info">
-							<instance_reference name="squad_type_to_monitor" value="sbps\races\german\soldiers\grenadier_squad\assault_grenadier_squad_mp" />
+							<instance_reference name="squad_type_to_monitor" value="sbps\races\german\soldiers\grenadier_squad\assault_grenadier_squad_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 							<bool name="trigger_on_squad_death" value="False" />
 						</group>
 						<group name="replace_info">
