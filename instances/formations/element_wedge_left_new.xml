@@ -7,7 +7,7 @@
 		<float name="look_ahead_time" value="2.5" />
 		<float name="rotation_rate" value="60" />
 		<float name="rotation_time_max" value="1" />
-		<float name="scale" value="1.1" />
+		<float name="scale" value="1" />
 		<group name="spots">
 			<group name="spot_01">
 				<float name="pos_x" value="0" />
