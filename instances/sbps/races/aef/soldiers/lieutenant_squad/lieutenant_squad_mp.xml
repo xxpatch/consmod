@@ -72,7 +72,7 @@
 			<group name="cover_formation_table">
 				<instance_reference name="tp_defcover" value="squad_formations\new_standard_line" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="tp_defcover_narrow" value="squad_formations\new_standard_line" mod="f2791205c6e743b6a340ef0daf60b957" />
-				<instance_reference name="tp_garrison_cover" value="squad_formations\british_line" />
+				<instance_reference name="tp_garrison_cover" value="squad_formations\default" />
 				<instance_reference name="tp_garrison_halftrack" value="squad_formations\default" />
 				<instance_reference name="tp_heavy" value="squad_formations\new_standard_line_cover" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="tp_light" value="squad_formations\new_standard_line_cover" mod="f2791205c6e743b6a340ef0daf60b957" />
