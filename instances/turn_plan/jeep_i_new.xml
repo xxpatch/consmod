@@ -20,7 +20,7 @@
 			<group name="turn_plan">
 				<float name="delay_bonus_seconds" value="0.4" />
 				<float name="max_distance_to_try" value="10000" />
-				<float name="radius_multiplier" value="0.75" />
+				<float name="radius_multiplier" value="1" />
 				<enum name="turn_type" value="constant_radius" />
 				<float name="max_target_distance_to_try" value="-1" />
 			</group>
@@ -53,7 +53,7 @@
 				<float name="max_target_distance_to_try" value="-1" />
 			</group>
 			<group name="turn_plan">
-				<float name="delay_bonus_seconds" value="0.2" />
+				<float name="delay_bonus_seconds" value="-1.5" />
 				<float name="max_distance_to_try" value="30" />
 				<float name="radius_multiplier" value="0.75" />
 				<enum name="turn_type" value="reverse" />
@@ -63,6 +63,13 @@
 				<float name="delay_bonus_seconds" value="-0.5" />
 				<float name="max_distance_to_try" value="10000" />
 				<float name="radius_multiplier" value="0.45" />
+				<enum name="turn_type" value="curve_turn" />
+				<float name="max_target_distance_to_try" value="-1" />
+			</group>
+			<group name="turn_plan">
+				<float name="delay_bonus_seconds" value="-1" />
+				<float name="max_distance_to_try" value="10000" />
+				<float name="radius_multiplier" value="0.3" />
 				<enum name="turn_type" value="curve_turn" />
 				<float name="max_target_distance_to_try" value="-1" />
 			</group>
