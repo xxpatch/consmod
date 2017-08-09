@@ -207,9 +207,9 @@
 			<float name="reveal_self_attacker_time" value="0" />
 			<bool name="reveal_self_attacker_time_use" value="False" />
 			<string name="squad_ai_file" value="guards-infantry-plan" />
-			<string name="squad_ai_pinned_file" value="" />
+			<string name="squad_ai_pinned_file" value="Pinned-reaction-plan" />
 			<string name="squad_ai_reaction_file" value="reaction-plan_dive_for_cover" />
-			<string name="squad_ai_retaliation_file" value="" />
+			<string name="squad_ai_retaliation_file" value="guards-infantry-plan" />
 			<group name="suppression">
 				<bool name="can_be_suppressed" value="True" />
 				<group name="cover_info">

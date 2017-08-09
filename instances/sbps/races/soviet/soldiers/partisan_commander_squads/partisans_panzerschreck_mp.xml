@@ -207,13 +207,13 @@
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_combat_behaviour_ext">
 			<float name="heavy_weapon_setup_delay" value="999" />
-			<float name="reaction_delay_seconds" value="8" />
+			<float name="reaction_delay_seconds" value="25" />
 			<float name="reveal_self_attacker_time" value="0" />
 			<bool name="reveal_self_attacker_time_use" value="False" />
-			<string name="squad_ai_file" value="conscript-infantry-plan" />
+			<string name="squad_ai_file" value="guards-infantry-plan" />
 			<string name="squad_ai_pinned_file" value="Pinned-reaction-plan" />
-			<string name="squad_ai_reaction_file" value="reaction-plan" />
-			<string name="squad_ai_retaliation_file" value="" />
+			<string name="squad_ai_reaction_file" value="reaction-plan_dive_for_cover" />
+			<string name="squad_ai_retaliation_file" value="guards-infantry-plan" />
 			<group name="suppression">
 				<bool name="can_be_suppressed" value="True" />
 				<group name="cover_info">
@@ -424,7 +424,7 @@
 				</group>
 				<instance_reference name="remove_weapon" value="" />
 			</group>
-			<float name="reaction_combat_delay_seconds" value="8" />
+			<float name="reaction_combat_delay_seconds" value="30" />
 			<string name="squad_ai_sniped_file" value="sniped-reaction-plan" />
 			<template_reference name="can_recrew_abandoned_option" value="options\sbpextensions\squad_combat_behaviour_ext\can_recrew_abandoned">
 				<template_reference name="is_mobile_driver_option" value="options\none">
