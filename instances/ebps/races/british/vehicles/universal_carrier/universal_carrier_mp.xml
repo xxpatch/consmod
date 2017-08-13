@@ -28,8 +28,8 @@
 				<group name="cost">
 					<float name="action" value="0" />
 					<float name="command" value="0" />
-					<float name="fuel" value="0" />
-					<float name="manpower" value="260" />
+					<float name="fuel" value="5" />
+					<float name="manpower" value="230" />
 					<float name="munition" value="0" />
 					<float name="popcap" value="0" />
 				</group>
@@ -123,7 +123,7 @@
 					<uniqueid name="id" value="1073746123" />
 				</template_reference>
 			</list>
-			<float name="armor" value="8.33" />
+			<float name="armor" value="7" />
 			<float name="rear_armor" value="3" />
 			<float name="target_size" value="15" />
 			<bool name="dies_from_broken_ice" value="True" />

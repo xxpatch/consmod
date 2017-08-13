@@ -176,7 +176,7 @@
 			</group>
 			<group name="tp_garrison_cover">
 				<float name="accuracy_multiplier" value="1" />
-				<float name="damage_multiplier" value="1" />
+				<float name="damage_multiplier" value="1.25" />
 				<float name="penetration_multiplier" value="1" />
 				<float name="suppression_multiplier" value="0" />
 			</group>
@@ -306,7 +306,7 @@
 				<float name="damage_frequency" value="1.25" />
 				<instance_reference name="dot_weapon" value="weapon\british\flame_throwers\universal_carrier_flamthrower_dot" />
 				<float name="dots_max" value="2" />
-				<float name="dots_min" value="2" />
+				<float name="dots_min" value="1" />
 				<float name="duration_max" value="20" />
 				<float name="duration_min" value="20" />
 				<float name="radius_max" value="3" />

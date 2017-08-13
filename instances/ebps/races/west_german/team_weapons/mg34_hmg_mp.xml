@@ -282,6 +282,8 @@
 				<instance_reference name="ability" value="abilities\west_german\timed_ability\mg34_phosphorus_rounds_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_deep_snow_camo" />
 				<instance_reference name="ability" value="abilities\soviet\modal_ability\force_reload_machine_gun_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<instance_reference name="ability" value="abilities\german\timed_ability\mg_suppression_stun_hack_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<instance_reference name="ability" value="abilities\german\timed_ability\mg_veterancy_hack_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\combat_ext">
@@ -589,7 +591,7 @@
 			<group name="unit_type_list">
 				<enum name="unit_type00" value="team_weapon" />
 				<enum name="unit_type01" value="" />
-				<enum name="unit_type02" value="" />
+				<enum name="unit_type02" value="coho_raid_2" />
 				<enum name="unit_type03" value="" />
 				<enum name="unit_type04" value="mp_unit" />
 				<enum name="unit_type05" value="hmg_german" />

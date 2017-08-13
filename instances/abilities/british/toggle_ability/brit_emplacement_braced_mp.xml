@@ -275,7 +275,7 @@
 				<template_reference name="action" value="action\target_occupants_action">
 					<list name="subactions">
 						<template_reference name="action" value="action\apply_modifiers_action">
-							<float name="duration" value="5" />
+							<float name="duration" value="0" />
 							<bool name="permanent" value="False" />
 							<list name="modifiers">
 								<template_reference name="modifier" value="modifiers\received_damage_modifier">
@@ -314,7 +314,7 @@
 		<float name="cursor_ghost_blueprint_angle" value="0" />
 		<bool name="disable_combat" value="False" />
 		<bool name="disable_when_active" value="True" />
-		<float name="duration_time" value="5" />
+		<float name="duration_time" value="10" />
 		<bool name="enable_in_building" value="False" />
 		<bool name="enable_in_vehicle" value="False" />
 		<bool name="engage_combat" value="False" />
@@ -332,7 +332,7 @@
 		<float name="move_back_distance" value="10" />
 		<float name="range" value="0" />
 		<bool name="range_ignore" value="True" />
-		<float name="recharge_time" value="60" />
+		<float name="recharge_time" value="75" />
 		<bool name="refundable" value="True" />
 		<bool name="require_no_shot_block" value="False" />
 		<enum name="shared_timer" value="" />

@@ -43,7 +43,7 @@
 				<float name="angle_left" value="0" />
 				<float name="angle_right" value="0" />
 				<enum name="area_type" value="circle" />
-				<float name="radius" value="3.5" />
+				<float name="radius" value="4" />
 			</group>
 			<group name="damage">
 				<float name="far" value="0.2" />
@@ -394,7 +394,7 @@
 		</group>
 		<group name="setup">
 			<float name="duration" value="0" />
-			<bool name="has_instant_setup" value="False" />
+			<bool name="has_instant_setup" value="True" />
 			<bool name="can_interrupt_setup" value="False" />
 			<float name="attach_duration" value="0" />
 		</group>

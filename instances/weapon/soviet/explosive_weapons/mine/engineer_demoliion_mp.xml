@@ -300,10 +300,10 @@
 							<bool name="set" value="False" />
 							<bool name="cause_criticals" value="True" />
 							<enum name="crit_weapon_type" value="big_explosive" />
-							<uniqueid name="id" value="1073746354" />
+							<uniqueid name="id" value="1073758972" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073746355" />
+					<uniqueid name="id" value="1073758973" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -335,10 +335,10 @@
 							<bool name="set" value="False" />
 							<bool name="cause_criticals" value="True" />
 							<enum name="crit_weapon_type" value="big_explosive" />
-							<uniqueid name="id" value="1073746356" />
+							<uniqueid name="id" value="1073758974" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073746357" />
+					<uniqueid name="id" value="1073758975" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -382,7 +382,7 @@
 						<template_reference name="action" value="action\trigger_critical_action">
 							<float name="remove_at_health" value="1" />
 							<instance_reference name="critical" value="critical\soldier_stun" mod="f2791205c6e743b6a340ef0daf60b957" />
-							<uniqueid name="id" value="1073746360" />
+							<uniqueid name="id" value="1073758976" />
 						</template_reference>
 						<template_reference name="action" value="action\timed_action">
 							<float name="duration" value="10" />
@@ -397,18 +397,18 @@
 										<template_reference name="action" value="action\retreat_action">
 											<instance_reference name="entity_type_to_retreat_to" value="" />
 											<enum name="retreat_type" value="forced_retreat" />
-											<uniqueid name="id" value="1073746372" />
+											<uniqueid name="id" value="1073758977" />
 											<float name="refund_percent_after_retreat" value="0" />
 										</template_reference>
 									</list>
-									<uniqueid name="id" value="1073746371" />
+									<uniqueid name="id" value="1073758978" />
 									<bool name="can_prevent_refund" value="True" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073746370" />
+							<uniqueid name="id" value="1073758979" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073746361" />
+					<uniqueid name="id" value="1073758980" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />

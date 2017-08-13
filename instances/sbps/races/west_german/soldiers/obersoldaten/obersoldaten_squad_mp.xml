@@ -1079,7 +1079,7 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_ability_ext">
 			<list name="abilities">
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
-				<instance_reference name="ability" value="abilities\west_german\modal_ability\waffen_booby_trap_capture_point" />
+				<instance_reference name="ability" value="abilities\west_german\modal_ability\waffen_booby_trap_capture_point" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\grenades\infiltration_tactics_grenade" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\suppressing_fire_ability_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>

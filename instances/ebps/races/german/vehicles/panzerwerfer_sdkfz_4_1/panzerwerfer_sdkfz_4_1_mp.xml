@@ -540,7 +540,7 @@
 								<float name="z" value="-1.75" />
 							</group>
 							<enum name="type" value="squad" />
-							<instance_reference name="weapon" value="weapon\axis\explosive_weapons\light_artillery\panzerwerfer_victor_target_rockets_mp" />
+							<instance_reference name="weapon" value="weapon\axis\explosive_weapons\light_artillery\panzerwerfer_victor_target_rockets_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />
@@ -582,7 +582,7 @@
 								<float name="z" value="-1.75" />
 							</group>
 							<enum name="type" value="squad" />
-							<instance_reference name="weapon" value="weapon\axis\explosive_weapons\light_artillery\panzerwerfer_counter_barrage_rockets_mp" />
+							<instance_reference name="weapon" value="weapon\axis\explosive_weapons\light_artillery\panzerwerfer_counter_barrage_rockets_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />

@@ -296,7 +296,7 @@
 					<list name="action_table">
 						<template_reference name="action" value="action\trigger_critical_action">
 							<float name="remove_at_health" value="1" />
-							<instance_reference name="critical" value="critical\vehicle_crew_stunned_2.5sec" />
+							<instance_reference name="critical" value="critical\vehicle_crew_stunned_2.5sec" mod="f2791205c6e743b6a340ef0daf60b957" />
 							<uniqueid name="id" value="1073745589" />
 						</template_reference>
 					</list>
@@ -340,7 +340,7 @@
 					<list name="action_table">
 						<template_reference name="action" value="action\trigger_critical_action">
 							<float name="remove_at_health" value="1" />
-							<instance_reference name="critical" value="critical\vehicle_crew_stunned_2.5sec" />
+							<instance_reference name="critical" value="critical\vehicle_crew_stunned_2.5sec" mod="f2791205c6e743b6a340ef0daf60b957" />
 							<uniqueid name="id" value="1073745590" />
 						</template_reference>
 					</list>
@@ -435,7 +435,7 @@
 			<float name="distance_bracket_count_ground" value="1" />
 			<float name="distance_scatter_max" value="5.7" />
 			<float name="distance_scatter_obj_hit_min" value="10" />
-			<float name="distance_scatter_offset" value="0.25" />
+			<float name="distance_scatter_offset" value="0.185" />
 			<float name="distance_scatter_ratio" value="1" />
 			<float name="fow_angle_multiplier" value="1.25" />
 			<float name="fow_distance_multiplier" value="1.25" />

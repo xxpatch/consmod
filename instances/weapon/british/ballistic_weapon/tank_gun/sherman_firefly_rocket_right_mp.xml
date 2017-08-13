@@ -13,13 +13,13 @@
 			<float name="post_firing_aim_time" value="4" />
 			<float name="post_firing_cooldown_interval" value="2" />
 			<group name="ready_aim_time">
-				<float name="max" value="0.5" />
-				<float name="min" value="0.5" />
+				<float name="max" value="0.125" />
+				<float name="min" value="0.125" />
 			</group>
 			<group name="aim_time_multiplier">
-				<float name="near" value="1" />
-				<float name="far" value="1" />
-				<float name="mid" value="1" />
+				<float name="near" value="0.125" />
+				<float name="far" value="0.125" />
+				<float name="mid" value="0.125" />
 			</group>
 		</group>
 		<group name="anim_table">
@@ -275,10 +275,12 @@
 			<float name="max" value="120" />
 			<float name="min" value="120" />
 			<list name="on_penetrated_actions">
+			</list>
+			<list name="post_damage_actions">
 				<template_reference name="action" value="action\requirement_action">
 					<bool name="check_self" value="False" />
 					<bool name="global_fire_and_forget_on_success" value="False" />
-					<bool name="instant_requirement_check" value="True" />
+					<bool name="instant_requirement_check" value="False" />
 					<bool name="kill_action_on_failed_requirements" value="False" />
 					<bool name="no_retrigger" value="False" />
 					<bool name="validate_all_sub_actions" value="True" />
@@ -296,19 +298,22 @@
 					<list name="action_table">
 						<template_reference name="action" value="action\trigger_critical_action">
 							<float name="remove_at_health" value="1" />
-							<instance_reference name="critical" value="critical\vehicle_vison_block_damaged" />
-							<uniqueid name="id" value="1073757500" />
+							<instance_reference name="critical" value="critical\vehicle_crew_stunned_2.5sec" />
+							<uniqueid name="id" value="1073758817" />
+						</template_reference>
+						<template_reference name="action" value="action\trigger_critical_action">
+							<float name="remove_at_health" value="1" />
+							<instance_reference name="critical" value="critical\vehicle_blind" />
+							<uniqueid name="id" value="1073758818" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073757501" />
+					<uniqueid name="id" value="1073758819" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
 						<locstring name="phrase" value="0" />
 					</template_reference>
 				</template_reference>
-			</list>
-			<list name="post_damage_actions">
 			</list>
 		</group>
 		<group name="damage_over_time">
@@ -477,6 +482,15 @@
 			<int name="alpha" value="0" />
 		</group>
 		<list name="target_type_table">
+			<group name="target_unit_type_multipliers">
+				<enum name="unit_type" value="infantry" />
+				<group name="weapon_multipliers">
+					<float name="accuracy_multiplier" value="1" />
+					<float name="damage_multiplier" value="0.33" />
+					<float name="penetration_multiplier" value="1" />
+					<float name="suppression_multiplier" value="1" />
+				</group>
+			</group>
 		</list>
 	</group>
 	<uniqueid name="pbgid" value="90515" />
