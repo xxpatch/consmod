@@ -343,7 +343,7 @@
 			<group name="distance">
 				<float name="near" value="0" />
 				<float name="far" value="60" />
-				<float name="mid" value="30" />
+				<float name="mid" value="25" />
 			</group>
 		</group>
 		<group name="reload">
