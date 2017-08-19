@@ -475,7 +475,7 @@
 		<template_reference name="squadexts" value="sbpextensions\squad_upgrade_ext">
 			<float name="number_of_slots" value="-1" />
 			<list name="upgrades">
-				<instance_reference name="upgrade" value="upgrade\german\commander\ability\ambush_camou_package" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<instance_reference name="upgrade" value="upgrade\german\commander\ability\ambush_camou_mg_package_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 		</template_reference>
 		<template_reference name="squadexts" value="sbpextensions\squad_action_apply_ext">
@@ -1085,6 +1085,7 @@
 				<instance_reference name="ability" value="abilities\german\always_on_ability\commander_ability\ambush_camouflage_upgrade" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\german\timed_ability\retreat_to_forward_hq" />
 				<instance_reference name="ability" value="abilities\german\timed_ability\stormtrooper_sprint_mp" />
+				<instance_reference name="ability" value="abilities\soviet\toggle_ability\camou_mg_hold_fire_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>

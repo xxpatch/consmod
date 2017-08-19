@@ -42,7 +42,7 @@
 							<bool name="retrigger" value="True" />
 							<string name="state_machine_name" value="ability_hold_fire_state" />
 							<string name="undo_action_state_name" value="off" />
-							<uniqueid name="id" value="1073757011" />
+							<uniqueid name="id" value="1073758989" />
 						</template_reference>
 						<template_reference name="action" value="action\ui_unit_modifier_action">
 							<bool name="die_with_creator" value="True" />
@@ -52,36 +52,86 @@
 								<icon name="icon_name" value="Icons_abilities_hold_fire_on" />
 								<string name="hotkey_name" value="" />
 							</template_reference>
-							<uniqueid name="id" value="1073757012" />
+							<uniqueid name="id" value="1073758990" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073757013" />
+					<uniqueid name="id" value="1073758991" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
 						<locstring name="phrase" value="0" />
 					</template_reference>
 				</template_reference>
-			</list>
-			<list name="start_target_actions">
-				<template_reference name="action" value="action\apply_modifiers_action">
-					<float name="duration" value="0" />
-					<bool name="permanent" value="False" />
-					<list name="modifiers">
-						<template_reference name="modifier" value="modifiers\auto_target_enable_weapon_modifier">
-							<enum name="application_type" value="apply_to_weapon" />
-							<bool name="exclusive" value="False" />
-							<string name="modifier_id" value="" />
-							<string name="target_type_name" value="hardpoint_01" />
-							<enum name="usage_type" value="enable" />
-							<float name="value" value="-1" />
-							<instance_reference name="tooltip" value="modifier_tooltip\auto_target_enable_weapon_modifier" />
+				<template_reference name="action" value="action\change_target_action">
+					<list name="actions">
+						<template_reference name="action" value="action\requirement_action">
+							<bool name="check_self" value="False" />
+							<bool name="global_fire_and_forget_on_success" value="False" />
+							<bool name="instant_requirement_check" value="False" />
+							<bool name="kill_action_on_failed_requirements" value="False" />
+							<bool name="no_retrigger" value="False" />
+							<bool name="validate_all_sub_actions" value="True" />
+							<list name="requirement_table">
+								<template_reference name="required" value="requirements\required_not">
+									<enum name="reason" value="usage" />
+									<locstring name="ui_name" value="0" />
+									<list name="requirement_table">
+										<template_reference name="required" value="requirements\required_unit_type">
+											<enum name="reason" value="usage" />
+											<locstring name="ui_name" value="0" />
+											<enum name="unit_type" value="coho_raid_2" />
+											<template_reference name="qualify_option" value="options\none">
+											</template_reference>
+											<bool name="search_load_out" value="False" />
+											<bool name="owned_by_player_only" value="True" />
+										</template_reference>
+									</list>
+								</template_reference>
+							</list>
+							<list name="action_table">
+								<template_reference name="action" value="action\apply_modifiers_action">
+									<float name="duration" value="0" />
+									<bool name="permanent" value="False" />
+									<list name="modifiers">
+										<template_reference name="modifier" value="modifiers\auto_target_enable_weapon_modifier">
+											<enum name="application_type" value="apply_to_weapon" />
+											<bool name="exclusive" value="False" />
+											<string name="modifier_id" value="" />
+											<string name="target_type_name" value="hardpoint_01" />
+											<enum name="usage_type" value="enable" />
+											<float name="value" value="-1" />
+											<instance_reference name="tooltip" value="modifier_tooltip\auto_target_enable_weapon_modifier" />
+										</template_reference>
+									</list>
+									<uniqueid name="id" value="1073758994" />
+								</template_reference>
+							</list>
+							<uniqueid name="id" value="1073758995" />
+							<bool name="fire_and_forget_non_global" value="False" />
+							<template_reference name="ui_help_text" value="tables\help_text_phrase">
+								<int name="phrase_order" value="0" />
+								<locstring name="phrase" value="0" />
+							</template_reference>
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073757014" />
+					<enum name="change_target_type" value="entities" />
+					<uniqueid name="id" value="1073758996" />
 				</template_reference>
+				<template_reference name="action" value="action\change_target_action">
+					<list name="actions">
+						<template_reference name="action" value="action\slot_item_add">
+							<instance_reference name="slot_item" value="slot_item\soviet\camo_hold_item_hack_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+							<bool name="permanent" value="False" />
+							<uniqueid name="id" value="1073758998" />
+						</template_reference>
+					</list>
+					<enum name="change_target_type" value="squad" />
+					<uniqueid name="id" value="1073758997" />
+				</template_reference>
+			</list>
+			<list name="start_target_actions">
 				<template_reference name="action" value="action\cancel_forced_attack">
-					<uniqueid name="id" value="1073757015" />
+					<uniqueid name="id" value="1073758993" />
 					<enum name="stop_command" value="attack_stop" />
 				</template_reference>
 			</list>
@@ -170,7 +220,7 @@
 		<list name="requirements">
 		</list>
 		<enum name="ability_super" value="tp_none" />
-		<int name="ui_position" value="23" />
+		<int name="ui_position" value="22" />
 		<bool name="ui_mini_map_capture" value="False" />
 		<bool name="facing_ignore_during_active" value="False" />
 		<instance_reference name="ui_range" value="" />
@@ -202,5 +252,5 @@
 		<bool name="can_cast_outside_active_battle_field" value="False" />
 		<bool name="ability_super_event_cue" value="False" />
 	</group>
-	<uniqueid name="pbgid" value="379" />
+	<uniqueid name="pbgid" value="1073741925" />
 </instance>
