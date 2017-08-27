@@ -600,11 +600,6 @@
 						<locstring name="phrase" value="0" />
 					</template_reference>
 				</template_reference>
-				<template_reference name="action" value="action\override_move_type_action">
-					<instance_reference name="move_type" value="move_type\e3_move_normal" />
-					<float name="priority" value="100" />
-					<uniqueid name="id" value="1073758635" />
-				</template_reference>
 			</list>
 			<list name="squad_entity_actions">
 			</list>

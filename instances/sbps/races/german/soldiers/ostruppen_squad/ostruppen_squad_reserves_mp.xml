@@ -433,11 +433,6 @@
 					<bool name="permanent" value="True" />
 					<uniqueid name="id" value="1073743467" />
 				</template_reference>
-				<template_reference name="action" value="action\override_move_type_action">
-					<instance_reference name="move_type" value="move_type\e3_move_normal" />
-					<float name="priority" value="100" />
-					<uniqueid name="id" value="1073758633" />
-				</template_reference>
 			</list>
 			<list name="squad_entity_actions">
 				<template_reference name="action" value="action\apply_modifiers_action">
