@@ -190,7 +190,6 @@
 				<instance_reference name="ability" value="abilities\soviet\modal_ability\mortar_fire_flares_ability_mp" />
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect_deep_snow_camo" />
 				<instance_reference name="ability" value="abilities\soviet\modal_ability\artillery\mortar_barrage_ability\sync_mortar_barrage_victortarget_mp" />
-				<instance_reference name="ability" value="abilities\german\toggle_ability\german_mortar_hold_fire_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\german\timed_ability\mg_suppression_stun_hack_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\german\timed_ability\mortar_veterancy_hack_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
@@ -235,7 +234,7 @@
 								<float name="z" value="0" />
 							</group>
 							<enum name="type" value="default" />
-							<instance_reference name="weapon" value="weapon\soviet\explosive_weapons\mortar\pm41_82mm_mortar_barrage_mp" />
+							<instance_reference name="weapon" value="weapon\soviet\explosive_weapons\mortar\pm41_82mm_mortar_barrage_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 						</group>
 					</list>
 					<bool name="receives_attack_commands" value="False" />

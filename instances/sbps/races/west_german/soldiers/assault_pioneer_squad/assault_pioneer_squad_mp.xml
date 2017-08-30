@@ -896,12 +896,12 @@
 				<instance_reference name="ability" value="abilities\global\cold\blizzard_effect" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\pioneer_volks_salvage" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\grenades\pioneer_stun_grenade_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-				<instance_reference name="ability" value="abilities\west_german\modal_ability\assault_pioneer_drop_medpack_ability_mp" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\pioneer_volks_through_salvage" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\sp\refuel_tank_wg_sp" />
-				<instance_reference name="ability" value="abilities\west_german\toggle_ability\minesweeper_deploy_mp" />
-				<instance_reference name="ability" value="abilities\west_german\toggle_ability\minesweeper_put_away_mp" />
+				<instance_reference name="ability" value="abilities\west_german\toggle_ability\minesweeper_deploy_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<instance_reference name="ability" value="abilities\west_german\toggle_ability\minesweeper_put_away_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\grenades\sturm_smoke_grenade_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<instance_reference name="ability" value="abilities\soviet\toggle_ability\sniper_hold_fire_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>
@@ -1049,8 +1049,8 @@
 							<int name="ui_position" value="11" />
 						</group>
 						<group name="construction_item">
-							<instance_reference name="ebp" value="ebps\races\west_german\buildings\defensive_structures\reinforced_barbed_wire_fence_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
-							<int name="ui_position" value="12" />
+							<instance_reference name="ebp" value="ebps\props\west_german_medical_supplies" />
+							<int name="ui_position" value="13" />
 						</group>
 						<group name="construction_item">
 							<instance_reference name="ebp" value="ebps\races\west_german\buildings\defensive_structures\flak_emplacement" mod="f2791205c6e743b6a340ef0daf60b957" />
@@ -1071,6 +1071,10 @@
 						<group name="construction_item">
 							<instance_reference name="ebp" value="ebps\races\west_german\team_weapons\german_field_artillery\okw_howitzer_105mm_le_fh18_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 							<int name="ui_position" value="21" />
+						</group>
+						<group name="construction_item">
+							<instance_reference name="ebp" value="ebps\races\west_german\buildings\defensive_structures\reinforced_barbed_wire_fence_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+							<int name="ui_position" value="12" />
 						</group>
 					</list>
 					<enum name="construction_type" value="tp_construction_soviet_engineer_basic" />

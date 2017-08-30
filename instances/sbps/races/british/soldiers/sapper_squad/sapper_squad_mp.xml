@@ -610,6 +610,7 @@
 				<instance_reference name="ability" value="abilities\british\modal_ability\repair_ability\brit_repair_ability_sappers_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\british\always_on_ability\engineer_cover_combat_bonus" />
 				<instance_reference name="ability" value="abilities\british\modal_ability\brit_pack_up_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<instance_reference name="ability" value="abilities\soviet\toggle_ability\sniper_hold_fire_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>

@@ -11,7 +11,7 @@
 						<bool name="has_speech_code" value="True" />
 						<locstring name="help_text" value="11083408" />
 						<string name="hotkey_name" value="R" />
-						<icon name="icon_name" value="Icons_units_unit_german_granatwerfer_34_mortar" />
+						<icon name="icon_name" value="Icons_buildings_building_british_3_inch_mortar_emplacement" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="Icons_minimap_unit_emplacement" />
 						<instance_reference name="modal_ability" value="" />
@@ -55,7 +55,7 @@
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="False" />
 						<bool name="speaker_highest_priority" value="False" />
-						<icon name="symbol_icon_name" value="Icons_symbols_building_british_3_inch_mortar_emplacement_symbol" />
+						<icon name="symbol_icon_name" value="Icons_symbols_unit_german_granatwerfer_34_mortar_symbol" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
 					</group>
@@ -68,7 +68,7 @@
 						<bool name="has_speech_code" value="True" />
 						<locstring name="help_text" value="11083408" />
 						<string name="hotkey_name" value="R" />
-						<icon name="icon_name" value="Icons_units_unit_german_granatwerfer_34_mortar" />
+						<icon name="icon_name" value="Icons_buildings_building_british_3_inch_mortar_emplacement" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="Icons_minimap_unit_emplacement" />
 						<instance_reference name="modal_ability" value="" />
@@ -111,7 +111,7 @@
 						<enum name="map_rotation_type_override" value="no_override" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="False" />
-						<icon name="symbol_icon_name" value="Icons_symbols_building_british_3_inch_mortar_emplacement_symbol" />
+						<icon name="symbol_icon_name" value="Icons_symbols_unit_german_granatwerfer_34_mortar_symbol" />
 						<bool name="speaker_highest_priority" value="False" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
@@ -125,7 +125,7 @@
 						<bool name="has_speech_code" value="True" />
 						<locstring name="help_text" value="11083408" />
 						<string name="hotkey_name" value="R" />
-						<icon name="icon_name" value="Icons_units_unit_german_granatwerfer_34_mortar" />
+						<icon name="icon_name" value="Icons_buildings_building_british_3_inch_mortar_emplacement" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="Icons_minimap_unit_emplacement" />
 						<instance_reference name="modal_ability" value="" />
@@ -168,7 +168,7 @@
 						<enum name="map_rotation_type_override" value="no_override" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="False" />
-						<icon name="symbol_icon_name" value="Icons_symbols_building_british_3_inch_mortar_emplacement_symbol" />
+						<icon name="symbol_icon_name" value="Icons_symbols_unit_german_granatwerfer_34_mortar_symbol" />
 						<bool name="speaker_highest_priority" value="False" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
@@ -182,7 +182,7 @@
 						<bool name="has_speech_code" value="True" />
 						<locstring name="help_text" value="11083408" />
 						<string name="hotkey_name" value="R" />
-						<icon name="icon_name" value="Icons_units_unit_german_granatwerfer_34_mortar" />
+						<icon name="icon_name" value="Icons_buildings_building_british_3_inch_mortar_emplacement" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="Icons_minimap_unit_emplacement" />
 						<instance_reference name="modal_ability" value="" />
@@ -226,7 +226,7 @@
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="False" />
 						<bool name="speaker_highest_priority" value="False" />
-						<icon name="symbol_icon_name" value="Icons_symbols_building_british_3_inch_mortar_emplacement_symbol" />
+						<icon name="symbol_icon_name" value="Icons_symbols_unit_german_granatwerfer_34_mortar_symbol" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
 					</group>
@@ -239,7 +239,7 @@
 						<bool name="has_speech_code" value="True" />
 						<locstring name="help_text" value="11083408" />
 						<string name="hotkey_name" value="R" />
-						<icon name="icon_name" value="Icons_units_unit_german_granatwerfer_34_mortar" />
+						<icon name="icon_name" value="Icons_buildings_building_british_3_inch_mortar_emplacement" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="Icons_minimap_unit_emplacement" />
 						<instance_reference name="modal_ability" value="" />
@@ -283,7 +283,7 @@
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="False" />
 						<bool name="speaker_highest_priority" value="False" />
-						<icon name="symbol_icon_name" value="Icons_symbols_building_british_3_inch_mortar_emplacement_symbol" />
+						<icon name="symbol_icon_name" value="Icons_symbols_unit_german_granatwerfer_34_mortar_symbol" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />
 					</group>
@@ -296,7 +296,7 @@
 						<bool name="has_speech_code" value="True" />
 						<locstring name="help_text" value="11083408" />
 						<string name="hotkey_name" value="R" />
-						<icon name="icon_name" value="Icons_units_unit_german_granatwerfer_34_mortar" />
+						<icon name="icon_name" value="Icons_buildings_building_british_3_inch_mortar_emplacement" />
 						<bool name="minimap_team_only" value="False" />
 						<icon name="minimap_texture" value="Icons_minimap_unit_emplacement" />
 						<instance_reference name="modal_ability" value="" />
@@ -339,7 +339,7 @@
 						<enum name="map_rotation_type_override" value="no_override" />
 						<bool name="decoratable" value="True" />
 						<bool name="show_in_build_log" value="False" />
-						<icon name="symbol_icon_name" value="Icons_symbols_building_british_3_inch_mortar_emplacement_symbol" />
+						<icon name="symbol_icon_name" value="Icons_symbols_unit_german_granatwerfer_34_mortar_symbol" />
 						<bool name="speaker_highest_priority" value="False" />
 						<enum name="ui_style" value="default" />
 						<string name="cover_level_icon_postfix" value="" />

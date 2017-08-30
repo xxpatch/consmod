@@ -699,6 +699,27 @@
 					</list>
 					<bool name="receives_attack_commands" value="False" />
 				</group>
+				<group name="hardpoint">
+					<float name="parent_hardpoint" value="-1" />
+					<list name="weapon_table">
+						<group name="weapon">
+							<group name="heading">
+								<float name="x" value="0" />
+								<float name="y" value="0" />
+								<float name="z" value="1" />
+							</group>
+							<float name="length" value="0" />
+							<group name="origin">
+								<float name="x" value="0" />
+								<float name="y" value="0.5" />
+								<float name="z" value="0" />
+							</group>
+							<enum name="type" value="squad" />
+							<instance_reference name="weapon" value="weapon\west_german\explosive_weapons\heavy_artillery\walking_stuka_rockets_concentration_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+						</group>
+					</list>
+					<bool name="receives_attack_commands" value="False" />
+				</group>
 			</list>
 			<int name="sight_hardpoint" value="-1" />
 			<list name="kill_actions">

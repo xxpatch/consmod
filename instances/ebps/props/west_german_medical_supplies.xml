@@ -34,7 +34,7 @@
 			<bool name="ghost_enable" value="False" />
 			<bool name="has_speech_code" value="True" />
 			<locstring name="help_text" value="11073176" />
-			<string name="hotkey_name" value="" />
+			<string name="hotkey_name" value="N" />
 			<icon name="icon_name" value="Icons_abilities_ability_west_german_medical_crates" />
 			<enum name="kill_type" value="" />
 			<float name="minimap_color_a" value="255" />
@@ -618,9 +618,9 @@
 			<bool name="query_construction_actions_for_range_ui" value="True" />
 			<bool name="query_upgrade_actions_for_range_ui" value="True" />
 			<bool name="random_rotation" value="False" />
-			<float name="replace_ghost_distance" value="2" />
-			<float name="spacing_distance" value="0" />
-			<bool name="self_construct" value="True" />
+			<float name="replace_ghost_distance" value="5" />
+			<float name="spacing_distance" value="2" />
+			<bool name="self_construct" value="False" />
 			<list name="on_construction_actions">
 				<template_reference name="action" value="action\change_ownership">
 					<enum name="change_type" value="neutral" />
@@ -652,7 +652,7 @@
 					<float name="command" value="0" />
 					<float name="fuel" value="0" />
 					<float name="manpower" value="0" />
-					<float name="munition" value="0" />
+					<float name="munition" value="30" />
 					<float name="popcap" value="0" />
 				</group>
 				<float name="time_seconds" value="1" />

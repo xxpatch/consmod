@@ -110,7 +110,7 @@
 				<bool name="ignore_requirements" value="False" />
 			</template_reference>
 			<template_reference name="action" value="action\ui_decorator_action">
-				<icon name="symbol_icon" value="Icons_buildings_building_british_3_inch_mortar_emplacement" />
+				<icon name="symbol_icon" value="Icons_symbols_building_british_3_inch_mortar_emplacement_symbol" />
 				<uniqueid name="id" value="1073759103" />
 			</template_reference>
 		</list>

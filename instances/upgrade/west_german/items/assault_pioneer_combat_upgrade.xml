@@ -21,7 +21,7 @@
 				<float name="command" value="0" />
 				<float name="fuel" value="0" />
 				<float name="manpower" value="0" />
-				<float name="munition" value="65" />
+				<float name="munition" value="60" />
 				<float name="popcap" value="0" />
 			</group>
 			<float name="time_seconds" value="30" />
@@ -32,7 +32,7 @@
 		<group name="ui_info">
 			<locstring name="extra_text" value="196" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<locstring name="help_text" value="195" mod="f2791205c6e743b6a340ef0daf60b957" />
-			<string name="hotkey_name" value="W" />
+			<string name="hotkey_name" value="X" />
 			<icon name="icon_name" value="Icons_upgrades_icon_upgrade_west_german_combat_package" />
 			<bool name="reveal_for_decryption" value="False" />
 			<locstring name="screen_name" value="11056010" />
