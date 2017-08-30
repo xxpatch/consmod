@@ -169,8 +169,8 @@
 				<bool name="tp_artillery" value="False" />
 				<bool name="tp_artillery_inf" value="False" />
 				<bool name="tp_artillery_overwatch" value="False" />
-				<bool name="tp_homing" value="False" />
-				<bool name="tp_homing_inf" value="False" />
+				<bool name="tp_homing" value="True" />
+				<bool name="tp_homing_inf" value="True" />
 				<bool name="tp_sticky" value="True" />
 				<bool name="tp_throw" value="True" />
 			</group>
