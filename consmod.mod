@@ -39,7 +39,7 @@
 					<Dependencies />
 					<Description></Description>
 					<Hidden>false</Hidden>
-					<Name>Revamp mod v2.3</Name>
+					<Name>Revamp mod (production)</Name>
 				</d2p1:anyType>
 			</Children>
 			<IsExpanded>true</IsExpanded>

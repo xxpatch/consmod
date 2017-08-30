@@ -61,7 +61,7 @@
 						<string name="modifier_id" value="aef_t4" />
 						<instance_reference name="target_type_name" value="abilities\aef\modal_ability\dispatch_ability\m10_deploy" mod="f2791205c6e743b6a340ef0daf60b957" />
 						<enum name="usage_type" value="multiplication" />
-						<float name="value" value="0.8" />
+						<float name="value" value="0.6666667" />
 						<instance_reference name="tooltip" value="modifier_tooltip\ability_cost_manpower_modifier" />
 					</template_reference>
 					<template_reference name="modifier" value="modifiers\ability_cost_fuel_modifier">
@@ -79,7 +79,7 @@
 						<string name="modifier_id" value="aef_t4" />
 						<instance_reference name="target_type_name" value="abilities\aef\modal_ability\dispatch_ability\sherman_bulldozer_dispatch" mod="f2791205c6e743b6a340ef0daf60b957" />
 						<enum name="usage_type" value="multiplication" />
-						<float name="value" value="0.8" />
+						<float name="value" value="0.76" />
 						<instance_reference name="tooltip" value="modifier_tooltip\ability_cost_manpower_modifier" />
 					</template_reference>
 					<template_reference name="modifier" value="modifiers\ability_cost_fuel_modifier">
@@ -105,7 +105,7 @@
 						<bool name="exclusive" value="True" />
 						<string name="modifier_id" value="aef_t4" />
 						<enum name="usage_type" value="multiplication" />
-						<float name="value" value="0.8" />
+						<float name="value" value="0.8055555" />
 						<instance_reference name="tooltip" value="modifier_tooltip\no_modifier" />
 						<instance_reference name="target_type_name" value="abilities\aef\modal_ability\dispatch_ability\sherman_calliope_dispatch" mod="f2791205c6e743b6a340ef0daf60b957" />
 					</template_reference>
@@ -123,7 +123,7 @@
 						<bool name="exclusive" value="True" />
 						<string name="modifier_id" value="aef_t4" />
 						<enum name="usage_type" value="multiplication" />
-						<float name="value" value="0.7931035" />
+						<float name="value" value="0.7932" />
 						<instance_reference name="tooltip" value="modifier_tooltip\no_modifier" />
 						<instance_reference name="target_type_name" value="abilities\aef\modal_ability\dispatch_ability\priest_dispatch" />
 					</template_reference>

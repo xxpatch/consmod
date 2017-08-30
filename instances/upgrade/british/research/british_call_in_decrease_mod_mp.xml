@@ -51,7 +51,7 @@
 						<bool name="exclusive" value="True" />
 						<string name="modifier_id" value="t4_brits" />
 						<enum name="usage_type" value="multiplication" />
-						<float name="value" value="0.8" />
+						<float name="value" value="0.7931035" />
 						<instance_reference name="tooltip" value="modifier_tooltip\no_modifier" />
 						<instance_reference name="target_type_name" value="abilities\british\modal_ability\dispatch_ability\breakthrough_operation" />
 					</template_reference>
