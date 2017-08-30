@@ -625,7 +625,7 @@
 			<bool name="medium_crush" value="True" />
 		</template_reference>
 		<template_reference name="exts" value="ebpextensions\obj_cover_ext">
-			<enum name="cover_type" value="tp_heavy" />
+			<enum name="cover_type" value="tp_garrison_cover" />
 			<bool name="is_cover_directional" value="False" />
 			<bool name="is_shoot_through" value="False" />
 			<bool name="lengthwise_spots" value="False" />
