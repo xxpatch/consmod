@@ -20,7 +20,7 @@
 							<instance_reference name="tooltip" value="modifier_tooltip\posture_speed_modifier" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073759264" />
+					<uniqueid name="id" value="1073759336" />
 				</template_reference>
 				<template_reference name="action" value="action\ui_unit_modifier_action">
 					<bool name="die_with_creator" value="True" />
@@ -30,7 +30,7 @@
 						<icon name="icon_name" value="Icons_abilities_ability_west_german_jaeger_sprint" />
 						<string name="hotkey_name" value="" />
 					</template_reference>
-					<uniqueid name="id" value="1073759265" />
+					<uniqueid name="id" value="1073759337" />
 				</template_reference>
 				<template_reference name="action" value="action\requirement_action">
 					<bool name="check_self" value="False" />
@@ -68,10 +68,10 @@
 							<bool name="retrigger" value="True" />
 							<string name="state_machine_name" value="ability_movement_buff_state" />
 							<string name="undo_action_state_name" value="off" />
-							<uniqueid name="id" value="1073759266" />
+							<uniqueid name="id" value="1073759338" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073759267" />
+					<uniqueid name="id" value="1073759339" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -127,10 +127,10 @@
 									<instance_reference name="tooltip" value="modifier_tooltip\received_accuracy_modifier" />
 								</template_reference>
 							</list>
-							<uniqueid name="id" value="1073759268" />
+							<uniqueid name="id" value="1073759340" />
 						</template_reference>
 					</list>
-					<uniqueid name="id" value="1073759269" />
+					<uniqueid name="id" value="1073759341" />
 					<bool name="fire_and_forget_non_global" value="False" />
 					<template_reference name="ui_help_text" value="tables\help_text_phrase">
 						<int name="phrase_order" value="0" />
@@ -283,5 +283,5 @@
 		<bool name="can_cast_outside_active_battle_field" value="False" />
 		<bool name="ability_super_event_cue" value="False" />
 	</group>
-	<uniqueid name="pbgid" value="16052" />
+	<uniqueid name="pbgid" value="1073741928" />
 </instance>

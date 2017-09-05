@@ -667,6 +667,8 @@
 				<instance_reference name="ability" value="abilities\british\modal_ability\commando_assassinate_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\british\modal_ability\grenades\cover_smoke_grenades" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\soviet\toggle_ability\sniper_hold_fire_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<instance_reference name="ability" value="abilities\british\modal_ability\commando_demo_fake_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+				<instance_reference name="ability" value="abilities\british\modal_ability\grenades\tommy_gammon_bomb_medium_fake_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 			</list>
 			<bool name="allow_targeted_abilities_whilst_moving" value="False" />
 		</template_reference>
@@ -918,7 +920,7 @@
 							<group name="veterancy_rank">
 								<float name="experience_value" value="680" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11085956" />
+								<locstring name="screen_name" value="355" mod="f2791205c6e743b6a340ef0daf60b957" />
 								<bool name="single_player_only" value="False" />
 								<list name="leader_actions">
 								</list>
@@ -941,14 +943,11 @@
 										</list>
 										<uniqueid name="id" value="1073743153" />
 									</template_reference>
-									<template_reference name="action" value="action\add_to_squad_loadout_action">
-										<uniqueid name="id" value="1073757677" />
-										<instance_reference name="unit_type" value="ebps\races\british\soldiers\commando\commando_mp" />
-										<int name="count" value="1" />
-									</template_reference>
-									<template_reference name="action" value="action\add_ability_action">
-										<uniqueid name="id" value="1073757678" />
-										<instance_reference name="ability_to_add" value="abilities\british\modal_ability\commando_demo_mp" />
+									<template_reference name="action" value="action\upgrade_add">
+										<bool name="apply_to_entities_in_squad" value="False" />
+										<bool name="trigger_publish_event" value="False" />
+										<instance_reference name="upgrade" value="upgrade\british\infilitration_commando_vet1_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+										<uniqueid name="id" value="1073759359" />
 									</template_reference>
 								</list>
 								<list name="squad_entity_actions">
