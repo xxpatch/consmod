@@ -126,7 +126,7 @@
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\okw_stuka_aerial_superiority_recon" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\command_panther" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\dispatch_ability\terror_officer" />
-			<instance_reference name="ability" value="abilities\west_german\timed_ability\commander_ability\valiant_assault" />
+			<instance_reference name="ability" value="abilities\west_german\timed_ability\commander_ability\valiant_assault" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\passive_ability\heavy_fortifications" />
 			<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\airborne_assault" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<instance_reference name="ability" value="abilities\west_german\timed_ability\commander_ability\assault_artillery" />
