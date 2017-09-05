@@ -383,6 +383,15 @@
 								<float name="value" value="0.67" />
 								<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
 							</template_reference>
+							<template_reference name="modifier" value="modifiers\ability_max_range_modifier">
+								<enum name="application_type" value="apply_to_ability" />
+								<bool name="exclusive" value="False" />
+								<string name="modifier_id" value="" />
+								<instance_reference name="target_type_name" value="abilities\british\modal_ability\artillery\artillery_barrage_ability\qf_25lb_coordinated_fire_order_officer_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
+								<enum name="usage_type" value="multiplication" />
+								<float name="value" value="0.67" />
+								<instance_reference name="tooltip" value="modifier_tooltip\ability_max_range_modifier" />
+							</template_reference>
 						</list>
 						<uniqueid name="id" value="1073744380" />
 					</template_reference>
@@ -893,7 +902,7 @@
 							<group name="veterancy_rank">
 								<float name="experience_value" value="2240" />
 								<bool name="hide_ingame_veterancy_art" value="False" />
-								<locstring name="screen_name" value="11090528" />
+								<locstring name="screen_name" value="342" mod="f2791205c6e743b6a340ef0daf60b957" />
 								<bool name="single_player_only" value="False" />
 								<list name="leader_actions">
 								</list>

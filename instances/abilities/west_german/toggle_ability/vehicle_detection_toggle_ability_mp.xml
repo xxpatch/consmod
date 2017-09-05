@@ -112,7 +112,7 @@
 			<string name="cursor_nonmodal_good" value="" />
 		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="325" mod="f2791205c6e743b6a340ef0daf60b957" />
+			<locstring name="extra_text" value="353" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<locstring name="help_text" value="122" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<string name="hotkey_name" value="F" />
 			<icon name="icon_name" value="Icons_abilities_ability_west_german_detection_off" />

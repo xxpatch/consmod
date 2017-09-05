@@ -342,7 +342,7 @@
 			<float name="command" value="0" />
 			<float name="fuel" value="0" />
 			<float name="manpower" value="0" />
-			<float name="munition" value="50" />
+			<float name="munition" value="70" />
 			<float name="popcap" value="0" />
 		</group>
 		<string name="cursor_ghost_blueprint" value="" />
@@ -396,7 +396,7 @@
 			<string name="cursor_nonmodal_good" value="" />
 		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="11089938" />
+			<locstring name="extra_text" value="340" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<locstring name="help_text" value="11089937" />
 			<string name="hotkey_name" value="" />
 			<icon name="icon_name" value="Icons_commander_cmdr_british_raid_operation" />

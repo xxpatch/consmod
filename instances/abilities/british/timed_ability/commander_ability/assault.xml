@@ -327,7 +327,7 @@
 			<string name="cursor_nonmodal_good" value="" />
 		</group>
 		<group name="ui_info">
-			<locstring name="extra_text" value="11089941" />
+			<locstring name="extra_text" value="341" mod="f2791205c6e743b6a340ef0daf60b957" />
 			<locstring name="help_text" value="11089939" />
 			<string name="hotkey_name" value="" />
 			<icon name="icon_name" value="Icons_commander_cmdr_british_assault_operation" />

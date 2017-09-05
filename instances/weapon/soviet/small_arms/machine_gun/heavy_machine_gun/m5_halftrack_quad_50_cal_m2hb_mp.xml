@@ -458,7 +458,7 @@
 				<enum name="unit_type" value="aircraft" />
 				<group name="weapon_multipliers">
 					<float name="accuracy_multiplier" value="1" />
-					<float name="damage_multiplier" value="0.8" />
+					<float name="damage_multiplier" value="0.6" />
 					<float name="penetration_multiplier" value="35" />
 					<float name="suppression_multiplier" value="1" />
 				</group>

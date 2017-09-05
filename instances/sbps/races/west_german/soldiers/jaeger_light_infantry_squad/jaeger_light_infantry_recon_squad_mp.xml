@@ -741,7 +741,7 @@
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\jaeger_booby_trap" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\german\modal_ability\infantry_medkits_mp" />
 				<instance_reference name="ability" value="abilities\west_german\always_on_ability\jaeger_light_infantry_camo" mod="f2791205c6e743b6a340ef0daf60b957" />
-				<instance_reference name="ability" value="abilities\german\timed_ability\assault_grenadier_sprint_mp" />
+				<instance_reference name="ability" value="abilities\german\timed_ability\assault_grenadier_sprint_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\west_german\modal_ability\grenades\infiltration_tactics_grenade" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\soviet\toggle_ability\sniper_hold_fire_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<instance_reference name="ability" value="abilities\west_german\always_on_ability\jaeger_assassinate_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
