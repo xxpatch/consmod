@@ -66,10 +66,6 @@
 				<instance_reference name="slot_item" value="slot_item\british\small_arms\commando_enfield_mp" mod="f2791205c6e743b6a340ef0daf60b957" />
 				<uniqueid name="id" value="1073757691" />
 			</template_reference>
-			<template_reference name="action" value="action\add_ability_action">
-				<uniqueid name="id" value="1073759360" />
-				<instance_reference name="ability_to_add" value="abilities\british\modal_ability\grenades\tommy_gammon_bomb_medium_mp" />
-			</template_reference>
 		</list>
 		<list name="requirements">
 		</list>

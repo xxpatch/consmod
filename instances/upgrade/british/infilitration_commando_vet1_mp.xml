@@ -47,10 +47,6 @@
 				<instance_reference name="unit_type" value="ebps\races\british\soldiers\commando\commando_mp" />
 				<int name="count" value="1" />
 			</template_reference>
-			<template_reference name="action" value="action\add_ability_action">
-				<uniqueid name="id" value="1073759345" />
-				<instance_reference name="ability_to_add" value="abilities\british\modal_ability\commando_demo_mp" />
-			</template_reference>
 		</list>
 		<list name="requirements">
 			<template_reference name="required" value="requirements\required_slot_item_size">
